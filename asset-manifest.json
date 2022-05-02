@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/lemv/static/css/main.afd7172b.chunk.css",
-    "main.js": "/lemv/static/js/main.07c30f74.chunk.js",
-    "main.js.map": "/lemv/static/js/main.07c30f74.chunk.js.map",
+    "main.js": "/lemv/static/js/main.79663317.chunk.js",
+    "main.js.map": "/lemv/static/js/main.79663317.chunk.js.map",
     "runtime-main.js": "/lemv/static/js/runtime-main.f2470b5f.js",
     "runtime-main.js.map": "/lemv/static/js/runtime-main.f2470b5f.js.map",
     "static/js/2.6230adcd.chunk.js": "/lemv/static/js/2.6230adcd.chunk.js",
@@ -10,12 +10,13 @@
     "index.html": "/lemv/index.html",
     "static/css/main.afd7172b.chunk.css.map": "/lemv/static/css/main.afd7172b.chunk.css.map",
     "static/js/2.6230adcd.chunk.js.LICENSE.txt": "/lemv/static/js/2.6230adcd.chunk.js.LICENSE.txt",
+    "static/media/hero.8ed2821f.png": "/lemv/static/media/hero.8ed2821f.png",
     "static/media/lemv-logo-2.c6251214.png": "/lemv/static/media/lemv-logo-2.c6251214.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f2470b5f.js",
     "static/js/2.6230adcd.chunk.js",
     "static/css/main.afd7172b.chunk.css",
-    "static/js/main.07c30f74.chunk.js"
+    "static/js/main.79663317.chunk.js"
   ]
 }
