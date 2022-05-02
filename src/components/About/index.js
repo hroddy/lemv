@@ -14,6 +14,7 @@ function About() {
         align="center"
         fontStyle="italic"
         my={7}
+        color="primary"
       >
         Who are we?
       </Typography>

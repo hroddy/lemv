@@ -23,11 +23,12 @@ const Broken = (props) => {
             fontStyle="italic"
             my={3}
             align="center"
+            color="primary"
           >
             Whoops, this page is broken!
           </Typography>
           <Grid item xs={12} my={7} align="center">
-            <Button variant="contained" onClick={() => updateCurrentPage("About")}>
+            <Button variant="contained" color="primary" onClick={() => updateCurrentPage("About")}>
               Go home
             </Button>
           </Grid>

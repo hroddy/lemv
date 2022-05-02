@@ -16,12 +16,12 @@ const Footer = () => {
     >
       <Box component="footer">
         <Toolbar>
-          <CopyrightIcon />
+          <CopyrightIcon sx={{width: 12}}/>
           <Typography
-            variant="body2"
-            color="primary"
+            sx={{fontSize: 12}}
             align="left"
             justify="center"
+            color="tertiary"
           >
             Made by Hannah Roddy, {new Date().getFullYear()}
           </Typography>

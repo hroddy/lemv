@@ -17,8 +17,6 @@ function App() {
       case "About":
         return <About />;
 
-      
-
       default:
         return <Broken updateCurrentPage={updateCurrentPage} />;
     }

@@ -68,6 +68,7 @@ function Nav(props) {
                 aria-haspopup="true"
                 aria-expanded={open1 ? "true" : undefined}
                 onClick={handleClick1}
+                color="primary"
               >
                 How to add more vegetables?
               </Button>
@@ -112,6 +113,7 @@ function Nav(props) {
                 aria-haspopup="true"
                 aria-expanded={open2 ? "true" : undefined}
                 onClick={handleClick2}
+                color="primary"
               >
                 What are the benefits of more vegetables?
               </Button>
@@ -138,6 +140,7 @@ function Nav(props) {
                 aria-haspopup="true"
                 aria-expanded={open3 ? "true" : undefined}
                 onClick={handleClick3}
+                color="primary"
               >
                 Who are we?
               </Button>
