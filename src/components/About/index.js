@@ -2,11 +2,12 @@ import React from "react";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
-
+import hero from "../../assets/hero.png";
 
 function About() {
   return (
     <section>
+      <img src={hero} />
       <Typography
         id="about"
         component="h2"
