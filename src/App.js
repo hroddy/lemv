@@ -25,7 +25,7 @@ function App() {
     <ThemeProvider theme={theme}>
     <div>
       <Nav updateCurrentPage={updateCurrentPage} />
-      <Box my={3}>
+      <Box>
       {renderCorrectPage()}
       </Box>
       <Footer />

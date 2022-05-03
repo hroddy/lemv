@@ -7,7 +7,7 @@ import hero from "../../assets/hero.png";
 function About() {
   return (
     <section>
-      <img src={hero} />
+      <img src={hero} sx={{width: 90}} />
       <Typography
         id="about"
         component="h2"
