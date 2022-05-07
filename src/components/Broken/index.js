@@ -28,7 +28,7 @@ const Broken = (props) => {
             Whoops, this page is broken!
           </Typography>
           <Grid item xs={12} my={7} align="center">
-            <Button variant="contained" color="primary" onClick={() => updateCurrentPage("About")}>
+            <Button variant="outlined" color="primary" onClick={() => updateCurrentPage("Home")}>
               Go home
             </Button>
           </Grid>

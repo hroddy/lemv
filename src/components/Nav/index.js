@@ -6,7 +6,7 @@ import Button from "@mui/material/Button";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 import Box from "@mui/material/Box";
-import logo from "../../assets/lemv-logo-2.png";
+import logo from "../../assets/lemv-logo-2.jpg";
 
 function Nav(props) {
   const { updateCurrentPage } = props;
@@ -134,9 +134,9 @@ function Nav(props) {
               </MenuItem>
             </Menu>
           </Grid>
-          <Grid item my={2}>
-            <Avatar src={logo} sx={{ width: 250, height: 250 }} />
-          </Grid>
+          {/* <Grid item mb={1}>
+            <img src={logo} sx={{ width: 250, height: 250 }} />
+          </Grid> */}
           <Grid item>
             <Button
               id="basic-button-3"

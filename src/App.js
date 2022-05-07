@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import Box from "@mui/material/Box";
-import About from "./components/About/index";
+import Home from "./components/Home/index";
 import Nav from "./components/Nav/index";
-
+import Test from "./components/Test/index";
 import Broken from "./components/Broken/index";
 import Footer from "./components/Footer/index";
 import "./index.css";
@@ -11,11 +11,13 @@ import { theme } from "./utils/theme.js";
 
 
 function App() {
-  const [page, updateCurrentPage] = useState("About");
+  const [page, updateCurrentPage] = useState("Test");
   const renderCorrectPage = () => {
     switch (page) {
-      case "About":
-        return <About />;
+      case "Home":
+        return <Home />;
+      case "Test":
+        return <Test updateCurrentPage={updateCurrentPage} />;
 
       default:
         return <Broken updateCurrentPage={updateCurrentPage} />;
