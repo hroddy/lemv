@@ -134,9 +134,9 @@ function Nav(props) {
               </MenuItem>
             </Menu>
           </Grid>
-          {/* <Grid item mb={1}>
-            <img src={logo} sx={{ width: 250, height: 250 }} />
-          </Grid> */}
+           <Grid item mb={1}>
+            <img src={logo} style={{ width: 150, height: 150 }} />
+          </Grid> 
           <Grid item>
             <Button
               id="basic-button-3"
