@@ -53,7 +53,7 @@ function Nav(props) {
             </Button>
           </Grid>
           <Grid item mb={1}>
-            <Link href="Home"
+            <Link href="#Home"
               onClick={() => updateCurrentPage("Home")} >
             <img src={logo} className={classes.logoClass} alt="Livermore Eat More Vegetables" />
               </Link>
