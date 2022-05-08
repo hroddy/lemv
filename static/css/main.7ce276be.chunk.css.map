@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA,qBACI,qBAAsB,CACzB,uBAA2B,CAC3B,qCAAuC,CACpC,YAEJ","file":"main.7ce276be.chunk.css","sourcesContent":[".carousel-background {\r\n    background-size: cover;\r\n\tbackground-position: center;\r\n\tbackground-repeat: no-repeat, no-repeat;\r\n    height: 400px;\r\n    \r\n}"]}
