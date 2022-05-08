@@ -1,12 +1,27 @@
 import React from "react";
 import Grid from "@mui/material/Grid";
-import Avatar from "@mui/material/Avatar";
+import { makeStyles } from "@material-ui/core";
+
 import Toolbar from "@mui/material/Toolbar";
 import Button from "@mui/material/Button";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 import Box from "@mui/material/Box";
-import logo from "../../assets/lemv-logo-2.jpg";
+import logo from "../../assets/lemv-logo-2.png";
+
+
+
+const useStyles = makeStyles((theme) => ({
+  logoClass: {
+    width: 200,
+    height: 200,
+    [theme.breakpoints.down("xs")]: {
+    height: 100,
+    width: 100,
+    },
+  },
+}));
+
 
 function Nav(props) {
   const { updateCurrentPage } = props;
@@ -46,6 +61,8 @@ function Nav(props) {
   const handleCloseA4 = () => {
     setAnchorE4(null);
   };
+
+  const classes = useStyles();
 
   return (
     <Box sx={{ flexGrow: 1 }}>
@@ -134,9 +151,9 @@ function Nav(props) {
               </MenuItem>
             </Menu>
           </Grid>
-           <Grid item mb={1}>
-            <img src={logo} style={{ width: 150, height: 150 }} />
-          </Grid> 
+          <Grid item mb={1}>
+            <img src={logo} className={classes.logoClass} />
+          </Grid>
           <Grid item>
             <Button
               id="basic-button-3"

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Box from "@mui/material/Box";
 import Home from "./components/Home/index";
 import Nav from "./components/Nav/index";
-import Carousel from "./components/Carousel/index";
+
 import Broken from "./components/Broken/index";
 import Footer from "./components/Footer/index";
 import "./index.css";

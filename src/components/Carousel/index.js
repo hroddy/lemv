@@ -11,7 +11,7 @@ const index = () => {
     <Carousel
       autoPlay={true}
       infiniteLoop={true}
-      interval={2000}
+      interval={3000}
       animationHandler={"fade"}
       renderThumbs={() => {}}
     >
