@@ -16,13 +16,13 @@ const index = () => {
       renderThumbs={() => {}}
     >
       <div>
-        <img alt="vegetabes on table" src={hero1} />
+        <img alt="vegetabes on a table" src={hero1} />
       </div>
       <div>
-        <img src={hero2} />
+        <img alt="hands prepare a pizza with tomatoes" src={hero2} />
       </div>
       <div>
-        <img src={hero3} />
+        <img alt="hands touching lettuce in a garden" src={hero3} />
       </div>
     </Carousel>
   );
