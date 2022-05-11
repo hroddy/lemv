@@ -29,7 +29,9 @@ export const theme = createTheme({
   typography: {
     fontFamily: [
       'Playfair Display',
-      'serif'
+      'serif',
+      'Roboto'
     ].join(','),
+    fontSize: 16,
   },
 });

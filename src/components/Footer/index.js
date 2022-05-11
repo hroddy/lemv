@@ -6,23 +6,16 @@ import Typography from "@mui/material/Typography";
 
 const Footer = () => {
   return (
-    <div
-      style={{
-        position: "fixed",
-        width: "100vw",
-        bottom: 0,
-        zIndex: 10,
-      }}
-    >
+    <div>
       <Box component="footer">
         <Toolbar>
-          <CopyrightIcon sx={{width: 12}}/>
+          <CopyrightIcon sx={{ width: 12 }} />
           <Typography
-            sx={{fontSize: 12}}
-            variant="caption text"
+            sx={{ fontSize: 12 }}
             align="left"
             justify="center"
             color="tertiary"
+            fontFamily="Playfair Display"
           >
             Made by Hannah Roddy, {new Date().getFullYear()}
           </Typography>
