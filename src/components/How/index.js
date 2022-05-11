@@ -8,7 +8,7 @@ function How() {
   return (
     <div>
       <Container>
-      <Typography align="center" justify="center" my={3} variant="h2">How</Typography>
+      <Typography align="center" justify="center" my={3} variant="h2">How To</Typography>
     </Container>
     <Box my={3}>
     <img src={hero15}/>

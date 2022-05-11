@@ -26,4 +26,10 @@ export const theme = createTheme({
       xl: 1536,
     },
   },
+  typography: {
+    fontFamily: [
+      'Playfair Display',
+      'serif'
+    ].join(','),
+  },
 });

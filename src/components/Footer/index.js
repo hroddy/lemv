@@ -19,6 +19,7 @@ const Footer = () => {
           <CopyrightIcon sx={{width: 12}}/>
           <Typography
             sx={{fontSize: 12}}
+            variant="caption text"
             align="left"
             justify="center"
             color="tertiary"
