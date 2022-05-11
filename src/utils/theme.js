@@ -17,4 +17,13 @@ export const theme = createTheme({
       },
     tonalOffset: 0.2,
   },
+  breakpoints: {
+    values: {
+      xs: 0,
+      sm: 415,
+      md: 800,
+      lg: 1200,
+      xl: 1536,
+    },
+  },
 });

@@ -11,6 +11,10 @@ const useStyles = makeStyles((theme) => ({
   logoClass: {
     width: 200,
     height: 200,
+    [theme.breakpoints.down("sm")]: {
+      height: 150,
+      width: 150,
+    },
     [theme.breakpoints.down("xs")]: {
       height: 100,
       width: 100,
@@ -39,35 +43,35 @@ function Nav(props) {
               onClick={() => updateCurrentPage("How")}
               color="primary"
             >
-              How
+              How?
             </Button>
           </Grid>
 
-          <Grid item>
+          <Grid item >
             <Button
               href="#benefits"
               onClick={() => updateCurrentPage("Benefits")}
               color="primary"
             >
-              Benefits
+              The Benefits
             </Button>
           </Grid>
-          <Grid item mb={1}>
+          <Grid item mb={1} >
             <Link href="#Home"
               onClick={() => updateCurrentPage("Home")} >
             <img src={logo} className={classes.logoClass} alt="Livermore Eat More Vegetables" />
               </Link>
           </Grid>
-          <Grid item>
+          <Grid item >
             <Button
               href="#who"
               onClick={() => updateCurrentPage("Who")}
               color="primary"
             >
-              Who
+              Who are we?
             </Button>
           </Grid>
-          <Grid item>
+          <Grid item >
             <Button
               href="#other"
               onClick={() => updateCurrentPage("Other")}

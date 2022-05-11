@@ -1,12 +1,16 @@
 import React, { useState } from "react";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
+import hero19 from "../../assets/19.png";
 
-function Other() {
+function Other(props) {
   return (
-    <Container>
-      <Typography variant="h2">Other</Typography>
-    </Container>
+    <div>
+     <img src={hero19}/>
+      <Container>
+        <Typography align="center" justify="center" my={3} variant="h2">Other</Typography>
+      </Container>
+    </div>
   );
 }
 
