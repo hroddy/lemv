@@ -40,33 +40,43 @@ function Nav(props) {
         >
           <Grid item>
             <Button
-              href="how"
+              href="#how"
               onClick={() => updateCurrentPage("How")}
               color="primary"
             >
               <Link underline="hover">
-              <Typography fontFamily="Roboto" variant="h7" fontWeight="400" color="primary">
-                How To
-              </Typography>
+                <Typography
+                  fontFamily="Roboto"
+                  variant="h7"
+                  fontWeight="400"
+                  color="primary"
+                >
+                  How To
+                </Typography>
               </Link>
             </Button>
           </Grid>
 
           <Grid item>
             <Button
-              href="benefits"
+              href="#benefits"
               onClick={() => updateCurrentPage("Benefits")}
               color="primary"
             >
               <Link underline="hover">
-              <Typography fontFamily="Roboto" variant="h7" fontWeight="400" color="primary">
-                The Benefits
-              </Typography>
+                <Typography
+                  fontFamily="Roboto"
+                  variant="h7"
+                  fontWeight="400"
+                  color="primary"
+                >
+                  The Benefits
+                </Typography>
               </Link>
             </Button>
           </Grid>
           <Grid item mb={1}>
-            <Link href="home" onClick={() => updateCurrentPage("Home")}>
+            <Link href="#home" onClick={() => updateCurrentPage("Home")}>
               <img
                 src={logo}
                 className={classes.logoClass}
@@ -76,27 +86,37 @@ function Nav(props) {
           </Grid>
           <Grid item>
             <Button
-              href="who"
+              href="#who"
               onClick={() => updateCurrentPage("Who")}
               color="primary"
             >
-               <Link underline="hover">
-               <Typography fontFamily="Roboto" variant="h7" fontWeight="400" color="primary">
-                Who are we?
-              </Typography>
+              <Link underline="hover">
+                <Typography
+                  fontFamily="Roboto"
+                  variant="h7"
+                  fontWeight="400"
+                  color="primary"
+                >
+                  Who are we?
+                </Typography>
               </Link>
             </Button>
           </Grid>
           <Grid item>
             <Button
-              href="other"
+              href="#other"
               onClick={() => updateCurrentPage("Other")}
               color="primary"
             >
               <Link underline="hover">
-              <Typography fontFamily="Roboto" variant="h7" fontWeight="400" color="primary">
-                Other
-              </Typography>
+                <Typography
+                  fontFamily="Roboto"
+                  variant="h7"
+                  fontWeight="400"
+                  color="primary"
+                >
+                  Other
+                </Typography>
               </Link>
             </Button>
           </Grid>

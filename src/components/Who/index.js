@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import WhoCarousel from "../Who-Carousel";
@@ -6,7 +6,7 @@ import WhoCarousel from "../Who-Carousel";
 function Who(props) {
   return (
     <div>
-      <WhoCarousel updateCurrentPage={props.updateCurrentPage} />
+      <WhoCarousel updateCurrentPage={props.updateCurrentPage}/>
       <Container>
         <Typography
           color="primary"

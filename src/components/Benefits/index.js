@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import BenefitsCarousel from "../Benefits-Carousel";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
