@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
-import hero16 from "../../assets/16.png";
+import WhoCarousel from "../Who-Carousel";
 
-function Who() {
+function Who(props) {
   return (
     <div>
-      <img src={hero16} />
+      <WhoCarousel updateCurrentPage={props.updateCurrentPage} />
       <Container>
         <Typography
           color="primary"

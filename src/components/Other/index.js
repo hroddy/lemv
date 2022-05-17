@@ -1,12 +1,13 @@
 import React, { useState } from "react";
+import OtherCarousel from "../Other-Carousel";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
-import hero19 from "../../assets/19.png";
+
 
 function Other(props) {
   return (
     <div>
-      <img src={hero19} />
+       <OtherCarousel updateCurrentPage={props.updateCurrentPage} />
       <Container>
         <Typography
           color="primary"

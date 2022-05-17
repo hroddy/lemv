@@ -22,11 +22,12 @@ const index = () => {
       animationHandler={"fade"}
       renderThumbs={() => {}}
     >
-      <div>
-        <img alt="vegetabes on a table" src={hero1} />
-      </div>
+      
       <div>
         <img alt="hands slicing bell peppers next to kale" src={hero12} />
+      </div>
+      <div>
+        <img alt="broccoli and leaks in a cotton tote" src={hero25} />
       </div>
       <div>
         <img alt="hands touching lettuce in a garden" src={hero3} />
@@ -49,10 +50,10 @@ const index = () => {
       <div>
         <img alt="broccoli and baby corn in water in a pot" src={hero10} />
       </div>
-      
       <div>
-        <img alt="broccoli and leaks in a cotton tote" src={hero25} />
+        <img alt="vegetabes on a table" src={hero1} />
       </div>
+      
     </Carousel>
   );
 };

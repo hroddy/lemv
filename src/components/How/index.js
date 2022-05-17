@@ -1,13 +1,12 @@
 import React, { useState } from "react";
 import Container from "@mui/material/Container";
-import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
-import hero15 from "../../assets/15.png";
+import HowCarousel from "../How-Carousel";
 
-function How() {
+function How(props) {
   return (
     <div>
-      <img src={hero15} />
+      <HowCarousel updateCurrentPage={props.updateCurrentPage} />
       <Container>
         <Typography
           color="primary"

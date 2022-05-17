@@ -1,12 +1,14 @@
 import React, { useState } from "react";
+import BenefitsCarousel from "../Benefits-Carousel";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
-import hero22 from "../../assets/22.png";
 
-function Benefits() {
+
+function Benefits(props) {
   return (
     <div>
-      <img src={hero22} />
+      <BenefitsCarousel updateCurrentPage={props.updateCurrentPage} />
+
       <Container>
         <Typography color="primary" align="center" justify="center" my={3} variant="h2">
           Benefits
