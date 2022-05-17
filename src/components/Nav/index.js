@@ -40,7 +40,7 @@ function Nav(props) {
         >
           <Grid item>
             <Button
-              href="#how"
+              href="how"
               onClick={() => updateCurrentPage("How")}
               color="primary"
             >
@@ -54,7 +54,7 @@ function Nav(props) {
 
           <Grid item>
             <Button
-              href="#benefits"
+              href="benefits"
               onClick={() => updateCurrentPage("Benefits")}
               color="primary"
             >
@@ -66,7 +66,7 @@ function Nav(props) {
             </Button>
           </Grid>
           <Grid item mb={1}>
-            <Link href="#Home" onClick={() => updateCurrentPage("Home")}>
+            <Link href="home" onClick={() => updateCurrentPage("Home")}>
               <img
                 src={logo}
                 className={classes.logoClass}
@@ -76,7 +76,7 @@ function Nav(props) {
           </Grid>
           <Grid item>
             <Button
-              href="#who"
+              href="who"
               onClick={() => updateCurrentPage("Who")}
               color="primary"
             >
@@ -89,7 +89,7 @@ function Nav(props) {
           </Grid>
           <Grid item>
             <Button
-              href="#other"
+              href="other"
               onClick={() => updateCurrentPage("Other")}
               color="primary"
             >
