@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Box from "@mui/material/Box";
 import Home from "./components/Home/index";
 import Nav from "./components/Nav/index";
+
 import How from "./components/How/index";
 import Benefits from "./components/Benefits/index";
 import Who from "./components/Who/index";
@@ -27,8 +28,8 @@ function App() {
         return <Who updateCurrentPage={updateCurrentPage} />;
       case "Other":
         return <Other updateCurrentPage={updateCurrentPage} />;
-        case "Contact":
-          return <Contact updateCurrentPage={updateCurrentPage} />;
+      case "Contact":
+        return <Contact updateCurrentPage={updateCurrentPage} />;
       default:
         return <Broken updateCurrentPage={updateCurrentPage} />;
     }
