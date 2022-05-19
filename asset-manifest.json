@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/lemv/static/css/main.afd7172b.chunk.css",
-    "main.js": "/lemv/static/js/main.12bff34c.chunk.js",
-    "main.js.map": "/lemv/static/js/main.12bff34c.chunk.js.map",
+    "main.js": "/lemv/static/js/main.6bfa8a4d.chunk.js",
+    "main.js.map": "/lemv/static/js/main.6bfa8a4d.chunk.js.map",
     "runtime-main.js": "/lemv/static/js/runtime-main.8d75ab40.js",
     "runtime-main.js.map": "/lemv/static/js/runtime-main.8d75ab40.js.map",
     "static/css/2.ed1298f3.chunk.css": "/lemv/static/css/2.ed1298f3.chunk.css",
@@ -38,13 +38,14 @@
     "static/media/hero-1.68106b99.png": "/lemv/static/media/hero-1.68106b99.png",
     "static/media/hero-2.bf9a5e84.png": "/lemv/static/media/hero-2.bf9a5e84.png",
     "static/media/hero-3.9708ca82.png": "/lemv/static/media/hero-3.9708ca82.png",
-    "static/media/lemv-logo-2.9a07aee9.png": "/lemv/static/media/lemv-logo-2.9a07aee9.png"
+    "static/media/lemv-logo-2.9a07aee9.png": "/lemv/static/media/lemv-logo-2.9a07aee9.png",
+    "static/media/page-under.16800284.png": "/lemv/static/media/page-under.16800284.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8d75ab40.js",
     "static/css/2.ed1298f3.chunk.css",
     "static/js/2.f9fc40a4.chunk.js",
     "static/css/main.afd7172b.chunk.css",
-    "static/js/main.12bff34c.chunk.js"
+    "static/js/main.6bfa8a4d.chunk.js"
   ]
 }
