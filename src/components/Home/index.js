@@ -12,41 +12,58 @@ function Home(props) {
       <Container>
         <Typography
           color="primary"
+          align="left"
+          justify="center"
+          mt={7}
+          variant="h4"
+        >
+          Food is an opportunity for joy in our lives. Eating nourishing food is
+          an act of self-love.
+        </Typography>
+        
+        <Typography
+          color="primary"
           fontFamily="Roboto"
           fontSize="30"
           variant="body1"
-          my={8}
+          mt={5}
           align="left"
           justify="center"
         >
-          Adequate vegetable intake improves health outcomes1 and reduces
-          medical expenses by reducing medications1, decreasing disease states2,
-          improving quality of life3, and displacing less healthy food
-          choices1,2; however, only 10% of American adults consume the
-          recommended daily allowance of vegetables4. Many low-income Americans
-          face significant barriers to consuming more vegetables1. These
-          barriers can include limited access due to financial constraints and
-          transportation; lack of knowledge about benefits of vegetable quantity
-          and diversity; lack of knowledge about preparation and/or
-          incorporating vegetables into their current diet; and limited
-          availability of culturally suitable vegetables5. Livermore! Eat. More.
-          Vegetables. is a newly forming community outreach program aimed at
-          increasing vegetable consumption for all Livermore, California
-          residents. This program’s objective is to increase residents’ intake
-          of vegetables by educating citizens about the benefits of eating
-          vegetables, rallying them to find ways to increase their intake, and
-          utilizing sponsorships and grants to ease access for those who need
-          it. While Livermore! Eat. More. Vegetables. is aimed at all Livermore
-          residents, the proposed 6-month study will focus on Livermore’s
-          low-income residents by measuring this population’s vegetable
-          knowledge, use, and access pre- and post-intervention. By measuring
-          the impact of the proposed intervention, this study can increase the
-          body of knowledge available about community health programs aimed at
-          improving vegetable consumption, improve health outcomes for
-          Livermore’s low-income residents, increase Livermore! Eat. More.
-          Vegetables’ access to sponsorships and grant funding as well as serve
-          as a model for other communities interested in improving health
-          outcomes through increased vegetable consumption.
+          Vegetables can be a key source of important nutrients. Few people's
+          diets include enough vegetables for optimal health.
+        </Typography>
+        <Typography
+          color="primary"
+          fontFamily="Roboto"
+          fontSize="30"
+          variant="body1"
+          mt={5}
+          align="left"
+          justify="center"
+        >
+          Livermore! Eat. More. Vegetables. is a non-profit (filing in process)
+          organization with a goal of increasing Livermore residents' vegetable
+          consumption. This website is an education tool, sharing insights on
+          how to enjoyably include more vegetables each day. In addition, we
+          provide links to research on the latest discoveries about how the
+          quality of our lives improves from eating vegetables.
+        </Typography>
+
+        <Typography
+          color="primary"
+          fontFamily="Roboto"
+          fontSize="30"
+          variant="body1"
+          mt={5}
+          align="left"
+          justify="center"
+        >
+          Why eat vegetables? Adequate vegetable intake improves health outcomes
+          and reduces medical expenses by reducing medications, decreasing
+          disease states, improving quality of life, and displacing less healthy
+          food choices; however, only 10% of American adults consume the
+          recommended daily allowance of vegetables.
         </Typography>
       </Container>
     </section>
