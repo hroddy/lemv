@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Box from "@mui/material/Box";
 import Home from "./components/Home/index";
 import Nav from "./components/Nav/index";
+import Navigation from "./components/Nav/nav2";
 
 import How from "./components/How/index";
 import Benefits from "./components/Benefits/index";
@@ -37,7 +38,8 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <div>
-        <Nav updateCurrentPage={updateCurrentPage} />
+   
+        <Navigation updateCurrentPage={updateCurrentPage} />
         <Box>{renderCorrectPage()}</Box>
         <Footer />
       </div>
