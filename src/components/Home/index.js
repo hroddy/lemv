@@ -12,15 +12,14 @@ function Home(props) {
       <Container>
         <Typography
           color="primary"
-          align="left"
+          align="center"
           justify="center"
-          mt={7}
+          mt={5}
           variant="h4"
         >
-          Food is an opportunity for joy in our lives. Eating nourishing food is
-          an act of self-love.
+          Food is an opportunity for joy in our lives.
         </Typography>
-        
+
         <Typography
           color="primary"
           fontFamily="Roboto"
@@ -31,7 +30,8 @@ function Home(props) {
           justify="center"
         >
           Vegetables can be a key source of important nutrients. Few people's
-          diets include enough vegetables for optimal health.
+          diets include enough vegetables for optimal health. Eating nourishing
+          food is an act of self-love.
         </Typography>
         <Typography
           color="primary"
