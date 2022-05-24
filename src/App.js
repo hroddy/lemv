@@ -3,6 +3,7 @@ import Box from "@mui/material/Box";
 import Home from "./components/Home/index";
 
 import Nav from "./components/Nav/index";
+import Navigation from "./components/Nav/nav2";
 
 // import TestNav from "./components/Test-Nav/index";
 
@@ -40,7 +41,8 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <div>
-        <Nav updateCurrentPage={updateCurrentPage} />
+   
+        <Navigation updateCurrentPage={updateCurrentPage} />
         <Box>{renderCorrectPage()}</Box>
         <Footer />
       </div>
