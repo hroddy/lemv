@@ -20,7 +20,7 @@ const Broken = (props) => {
             id="broken"
             component="h2"
             variant="h2"
-            fontStyle="italic"
+            fontFamily="Playfair Display"
             my={3}
             align="center"
             color="primary"
@@ -28,7 +28,11 @@ const Broken = (props) => {
             Whoops, this page is broken!
           </Typography>
           <Grid item xs={12} my={7} align="center">
-            <Button variant="outlined" color="primary" onClick={() => updateCurrentPage("Home")}>
+            <Button
+              variant="outlined"
+              color="primary"
+              onClick={() => updateCurrentPage("Home")}
+            >
               Go home
             </Button>
           </Grid>

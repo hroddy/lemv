@@ -16,13 +16,13 @@ function Home(props) {
           justify="center"
           mt={5}
           variant="h4"
+          fontFamily="Playfair Display"
         >
           Food is an opportunity for joy in our lives.
         </Typography>
 
         <Typography
           color="primary"
-          fontFamily="Roboto"
           fontSize="30"
           variant="body1"
           mt={5}

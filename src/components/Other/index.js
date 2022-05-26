@@ -4,7 +4,7 @@ import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import { makeStyles } from "@material-ui/core";
 
-import pageUnder from "../../assets/page-under.png"
+import pageUnder from "../../assets/page-under.png";
 
 const useStyles = makeStyles((theme) => ({
   underClass: {
@@ -13,12 +13,11 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.down("sm")]: {
       height: 300,
       width: 300,
-    }
+    },
   },
 }));
 
 function Other(props) {
-
   const classes = useStyles();
 
   return (
@@ -31,13 +30,13 @@ function Other(props) {
           justify="center"
           my={3}
           variant="h2"
+          fontFamily="Playfair Display"
         >
           Other
         </Typography>
-        <img src={pageUnder} className={classes.underClass}/>
+        <img src={pageUnder} className={classes.underClass} />
         <Typography
           color="primary"
-          fontFamily="Roboto"
           fontSize="30"
           variant="body1"
           mt={5}

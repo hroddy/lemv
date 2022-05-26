@@ -32,6 +32,7 @@ function Who(props) {
           justify="center"
           my={3}
           variant="h2"
+          fontFamily="Playfair Display"
         >
           Who are we?
         </Typography>
