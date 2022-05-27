@@ -6,10 +6,14 @@ export const theme = createTheme({
       //dark gray
       main: "#495057",
       //main: "#343A40",
+      
     },
     secondary: {
-      //white
+      // white
       main: "#ffffff",
+      // //blue
+      // main: "#7B7BFF",
+      
     },
     tertiary: {
       //blue

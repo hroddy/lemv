@@ -43,7 +43,7 @@ const ResponsiveAppBar = ({ updateCurrentPage }) => {
   const classes = useStyles();
 
   return (
-    <AppBar elevation={0} color="secondary" position="static">
+    <AppBar elevation={0} position="static" color="secondary">
       <Container spacing={6} maxWidth="xl">
         <Toolbar disableGutters>
           <MobileNav
@@ -60,7 +60,7 @@ const ResponsiveAppBar = ({ updateCurrentPage }) => {
               noWrap
               onClick={() => updateCurrentPage("Home")}
               align="center"
-              sx={{ display: { xs: "flex", md: "none" }, mr: 1 }}
+              sx={{ display: { xs: "flex", sm: "flex", md: "none" }, mr: 1 }}
             >
               <img src={logo} width="150" alt="Livermore Eat More Vegetables" />
             </Link>

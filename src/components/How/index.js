@@ -48,6 +48,7 @@ function How(props) {
           cheese omelet into a vegetable cheese omelet, or working towards a
           more{" "}
           <Link
+            sx={{ color: "#7B7BFF" }}
             href="https://www.merckconnect.com/static/pdf/balanced-plate-resource.pdf"
             target="_blank"
           >
@@ -61,6 +62,7 @@ function How(props) {
               <Link
                 href="https://www.eatright.org/food/planning-and-prep/recipes/veggie-loaded-sloppy-joes-recipe"
                 target="_blank"
+                style={{ color: "#7B7BFF" }}
               >
                 {" "}
                 Veggie-Loaded Sloppy Joes Recipe{" "}
@@ -70,6 +72,7 @@ function How(props) {
               <Link
                 href="https://www.eatright.org/food/planning-and-prep/recipes/slow-cooker-minestrone-soup-recipe"
                 target="_blank"
+                style={{ color: "#7B7BFF" }}
               >
                 {" "}
                 Slow-Cooker Minestrone Soup Recipe{" "}
@@ -79,6 +82,7 @@ function How(props) {
               <Link
                 href="https://www.eatright.org/food/planning-and-prep/recipes/pinto-bean-and-roasted-vegetable-tacos-recipe"
                 target="_blank"
+                style={{ color: "#7B7BFF" }}
               >
                 {" "}
                 Pinto Bean and Roasted Vegetable Tacos Recipe{" "}
@@ -88,6 +92,7 @@ function How(props) {
               <Link
                 href="https://www.eatright.org/food/planning-and-prep/recipes/roasted-beet-hummus-recipe"
                 target="_blank"
+                style={{ color: "#7B7BFF" }}
               >
                 {" "}
                 Roasted Beet Hummus Recipe{" "}
@@ -97,6 +102,7 @@ function How(props) {
               <Link
                 href="https://www.eatingwell.com/recipes/18256/ingredients/vegetables/"
                 target="_blank"
+                style={{ color: "#7B7BFF" }}
               >
                 {" "}
                 Healthy Vegetable Recipes | EatingWell{" "}
@@ -107,11 +113,13 @@ function How(props) {
           Looking to learn how to grow your own amazing vegetables? Get your
           hands dirty, give back to our community, or just learn more about
           other great local projects, check out:{" "}
-          <Link href="www.fertilegroundworks.org" target="_blank">
-            
+          <Link
+            style={{ color: "#7B7BFF" }}
+            href="www.fertilegroundworks.org"
+            target="_blank"
+          >
             FertileGroundWorks.{" "}
           </Link>
-          
           <p />
           <span style={{ fontStyle: "italic" }}>
             {" "}

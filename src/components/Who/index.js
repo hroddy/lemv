@@ -1,5 +1,5 @@
 import React from "react";
-import Avatar from "@mui/material/Avatar";
+
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
@@ -14,6 +14,7 @@ import WhoCarousel from "../Who-Carousel";
 import karen from "../../assets/team/karen.jpg";
 import morgan from "../../assets/team/morgan.JPG";
 import hannah from "../../assets/team/hannah.JPG";
+import rachel from "../../assets/team/rachel.JPG";
 
 const useStyles = makeStyles((theme) => ({
   underClass: {
@@ -61,8 +62,7 @@ function Who(props) {
           Livermore! Eat. More. Vegetables. (LEMV) was founded in 2022 by local
           Livermore residents looking to give back to our community and
           positively impact the health and wellbeing of everyone living in our
-          city. We are currently working with the University of the Pacific’s
-          School of Health Sciences Department of Nutrition to gather community
+          city. We are currently planning a Needs Assessment to gather community
           feedback about Livermorians’ specific needs and current barriers to
           vegetable consumption. For more information or to get involved, please
           email:{" "}
@@ -88,7 +88,12 @@ function Who(props) {
                 alt="portrait shot of a blonde woman"
               />
               <CardContent>
-                <Typography gutterBottom variant="h5" component="div" color="primary">
+                <Typography
+                  gutterBottom
+                  variant="h5"
+                  component="div"
+                  color="primary"
+                >
                   Karen Roddy
                 </Typography>
                 <Typography variant="body2" color="text.secondary" align="left">
@@ -107,7 +112,12 @@ function Who(props) {
                 alt="portrait shot of a dark haired woman"
               />
               <CardContent>
-                <Typography gutterBottom variant="h5" component="div" color="primary">
+                <Typography
+                  gutterBottom
+                  variant="h5"
+                  component="div"
+                  color="primary"
+                >
                   Morgan Roddy
                 </Typography>
                 <Typography variant="body2" color="text.secondary" align="left">
@@ -135,7 +145,12 @@ function Who(props) {
                 alt="portrait shot of a dark haired woman"
               />
               <CardContent>
-                <Typography gutterBottom variant="h5" component="div" color="primary">
+                <Typography
+                  gutterBottom
+                  variant="h5"
+                  component="div"
+                  color="primary"
+                >
                   Hannah Roddy
                 </Typography>
                 <Typography variant="body2" color="text.secondary" align="left">
@@ -150,11 +165,16 @@ function Who(props) {
               <CardMedia
                 component="img"
                 height="400"
-                src={hannah}
+                src={rachel}
                 alt="portrait shot of a dark haired woman"
               />
               <CardContent>
-                <Typography gutterBottom variant="h5" component="div" color="primary">
+                <Typography
+                  gutterBottom
+                  variant="h5"
+                  component="div"
+                  color="primary"
+                >
                   Rachel Roddy
                 </Typography>
                 <Typography variant="body2" color="text.secondary" align="left">
@@ -166,7 +186,6 @@ function Who(props) {
           </Grid>
         </Grid>
 
-        
         <Typography
           color="primary"
           fontSize="30"
