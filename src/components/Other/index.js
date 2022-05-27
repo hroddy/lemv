@@ -1,10 +1,11 @@
 import React from "react";
 import OtherCarousel from "../Other-Carousel";
 import Container from "@mui/material/Container";
+import Link from "@mui/material/Link";
 import Typography from "@mui/material/Typography";
 import { makeStyles } from "@material-ui/core";
 
-import pageUnder from "../../assets/page-under.png";
+
 
 const useStyles = makeStyles((theme) => ({
   underClass: {
@@ -28,13 +29,13 @@ function Other(props) {
           color="primary"
           align="center"
           justify="center"
-          my={3}
-          variant="h2"
+          mt={5}
+          variant="h4"
           fontFamily="Playfair Display"
         >
-          Other
+          What else is in the works?
         </Typography>
-        <img src={pageUnder} className={classes.underClass} />
+
         <Typography
           color="primary"
           fontSize="30"
@@ -43,12 +44,59 @@ function Other(props) {
           align="left"
           justify="center"
         >
-          Page will include links to ...
-          <br />
-          Research study links What about fruit? <br />
-          For Parents Calorie content vs nutritional content <br />
-          Health at every size <br />
-          Other healthy habits <br />
+          <ul>
+            <li>
+              What about fruit, fiber, whole grains, and physical activity? Yes!
+            </li>
+            <li>
+              Farmers’ Market vouchers: increasing ease of access for all (grant
+              funding)
+            </li>
+            <li>
+              Where do Livermore’s vegetables come from: local sourcing, healthy
+              growing practices
+            </li>
+            <li>Getting our hands dirty: growing vegetables as a community</li>
+            <li>
+              Health at every size: calorie counting vs nutritional content{" "}
+            </li>
+            <li>
+              Rethink eating habits:
+              <Link
+                href="https://www.merckconnect.com/static/pdf/balanced-plate-resource.pdf"
+                target="_blank"
+              >
+                {" "}
+                balanced plate{" "}
+              </Link>{" "}
+            </li>
+            <li>
+            For parents: getting our children involved with food, nutrition, health
+            </li>
+            <li>
+              
+              <Link
+                href="https://www.health.harvard.edu/blog/phytonutrients-paint-your-plate-with-the-colors-of-the-rainbow-2019042516501"
+                target="_blank"
+              >
+                {" "}
+                Eat the rainbow! {" "}
+              </Link>{" "}Diversity in our vegetable consumption is crucial.
+            </li>
+            <li>
+            Research: links to research studies supporting health benefits of vegetables
+            </li>
+          </ul>
+          <p />
+          <span style={{ fontStyle: "italic" }}>
+            {" "}
+            This page is under construction. As LEMV forms, we will continue to
+            update this website. If you would like to become involved, please
+            contact us:{" "}
+            <Link href="mailto:info@lemv.org" target="_blank">
+              info@lemv.org{" "}
+            </Link>{" "}
+          </span>
         </Typography>
       </Container>
     </div>

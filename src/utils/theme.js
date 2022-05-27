@@ -3,18 +3,18 @@ import { createTheme } from "@mui/material/styles";
 export const theme = createTheme({
   palette: {
     primary: {
-        //dark gray
-        main: '#495057',
-        //main: "#343A40",
+      //dark gray
+      main: "#495057",
+      //main: "#343A40",
     },
     secondary: {
-        //white
-        main: '#ffffff',
-      },
-      tertiary: {
-          //silver
-          main: '#FFD289',
-      },
+      //white
+      main: "#ffffff",
+    },
+    tertiary: {
+      //blue
+      main: "#477998",
+    },
     tonalOffset: 0.2,
   },
   breakpoints: {
@@ -28,10 +28,10 @@ export const theme = createTheme({
   },
   typography: {
     fontFamily: [
-      'Roboto',
+      "Roboto",
       // 'Playfair Display',
-      'serif',
-    ].join(','),
+      "serif",
+    ].join(","),
     fontSize: 16,
   },
 });
