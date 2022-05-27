@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/lemv/static/css/main.afd7172b.chunk.css",
-    "main.js": "/lemv/static/js/main.081ede87.chunk.js",
-    "main.js.map": "/lemv/static/js/main.081ede87.chunk.js.map",
+    "main.js": "/lemv/static/js/main.5defe506.chunk.js",
+    "main.js.map": "/lemv/static/js/main.5defe506.chunk.js.map",
     "runtime-main.js": "/lemv/static/js/runtime-main.8d75ab40.js",
     "runtime-main.js.map": "/lemv/static/js/runtime-main.8d75ab40.js.map",
     "static/css/2.ed1298f3.chunk.css": "/lemv/static/css/2.ed1298f3.chunk.css",
-    "static/js/2.84c6d90d.chunk.js": "/lemv/static/js/2.84c6d90d.chunk.js",
-    "static/js/2.84c6d90d.chunk.js.map": "/lemv/static/js/2.84c6d90d.chunk.js.map",
+    "static/js/2.25cb17b4.chunk.js": "/lemv/static/js/2.25cb17b4.chunk.js",
+    "static/js/2.25cb17b4.chunk.js.map": "/lemv/static/js/2.25cb17b4.chunk.js.map",
     "index.html": "/lemv/index.html",
     "static/css/2.ed1298f3.chunk.css.map": "/lemv/static/css/2.ed1298f3.chunk.css.map",
     "static/css/main.afd7172b.chunk.css.map": "/lemv/static/css/main.afd7172b.chunk.css.map",
-    "static/js/2.84c6d90d.chunk.js.LICENSE.txt": "/lemv/static/js/2.84c6d90d.chunk.js.LICENSE.txt",
+    "static/js/2.25cb17b4.chunk.js.LICENSE.txt": "/lemv/static/js/2.25cb17b4.chunk.js.LICENSE.txt",
     "static/media/10.b5694fa3.png": "/lemv/static/media/10.b5694fa3.png",
     "static/media/12.d3ff03f9.png": "/lemv/static/media/12.d3ff03f9.png",
     "static/media/15.741af7c1.png": "/lemv/static/media/15.741af7c1.png",
@@ -38,14 +38,16 @@
     "static/media/hero-1.68106b99.png": "/lemv/static/media/hero-1.68106b99.png",
     "static/media/hero-2.bf9a5e84.png": "/lemv/static/media/hero-2.bf9a5e84.png",
     "static/media/hero-3.9708ca82.png": "/lemv/static/media/hero-3.9708ca82.png",
+    "static/media/karen.86019434.jpg": "/lemv/static/media/karen.86019434.jpg",
     "static/media/lemv-logo-2.9a07aee9.png": "/lemv/static/media/lemv-logo-2.9a07aee9.png",
+    "static/media/morgan.ee49ce53.JPG": "/lemv/static/media/morgan.ee49ce53.JPG",
     "static/media/page-under.54e77463.png": "/lemv/static/media/page-under.54e77463.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8d75ab40.js",
     "static/css/2.ed1298f3.chunk.css",
-    "static/js/2.84c6d90d.chunk.js",
+    "static/js/2.25cb17b4.chunk.js",
     "static/css/main.afd7172b.chunk.css",
-    "static/js/main.081ede87.chunk.js"
+    "static/js/main.5defe506.chunk.js"
   ]
 }
