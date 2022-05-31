@@ -36,22 +36,15 @@ function Benefits(props) {
           <cite>[1-2]</cite>
           <p />
           As a culture, we have begun to focus more on self care and few things
-          impact our health as surely as the food we eat. Eating nourishing food
-          is also an act of self-love.
-          <p />
-          <p />
-          <p />
-          <p />
+          impact our health as surely as the food we eat.
+          </Typography>
           <hr />
-          <p />
-          <p />
-          <p />
-          <p />
-          <span style={{ fontStyle: "italic" }}>
+          <Typography variant="body1" mt={6} align="left" fontSize={12}>
+         
             <ol>
               <li>
                 Lee SH. Adults Meeting Fruit and Vegetable Intake
-                Recommendations — United States, 2019. MMWR Morb Mortal Wkly
+                Recommendations — United States, 2019. <span style={{ fontStyle: "italic" }}>MMWR Morb Mortal Wkly</span>
                 Rep. 2022;71. doi:{" "}
                 <Link
                   href="https://www.cdc.gov/mmwr/volumes/71/wr/mm7101a1.htm"
@@ -64,7 +57,7 @@ function Benefits(props) {
                 Poelman AAM, Cochet-Broch M, Wiggins B, et al. Effect of
                 Experiential Vegetable Education Program on Mediating Factors of
                 Vegetable Consumption in Australian Primary School Students: A
-                Cluster-Randomized Controlled Trial. Nutrients. 2020;12(8):2343.
+                Cluster-Randomized Controlled Trial.  <span style={{ fontStyle: "italic" }}>Nutrients</span>. 2020;12(8):2343.
                 doi:{" "}
                 <Link
                   href="https://drive.google.com/file/d/1j-M5xbXseo_50evUUEOOODUOQR2RI--b/view?usp=sharing"
@@ -81,7 +74,7 @@ function Benefits(props) {
             <Link href="mailto:info@lemv.org" target="_blank">
               info@lemv.org{" "}
             </Link>{" "}
-          </span>
+          
         </Typography>
       </Container>
     </div>

@@ -12,7 +12,7 @@ import WhoCarousel from "../Who-Carousel";
 
 import karen from "../../assets/team/karen.jpg";
 import morgan from "../../assets/team/morgan.JPG";
-import hannah from "../../assets/team/hannah.JPG";
+import hannah from "../../assets/team/hannah.jpg";
 import rachel from "../../assets/team/rachel.JPG";
 
 function Who(props) {
@@ -32,7 +32,6 @@ function Who(props) {
         </Typography>
         <Typography
           color="primary"
-          fontSize="30"
           variant="body1"
           mt={5}
           mb={10}
@@ -180,21 +179,18 @@ function Who(props) {
             </Card>
           </Grid>
         </Grid>
-
+        <hr />
         <Typography
           color="primary"
-          fontStyle="italic"
+         fontSize={12}
           variant="body1"
-          mt={10}
-          mb={5}
+          mt={6}
+          mb={4}
           align="left"
           justify="center"
         >
-          <hr />
-          <p />
-          <p />
-          <p />
-          <p /> This page is under construction. As LEMV forms, we will continue
+          
+         This page is under construction. As LEMV forms, we will continue
           to update this website. If you would like to become involved, please
           contact us:{" "}
           <Link href="mailto:info@lemv.org" target="_blank">

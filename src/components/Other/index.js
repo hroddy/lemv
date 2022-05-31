@@ -83,50 +83,68 @@ function Other(props) {
               vegetables
             </li>
           </ul>
-          <p />
-          <p />
-          <p />
-          <p />
-          <hr />
-          <p />
-          <p />
-          <p />
-          <p />
-          <span style={{ fontStyle: "italic" }}>
-            *LEMV will apply for grant funding
-            <ol>
-              <li>
-                Rosenfeld RM, Kelly JH, Agarwal M, et al. Dietary Interventions
-                to Treat Type 2 Diabetes in Adults with a Goal of Remission: An
-                Expert Consensus Statement from the American College of
-                Lifestyle Medicine. American Journal of Lifestyle Medicine.
-                Published online May 18, 2022:15598276221087624. doi:{" "}
-                <Link
-                  href="https://doi.org/10.1177/15598276221087624"
-                  target="_blank"
-                >
-                  10.1177/15598276221087624{" "}
-                </Link>{" "}
-              </li>
-              <li>
-                LDN KDM MS, RD. Phytonutrients: Paint your plate with the colors
-                of the rainbow. Harvard Health. Published April 25, 2019.
-                Accessed May 28, 2022.{" "}
-                <Link
-                  href="https://www.health.harvard.edu/blog/phytonutrients-paint-your-plate-with-the-colors-of-the-rainbow-2019042516501"
-                  target="_blank"
-                >
-                  https://www.health.harvard.edu/blog/phytonutrients-paint-your-plate-with-the-colors-of-the-rainbow-2019042516501{" "}
-                </Link>{" "}
-              </li>
-            </ol>
-            <p /> This page is under construction. As LEMV forms, we will
-            continue to update this website. If you would like to become
-            involved, please contact us:{" "}
-            <Link href="mailto:info@lemv.org" target="_blank">
-              info@lemv.org{" "}
-            </Link>{" "}
-          </span>
+          </Typography>
+          <Typography
+          color="primary"
+          fontSize={12}
+          fontStyle="italic"
+          variant="body1"
+          mt={3}
+          mb={3}
+          align="left"
+          justify="center"
+        >
+          
+            *LEMV will apply for grant funding{" "}
+         
+        </Typography>
+        <hr />
+        <Typography
+          color="primary"
+          fontSize={12}
+          variant="body1"
+          mt={5}
+          mb={4}
+          align="left"
+          justify="center"
+        >
+          
+          <ol>
+            <li>
+              Rosenfeld RM, Kelly JH, Agarwal M, et al. Dietary Interventions to
+              Treat Type 2 Diabetes in Adults with a Goal of Remission: An
+              Expert Consensus Statement from the American College of Lifestyle
+              Medicine.{" "}
+              <span style={{ fontStyle: "italic" }}>
+                American Journal of Lifestyle Medicine.
+              </span>
+              Published online May 18, 2022:15598276221087624. doi:{" "}
+              <Link
+                href="https://doi.org/10.1177/15598276221087624"
+                target="_blank"
+              >
+                10.1177/15598276221087624{" "}
+              </Link>{" "}
+            </li>
+            <li>
+              LDN KDM MS, RD. Phytonutrients: Paint your plate with the colors
+              of the rainbow.{" "}
+              <span style={{ fontStyle: "italic" }}>Harvard Health.</span>{" "}
+              Published April 25, 2019. Accessed May 28, 2022.{" "}
+              <Link
+                href="https://www.health.harvard.edu/blog/phytonutrients-paint-your-plate-with-the-colors-of-the-rainbow-2019042516501"
+                target="_blank"
+              >
+                https://www.health.harvard.edu/blog/phytonutrients-paint-your-plate-with-the-colors-of-the-rainbow-2019042516501{" "}
+              </Link>{" "}
+            </li>
+          </ol>
+          <p /> This page is under construction. As LEMV forms, we will continue
+          to update this website. If you would like to become involved, please
+          contact us:{" "}
+          <Link href="mailto:info@lemv.org" target="_blank">
+            info@lemv.org{" "}
+          </Link>{" "}
         </Typography>
       </Container>
     </div>
