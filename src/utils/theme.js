@@ -15,7 +15,7 @@ export const theme = createTheme({
       // main: "#7B7BFF",
       
     },
-    tertiary: {
+    tetirary: {
       //blue
       main: "#477998",
     },
@@ -38,4 +38,10 @@ export const theme = createTheme({
     ].join(","),
     fontSize: 16,
   },
+  subtitle: {
+    fontSize: 10,
+  },
+  color: {
+    main: "#495057",
+    secondary: "#477998"}
 });

@@ -7,7 +7,6 @@ import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import Link from "@mui/material/Link";
 import Grid from "@mui/material/Grid";
-import { makeStyles } from "@material-ui/core";
 
 import WhoCarousel from "../Who-Carousel";
 
@@ -16,26 +15,7 @@ import morgan from "../../assets/team/morgan.JPG";
 import hannah from "../../assets/team/hannah.JPG";
 import rachel from "../../assets/team/rachel.JPG";
 
-const useStyles = makeStyles((theme) => ({
-  underClass: {
-    width: 500,
-    height: 500,
-    [theme.breakpoints.down("sm")]: {
-      height: 300,
-      width: 300,
-    },
-  },
-  portraitClass: {
-    width: 500,
-    [theme.breakpoints.down("sm")]: {
-      width: 350,
-    },
-  },
-}));
-
 function Who(props) {
-  const classes = useStyles();
-
   return (
     <div>
       <WhoCarousel updateCurrentPage={props.updateCurrentPage} />
@@ -65,7 +45,7 @@ function Who(props) {
           city. We are currently planning a Needs Assessment to gather community
           feedback about Livermorians’ specific needs and current barriers to
           vegetable consumption. For more information or to get involved, please
-          email:{" "}
+          email{" "}
           <Link href="mailto:info@lemv.org" target="_blank">
             info@lemv.org{" "}
           </Link>
@@ -73,11 +53,11 @@ function Who(props) {
 
         <Grid
           container
-          spacing={2}
+          spacing={7}
           direction="row"
           justifyContent="space-between"
           alignItems="center"
-          mb={10}
+          mb={6}
         >
           <Grid item sm={6}>
             <Card sx={{ maxWidth: 345, maxheight: 400 }}>
@@ -97,8 +77,11 @@ function Who(props) {
                   Karen Roddy
                 </Typography>
                 <Typography variant="body2" color="text.secondary" align="left">
-                  insert bio insert bio insert bio insert bio insert bio insert
-                  bio insert bio insert bio insert bio insert bio
+                  Karen and her husband Steve raised their three daughters in
+                  Livermore. She has undergraduate degrees in Marketing, Human
+                  Nutrition, and Dietetics and is currently working on her
+                  master’s degree in Clinical Nutrition at University of the
+                  Pacific.
                 </Typography>
               </CardContent>
             </Card>
@@ -121,8 +104,17 @@ function Who(props) {
                   Morgan Roddy
                 </Typography>
                 <Typography variant="body2" color="text.secondary" align="left">
-                  insert bio insert bio insert bio insert bio insert bio insert
-                  bio insert bio insert bio insert bio insert bio
+                  Morgan graduated in 2021 with an undergraduate degree in
+                  Cultural and Regional Studies and a master's degree in Social
+                  Justice and Community Organizing from Prescott College in
+                  Arizona. Previous projects include internships at the{" "}
+                  <Link href="http://www.warehouseworkers.org/" target="_blank">
+                    Warehouse Workers Resource Center
+                  </Link>{" "}
+                  and{" "}
+                  <Link href="https://cangress.org/" target="_blank">
+                    Los Angeles Community Action Network.
+                  </Link>
                 </Typography>
               </CardContent>
             </Card>
@@ -130,11 +122,11 @@ function Who(props) {
         </Grid>
         <Grid
           container
-          spacing={2}
+          spacing={7}
           direction="row"
           justifyContent="space-between"
           alignItems="center"
-          mb={10}
+          mb={6}
         >
           <Grid item sm={6}>
             <Card sx={{ maxWidth: 345, maxheight: 400 }}>
@@ -154,8 +146,10 @@ function Who(props) {
                   Hannah Roddy
                 </Typography>
                 <Typography variant="body2" color="text.secondary" align="left">
-                  insert bio insert bio insert bio insert bio insert bio insert
-                  bio insert bio insert bio insert bio insert bio
+                  Hannah completed the Fullstack Web Development Boot Camp
+                  through UC Berkeley Extension in 2021 and is the web developer
+                  for LEMV. She also owns and operates a small business in
+                  Livermore: Purple Dog Training.
                 </Typography>
               </CardContent>
             </Card>
@@ -166,7 +160,7 @@ function Who(props) {
                 component="img"
                 height="400"
                 src={rachel}
-                alt="portrait shot of a dark haired woman"
+                alt="portrait shot of a dark haired woman with blue dyed hair tips"
               />
               <CardContent>
                 <Typography
@@ -178,8 +172,9 @@ function Who(props) {
                   Rachel Roddy
                 </Typography>
                 <Typography variant="body2" color="text.secondary" align="left">
-                  insert bio insert bio insert bio insert bio insert bio insert
-                  bio insert bio insert bio insert bio insert bio
+                  Rachel is currently completing her undergraduate degree in
+                  Classics at UC Davis in preparation to attend law school in
+                  2023.
                 </Typography>
               </CardContent>
             </Card>
@@ -188,22 +183,23 @@ function Who(props) {
 
         <Typography
           color="primary"
-          fontSize="30"
+          fontStyle="italic"
           variant="body1"
           mt={10}
           mb={5}
           align="left"
           justify="center"
         >
-          <span style={{ fontStyle: "italic" }}>
-            {" "}
-            This page is under construction. As LEMV forms, we will continue to
-            update this website. If you would like to become involved, please
-            contact us:{" "}
-            <Link href="mailto:info@lemv.org" target="_blank">
-              info@lemv.org{" "}
-            </Link>{" "}
-          </span>
+          <hr />
+          <p />
+          <p />
+          <p />
+          <p /> This page is under construction. As LEMV forms, we will continue
+          to update this website. If you would like to become involved, please
+          contact us:{" "}
+          <Link href="mailto:info@lemv.org" target="_blank">
+            info@lemv.org{" "}
+          </Link>{" "}
         </Typography>
       </Container>
     </div>

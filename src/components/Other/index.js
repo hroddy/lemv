@@ -3,24 +3,8 @@ import OtherCarousel from "../Other-Carousel";
 import Container from "@mui/material/Container";
 import Link from "@mui/material/Link";
 import Typography from "@mui/material/Typography";
-import { makeStyles } from "@material-ui/core";
-
-
-
-const useStyles = makeStyles((theme) => ({
-  underClass: {
-    width: 500,
-    height: 500,
-    [theme.breakpoints.down("sm")]: {
-      height: 300,
-      width: 300,
-    },
-  },
-}));
 
 function Other(props) {
-  const classes = useStyles();
-
   return (
     <div>
       <OtherCarousel updateCurrentPage={props.updateCurrentPage} />
@@ -46,11 +30,20 @@ function Other(props) {
         >
           <ul>
             <li>
-              What about fruit, fiber, whole grains, and physical activity? Yes!
+              What about fruit, fiber, whole grains, and physical activity?
             </li>
             <li>
-              Farmers’ Market vouchers: increasing ease of access for all (grant
-              funding)
+              Farmers’ Market vouchers*: increasing ease of access for all
+            </li>
+            <li>
+              Type 2 diabetes, adults* –{" "}
+              <Link
+                href="https://www.prnewswire.com/news-releases/american-college-of-lifestyle-medicine-publishes-consensus-statement-with-multiple-society-support-on-use-of-diet-as-a-primary-intervention-to-achieve-diabetes-remission-301551431.html#"
+                target="_blank"
+              >
+                diet recommended
+              </Link>{" "}
+              as a primary remission intervention<cite>[1]</cite>
             </li>
             <li>
               Where do Livermore’s vegetables come from: local sourcing, healthy
@@ -61,7 +54,7 @@ function Other(props) {
               Health at every size: calorie counting vs nutritional content{" "}
             </li>
             <li>
-              Rethink eating habits:
+              Rethinking our eating habits:
               <Link
                 href="https://www.merckconnect.com/static/pdf/balanced-plate-resource.pdf"
                 target="_blank"
@@ -71,28 +64,65 @@ function Other(props) {
               </Link>{" "}
             </li>
             <li>
-            For parents: getting our children involved with food, nutrition, health
+              For parents: getting our children involved with food, nutrition,
+              health
             </li>
             <li>
-              
               <Link
                 href="https://www.health.harvard.edu/blog/phytonutrients-paint-your-plate-with-the-colors-of-the-rainbow-2019042516501"
                 target="_blank"
               >
                 {" "}
-                Eat the rainbow! {" "}
-              </Link>{" "}Diversity in our vegetable consumption is crucial.
+                Eat the rainbow!
+              </Link>
+              <cite>[2]</cite> Diversity in our vegetable consumption is
+              crucial.
             </li>
             <li>
-            Research: links to research studies supporting health benefits of vegetables
+              Research: links to research studies supporting health benefits of
+              vegetables
             </li>
           </ul>
           <p />
+          <p />
+          <p />
+          <p />
+          <hr />
+          <p />
+          <p />
+          <p />
+          <p />
           <span style={{ fontStyle: "italic" }}>
-            {" "}
-            This page is under construction. As LEMV forms, we will continue to
-            update this website. If you would like to become involved, please
-            contact us:{" "}
+            *LEMV will apply for grant funding
+            <ol>
+              <li>
+                Rosenfeld RM, Kelly JH, Agarwal M, et al. Dietary Interventions
+                to Treat Type 2 Diabetes in Adults with a Goal of Remission: An
+                Expert Consensus Statement from the American College of
+                Lifestyle Medicine. American Journal of Lifestyle Medicine.
+                Published online May 18, 2022:15598276221087624. doi:{" "}
+                <Link
+                  href="https://doi.org/10.1177/15598276221087624"
+                  target="_blank"
+                >
+                  10.1177/15598276221087624{" "}
+                </Link>{" "}
+              </li>
+              <li>
+                LDN KDM MS, RD. Phytonutrients: Paint your plate with the colors
+                of the rainbow. Harvard Health. Published April 25, 2019.
+                Accessed May 28, 2022.{" "}
+                <Link
+                  href="https://www.health.harvard.edu/blog/phytonutrients-paint-your-plate-with-the-colors-of-the-rainbow-2019042516501"
+                  target="_blank"
+                >
+                  https://www.health.harvard.edu/blog/phytonutrients-paint-your-plate-with-the-colors-of-the-rainbow-2019042516501{" "}
+                </Link>{" "}
+              </li>
+            </ol>
+            <p /> This page is under construction. As LEMV forms, we will
+            continue to update this website. If you would like to become
+            involved, please contact us:{" "}
             <Link href="mailto:info@lemv.org" target="_blank">
               info@lemv.org{" "}
             </Link>{" "}
