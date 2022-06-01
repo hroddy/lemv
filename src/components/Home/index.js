@@ -24,7 +24,7 @@ function Home(props) {
         <Typography
           color="primary"
           variant="body1"
-          mt={5}
+          my={4}
           align="left"
           justify="center"
         >
@@ -55,22 +55,24 @@ function Home(props) {
           <p />
           LEMV’s mission is to support Livermorians in their efforts to Eat.
           More. Vegetables.
-          <p />
-          <p />
-          <p />
-          <p />      
+          </Typography>   
             <hr />
-            <p />
-            <p />
-            <p />
-            <p />
-            <span style={{ fontStyle: "italic" }}>
+            <Typography
+          color="primary"
+          fontSize={12}
+          variant="body1"
+          mt={5}
+          mb={4}
+          align="left"
+          justify="center"
+        >
+           
             <ol>
               <li>
                 Slagel N, Newman T, Sanville L, et al. A Pilot Fruit and
                 Vegetable Prescription (FVRx) Program Improves Local Fruit and
                 Vegetable Consumption, Nutrition Knowledge, and Food Purchasing
-                Practices. Health Promot Pract. Published online June 2,
+                Practices.  <span style={{ fontStyle: "italic" }}>Health Promot Pract.</span> Published online June 2,
                 2021:152483992110181. doi:{" "}
                 <Link
                   href="https://drive.google.com/file/d/1ACokUeXl7IAiVFVQgZODApYy5avVhl9x/view?usp=sharing"
@@ -82,7 +84,7 @@ function Home(props) {
               <li>
                 Noy S, Patrick R, Henderson‐Wilson C, Nuttman S, Ryan I,
                 Henderson-Wilson C. New frontiers in community initiatives to
-                increase vegetable consumption. Health Promot J Austr.
+                increase vegetable consumption. <span style={{ fontStyle: "italic" }}>Health Promot J Austr.</span>
                 2019;30:52-61. doi:{" "}
                 <Link
                   href="https://drive.google.com/file/d/1H2nQ_H4Qur81Qtxu9mV5Z2Xd7ftat0aP/view?usp=sharing"
@@ -93,8 +95,8 @@ function Home(props) {
               </li>
               <li>
                 Lee SH. Adults Meeting Fruit and Vegetable Intake
-                Recommendations — United States, 2019. MMWR Morb Mortal Wkly
-                Rep. 2022;71. doi:
+                Recommendations — United States, 2019. <span style={{ fontStyle: "italic" }}>MMWR Morb Mortal Wkly
+                Rep.</span> 2022;71. doi:
                 <Link
                   href="https://www.cdc.gov/mmwr/volumes/71/wr/mm7101a1.htm"
                   target="_blank"
@@ -110,7 +112,7 @@ function Home(props) {
             <Link href="mailto:info@lemv.org" target="_blank">
               info@lemv.org{" "}
             </Link>{" "}
-          </span>
+          
         </Typography>
       </Container>
     </section>
