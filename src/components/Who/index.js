@@ -12,7 +12,7 @@ import WhoCarousel from "../Who-Carousel";
 
 import karen from "../../assets/team/karen.jpg";
 import morgan from "../../assets/team/morgan.JPG";
-import hannah from "../../assets/team/hannah.jpg";
+import hannah from "../../assets/team/hannah.JPG";
 import rachel from "../../assets/team/rachel.JPG";
 
 function Who(props) {
