@@ -8,7 +8,7 @@ import Typography from '@mui/material/Typography';
 
 const MobileNav = ({handleOpenNavMenu, anchorElNav, handleCloseNavMenu, pages, updateCurrentPage}) => {
   return (
-          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+          <Box sx={{ flexGrow: 1, display: { xs: 'flex', sm: "flex", md: 'flex', lg: "none" } }}>
             <IconButton
               size="large"
               aria-label="account of current user"
@@ -37,9 +37,9 @@ const MobileNav = ({handleOpenNavMenu, anchorElNav, handleCloseNavMenu, pages, u
                 display: { xs: 'block', md: 'none' },
               }}
             >
-              {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography onClick={() => updateCurrentPage(page)} textAlign="center" color="primary">{page}</Typography>
+              {pages.map((page,i) => (
+                <MenuItem key={`${page.id}-${i}`} onClick={handleCloseNavMenu}>
+                  <Typography onClick={() => updateCurrentPage(page.id)} textAlign="center" color="primary">{page.label}</Typography>
                 </MenuItem>
               ))}
             </Menu>

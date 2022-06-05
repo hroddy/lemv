@@ -10,8 +10,8 @@ import { Link } from "@mui/material";
 import MobileNav from "./MobileNav";
 import logo from "../../assets/lemv-logo-2.png";
 
-const pages = ["How","Benefits"];
-const pages1 = ["Who", "Other"];
+const pages = [{id: "How", label: "How To"},{id: "Benefits", label: 'The Benefits'}];
+const pages1 = [{id: "Who", label: "Who Are We?"}, {id: "Other", label: "Other"}];
 
 const ResponsiveAppBar = ({ updateCurrentPage }) => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -60,13 +60,13 @@ const ResponsiveAppBar = ({ updateCurrentPage }) => {
               noWrap
               onClick={() => updateCurrentPage("Home")}
               align="center"
-              sx={{ display: { xs: "flex", sm: "flex", md: "none" }, mr: 1 }}
+              sx={{ display: { xs: "flex", sm: "flex", md: "flex", lg: "none"}, mr: 1 }}
             >
               <img src={logo} width="150" alt="Livermore Eat More Vegetables" />
             </Link>
           </Typography>
 
-          <Box sx={{ width: "100%", display: { xs: "none", md: "flex" } }}>
+          <Box sx={{ width: "100%", display: { xs: "none", sm: "none", md: "none", lg: "flex" } }}>
             <div
               style={{
                 display: "flex",
@@ -77,14 +77,14 @@ const ResponsiveAppBar = ({ updateCurrentPage }) => {
                 marginRight: "auto",
               }}
             >
-              {pages.map((page) => (
+              {pages.map((page, i) => (
                 <Button
                   color="primary"
-                  key={page}
-                  onClick={() => updateCurrentPage(page)}
+                  key={`${page.id}-${i}`}
+                  onClick={() => updateCurrentPage(page.id)}
                   sx={{ my: 2, display: "block" }}
                 >
-                  {page}
+                  {page.label}
                 </Button>
               ))}
 
@@ -96,14 +96,14 @@ const ResponsiveAppBar = ({ updateCurrentPage }) => {
                 />
               </Link>
 
-              {pages1.map((page) => (
+              {pages1.map((page, i) => (
                 <Button
-                  key={page}
-                  onClick={() => updateCurrentPage(page)}
+                key={`${page.id}-${i}`}
+                  onClick={() => updateCurrentPage(page.id)}
                   sx={{ my: 2, display: "block" }}
                   color="primary"
                 >
-                  {page}
+                  {page.label}
                 </Button>
               ))}
             </div>
