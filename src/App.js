@@ -11,7 +11,7 @@ import How from "./components/How/index";
 import Benefits from "./components/Benefits/index";
 import Who from "./components/Who/index";
 import Other from "./components/Other/index";
-import Contact from "./components/Contact/index";
+import Board from "./components/Board/index";
 import Broken from "./components/Broken/index";
 import Footer from "./components/Footer/index";
 import "./index.css";
@@ -32,8 +32,8 @@ function App() {
         return <Who updateCurrentPage={updateCurrentPage} />;
       case "Other":
         return <Other updateCurrentPage={updateCurrentPage} />;
-      case "Contact":
-        return <Contact updateCurrentPage={updateCurrentPage} />;
+      case "Board":
+        return <Board updateCurrentPage={updateCurrentPage} />;
       default:
         return <Broken updateCurrentPage={updateCurrentPage} />;
     }

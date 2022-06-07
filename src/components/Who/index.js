@@ -1,5 +1,6 @@
 import React from "react";
 
+import Button from "@mui/material/Button";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
@@ -16,6 +17,7 @@ import hannah from "../../assets/team/hannah.JPG";
 import rachel from "../../assets/team/rachel.JPG";
 
 function Who(props) {
+  const { updateCurrentPage } = props;
   return (
     <div>
       <WhoCarousel updateCurrentPage={props.updateCurrentPage} />
@@ -34,7 +36,7 @@ function Who(props) {
           color="primary"
           variant="body1"
           mt={5}
-          mb={10}
+          
           align="left"
           justify="center"
         >
@@ -43,8 +45,33 @@ function Who(props) {
           positively impact the health and wellbeing of everyone living in our
           city. We are currently planning a Needs Assessment to gather community
           feedback about Livermorians’ specific needs and current barriers to
-          vegetable consumption. For more information or to get involved, please
-          email{" "}
+          vegetable consumption.
+          </Typography>
+          <Typography
+          color="primary"
+          variant="body1"
+         
+         my={5}
+          align="left"
+          justify="center"
+        >
+          <Button            
+            variant="outlined"
+            color="primary"
+            onClick={() => updateCurrentPage("Board")}
+          >
+            View our Board Members
+          </Button>
+          </Typography>
+          <Typography
+          color="primary"
+          variant="body1"
+         
+          mb={8}
+          align="left"
+          justify="center"
+        >
+          For more information or to get involved, please email{" "}
           <Link href="mailto:info@lemv.org" target="_blank">
             info@lemv.org{" "}
           </Link>
@@ -182,16 +209,15 @@ function Who(props) {
         <hr />
         <Typography
           color="primary"
-         fontSize={12}
+          fontSize={12}
           variant="body1"
           mt={6}
           mb={4}
           align="left"
           justify="center"
         >
-          
-         This page is under construction. As LEMV forms, we will continue
-          to update this website. If you would like to become involved, please
+          This page is under construction. As LEMV forms, we will continue to
+          update this website. If you would like to become involved, please
           contact us:{" "}
           <Link href="mailto:info@lemv.org" target="_blank">
             info@lemv.org{" "}
