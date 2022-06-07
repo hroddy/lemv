@@ -33,7 +33,7 @@ function Benefits(props) {
           medications, decreasing disease states, improving quality of life, and
           displacing less healthy food choices; however, only 10% of American
           adults consume the recommended daily allowance of vegetables.
-          <cite>[1-2]</cite>
+          <sup>1-2</sup>
           <p />
           As a culture, we have begun to focus more on self care and few things
           impact our health as surely as the food we eat.

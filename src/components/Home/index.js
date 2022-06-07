@@ -35,7 +35,7 @@ function Home(props) {
           Research consistently shows that adequate vegetable consumption
           improves health outcomes and reduces medical expenses by reducing
           medications and decreasing disease states
-          <cite>[1-3]</cite> <p />
+          <sup>1-3</sup> <p />
           <span style={{ fontWeight: "500", fontStyle: "italic" }}>
             Healthy eating doesn’t need to be complicated.{" "}
           </span>

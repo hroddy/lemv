@@ -43,7 +43,7 @@ function Other(props) {
               >
                 diet recommended
               </Link>{" "}
-              as a primary remission intervention<cite>[1]</cite>
+              as a primary remission intervention<sup>1</sup>
             </li>
             <li>
               Where do Livermore’s vegetables come from: local sourcing, healthy
@@ -75,7 +75,7 @@ function Other(props) {
                 {" "}
                 Eat the rainbow!
               </Link>
-              <cite>[2]</cite> Diversity in our vegetable consumption is
+              <sup>2</sup> Diversity in our vegetable consumption is
               crucial.
             </li>
             <li>
