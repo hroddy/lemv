@@ -47,7 +47,7 @@ function Who(props) {
           feedback about Livermorians’ specific needs and current barriers to
           vegetable consumption.
         </Typography>
-        {/* <Typography
+        <Typography
           color="primary"
           variant="body1"
          
@@ -62,7 +62,7 @@ function Who(props) {
           >
             View our Board Members
           </Button>
-          </Typography> */}
+          </Typography>
         <Typography
           color="primary"
           variant="body1"
