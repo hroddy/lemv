@@ -13,8 +13,6 @@ import WhoCarousel from "../Who-Carousel";
 
 import karen from "../../assets/team/karen.jpg";
 import morgan from "../../assets/team/morgan.JPG";
-import hannah from "../../assets/team/hannah.JPG";
-import rachel from "../../assets/team/rachel.JPG";
 
 function Board(props) {
   return (
@@ -55,13 +53,17 @@ function Board(props) {
           container
           spacing={7}
           direction="colomn"
-          // justifyContent="space-between"
           alignItems="center"
           mb={6}
         >
           <Grid item sm={12}>
-            <Card sx={{ maxWidth: 600, maxheight: 300,
-                display: { xs: "none", sm: "none", md: "flex", lg: "flex" }, }}>
+            <Card
+              sx={{
+                maxWidth: 600,
+                maxheight: 300,
+                display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
+              }}
+            >
               <Box sx={{ display: "flex", flexDirection: "row" }}>
                 <CardContent>
                   <Typography
@@ -103,41 +105,50 @@ function Board(props) {
                 />
               </Box>
             </Card>
-            <Card sx={{ maxWidth: 345, maxheight: 400, display: { xs: "flex", sm: "flex", md: "none", lg: "none" } }}>
-            <Box sx={{ display: "flex", flexDirection: "column" }}>
-              <CardMedia
-                component="img"
-                height="400"
-                src={karen}
-                alt="portrait shot of a blonde woman"
-              />
-              <CardContent>
-                <Typography
-                  gutterBottom
-                  variant="h5"
-                  component="div"
-                  color="primary"
-                >
-                  Karen Roddy
-                </Typography>
-                <Typography
+            <Card
+              sx={{
+                maxWidth: 345,
+                maxheight: 400,
+                display: { xs: "flex", sm: "flex", md: "none", lg: "none" },
+              }}
+            >
+              <Box sx={{ display: "flex", flexDirection: "column" }}>
+                <CardMedia
+                  component="img"
+                  height="400"
+                  src={karen}
+                  alt="portrait shot of a blonde woman"
+                />
+                <CardContent>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    color="primary"
+                  >
+                    Karen Roddy
+                  </Typography>
+                  <Typography
                     gutterBottom
                     variant="h5"
                     fontSize={20}
                     component="div"
                     color="primary"
-                 
                   >
                     President
                   </Typography>
-                <Typography variant="body2" color="text.secondary" align="left">
-                  Karen and her husband Steve raised their three daughters in
-                  Livermore. She has undergraduate degrees in Marketing, Human
-                  Nutrition, and Dietetics and is currently working on her
-                  master’s degree in Clinical Nutrition at University of the
-                  Pacific.
-                </Typography>
-              </CardContent>
+                  <Typography
+                    variant="body2"
+                    color="text.secondary"
+                    align="left"
+                  >
+                    Karen and her husband Steve raised their three daughters in
+                    Livermore. She has undergraduate degrees in Marketing, Human
+                    Nutrition, and Dietetics and is currently working on her
+                    master’s degree in Clinical Nutrition at University of the
+                    Pacific.
+                  </Typography>
+                </CardContent>
               </Box>
             </Card>
           </Grid>
@@ -175,17 +186,21 @@ function Board(props) {
                     color="text.secondary"
                     align="left"
                   >
-                   Morgan graduated in 2021 with an undergraduate degree in
-                  Cultural and Regional Studies and a master's degree in Social
-                  Justice and Community Organizing from Prescott College in
-                  Arizona. Previous projects include internships at the{" "}
-                  <Link href="http://www.warehouseworkers.org/" target="_blank">
-                    Warehouse Workers Resource Center
-                  </Link>{" "}
-                  and{" "}
-                  <Link href="https://cangress.org/" target="_blank">
-                    Los Angeles Community Action Network.
-                  </Link>
+                    Morgan graduated in 2021 with an undergraduate degree in
+                    Cultural and Regional Studies and a master's degree in
+                    Social Justice and Community Organizing from Prescott
+                    College in Arizona. Previous projects include internships at
+                    the{" "}
+                    <Link
+                      href="http://www.warehouseworkers.org/"
+                      target="_blank"
+                    >
+                      Warehouse Workers Resource Center
+                    </Link>{" "}
+                    and{" "}
+                    <Link href="https://cangress.org/" target="_blank">
+                      Los Angeles Community Action Network.
+                    </Link>
                   </Typography>
                 </CardContent>
                 <CardMedia
@@ -196,55 +211,66 @@ function Board(props) {
                 />
               </Box>
             </Card>
-            <Card sx={{ maxWidth: 345, maxheight: 400, display: { xs: "flex", sm: "flex", md: "none", lg: "none" } }}>
-            <Box sx={{ display: "flex", flexDirection: "column" }}>
-              <CardMedia
-                component="img"
-                height="400"
-                src={morgan}
-                alt="portrait shot of a dark haired woman"
-              />
-              <CardContent>
-                <Typography
-                  gutterBottom
-                  variant="h5"
-                  component="div"
-                  color="primary"
-                >
-                  Morgan Roddy
-                </Typography>
-                <Typography
+            <Card
+              sx={{
+                maxWidth: 345,
+                maxheight: 400,
+                display: { xs: "flex", sm: "flex", md: "none", lg: "none" },
+              }}
+            >
+              <Box sx={{ display: "flex", flexDirection: "column" }}>
+                <CardMedia
+                  component="img"
+                  height="400"
+                  src={morgan}
+                  alt="portrait shot of a dark haired woman"
+                />
+                <CardContent>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    color="primary"
+                  >
+                    Morgan Roddy
+                  </Typography>
+                  <Typography
                     gutterBottom
                     variant="h5"
                     fontSize={20}
                     component="div"
                     color="primary"
-                 
-                   
                   >
                     Secratary
                   </Typography>
-                <Typography variant="body2" color="text.secondary" align="left">
-                  Morgan graduated in 2021 with an undergraduate degree in
-                  Cultural and Regional Studies and a master's degree in Social
-                  Justice and Community Organizing from Prescott College in
-                  Arizona. Previous projects include internships at the{" "}
-                  <Link href="http://www.warehouseworkers.org/" target="_blank">
-                    Warehouse Workers Resource Center
-                  </Link>{" "}
-                  and{" "}
-                  <Link href="https://cangress.org/" target="_blank">
-                    Los Angeles Community Action Network.
-                  </Link>
-                </Typography>
-              </CardContent>
+                  <Typography
+                    variant="body2"
+                    color="text.secondary"
+                    align="left"
+                  >
+                    Morgan graduated in 2021 with an undergraduate degree in
+                    Cultural and Regional Studies and a master's degree in
+                    Social Justice and Community Organizing from Prescott
+                    College in Arizona. Previous projects include internships at
+                    the{" "}
+                    <Link
+                      href="http://www.warehouseworkers.org/"
+                      target="_blank"
+                    >
+                      Warehouse Workers Resource Center
+                    </Link>{" "}
+                    and{" "}
+                    <Link href="https://cangress.org/" target="_blank">
+                      Los Angeles Community Action Network.
+                    </Link>
+                  </Typography>
+                </CardContent>
               </Box>
             </Card>
-            
           </Grid>
 
           <Grid item sm={12}>
-          <Card
+            <Card
               sx={{
                 maxWidth: 600,
                 maxheight: 300,
@@ -277,17 +303,21 @@ function Board(props) {
                     color="text.secondary"
                     align="left"
                   >
-                   Morgan graduated in 2021 with an undergraduate degree in
-                  Cultural and Regional Studies and a master's degree in Social
-                  Justice and Community Organizing from Prescott College in
-                  Arizona. Previous projects include internships at the{" "}
-                  <Link href="http://www.warehouseworkers.org/" target="_blank">
-                    Warehouse Workers Resource Center
-                  </Link>{" "}
-                  and{" "}
-                  <Link href="https://cangress.org/" target="_blank">
-                    Los Angeles Community Action Network.
-                  </Link>
+                    Morgan graduated in 2021 with an undergraduate degree in
+                    Cultural and Regional Studies and a master's degree in
+                    Social Justice and Community Organizing from Prescott
+                    College in Arizona. Previous projects include internships at
+                    the{" "}
+                    <Link
+                      href="http://www.warehouseworkers.org/"
+                      target="_blank"
+                    >
+                      Warehouse Workers Resource Center
+                    </Link>{" "}
+                    and{" "}
+                    <Link href="https://cangress.org/" target="_blank">
+                      Los Angeles Community Action Network.
+                    </Link>
                   </Typography>
                 </CardContent>
                 <CardMedia
@@ -298,53 +328,65 @@ function Board(props) {
                 />
               </Box>
             </Card>
-            <Card sx={{ maxWidth: 345, maxheight: 400, display: { xs: "flex", sm: "flex", md: "none", lg: "none" } }}>
-            <Box sx={{ display: "flex", flexDirection: "column" }}>
-              <CardMedia
-                component="img"
-                height="400"
-                src={morgan}
-                alt="portrait shot of a dark haired woman"
-              />
-              <CardContent>
-                <Typography
-                  gutterBottom
-                  variant="h5"
-                  component="div"
-                  color="primary"
-                >
-                  Morgan Roddy
-                </Typography>
-                <Typography
+            <Card
+              sx={{
+                maxWidth: 345,
+                maxheight: 400,
+                display: { xs: "flex", sm: "flex", md: "none", lg: "none" },
+              }}
+            >
+              <Box sx={{ display: "flex", flexDirection: "column" }}>
+                <CardMedia
+                  component="img"
+                  height="400"
+                  src={morgan}
+                  alt="portrait shot of a dark haired woman"
+                />
+                <CardContent>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    color="primary"
+                  >
+                    Morgan Roddy
+                  </Typography>
+                  <Typography
                     gutterBottom
                     variant="h5"
                     fontSize={20}
                     component="div"
                     color="primary"
-                 
-                   
                   >
                     Secratary
                   </Typography>
-                <Typography variant="body2" color="text.secondary" align="left">
-                  Morgan graduated in 2021 with an undergraduate degree in
-                  Cultural and Regional Studies and a master's degree in Social
-                  Justice and Community Organizing from Prescott College in
-                  Arizona. Previous projects include internships at the{" "}
-                  <Link href="http://www.warehouseworkers.org/" target="_blank">
-                    Warehouse Workers Resource Center
-                  </Link>{" "}
-                  and{" "}
-                  <Link href="https://cangress.org/" target="_blank">
-                    Los Angeles Community Action Network.
-                  </Link>
-                </Typography>
-              </CardContent>
+                  <Typography
+                    variant="body2"
+                    color="text.secondary"
+                    align="left"
+                  >
+                    Morgan graduated in 2021 with an undergraduate degree in
+                    Cultural and Regional Studies and a master's degree in
+                    Social Justice and Community Organizing from Prescott
+                    College in Arizona. Previous projects include internships at
+                    the{" "}
+                    <Link
+                      href="http://www.warehouseworkers.org/"
+                      target="_blank"
+                    >
+                      Warehouse Workers Resource Center
+                    </Link>{" "}
+                    and{" "}
+                    <Link href="https://cangress.org/" target="_blank">
+                      Los Angeles Community Action Network.
+                    </Link>
+                  </Typography>
+                </CardContent>
               </Box>
             </Card>
           </Grid>
           <Grid item sm={12}>
-          <Card
+            <Card
               sx={{
                 maxWidth: 600,
                 maxheight: 300,
@@ -377,17 +419,21 @@ function Board(props) {
                     color="text.secondary"
                     align="left"
                   >
-                   Morgan graduated in 2021 with an undergraduate degree in
-                  Cultural and Regional Studies and a master's degree in Social
-                  Justice and Community Organizing from Prescott College in
-                  Arizona. Previous projects include internships at the{" "}
-                  <Link href="http://www.warehouseworkers.org/" target="_blank">
-                    Warehouse Workers Resource Center
-                  </Link>{" "}
-                  and{" "}
-                  <Link href="https://cangress.org/" target="_blank">
-                    Los Angeles Community Action Network.
-                  </Link>
+                    Morgan graduated in 2021 with an undergraduate degree in
+                    Cultural and Regional Studies and a master's degree in
+                    Social Justice and Community Organizing from Prescott
+                    College in Arizona. Previous projects include internships at
+                    the{" "}
+                    <Link
+                      href="http://www.warehouseworkers.org/"
+                      target="_blank"
+                    >
+                      Warehouse Workers Resource Center
+                    </Link>{" "}
+                    and{" "}
+                    <Link href="https://cangress.org/" target="_blank">
+                      Los Angeles Community Action Network.
+                    </Link>
                   </Typography>
                 </CardContent>
                 <CardMedia
@@ -398,48 +444,60 @@ function Board(props) {
                 />
               </Box>
             </Card>
-            <Card sx={{ maxWidth: 345, maxheight: 400, display: { xs: "flex", sm: "flex", md: "none", lg: "none" } }}>
-            <Box sx={{ display: "flex", flexDirection: "column" }}>
-              <CardMedia
-                component="img"
-                height="400"
-                src={morgan}
-                alt="portrait shot of a dark haired woman"
-              />
-              <CardContent>
-                <Typography
-                  gutterBottom
-                  variant="h5"
-                  component="div"
-                  color="primary"
-                >
-                  Morgan Roddy
-                </Typography>
-                <Typography
+            <Card
+              sx={{
+                maxWidth: 345,
+                maxheight: 400,
+                display: { xs: "flex", sm: "flex", md: "none", lg: "none" },
+              }}
+            >
+              <Box sx={{ display: "flex", flexDirection: "column" }}>
+                <CardMedia
+                  component="img"
+                  height="400"
+                  src={morgan}
+                  alt="portrait shot of a dark haired woman"
+                />
+                <CardContent>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    color="primary"
+                  >
+                    Morgan Roddy
+                  </Typography>
+                  <Typography
                     gutterBottom
                     variant="h5"
                     fontSize={20}
                     component="div"
                     color="primary"
-                 
-                   
                   >
                     Secratary
                   </Typography>
-                <Typography variant="body2" color="text.secondary" align="left">
-                  Morgan graduated in 2021 with an undergraduate degree in
-                  Cultural and Regional Studies and a master's degree in Social
-                  Justice and Community Organizing from Prescott College in
-                  Arizona. Previous projects include internships at the{" "}
-                  <Link href="http://www.warehouseworkers.org/" target="_blank">
-                    Warehouse Workers Resource Center
-                  </Link>{" "}
-                  and{" "}
-                  <Link href="https://cangress.org/" target="_blank">
-                    Los Angeles Community Action Network.
-                  </Link>
-                </Typography>
-              </CardContent>
+                  <Typography
+                    variant="body2"
+                    color="text.secondary"
+                    align="left"
+                  >
+                    Morgan graduated in 2021 with an undergraduate degree in
+                    Cultural and Regional Studies and a master's degree in
+                    Social Justice and Community Organizing from Prescott
+                    College in Arizona. Previous projects include internships at
+                    the{" "}
+                    <Link
+                      href="http://www.warehouseworkers.org/"
+                      target="_blank"
+                    >
+                      Warehouse Workers Resource Center
+                    </Link>{" "}
+                    and{" "}
+                    <Link href="https://cangress.org/" target="_blank">
+                      Los Angeles Community Action Network.
+                    </Link>
+                  </Typography>
+                </CardContent>
               </Box>
             </Card>
           </Grid>
