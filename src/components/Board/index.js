@@ -1,7 +1,6 @@
 import React from "react";
 
 import Box from "@mui/material/Box";
-import Button from "@mui/material/Button";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
@@ -14,11 +13,8 @@ import WhoCarousel from "../Who-Carousel";
 
 import karen from "../../assets/team/karen.jpg";
 import morgan from "../../assets/team/morgan.JPG";
-import hannah from "../../assets/team/hannah.JPG";
-import rachel from "../../assets/team/rachel.JPG";
 
-function Who(props) {
-  const { updateCurrentPage } = props;
+function Board(props) {
   return (
     <div>
       <WhoCarousel updateCurrentPage={props.updateCurrentPage} />
@@ -31,12 +27,13 @@ function Who(props) {
           variant="h4"
           fontFamily="Playfair Display"
         >
-          Who are we?
+          The Board
         </Typography>
         <Typography
           color="primary"
           variant="body1"
           mt={5}
+          mb={8}
           align="left"
           justify="center"
         >
@@ -45,32 +42,7 @@ function Who(props) {
           positively impact the health and wellbeing of everyone living in our
           city. We are currently planning a Needs Assessment to gather community
           feedback about Livermorians’ specific needs and current barriers to
-          vegetable consumption.
-        </Typography>
-        {/* <Typography
-          color="primary"
-          variant="body1"
-         
-         my={5}
-          align="left"
-          justify="center"
-        >
-          <Button            
-            variant="outlined"
-            color="primary"
-            onClick={() => updateCurrentPage("Board")}
-          >
-            View our Board Members
-          </Button>
-          </Typography> */}
-        <Typography
-          color="primary"
-          variant="body1"
-          mt={3}
-          mb={8}
-          align="left"
-          justify="center"
-        >
+          vegetable consumption. <p />
           For more information or to get involved, please email{" "}
           <Link href="mailto:info@lemv.org" target="_blank">
             info@lemv.org{" "}
@@ -84,7 +56,6 @@ function Who(props) {
           alignItems="center"
           mb={6}
         >
-          {/* KAREN RODDY START */}
           <Grid item sm={12}>
             <Card
               sx={{
@@ -104,7 +75,16 @@ function Who(props) {
                   >
                     Karen Roddy
                   </Typography>
-
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    fontSize={20}
+                    component="div"
+                    color="primary"
+                    align="left"
+                  >
+                    President
+                  </Typography>
                   <Typography
                     variant="body2"
                     color="text.secondary"
@@ -148,7 +128,15 @@ function Who(props) {
                   >
                     Karen Roddy
                   </Typography>
-
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    fontSize={20}
+                    component="div"
+                    color="primary"
+                  >
+                    President
+                  </Typography>
                   <Typography
                     variant="body2"
                     color="text.secondary"
@@ -164,9 +152,6 @@ function Who(props) {
               </Box>
             </Card>
           </Grid>
-          {/* KAREN RODDY END */}
-
-          {/* MORGAN RODDY START */}
           <Grid item sm={12}>
             <Card
               sx={{
@@ -185,6 +170,16 @@ function Who(props) {
                     align="left"
                   >
                     Morgan Roddy
+                  </Typography>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    fontSize={20}
+                    component="div"
+                    color="primary"
+                    align="left"
+                  >
+                    Secratary
                   </Typography>
                   <Typography
                     variant="body2"
@@ -240,6 +235,15 @@ function Who(props) {
                     Morgan Roddy
                   </Typography>
                   <Typography
+                    gutterBottom
+                    variant="h5"
+                    fontSize={20}
+                    component="div"
+                    color="primary"
+                  >
+                    Secratary
+                  </Typography>
+                  <Typography
                     variant="body2"
                     color="text.secondary"
                     align="left"
@@ -264,9 +268,7 @@ function Who(props) {
               </Box>
             </Card>
           </Grid>
-          {/* MORGAN RODDY END */}
 
-          {/* HANNAH RODDY START */}
           <Grid item sm={12}>
             <Card
               sx={{
@@ -284,24 +286,45 @@ function Who(props) {
                     color="primary"
                     align="left"
                   >
-                    Hannah Roddy
+                    Morgan Roddy
+                  </Typography>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    fontSize={20}
+                    component="div"
+                    color="primary"
+                    align="left"
+                  >
+                    Secratary
                   </Typography>
                   <Typography
                     variant="body2"
                     color="text.secondary"
                     align="left"
                   >
-                  Hannah completed the Fullstack Web Development Boot Camp
-                  through UC Berkeley Extension in 2021 and is the web developer
-                  for LEMV. She also owns and operates a small business in
-                  Livermore: Purple Dog Training.
+                    Morgan graduated in 2021 with an undergraduate degree in
+                    Cultural and Regional Studies and a master's degree in
+                    Social Justice and Community Organizing from Prescott
+                    College in Arizona. Previous projects include internships at
+                    the{" "}
+                    <Link
+                      href="http://www.warehouseworkers.org/"
+                      target="_blank"
+                    >
+                      Warehouse Workers Resource Center
+                    </Link>{" "}
+                    and{" "}
+                    <Link href="https://cangress.org/" target="_blank">
+                      Los Angeles Community Action Network.
+                    </Link>
                   </Typography>
                 </CardContent>
                 <CardMedia
                   component="img"
                   height="300"
-                  src={hannah}
-                  alt="portrait shot of a dark haired woman"
+                  src={morgan}
+                  alt="portrait shot of a blonde woman"
                 />
               </Box>
             </Card>
@@ -316,7 +339,7 @@ function Who(props) {
                 <CardMedia
                   component="img"
                   height="400"
-                  src={hannah}
+                  src={morgan}
                   alt="portrait shot of a dark haired woman"
                 />
                 <CardContent>
@@ -326,25 +349,42 @@ function Who(props) {
                     component="div"
                     color="primary"
                   >
-                    Hannah Roddy
-                  </Typography>                
+                    Morgan Roddy
+                  </Typography>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    fontSize={20}
+                    component="div"
+                    color="primary"
+                  >
+                    Secratary
+                  </Typography>
                   <Typography
                     variant="body2"
                     color="text.secondary"
                     align="left"
                   >
-                  Hannah completed the Fullstack Web Development Boot Camp
-                  through UC Berkeley Extension in 2021 and is the web developer
-                  for LEMV. She also owns and operates a small business in
-                  Livermore: Purple Dog Training.
+                    Morgan graduated in 2021 with an undergraduate degree in
+                    Cultural and Regional Studies and a master's degree in
+                    Social Justice and Community Organizing from Prescott
+                    College in Arizona. Previous projects include internships at
+                    the{" "}
+                    <Link
+                      href="http://www.warehouseworkers.org/"
+                      target="_blank"
+                    >
+                      Warehouse Workers Resource Center
+                    </Link>{" "}
+                    and{" "}
+                    <Link href="https://cangress.org/" target="_blank">
+                      Los Angeles Community Action Network.
+                    </Link>
                   </Typography>
                 </CardContent>
               </Box>
             </Card>
-          </Grid>       
-          {/* HANNAH RODDY END */}
-
-          {/* RACHEL RODDY START */}
+          </Grid>
           <Grid item sm={12}>
             <Card
               sx={{
@@ -362,23 +402,45 @@ function Who(props) {
                     color="primary"
                     align="left"
                   >
-                    Rachel Roddy
+                    Morgan Roddy
+                  </Typography>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    fontSize={20}
+                    component="div"
+                    color="primary"
+                    align="left"
+                  >
+                    Secratary
                   </Typography>
                   <Typography
                     variant="body2"
                     color="text.secondary"
                     align="left"
                   >
-                  Rachel is currently completing her undergraduate degree in
-                  Classics at UC Davis in preparation to attend law school in
-                  2023.
+                    Morgan graduated in 2021 with an undergraduate degree in
+                    Cultural and Regional Studies and a master's degree in
+                    Social Justice and Community Organizing from Prescott
+                    College in Arizona. Previous projects include internships at
+                    the{" "}
+                    <Link
+                      href="http://www.warehouseworkers.org/"
+                      target="_blank"
+                    >
+                      Warehouse Workers Resource Center
+                    </Link>{" "}
+                    and{" "}
+                    <Link href="https://cangress.org/" target="_blank">
+                      Los Angeles Community Action Network.
+                    </Link>
                   </Typography>
                 </CardContent>
                 <CardMedia
                   component="img"
                   height="300"
-                  src={rachel}
-                  alt="portrait shot of a dark haired woman"
+                  src={morgan}
+                  alt="portrait shot of a blonde woman"
                 />
               </Box>
             </Card>
@@ -393,7 +455,7 @@ function Who(props) {
                 <CardMedia
                   component="img"
                   height="400"
-                  src={rachel}
+                  src={morgan}
                   alt="portrait shot of a dark haired woman"
                 />
                 <CardContent>
@@ -403,23 +465,42 @@ function Who(props) {
                     component="div"
                     color="primary"
                   >
-                    Rachel Roddy
-                  </Typography>                
+                    Morgan Roddy
+                  </Typography>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    fontSize={20}
+                    component="div"
+                    color="primary"
+                  >
+                    Secratary
+                  </Typography>
                   <Typography
                     variant="body2"
                     color="text.secondary"
                     align="left"
                   >
-                  Rachel is currently completing her undergraduate degree in
-                  Classics at UC Davis in preparation to attend law school in
-                  2023.
+                    Morgan graduated in 2021 with an undergraduate degree in
+                    Cultural and Regional Studies and a master's degree in
+                    Social Justice and Community Organizing from Prescott
+                    College in Arizona. Previous projects include internships at
+                    the{" "}
+                    <Link
+                      href="http://www.warehouseworkers.org/"
+                      target="_blank"
+                    >
+                      Warehouse Workers Resource Center
+                    </Link>{" "}
+                    and{" "}
+                    <Link href="https://cangress.org/" target="_blank">
+                      Los Angeles Community Action Network.
+                    </Link>
                   </Typography>
                 </CardContent>
               </Box>
             </Card>
-          </Grid>         
-          {/* RACHEL RODDY END */}
-
+          </Grid>
         </Grid>
         <hr />
         <Typography
@@ -428,7 +509,7 @@ function Who(props) {
           variant="body1"
           mt={6}
           mb={4}
-          align="center"
+          align="left"
           justify="center"
         >
           This page is under construction. As LEMV forms, we will continue to
@@ -443,4 +524,4 @@ function Who(props) {
   );
 }
 
-export default Who;
+export default Board;

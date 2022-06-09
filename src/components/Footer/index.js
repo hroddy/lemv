@@ -9,13 +9,13 @@ const Footer = () => {
     <div>
       <Box component="footer">
         <Toolbar>
-          <CopyrightIcon sx={{ width: 12 }} />
+          <CopyrightIcon sx={{ width: 11 }} color="text.secondary" />
           <Typography
-            sx={{ fontSize: 12 }}
+            sx={{ fontSize: 10 }}
             align="left"
             justify="center"
-            color="tertiary"
-            fontFamily="Playfair Display"
+            color="text.secondary"
+            fontFamily="Roboto"
           >
             Made by Hannah Roddy, {new Date().getFullYear()}
           </Typography>
