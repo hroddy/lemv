@@ -1,10 +1,12 @@
 import React from "react";
 import OtherCarousel from "../Other-Carousel";
+import Button from "@mui/material/Button";
 import Container from "@mui/material/Container";
 import Link from "@mui/material/Link";
 import Typography from "@mui/material/Typography";
 
 function Other(props) {
+  const { updateCurrentPage } = props;
   return (
     <div>
       <OtherCarousel updateCurrentPage={props.updateCurrentPage} />
@@ -13,12 +15,19 @@ function Other(props) {
           color="primary"
           align="center"
           justify="center"
-          mt={5}
+          my={5}
           variant="h4"
           fontFamily="Playfair Display"
         >
           What else is in the works?
         </Typography>
+        <Button            
+            variant="outlined"
+            color="primary"
+            onClick={() => updateCurrentPage("Contact")}
+          >
+            Take our survery
+          </Button>
 
         <Typography
           color="primary"
