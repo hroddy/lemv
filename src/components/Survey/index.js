@@ -1,10 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
-const { validateEmail } = require("../../utils/helpers");
 
-const Contact = () => {
+const Survey = () => {
   return (
     <div>
       {/* LG MD DISPLAY */}
@@ -55,4 +54,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Survey;

@@ -6,7 +6,7 @@ import Nav from "./components/Nav/index";
 import Navigation from "./components/Nav/nav2";
 
 // import TestNav from "./components/Test-Nav/index";
-import Contact from "./components/Contact/index";
+import Survey from "./components/Survey/index";
 import How from "./components/How/index";
 import Benefits from "./components/Benefits/index";
 import Who from "./components/Who/index";
@@ -22,8 +22,8 @@ function App() {
   const [page, updateCurrentPage] = useState("Home");
   const renderCorrectPage = () => {
     switch (page) {
-      case "Contact":
-        return <Contact updateCurrentPage={updateCurrentPage} />;
+      case "Survey":
+        return <Survey updateCurrentPage={updateCurrentPage} />;
       case "Home":
         return <Home updateCurrentPage={updateCurrentPage} />;
       case "How":

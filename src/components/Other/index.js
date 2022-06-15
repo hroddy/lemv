@@ -1,5 +1,6 @@
 import React from "react";
 import OtherCarousel from "../Other-Carousel";
+import Box from "@mui/material/Button";
 import Button from "@mui/material/Button";
 import Container from "@mui/material/Container";
 import Link from "@mui/material/Link";
@@ -21,79 +22,100 @@ function Other(props) {
         >
           What else is in the works?
         </Typography>
-        
-
-        <Typography
-          color="primary"
-          fontSize="30"
-          variant="body1"
-          my={5}
-          align="left"
-          justify="center"
+        <Button
+          variant="filled"
+          onClick={() => updateCurrentPage("Survey")}
+          sx={{ backgroundColor: "#97d600" }}
         >
-          <ul>
-            <li>
-              What about fruit, fiber, whole grains, and physical activity?
-            </li>
-            <li>
-              Farmers’ Market vouchers*: increasing ease of access for all
-            </li>
-            <li>
-              Type 2 diabetes, adults* –{" "}
-              <Link
-                href="https://www.prnewswire.com/news-releases/american-college-of-lifestyle-medicine-publishes-consensus-statement-with-multiple-society-support-on-use-of-diet-as-a-primary-intervention-to-achieve-diabetes-remission-301551431.html#"
-                target="_blank"
-              >
-                diet recommended
-              </Link>{" "}
-              as a primary remission intervention<sup>1</sup>
-            </li>
-            <li>
-              Where do Livermore’s vegetables come from: local sourcing, healthy
-              growing practices
-            </li>
-            <li>Getting our hands dirty: growing vegetables as a community</li>
-            <li>
-              Health at every size: calorie counting vs nutritional content{" "}
-            </li>
-            <li>
-              Rethinking our eating habits:
-              <Link
-                href="https://www.merckconnect.com/static/pdf/balanced-plate-resource.pdf"
-                target="_blank"
-              >
-                {" "}
-                balanced plate{" "}
-              </Link>{" "}
-            </li>
-            <li>
-              For parents: getting our children involved with food, nutrition,
-              health
-            </li>
-            <li>
-              <Link
-                href="https://www.health.harvard.edu/blog/phytonutrients-paint-your-plate-with-the-colors-of-the-rainbow-2019042516501"
-                target="_blank"
-              >
-                {" "}
-                Eat the rainbow!
-              </Link>
-              <sup>2</sup> Diversity in our vegetable consumption is crucial.
-            </li>
-            <li>
-              Research: links to research studies supporting health benefits of
-              vegetables
-            </li>
-          </ul>
-        </Typography>
-        <Button            
-            variant="filled"
-           
-            onClick={() => updateCurrentPage("Contact")}
-            sx={{'backgroundColor': "#97d600"}}
+          Take our survery
+        </Button>
+        <div
+          style={{
+            maxWidth: "750px",
+            backgroundColor: "#5D666F",
+            borderRadius: "7%",
+          }}
+        >
+          <Typography
+            color="secondary"
+            fontSize="30"
+            variant="body1"
+            my={5}
+            p={1}
+            align="left"
+            justify="center"
           >
-            Take our survery
-          </Button>
+            <ul>
+              <li>
+                What about fruit, fiber, whole grains, and physical activity?
+              </li>
+              <p />
+              <li>
+                Farmers’ Market vouchers*: increasing ease of access for all
+              </li>
+              <p />
+              <li>
+                Type 2 diabetes, adults* –{" "}
+                <Link
+                  href="https://www.prnewswire.com/news-releases/american-college-of-lifestyle-medicine-publishes-consensus-statement-with-multiple-society-support-on-use-of-diet-as-a-primary-intervention-to-achieve-diabetes-remission-301551431.html#"
+                  target="_blank"
+                  color="secondary"
+                >
+                  diet recommended
+                </Link>{" "}
+                as a primary remission intervention<sup>1</sup>
+              </li>
+              <p />
+              <li>
+                Where do Livermore’s vegetables come from: local sourcing,
+                healthy growing practices
+              </li>
+              <p />
+              <li>
+                Getting our hands dirty: growing vegetables as a community
+              </li>
+              <p />
+              <li>
+                Health at every size: calorie counting vs nutritional content{" "}
+              </li>
+              <p />
+              <li>
+                Rethinking our eating habits:
+                <Link
+                  href="https://www.merckconnect.com/static/pdf/balanced-plate-resource.pdf"
+                  target="_blank"
+                  color="secondary"
+                >
+                  {" "}
+                  balanced plate{" "}
+                </Link>{" "}
+              </li>
+              <p />
+              <li>
+                For parents: getting our children involved with food, nutrition,
+                health
+              </li>
+              <p />
+              <li>
+                <Link
+                  href="https://www.health.harvard.edu/blog/phytonutrients-paint-your-plate-with-the-colors-of-the-rainbow-2019042516501"
+                  target="_blank"
+                  color="secondary"
+                >
+                  {" "}
+                  Eat the rainbow!
+                </Link>
+                <sup>2</sup> Diversity in our vegetable consumption is crucial.
+              </li>
+              <p />
+              <li>
+                Research: links to research studies supporting health benefits
+                of vegetables
+              </li>
+            </ul>
+          </Typography>
+        </div>
+
         <Typography
           color="primary"
           fontSize={12}
