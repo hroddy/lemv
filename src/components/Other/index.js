@@ -21,19 +21,13 @@ function Other(props) {
         >
           What else is in the works?
         </Typography>
-        <Button            
-            variant="outlined"
-            color="primary"
-            onClick={() => updateCurrentPage("Contact")}
-          >
-            Take our survery
-          </Button>
+        
 
         <Typography
           color="primary"
           fontSize="30"
           variant="body1"
-          mt={5}
+          my={5}
           align="left"
           justify="center"
         >
@@ -92,6 +86,14 @@ function Other(props) {
             </li>
           </ul>
         </Typography>
+        <Button            
+            variant="filled"
+           
+            onClick={() => updateCurrentPage("Contact")}
+            sx={{'backgroundColor': "#97d600"}}
+          >
+            Take our survery
+          </Button>
         <Typography
           color="primary"
           fontSize={12}
