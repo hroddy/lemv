@@ -30,7 +30,7 @@ function Home(props) {
         >
           Who doesn’t love food?!? Food brings families and friends together and
           is an opportunity for joy in our lives. Livermore! Eat. More.
-          Vegetables. is a non-profit (filing in process) organization with a
+          Vegetables. is a non-profit organization with a
           simple goal of helping Livermorians increase vegetable consumption.
           Research consistently shows that adequate vegetable consumption
           improves health outcomes and reduces medical expenses by reducing
