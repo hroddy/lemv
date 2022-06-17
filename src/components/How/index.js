@@ -105,7 +105,7 @@ function How(props) {
           variant="body1"
           mt={5}
           mb={4}
-          align="left"
+          align="center"
           justify="center"
         >
           <span style={{ fontStyle: "italic" }}>

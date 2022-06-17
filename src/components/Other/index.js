@@ -75,16 +75,15 @@ function Other(props) {
                 {" "}
                 Eat the rainbow!
               </Link>
-              <sup>2</sup> Diversity in our vegetable consumption is
-              crucial.
+              <sup>2</sup> Diversity in our vegetable consumption is crucial.
             </li>
             <li>
               Research: links to research studies supporting health benefits of
               vegetables
             </li>
           </ul>
-          </Typography>
-          <Typography
+        </Typography>
+        <Typography
           color="primary"
           fontSize={12}
           fontStyle="italic"
@@ -94,9 +93,7 @@ function Other(props) {
           align="left"
           justify="center"
         >
-          
-            *LEMV will apply for grant funding{" "}
-         
+          *LEMV will apply for grant funding{" "}
         </Typography>
         <hr />
         <Typography
@@ -108,7 +105,6 @@ function Other(props) {
           align="left"
           justify="center"
         >
-          
           <ol>
             <li>
               Rosenfeld RM, Kelly JH, Agarwal M, et al. Dietary Interventions to
@@ -139,8 +135,17 @@ function Other(props) {
               </Link>{" "}
             </li>
           </ol>
-          <p /> This page is under construction. As LEMV forms, we will continue
-          to update this website. If you would like to become involved, please
+        </Typography>
+        <Typography
+          color="primary"
+          fontSize={12}
+          variant="body1"
+          mb={4}
+          align="center"
+          justify="center"
+        >
+          This page is under construction. As LEMV forms, we will continue to
+          update this website. If you would like to become involved, please
           contact us:{" "}
           <Link href="mailto:info@lemv.org" target="_blank">
             info@lemv.org{" "}
