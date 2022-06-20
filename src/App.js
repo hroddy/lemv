@@ -46,9 +46,8 @@ function App() {
     <Router>
       <ThemeProvider theme={theme}>
         <div>
+          <Navigation />
           <Switch>
-            <Navigation />
-
             <Route exact path="/">
               <Home />
             </Route>
@@ -65,7 +64,7 @@ function App() {
               <Other />
             </Route>
 
-            <Route exact path="/other">
+            <Route exact path="/how">
               <How />
             </Route>
 
@@ -80,9 +79,9 @@ function App() {
             <Route exact path="/broken">
               <Broken />
             </Route>
-            
-            <Footer />
           </Switch>
+
+          <Footer />
         </div>
       </ThemeProvider>
     </Router>

@@ -1,12 +1,12 @@
-import React, { Component } from "react";
+import React from "react";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 
-class Broken extends Component {
-  render(props) {
-    const { updateCurrentPage } = props;
+const Broken = () => {
+  
+    
     return (
       <Container>
         <Grid
@@ -32,7 +32,7 @@ class Broken extends Component {
               <Button
                 variant="outlined"
                 color="primary"
-                onClick={() => updateCurrentPage("Home")}
+                href="/"
               >
                 Go home
               </Button>
@@ -42,6 +42,6 @@ class Broken extends Component {
       </Container>
     );
   }
-}
+
 
 export default Broken;

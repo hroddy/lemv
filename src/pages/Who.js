@@ -17,12 +17,12 @@ import morgan from "../assets/team/morgan.JPG";
 import hannah from "../assets/team/hannah.JPG";
 import rachel from "../assets/team/rachel.JPG";
 
-class Who extends Component{
-  render(props) {
+const Who = () => {
+  
   
     return (
       <div>
-        {/* <WhoCarousel updateCurrentPage={props.updateCurrentPage} /> */}
+        <WhoCarousel />
         <Container align="center">
           <Typography
             color="primary"
@@ -48,26 +48,12 @@ class Who extends Component{
             community feedback about Livermorians’ specific needs and current
             barriers to vegetable consumption.
           </Typography>
-          <Typography
-            color="primary"
-            variant="body1"
-            my={5}
-            align="left"
-            justify="center"
-          >
-            <Button
-              variant="outlined"
-              color="primary"
-              href="/board"             
-            >
-              View our Board Members
-            </Button>
-          </Typography>
+          
           <Typography
             color="primary"
             variant="body1"
             mt={3}
-            mb={8}
+            mb={3}
             align="left"
             justify="center"
           >
@@ -75,6 +61,18 @@ class Who extends Component{
             <Link href="mailto:info@lemv.org" target="_blank">
               info@lemv.org{" "}
             </Link>
+          </Typography>
+          
+          <Typography
+            color="primary"
+            align="center"
+            justify="center"
+            my={5}
+            variant="h4"
+            fontSize={32}
+            fontFamily="Playfair Display"
+          >
+            Our Faces
           </Typography>
 
           <Grid
@@ -420,6 +418,21 @@ class Who extends Component{
             </Grid>
             {/* RACHEL RODDY END */}
           </Grid>
+          <Typography
+            color="primary"
+            variant="body1"
+            mb={5}
+            align="center"
+            justify="center"
+          >
+            <Button
+              variant="filled"
+              sx={{ backgroundColor: "#97d600" }}
+              href="/board"             
+            >
+              View Board Members here
+            </Button>
+          </Typography>
           <hr />
           <Typography
             color="primary"
@@ -441,6 +454,6 @@ class Who extends Component{
       </div>
     );
   }
-}
+
 
 export default Who;

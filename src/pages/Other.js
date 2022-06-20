@@ -6,12 +6,12 @@ import Container from "@mui/material/Container";
 import Link from "@mui/material/Link";
 import Typography from "@mui/material/Typography";
 
-class Other {
-  render(props) {
-    const { updateCurrentPage } = props;
+const Other = () => {
+ 
+    
     return (
       <div>
-        <OtherCarousel updateCurrentPage={props.updateCurrentPage} />
+        <OtherCarousel />
         <Container align="center">
           <Typography
             color="primary"
@@ -25,7 +25,7 @@ class Other {
           </Typography>
           <Button
             variant="filled"
-            onClick={() => updateCurrentPage("Survey")}
+            href="/survey"
             sx={{ backgroundColor: "#97d600" }}
           >
             Take our survery
@@ -190,6 +190,6 @@ class Other {
       </div>
     );
   }
-}
+
 
 export default Other;

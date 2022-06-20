@@ -34,12 +34,14 @@ const MobileNav = ({handleOpenNavMenu, anchorElNav, handleCloseNavMenu, pages, u
               open={Boolean(anchorElNav)}
               onClose={handleCloseNavMenu}
               sx={{
-                display: { xs: 'block', md: 'none' },
+                display: { xs: 'block', sm: 'block', md: 'block' },
               }}
             >
               {pages.map((page,i) => (
                 <MenuItem key={`${page.id}-${i}`} onClick={handleCloseNavMenu}>
-                  <Typography onClick={() => updateCurrentPage(page.id)} textAlign="center" color="primary">{page.label}</Typography>
+                  <Typography href={`${page.href}`}
+                  // onClick={() => updateCurrentPage(page.href)}
+                  textAlign="center" color="primary">{page.label}</Typography>
                 </MenuItem>
               ))}
             </Menu>

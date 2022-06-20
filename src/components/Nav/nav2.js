@@ -60,6 +60,7 @@ const ResponsiveAppBar = ({ updateCurrentPage }) => {
               noWrap
               // onClick={() => updateCurrentPage("Home")}
               align="center"
+              curosr="pointer"
               sx={{ display: { xs: "flex", sm: "flex", md: "flex", lg: "none"}, mr: 1 }}
             >
               <img src={logo} width="150" alt="Livermore Eat More Vegetables" />
