@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import Box from "@mui/material/Box";
 import CopyrightIcon from "@mui/icons-material/Copyright";
 import Toolbar from "@mui/material/Toolbar";

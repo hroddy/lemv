@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
@@ -17,6 +17,7 @@ const Survey = () => {
             src="https://dentalpacific.az1.qualtrics.com/jfe/form/SV_agu3GAEbAFv9Ar4"
             height="800px"
             width="1200px"
+            title="survey"
           ></iframe>
         </Box>
       </Container>
@@ -31,6 +32,7 @@ const Survey = () => {
             src="https://dentalpacific.az1.qualtrics.com/jfe/form/SV_agu3GAEbAFv9Ar4"
             height="800px"
             width="800px"
+            title="survey-sm"
           ></iframe>
         </Box>
       </Container>
@@ -45,6 +47,7 @@ const Survey = () => {
             src="https://dentalpacific.az1.qualtrics.com/jfe/form/SV_agu3GAEbAFv9Ar4"
             height="600px"
             width="400px"
+            title="survey-xs"
           ></iframe>
         </Box>
       </Container>

@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import BenefitsCarousel from "../components/Benefits-Carousel";
 import Container from "@mui/material/Container";
 import Link from "@mui/material/Link";

@@ -9,8 +9,6 @@ import Typography from "@mui/material/Typography";
 import Link from "@mui/material/Link";
 import Grid from "@mui/material/Grid";
 
-import WhoCarousel from "../components/Who-Carousel";
-
 import karen from "../assets/team/karen.jpg";
 import dale from "../assets/team/dale.jpg";
 import diana from "../assets/team/diana.jpeg";
@@ -19,7 +17,7 @@ import morgan from "../assets/team/morgan.JPG";
 const Board = () => {
   return (
     <div>
-      <WhoCarousel />
+   
       <Container align="center">
         <Typography
           color="primary"

@@ -19,19 +19,34 @@ const index = () => {
       renderThumbs={() => {}}
     >
       <div>
-        <img alt="a woman holds leafy greens, blocking her face from view" src={hero16} />
+        <img
+          alt="a woman holds leafy greens, blocking her face from view"
+          src={hero16}
+        />
       </div>
       <div>
-        <img alt="crowds of people play in the fountain at the intersection of first street and north livermore ave" src={liv11} />
+        <img
+          alt="crowds of people play in the fountain at the intersection of first street and north livermore ave"
+          src={liv11}
+        />
       </div>
       <div>
-        <img alt="colorful bowl of mediterranean salad with cucumbers, tomatoes, red onions, and feta cheese " src={hero18} />
+        <img
+          alt="colorful bowl of mediterranean salad with cucumbers, tomatoes, red onions, and feta cheese "
+          src={hero18}
+        />
       </div>
       <div>
-        <img alt="the mural of livermore on the side of strizzi's restaurant" src={liv13} />
+        <img
+          alt="the mural of livermore on the side of strizzi's restaurant"
+          src={liv13}
+        />
       </div>
       <div>
-        <img alt="a wooden cowboy signs advertises the livermore rodeo in the second week of june" src={liv5} />
+        <img
+          alt="a wooden cowboy signs advertises the livermore rodeo in the second week of june"
+          src={liv5}
+        />
       </div>
     </Carousel>
   );
