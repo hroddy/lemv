@@ -12,6 +12,7 @@ import Grid from "@mui/material/Grid";
 import WhoCarousel from "../components/Who-Carousel";
 
 import karen from "../assets/team/karen.jpg";
+import dale from "../assets/team/dale.jpg";
 import diana from "../assets/team/diana.jpeg";
 import morgan from "../assets/team/morgan.JPG";
 
@@ -219,7 +220,7 @@ const Board = () => {
                 <CardMedia
                   component="img"
                   height="300"
-                  src={morgan}
+                  src={dale}
                   alt="portrait shot of a blonde woman"
                 />
               </Box>
@@ -235,7 +236,7 @@ const Board = () => {
                 <CardMedia
                   component="img"
                   height="400"
-                  src={morgan}
+                  src={dale}
                   alt="portrait shot of a dark haired woman"
                 />
                 <CardContent>
