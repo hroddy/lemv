@@ -279,6 +279,134 @@ const Board = () => {
           </Grid>
           {/* DALE WALLIS END */}
 
+          {/* MORGAN RODDY START */}
+          <Grid item sm={12}>
+            <Card
+              sx={{
+                maxWidth: 850,
+                maxheight: 300,
+                display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
+              }}
+            >
+              <Box sx={{ display: "flex", flexDirection: "row" }}>
+                <CardContent>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    color="primary"
+                    align="left"
+                  >
+                    Morgan Roddy
+                  </Typography>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    fontSize={20}
+                    component="div"
+                    color="primary"
+                    align="left"
+                  >
+                    Secretary
+                  </Typography>
+                  <Typography
+                    variant="body2"
+                    color="text.secondary"
+                    align="left"
+                  >
+                    Morgan Roddy holds a B.S in Cultural and Regional Studies
+                    and a master's degree in Social Justice and Community
+                    Organizing from Prescott College in Arizona. Roddy has
+                    worked as a digital media strategist with Northern Arizona
+                    Social and administrative assistant with The Uptake. As well
+                    as having experience in the food industry, Roddy’s other
+                    previous projects include internships at the{" "}
+                    <Link
+                      href="http://www.warehouseworkers.org/"
+                      target="_blank"
+                      cursor="pointer"
+                    >
+                      Warehouse Workers Resource Center
+                    </Link>{" "}
+                    and{" "}
+                    <Link
+                      href="https://cangress.org/"
+                      target="_blank"
+                      cursor="pointer"
+                    >
+                      Los Angeles Community Action Network.
+                    </Link>
+                  </Typography>
+                </CardContent>
+                <CardMedia
+                  component="img"
+                  height="300"
+                  src={morgan}
+                  alt="portrait shot of a dark haired woman"
+                />
+              </Box>
+            </Card>
+            <Card
+              sx={{
+                maxWidth: 345,
+                maxheight: 400,
+                display: { xs: "flex", sm: "flex", md: "none", lg: "none" },
+              }}
+            >
+              <Box sx={{ display: "flex", flexDirection: "column" }}>
+                <CardMedia
+                  component="img"
+                  height="400"
+                  src={morgan}
+                  alt="portrait shot of a dark haired woman"
+                />
+                <CardContent>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    color="primary"
+                  >
+                    Morgan Roddy
+                  </Typography>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    fontSize={20}
+                    component="div"
+                    color="primary"
+                  >
+                    Secretary
+                  </Typography>
+                  <Typography
+                    variant="body2"
+                    color="text.secondary"
+                    align="left"
+                  >
+                    Morgan Roddy holds a B.S in Cultural and Regional Studies
+                    and a master's degree in Social Justice and Community
+                    Organizing from Prescott College in Arizona. Roddy has
+                    worked as a digital media strategist with Northern Arizona
+                    Social and administrative assistant with The Uptake. As well
+                    as having experience in the food industry, Roddy’s other
+                    previous projects include internships at the{" "}
+                    <Link
+                      href="http://www.warehouseworkers.org/"
+                      target="_blank"
+                    >
+                      Warehouse Workers Resource Center
+                    </Link>{" "}
+                    and{" "}
+                    <Link href="https://cangress.org/" target="_blank">
+                      Los Angeles Community Action Network.
+                    </Link>
+                  </Typography>
+                </CardContent>
+              </Box>
+            </Card>
+          </Grid>
+          {/* MORGAN RODDY END */}
+
           {/* DIANA PRINCE START */}
           <Grid item sm={12}>
             <Card
@@ -375,133 +503,7 @@ const Board = () => {
           </Grid>
           {/* DIANA PRICE END */}
 
-          {/* MORGAN RODDY START */}
-          <Grid item sm={12}>
-            <Card
-              sx={{
-                maxWidth: 850,
-                maxheight: 300,
-                display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
-              }}
-            >
-              <Box sx={{ display: "flex", flexDirection: "row" }}>
-                <CardContent>
-                  <Typography
-                    gutterBottom
-                    variant="h5"
-                    component="div"
-                    color="primary"
-                    align="left"
-                  >
-                    Morgan Roddy
-                  </Typography>
-                  <Typography
-                    gutterBottom
-                    variant="h5"
-                    fontSize={20}
-                    component="div"
-                    color="primary"
-                    align="left"
-                  >
-                    Secratary
-                  </Typography>
-                  <Typography
-                    variant="body2"
-                    color="text.secondary"
-                    align="left"
-                  >
-                    Morgan Roddy holds a B.S in Cultural and Regional Studies
-                    and a master's degree in Social Justice and Community
-                    Organizing from Prescott College in Arizona. Roddy has
-                    worked as a digital media strategist with Northern Arizona
-                    Social and administrative assistant with The Uptake. As well
-                    as having experience in the food industry, Roddy’s other
-                    previous projects include internships at the{" "}
-                    <Link
-                      href="http://www.warehouseworkers.org/"
-                      target="_blank"
-                      cursor="pointer"
-                    >
-                      Warehouse Workers Resource Center
-                    </Link>{" "}
-                    and{" "}
-                    <Link
-                      href="https://cangress.org/"
-                      target="_blank"
-                      cursor="pointer"
-                    >
-                      Los Angeles Community Action Network.
-                    </Link>
-                  </Typography>
-                </CardContent>
-                <CardMedia
-                  component="img"
-                  height="300"
-                  src={morgan}
-                  alt="portrait shot of a dark haired woman"
-                />
-              </Box>
-            </Card>
-            <Card
-              sx={{
-                maxWidth: 345,
-                maxheight: 400,
-                display: { xs: "flex", sm: "flex", md: "none", lg: "none" },
-              }}
-            >
-              <Box sx={{ display: "flex", flexDirection: "column" }}>
-                <CardMedia
-                  component="img"
-                  height="400"
-                  src={morgan}
-                  alt="portrait shot of a dark haired woman"
-                />
-                <CardContent>
-                  <Typography
-                    gutterBottom
-                    variant="h5"
-                    component="div"
-                    color="primary"
-                  >
-                    Morgan Roddy
-                  </Typography>
-                  <Typography
-                    gutterBottom
-                    variant="h5"
-                    fontSize={20}
-                    component="div"
-                    color="primary"
-                  >
-                    Secratary
-                  </Typography>
-                  <Typography
-                    variant="body2"
-                    color="text.secondary"
-                    align="left"
-                  >
-                    Morgan Roddy holds a B.S in Cultural and Regional Studies
-                    and a master's degree in Social Justice and Community
-                    Organizing from Prescott College in Arizona. Roddy has
-                    worked as a digital media strategist with Northern Arizona
-                    Social and administrative assistant with The Uptake. As well
-                    as having experience in the food industry, Roddy’s other
-                    previous projects include internships at the{" "}
-                    <Link
-                      href="http://www.warehouseworkers.org/"
-                      target="_blank"
-                    >
-                      Warehouse Workers Resource Center
-                    </Link>{" "}
-                    and{" "}
-                    <Link href="https://cangress.org/" target="_blank">
-                      Los Angeles Community Action Network.
-                    </Link>
-                  </Typography>
-                </CardContent>
-              </Box>
-            </Card>
-          </Grid>
-          {/* MORGAN RODDY END */}
+          
         </Grid>
         <hr />
         <Typography
