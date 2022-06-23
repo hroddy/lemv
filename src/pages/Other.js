@@ -23,13 +23,13 @@ const Other = () => {
           >
             What else is in the works?
           </Typography>
-          <Button
+          {/* <Button
             variant="filled"
             href="/survey"
             sx={{ backgroundColor: "#97d600" }}
           >
             Take our survery
-          </Button>
+          </Button> */}
           <div
             style={{
               maxWidth: "750px",
