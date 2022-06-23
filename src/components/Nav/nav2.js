@@ -10,8 +10,8 @@ import { Link } from "@mui/material";
 import MobileNav from "./MobileNav";
 import logo from "../../assets/lemv-logo-2.png";
 
-const pages = [{id: "How", label: "How To"},{id: "Benefits", label: 'The Benefits'}];
-const pages1 = [{id: "Who", label: "Who Are We?"}, {id: "Other", label: "Other"}];
+const pages = [{id: "How", label: "How To", href: "/how"},{id: "Benefits", label: 'The Benefits', href: "/benefits"}];
+const pages1 = [{id: "Who", label: "Who Are We?", href: "/who"}, {id: "Other", label: "Other", href:"/other"}];
 
 const ResponsiveAppBar = ({ updateCurrentPage }) => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -56,10 +56,11 @@ const ResponsiveAppBar = ({ updateCurrentPage }) => {
 
           <Typography sx={{ flexGrow: 1 }}>
             <Link
-              // href="/home"
+              href="/"
               noWrap
-              onClick={() => updateCurrentPage("Home")}
+              // onClick={() => updateCurrentPage("Home")}
               align="center"
+              curosr="pointer"
               sx={{ display: { xs: "flex", sm: "flex", md: "flex", lg: "none"}, mr: 1 }}
             >
               <img src={logo} width="150" alt="Livermore Eat More Vegetables" />
@@ -81,14 +82,15 @@ const ResponsiveAppBar = ({ updateCurrentPage }) => {
                 <Button
                   color="primary"
                   key={`${page.id}-${i}`}
-                  onClick={() => updateCurrentPage(page.id)}
+                  href={`${page.href}`}
+                  // onClick={() => updateCurrentPage(page.id)}
                   sx={{ my: 2, display: "block" }}
                 >
                   {page.label}
                 </Button>
               ))}
 
-              <Link onClick={() => updateCurrentPage("Home")}>
+              <Link href="/">
                 <img
                   src={logo}
                   className={classes.logoClass}
@@ -99,7 +101,8 @@ const ResponsiveAppBar = ({ updateCurrentPage }) => {
               {pages1.map((page, i) => (
                 <Button
                 key={`${page.id}-${i}`}
-                  onClick={() => updateCurrentPage(page.id)}
+                href={`${page.href}`}
+                  // onClick={() => updateCurrentPage(page.id)}
                   sx={{ my: 2, display: "block" }}
                   color="primary"
                 >

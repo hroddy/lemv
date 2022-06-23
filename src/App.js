@@ -1,52 +1,68 @@
-import React, { useState } from "react";
-import Box from "@mui/material/Box";
-import Home from "./components/Home/index";
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import Nav from "./components/Nav/index";
+
+import Home from "./pages/Home";
+
+
 import Navigation from "./components/Nav/nav2";
 
-// import TestNav from "./components/Test-Nav/index";
-
-import How from "./components/How/index";
-import Benefits from "./components/Benefits/index";
-import Who from "./components/Who/index";
-import Other from "./components/Other/index";
-import Board from "./components/Board/index";
-import Broken from "./components/Broken/index";
+import Survey from "./pages/Survey";
+import How from "./pages/How";
+import Benefits from "./pages/Benefits";
+import Who from "./pages/Who";
+import Other from "./pages/Other";
+import Board from "./pages/Board";
+import Broken from "./pages/Broken";
 import Footer from "./components/Footer/index";
 import "./index.css";
 import { ThemeProvider } from "@emotion/react";
 import { theme } from "./utils/theme.js";
 
 function App() {
-  const [page, updateCurrentPage] = useState("Home");
-  const renderCorrectPage = () => {
-    switch (page) {
-      case "Home":
-        return <Home updateCurrentPage={updateCurrentPage} />;
-      case "How":
-        return <How updateCurrentPage={updateCurrentPage} />;
-      case "Benefits":
-        return <Benefits updateCurrentPage={updateCurrentPage} />;
-      case "Who":
-        return <Who updateCurrentPage={updateCurrentPage} />;
-      case "Other":
-        return <Other updateCurrentPage={updateCurrentPage} />;
-      case "Board":
-        return <Board updateCurrentPage={updateCurrentPage} />;
-      default:
-        return <Broken updateCurrentPage={updateCurrentPage} />;
-    }
-  };
   return (
-    <ThemeProvider theme={theme}>
-      <div>
-   
-        <Navigation updateCurrentPage={updateCurrentPage} />
-        <Box>{renderCorrectPage()}</Box>
-        <Footer />
-      </div>
-    </ThemeProvider>
+    <Router>
+      <ThemeProvider theme={theme}>
+        <div>
+          <Navigation />
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+
+            <Route exact path="/who">
+              <Who />
+            </Route>
+
+            <Route exact path="/benefits">
+              <Benefits />
+            </Route>
+
+            <Route exact path="/other">
+              <Other />
+            </Route>
+
+            <Route exact path="/how">
+              <How />
+            </Route>
+
+            <Route exact path="/survey">
+              <Survey />
+            </Route>
+
+            <Route exact path="/board">
+              <Board />
+            </Route>
+
+            <Route exact path="/broken">
+              <Broken />
+            </Route>
+          </Switch>
+
+          <Footer />
+        </div>
+      </ThemeProvider>
+    </Router>
   );
 }
 

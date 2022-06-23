@@ -5,6 +5,7 @@ import IconButton from '@mui/material/IconButton';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import Typography from '@mui/material/Typography';
+import Link from '@mui/material/Link';
 
 const MobileNav = ({handleOpenNavMenu, anchorElNav, handleCloseNavMenu, pages, updateCurrentPage}) => {
   return (
@@ -34,12 +35,14 @@ const MobileNav = ({handleOpenNavMenu, anchorElNav, handleCloseNavMenu, pages, u
               open={Boolean(anchorElNav)}
               onClose={handleCloseNavMenu}
               sx={{
-                display: { xs: 'block', md: 'none' },
+                display: { xs: 'block', sm: 'block', md: 'block' },
               }}
             >
               {pages.map((page,i) => (
                 <MenuItem key={`${page.id}-${i}`} onClick={handleCloseNavMenu}>
-                  <Typography onClick={() => updateCurrentPage(page.id)} textAlign="center" color="primary">{page.label}</Typography>
+                  <Typography 
+                  // onClick={() => updateCurrentPage(page.href)}
+                  textAlign="center" color="primary"><Link underline="none" href={`${page.href}`}>{page.label}</Link></Typography>
                 </MenuItem>
               ))}
             </Menu>
