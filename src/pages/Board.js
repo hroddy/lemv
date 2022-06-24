@@ -37,11 +37,7 @@ const Board = () => {
           align="left"
           justify="center"
         >
-          LEMV's board is being assembled. More members will be added to this page.<p />
-          For more information or to get involved, please email{" "}
-          <Link href="mailto:info@lemv.org" target="_blank">
-            info@lemv.org{" "}
-          </Link>
+          LEMV's board is being assembled. More members will be added to this page.
         </Typography>
 
         <Grid

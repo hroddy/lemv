@@ -1,12 +1,13 @@
 import React from "react";
 
+import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 
 const Survey = () => {
   return (
     <div>
-      {/* LG MD DISPLAY */}
+      {/* LG MD DISPLAY
       <Container alignItems="center">
         <Box
           sx={{
@@ -22,7 +23,7 @@ const Survey = () => {
         </Box>
       </Container>
       {/* SM DISPLAY */}
-      <Container alignItems="center">
+      {/* <Container alignItems="center">
         <Box
           sx={{
             display: { xs: "none", sm: "flex", md: "none", lg: "none" },
@@ -35,9 +36,9 @@ const Survey = () => {
             title="survey-sm"
           ></iframe>
         </Box>
-      </Container>
+      </Container> */}
       {/* XS DISPLAY */}
-      <Container alignItems="center">
+      {/* <Container alignItems="center">
         <Box
           sx={{
             display: { xs: "flex", sm: "none", md: "none", lg: "none" },
@@ -50,8 +51,11 @@ const Survey = () => {
             title="survey-xs"
           ></iframe>
         </Box>
+      </Container> */}
+      <Container>
+      <Typography my={10} align="center">Our study's survey will appear here.</Typography>
       </Container>
-    </div>
+    </div> 
   );
 };
 
