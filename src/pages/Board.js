@@ -85,7 +85,7 @@ const Board = () => {
                     Karen Roddy has B.S degrees in Marketing, Human Nutrition,
                     and Dietetics and is currently working on her M.S in
                     Clinical Nutrition at University of the Pacific. After
-                    working for NAME as NAMe, Roddy and her husband Steve moved
+                    working for Ernst & Young as Director of Marketing, Roddy and her husband Steve moved
                     to Livermore, where they have lived for over 20 years and
                     raised their three daughters. She was the founder and
                     president of a non-profit 501(c)(3) in Livermore,
