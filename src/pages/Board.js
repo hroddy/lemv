@@ -17,7 +17,6 @@ import morgan from "../assets/team/morgan.JPG";
 const Board = () => {
   return (
     <div>
-   
       <Container align="center">
         <Typography
           color="primary"
@@ -37,7 +36,8 @@ const Board = () => {
           align="left"
           justify="center"
         >
-          LEMV's board is being assembled. More members will be added to this page.
+          LEMV's board is being assembled. More members will be added to this
+          page.
         </Typography>
 
         <Grid
@@ -51,7 +51,7 @@ const Board = () => {
           <Grid item sm={12}>
             <Card
               sx={{
-                maxWidth: 850,
+                maxWidth: 900,
                 maxheight: 300,
                 display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
               }}
@@ -85,14 +85,14 @@ const Board = () => {
                     Karen Roddy has B.S degrees in Marketing, Human Nutrition,
                     and Dietetics and is currently working on her M.S in
                     Clinical Nutrition at University of the Pacific. After
-                    working for Ernst & Young as Director of Marketing, Roddy and her husband Steve moved
-                    to Livermore, where they have lived for over 20 years and
-                    raised their three daughters. She was the founder and
-                    president of a non-profit 501(c)(3) in Livermore,
-                    Outstanding Academic Opportunities (OAO), which served 400
-                    homeschooling families from Concord to Livermore by hiring
-                    teachers and creating classes for junior high and high
-                    school students.
+                    working for Ernst & Young as Director of Marketing, Roddy
+                    and her husband Steve moved to Livermore, where they have
+                    lived for over 20 years and raised their three daughters.
+                    She was the founder and president of a non-profit 501(c)(3)
+                    in Livermore, Outstanding Academic Opportunities (OAO),
+                    which served 400 homeschooling families from Concord to
+                    Livermore by hiring teachers and creating classes for junior
+                    high and high school students.
                   </Typography>
                 </CardContent>
                 <CardMedia
@@ -162,7 +162,7 @@ const Board = () => {
           <Grid item sm={12}>
             <Card
               sx={{
-                maxWidth: 850,
+                maxWidth: 900,
                 maxheight: 300,
                 display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
               }}
@@ -203,8 +203,17 @@ const Board = () => {
                     proprietor. Wallis has served on the Board of Directors for
                     a variety of corporations and nonprofits and is also
                     passionate about education. His teaching interests include
-                    ethics in accounting and financial statement analysis.
+                    ethics in accounting and financial statement analysis. To read more about Dale, view his {" "}
+                    <Link
+                      href="https://drive.google.com/file/d/14pufkM4fhWerzifTG-AWTysCbzIwwE_x/view"
+                      target="_blank"
+                      cursor="pointer"
+                      
+                    >
+                      career summary
+                    </Link>
                   </Typography>
+                  
                 </CardContent>
                 <CardMedia
                   component="img"
@@ -273,7 +282,7 @@ const Board = () => {
           <Grid item sm={12}>
             <Card
               sx={{
-                maxWidth: 850,
+                maxWidth: 900,
                 maxheight: 300,
                 display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
               }}
@@ -401,7 +410,7 @@ const Board = () => {
           <Grid item sm={12}>
             <Card
               sx={{
-                maxWidth: 850,
+                maxWidth: 900,
                 maxheight: 300,
                 display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
               }}
@@ -492,8 +501,6 @@ const Board = () => {
             </Card>
           </Grid>
           {/* DIANA PRICE END */}
-
-          
         </Grid>
         <hr />
         <Typography

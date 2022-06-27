@@ -14,6 +14,8 @@ import WhoCarousel from "../components/Who-Carousel";
 
 import karen from "../assets/team/karen.jpg";
 import morgan from "../assets/team/morgan.JPG";
+import molly from "../assets/team/molly.jpg";
+import emily from "../assets/team/emily.jpg";
 import hannah from "../assets/team/hannah.JPG";
 import rachel from "../assets/team/rachel.JPG";
 
@@ -105,7 +107,7 @@ const Who = () => {
           <Grid item sm={12}>
             <Card
               sx={{
-                maxWidth: 600,
+                maxWidth: 650,
                 maxheight: 300,
                 display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
               }}
@@ -187,7 +189,7 @@ const Who = () => {
           <Grid item sm={12}>
             <Card
               sx={{
-                maxWidth: 600,
+                maxWidth: 650,
                 maxheight: 300,
                 display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
               }}
@@ -283,11 +285,181 @@ const Who = () => {
           </Grid>
           {/* MORGAN RODDY END */}
 
+          {/* MOLLY CUBBA START */}
+          <Grid item sm={12}>
+            <Card
+              sx={{
+                maxWidth: 650,
+                maxheight: 300,
+                display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
+              }}
+            >
+              <Box sx={{ display: "flex", flexDirection: "row" }}>
+                <CardContent>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    color="primary"
+                    align="left"
+                  >
+                    Molly Cubba
+                  </Typography>
+                  <Typography
+                    variant="body2"
+                    color="text.secondary"
+                    align="left"
+                  >
+                    Molly graduated in 2021 with a bachelor’s degree in
+                    Nutrition and Dietetics from Chico State. She is currently
+                    pursuing a master’s degree in Clinical Nutrition at
+                    University of the Pacific. Molly is working this summer on a
+                    Needs Assessment for LEMV. This survey will help LEMV
+                    understand what barriers Livermore residents face for
+                    incorporating vegetables into their diet and will be used to
+                    pursue grant funding in the fall.
+                  </Typography>
+                </CardContent>
+                <CardMedia
+                  component="img"
+                  height="300"
+                  src={molly}
+                  alt="portrait shot of a blonde woman"
+                />
+              </Box>
+            </Card>
+            <Card
+              sx={{
+                maxWidth: 345,
+                maxheight: 400,
+                display: { xs: "flex", sm: "flex", md: "none", lg: "none" },
+              }}
+            >
+              <Box sx={{ display: "flex", flexDirection: "column" }}>
+                <CardMedia
+                  component="img"
+                  height="400"
+                  src={molly}
+                  alt="portrait shot of a dark haired woman"
+                />
+                <CardContent>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    color="primary"
+                  >
+                    Molly Cubba
+                  </Typography>
+                  <Typography
+                    variant="body2"
+                    color="text.secondary"
+                    align="left"
+                  >
+                    Molly graduated in 2021 with a bachelor’s degree in
+                    Nutrition and Dietetics from Chico State. She is currently
+                    pursuing a master’s degree in Clinical Nutrition at
+                    University of the Pacific. Molly is working this summer on a
+                    Needs Assessment for LEMV. This survey will help LEMV
+                    understand what barriers Livermore residents face for
+                    incorporating vegetables into their diet and will be used to
+                    pursue grant funding in the fall.
+                  </Typography>
+                </CardContent>
+              </Box>
+            </Card>
+          </Grid>
+          {/* MOLLY CUBBA END */}
+
+          {/* EMILY SABEDRA START */}
+          <Grid item sm={12}>
+            <Card
+              sx={{
+                maxWidth: 650,
+                maxheight: 300,
+                display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
+              }}
+            >
+              <Box sx={{ display: "flex", flexDirection: "row" }}>
+                <CardContent>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    color="primary"
+                    align="left"
+                  >
+                    Emily Sabedra
+                  </Typography>
+                  <Typography
+                    variant="body2"
+                    color="text.secondary"
+                    align="left"
+                  >
+                    Emily has an undergraduate degree from UC Davis in Clinical
+                    Nutrition. She is currently pursuing her Masters in
+                    nutrition. Emily is working this summer on a Needs
+                    Assessment for LEMV. This survey will help LEMV understand
+                    what barriers Livermore residents face for incorporating
+                    vegetables into their diet and will be used to pursue grant
+                    funding in the fall.
+                  </Typography>
+                </CardContent>
+                <CardMedia
+                  component="img"
+                  height="300"
+                  src={emily}
+                  alt="portrait shot of a blonde woman"
+                />
+              </Box>
+            </Card>
+            <Card
+              sx={{
+                maxWidth: 345,
+                maxheight: 400,
+                display: { xs: "flex", sm: "flex", md: "none", lg: "none" },
+              }}
+            >
+              <Box sx={{ display: "flex", flexDirection: "column" }}>
+                <CardMedia
+                  component="img"
+                  height="400"
+                  src={emily}
+                  alt="portrait shot of a dark haired woman"
+                />
+                <CardContent>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    color="primary"
+                  >
+                    Emily Sabedra
+                  </Typography>
+                  <Typography
+                    variant="body2"
+                    color="text.secondary"
+                    align="left"
+                  >
+                    Emily has an undergraduate degree from UC Davis in Clinical
+                    Nutrition. She is currently pursuing her Masters in
+                    nutrition. Emily is working this summer on a Needs
+                    Assessment for LEMV. This survey will help LEMV understand
+                    what barriers Livermore residents face for incorporating
+                    vegetables into their diet and will be used to pursue grant
+                    funding in the fall.
+                  </Typography>
+                </CardContent>
+              </Box>
+            </Card>
+          </Grid>
+          {/* EMILY SABEDRA END */}
+
           {/* HANNAH RODDY START */}
           <Grid item sm={12}>
             <Card
               sx={{
-                maxWidth: 600,
+                maxWidth: 650,
                 maxheight: 300,
                 display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
               }}
@@ -389,7 +561,7 @@ const Who = () => {
                     Rachel is currently completing her undergraduate degree in
                     Classics at UC Davis in preparation to attend law school in
                     2023.
-                  </Typography>
+                  </Typography>  
                 </CardContent>
                 <CardMedia
                   component="img"
