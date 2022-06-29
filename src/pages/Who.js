@@ -107,7 +107,7 @@ const Who = () => {
           <Grid item sm={12}>
             <Card
               sx={{
-                maxWidth: 650,
+                maxWidth: 800,
                 maxheight: 300,
                 display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
               }}
@@ -129,11 +129,17 @@ const Who = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Karen and her husband Steve raised their three daughters in
-                    Livermore. She has undergraduate degrees in Marketing, Human
-                    Nutrition, and Dietetics and is currently working on her
-                    master’s degree in Clinical Nutrition at University of the
-                    Pacific.
+                    Karen Roddy has B.S degrees in Marketing, Human Nutrition,
+                    and Dietetics and is currently working on her M.S in
+                    Clinical Nutrition at University of the Pacific. After
+                    working for Ernst & Young as Director of Marketing, Roddy
+                    and her husband Steve moved to Livermore, where they have
+                    lived for over 20 years and raised their three daughters.
+                    She was the founder and president of a non-profit 501(c)(3)
+                    in Livermore, Outstanding Academic Opportunities (OAO),
+                    which served 400 homeschooling families from Concord to
+                    Livermore by hiring teachers and creating classes for junior
+                    high and high school students.
                   </Typography>
                 </CardContent>
                 <CardMedia
@@ -173,11 +179,17 @@ const Who = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Karen and her husband Steve raised their three daughters in
-                    Livermore. She has undergraduate degrees in Marketing, Human
-                    Nutrition, and Dietetics and is currently working on her
-                    master’s degree in Clinical Nutrition at University of the
-                    Pacific.
+                    Karen Roddy has B.S degrees in Marketing, Human Nutrition,
+                    and Dietetics and is currently working on her M.S in
+                    Clinical Nutrition at University of the Pacific. After
+                    working for Ernst & Young as Director of Marketing, Roddy
+                    and her husband Steve moved to Livermore, where they have
+                    lived for over 20 years and raised their three daughters.
+                    She was the founder and president of a non-profit 501(c)(3)
+                    in Livermore, Outstanding Academic Opportunities (OAO),
+                    which served 400 homeschooling families from Concord to
+                    Livermore by hiring teachers and creating classes for junior
+                    high and high school students.
                   </Typography>
                 </CardContent>
               </Box>
