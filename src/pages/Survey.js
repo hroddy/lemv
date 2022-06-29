@@ -15,7 +15,7 @@ const Survey = () => {
           }}
         >
           <iframe
-            src="https://dentalpacific.az1.qualtrics.com/jfe/form/SV_agu3GAEbAFv9Ar4"
+            src="https://dentalpacific.az1.qualtrics.com/jfe/form/SV_ey9TLlpoVF6axyS"
             height="800px"
             width="1200px"
             title="survey"
@@ -30,7 +30,7 @@ const Survey = () => {
           }}
         >
           <iframe
-            src="https://dentalpacific.az1.qualtrics.com/jfe/form/SV_agu3GAEbAFv9Ar4"
+            src="https://dentalpacific.az1.qualtrics.com/jfe/form/SV_ey9TLlpoVF6axyS"
             height="800px"
             width="800px"
             title="survey-sm"
@@ -45,7 +45,7 @@ const Survey = () => {
           }}
         >
           <iframe
-            src="https://dentalpacific.az1.qualtrics.com/jfe/form/SV_agu3GAEbAFv9Ar4"
+            src="https://dentalpacific.az1.qualtrics.com/jfe/form/SV_ey9TLlpoVF6axyS"
             height="600px"
             width="400px"
             title="survey-xs"

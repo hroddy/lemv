@@ -11,6 +11,7 @@ import Grid from "@mui/material/Grid";
 
 import karen from "../assets/team/karen.jpg";
 import dale from "../assets/team/dale.jpg";
+import kathleen from "../assets/team/kathleen.png";
 import diana from "../assets/team/diana.jpeg";
 import morgan from "../assets/team/morgan.JPG";
 
@@ -501,6 +502,87 @@ const Board = () => {
             </Card>
           </Grid>
           {/* DIANA PRICE END */}
+
+          {/* Kathleen Willkom START */}
+          <Grid item sm={12}>
+            <Card
+              sx={{
+                maxWidth: 650,
+                maxheight: 300,
+                display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
+              }}
+            >
+              <Box sx={{ display: "flex", flexDirection: "row" }}>
+                <CardContent>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    color="primary"
+                    align="left"
+                  >
+                    Kathleen Willkom
+                  </Typography>
+                  <Typography
+                    variant="body2"
+                    color="text.secondary"
+                    align="left"
+                  >
+                    Kathleen is the Alameda County WIC Program Director.
+                    Kathleen's full bio will be added in the near future.
+                  </Typography>
+                  {/* <Typography variant="body2" color="secondary" align="left">
+                    Kathleen's full bio will be added in the near future.
+                    Kathleen's full bio will be added in the near future.
+                    Kathleen's full bio will be added in the near future.
+                    Kathleen's full bio will be added in the near future.
+                    Kathleen's full bio will be added in the near future.
+                  </Typography> */}
+                </CardContent>
+                <CardMedia
+                  component="img"
+                  height="300"
+                  src={kathleen}
+                  alt="portrait shot of a blonde woman"
+                />
+              </Box>
+            </Card>
+            <Card
+              sx={{
+                maxWidth: 345,
+                maxheight: 400,
+                display: { xs: "flex", sm: "flex", md: "none", lg: "none" },
+              }}
+            >
+              <Box sx={{ display: "flex", flexDirection: "column" }}>
+                <CardMedia
+                  component="img"
+                  height="400"
+                  src={kathleen}
+                  alt="portrait shot of a blonde woman"
+                />
+                <CardContent>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    color="primary"
+                  >
+                    Kathleen Willkom
+                  </Typography>
+
+                  <Typography
+                    variant="body2"
+                    color="text.secondary"
+                    align="left"
+                  >
+                    Alameda County WIC Program Director
+                  </Typography>
+                </CardContent>
+              </Box>
+            </Card>
+          </Grid>
+          {/* Kathleen Willkom END */}
         </Grid>
         <hr />
         <Typography
