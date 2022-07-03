@@ -216,10 +216,18 @@ const Who = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Diana Price is a member of LEMV's Board of Directors. Diana has a B.S. in Nutrition from Cal Poly San Luis
-                    Obispo, a M.S. in Nutrition and Functional Medicine from the
+                    Diana Price is a member of LEMV's {" "}
+                    <Link
+                      href="lemv.org/board"
+                      target="_blank"
+                      cursor="pointer"
+                    >
+                      Board of Directors
+                    </Link>.{" "} Diana
+                    has a BS in Nutrition from Cal Poly San Luis Obispo, an
+                    MS in Nutrition and Functional Medicine from the
                     University of Western States, and is a Registered Dietitian
-                    Nutritionist. Price is a business owner in Livermore;{" "}
+                    Nutritionist. Diana is a business owner in Livermore;{" "}
                     <Link
                       href="https://www.honestnutritionusa.com/"
                       target="_blank"
@@ -230,7 +238,7 @@ const Who = () => {
                     offers nutrition counseling services specializing in
                     digestive wellness including celiac disease, gluten
                     intolerance, Crohn’s, ulcerative colitis, IBS, and food
-                    sensitivities. As someone who knows the power of food, Price
+                    sensitivities. As someone who knows the power of food, Diana
                     is passionate about gut health, wellness, and ultimately
                     happiness. Her mission is to educate, inspire and motivate
                     people so that they can become the healthiest version of
@@ -274,10 +282,18 @@ const Who = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Diana Price is a member of LEMV's Board of Directors. Diana has a B.S. in Nutrition from Cal Poly San Luis
-                    Obispo, a M.S. in Nutrition and Functional Medicine from the
+                    Diana Price is a member of LEMV's {" "}
+                    <Link
+                      href="lemv.org/board"
+                      target="_blank"
+                      cursor="pointer"
+                    >
+                      Board of Directors
+                    </Link>.{" "} Diana
+                    has a BS in Nutrition from Cal Poly San Luis Obispo, an
+                    MS in Nutrition and Functional Medicine from the
                     University of Western States, and is a Registered Dietitian
-                    Nutritionist. Price is a business owner in Livermore;{" "}
+                    Nutritionist. Diana is a business owner in Livermore;{" "}
                     <Link
                       href="https://www.honestnutritionusa.com/"
                       target="_blank"
@@ -288,7 +304,7 @@ const Who = () => {
                     offers nutrition counseling services specializing in
                     digestive wellness including celiac disease, gluten
                     intolerance, Crohn’s, ulcerative colitis, IBS, and food
-                    sensitivities. As someone who knows the power of food, Price
+                    sensitivities. As someone who knows the power of food, Diana
                     is passionate about gut health, wellness, and ultimately
                     happiness. Her mission is to educate, inspire and motivate
                     people so that they can become the healthiest version of
@@ -326,17 +342,25 @@ const Who = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Karen Roddy is a member of LEMV's Board of Directors. Karen has B.S degrees in Marketing, Human Nutrition,
-                    and Dietetics and is currently working on her M.S in
-                    Clinical Nutrition at University of the Pacific. After
-                    working for Ernst & Young as Director of Marketing, Roddy
-                    and her husband Steve moved to Livermore, where they have
-                    lived for over 20 years and raised their three daughters.
-                    She was the founder and president of a non-profit 501(c)(3)
-                    in Livermore, Outstanding Academic Opportunities (OAO),
-                    which served 400 homeschooling families from Concord to
-                    Livermore by hiring teachers and creating classes for junior
-                    high and high school students.
+                    Karen Roddy a cofounder of LEMV and a member of the {" "}
+                    <Link
+                      href="lemv.org/board"
+                      target="_blank"
+                      cursor="pointer"
+                    >
+                      Board of Directors
+                    </Link>.{" "} Karen
+                    has BS degrees in Marketing, Human Nutrition, and Dietetics
+                    and is currently working on her master's in Clinical Nutrition at
+                    University of the Pacific. After working for Ernst & Young
+                    as Director of Marketing, Roddy and her husband Steve moved
+                    to Livermore, where they have lived for over 20 years and
+                    raised their three daughters. She was the founder and
+                    president of a non-profit 501(c)(3) in Livermore,
+                    Outstanding Academic Opportunities (OAO), which served 400
+                    homeschooling families from Concord to Livermore by hiring
+                    teachers and creating classes for junior high and high
+                    school students.
                   </Typography>
                 </CardContent>
                 <img
@@ -344,7 +368,6 @@ const Who = () => {
                   height="300"
                   src={karen}
                   alt="portrait shot of a woman with short dark hair"
-                  
                 ></img>
               </Box>
             </Card>
@@ -377,9 +400,16 @@ const Who = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Karen Roddy is a cofounder of LEMV and a member of the Board of Directors. Karen has B.S degrees in Marketing, Human Nutrition,
-                    and Dietetics and is currently working on her M.S in
-                    Clinical Nutrition at University of the Pacific. After
+                    Karen Roddy is a cofounder of LEMV and a member of the {" "}
+                    <Link
+                      href="lemv.org/board"
+                      target="_blank"
+                      cursor="pointer"
+                    >
+                      Board of Directors
+                    </Link>.{" "}. Karen has BS degrees in Marketing, Human
+                    Nutrition, and Dietetics and is currently working on her MS
+                    in Clinical Nutrition at University of the Pacific. After
                     working for Ernst & Young as Director of Marketing, Roddy
                     and her husband Steve moved to Livermore, where they have
                     lived for over 20 years and raised their three daughters.
@@ -498,11 +528,18 @@ const Who = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Morgan Roddy is a cofounder of LEMV and a member of the Board of Directors. Morgan graduated in 2021 with an undergraduate degree in
-                    Cultural and Regional Studies and a master's degree in
-                    Social Justice and Community Organizing from Prescott
-                    College in Arizona. Previous projects include internships at
-                    the{" "}
+                    Morgan Roddy is a cofounder of LEMV and a member of the{" "}
+                    <Link
+                      href="lemv.org/board"
+                      target="_blank"
+                      cursor="pointer"
+                    >
+                      Board of Directors
+                    </Link>.{" "}Morgan graduated in 2021 with an
+                    undergraduate degree in Cultural and Regional Studies and her
+                    MS degree in Social Justice and Community Organizing
+                    from Prescott College in Arizona. Previous projects include
+                    internships at the{" "}
                     <Link
                       href="http://www.warehouseworkers.org/"
                       target="_blank"
@@ -551,8 +588,16 @@ const Who = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Morgan Roddy is a cofounder of LEMV and a member of the Board of Directors. Morgan graduated in 2021 with an undergraduate degree in
-                    Cultural and Regional Studies and a master's degree in
+                    Morgan Roddy is a cofounder of LEMV and a member of the{" "}
+                    <Link
+                      href="lemv.org/board"
+                      target="_blank"
+                      cursor="pointer"
+                    >
+                      Board of Directors
+                    </Link>.{" "}
+                    . Morgan graduated in 2021 with an undergraduate degree in
+                    Cultural and Regional Studies and her MS degree in
                     Social Justice and Community Organizing from Prescott
                     College in Arizona. Previous projects include internships at
                     the{" "}
@@ -598,9 +643,9 @@ const Who = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Rachel Roddy is currently completing her undergraduate degree in
-                    Classics at UC Davis in preparation to attend law school in
-                    2023.
+                    Rachel Roddy is currently completing her undergraduate
+                    degree in Classics at UC Davis in preparation to attend law
+                    school in 2023.
                   </Typography>
                 </CardContent>
                 <img
@@ -639,9 +684,9 @@ const Who = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Rachel Roddy is currently completing her undergraduate degree in
-                    Classics at UC Davis in preparation to attend law school in
-                    2023.
+                    Rachel Roddy is currently completing her undergraduate
+                    degree in Classics at UC Davis in preparation to attend law
+                    school in 2023.
                   </Typography>
                 </CardContent>
               </Box>
@@ -674,8 +719,8 @@ const Who = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Emily Sabedra has an undergraduate degree from UC Davis in Clinical
-                    Nutrition. She is currently pursuing her Masters in
+                    Emily Sabedra has an undergraduate degree from UC Davis in
+                    Clinical Nutrition. She is currently pursuing her Masters in
                     nutrition. Emily is working this summer on a Needs
                     Assessment for LEMV. This survey will help LEMV understand
                     what barriers Livermore residents face for incorporating
@@ -719,8 +764,8 @@ const Who = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Emily Sabedra has an undergraduate degree from UC Davis in Clinical
-                    Nutrition. She is currently pursuing her Masters in
+                    Emily Sabedra has an undergraduate degree from UC Davis in
+                    Clinical Nutrition. She is currently pursuing her Masters in
                     nutrition. Emily is working this summer on a Needs
                     Assessment for LEMV. This survey will help LEMV understand
                     what barriers Livermore residents face for incorporating

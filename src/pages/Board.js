@@ -83,9 +83,9 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Karen Roddy has B.S degrees in Marketing, Human Nutrition,
-                    and Dietetics and is currently working on her M.S in
-                    Clinical Nutrition at University of the Pacific. After
+                    Karen Roddy has BS degrees in Marketing, Human
+                    Nutrition, and Dietetics and is currently working on her MS
+                    in Clinical Nutrition at University of the Pacific. After
                     working for Ernst & Young as Director of Marketing, Roddy
                     and her husband Steve moved to Livermore, where they have
                     lived for over 20 years and raised their three daughters.
@@ -141,17 +141,17 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Karen Roddy has B.S degrees in Marketing, Human Nutrition,
-                    and Dietetics and is currently working on her M.S in
-                    Clinical Nutrition at University of the Pacific. After
-                    working for NAME as NAMe, Roddy and her husband Steve moved
-                    to Livermore, where they have lived for over 20 years and
-                    raised their three daughters. She was the founder and
-                    president of a non-profit 501(c)(3) in Livermore,
-                    Outstanding Academic Opportunities (OAO), which served 400
-                    homeschooling families from Concord to Livermore by hiring
-                    teachers and creating classes for junior high and high
-                    school students.
+                    Karen Roddy has BS degrees in Marketing, Human
+                    Nutrition, and Dietetics and is currently working on her MS
+                    in Clinical Nutrition at University of the Pacific. After
+                    working for Ernst & Young as Director of Marketing, Roddy
+                    and her husband Steve moved to Livermore, where they have
+                    lived for over 20 years and raised their three daughters.
+                    She was the founder and president of a non-profit 501(c)(3)
+                    in Livermore, Outstanding Academic Opportunities (OAO),
+                    which served 400 homeschooling families from Concord to
+                    Livermore by hiring teachers and creating classes for junior
+                    high and high school students.
                   </Typography>
                 </CardContent>
               </Box>
@@ -313,26 +313,19 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Morgan Roddy holds a B.S in Cultural and Regional Studies
-                    and a master's degree in Social Justice and Community
-                    Organizing from Prescott College in Arizona. Roddy has
-                    worked as a digital media strategist with Northern Arizona
-                    Social and administrative assistant with The Uptake. As well
-                    as having experience in the food industry, Roddy’s other
-                    previous projects include internships at the{" "}
+                    Morgan Roddy graduated in 2021 with an
+                    undergraduate degree in Cultural and Regional Studies and her
+                    MS degree in Social Justice and Community Organizing
+                    from Prescott College in Arizona. Previous projects include
+                    internships at the{" "}
                     <Link
                       href="http://www.warehouseworkers.org/"
                       target="_blank"
-                      cursor="pointer"
                     >
                       Warehouse Workers Resource Center
                     </Link>{" "}
                     and{" "}
-                    <Link
-                      href="https://cangress.org/"
-                      target="_blank"
-                      cursor="pointer"
-                    >
+                    <Link href="https://cangress.org/" target="_blank">
                       Los Angeles Community Action Network.
                     </Link>
                   </Typography>
@@ -382,13 +375,11 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Morgan Roddy holds a B.S in Cultural and Regional Studies
-                    and a master's degree in Social Justice and Community
-                    Organizing from Prescott College in Arizona. Roddy has
-                    worked as a digital media strategist with Northern Arizona
-                    Social and administrative assistant with The Uptake. As well
-                    as having experience in the food industry, Roddy’s other
-                    previous projects include internships at the{" "}
+                    Morgan Roddy graduated in 2021 with an
+                    undergraduate degree in Cultural and Regional Studies and her
+                    MS degree in Social Justice and Community Organizing
+                    from Prescott College in Arizona. Previous projects include
+                    internships at the{" "}
                     <Link
                       href="http://www.warehouseworkers.org/"
                       target="_blank"
@@ -432,10 +423,10 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Diana Price has a B.S. in Nutrition from Cal Poly San Luis
-                    Obispo, a M.S. in Nutrition and Functional Medicine from the
+                    Diana Price has a BS in Nutrition from Cal Poly San Luis Obispo, an
+                    MS in Nutrition and Functional Medicine from the
                     University of Western States, and is a Registered Dietitian
-                    Nutritionist. Price is a business owner in Livermore;{" "}
+                    Nutritionist. Diana is a business owner in Livermore;{" "}
                     <Link
                       href="https://www.honestnutritionusa.com/"
                       target="_blank"
@@ -446,7 +437,7 @@ const Board = () => {
                     offers nutrition counseling services specializing in
                     digestive wellness including celiac disease, gluten
                     intolerance, Crohn’s, ulcerative colitis, IBS, and food
-                    sensitivities. As someone who knows the power of food, Price
+                    sensitivities. As someone who knows the power of food, Diana
                     is passionate about gut health, wellness, and ultimately
                     happiness. Her mission is to educate, inspire and motivate
                     people so that they can become the healthiest version of
@@ -490,10 +481,10 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Diana Price has a B.S. in Nutrition from Cal Poly San Luis
-                    Obispo, a M.S. in Nutrition and Functional Medicine from the
+                    Diana Price has a BS in Nutrition from Cal Poly San Luis Obispo, an
+                    MS in Nutrition and Functional Medicine from the
                     University of Western States, and is a Registered Dietitian
-                    Nutritionist. Price is a business owner in Livermore;{" "}
+                    Nutritionist. Diana is a business owner in Livermore;{" "}
                     <Link
                       href="https://www.honestnutritionusa.com/"
                       target="_blank"
@@ -504,7 +495,7 @@ const Board = () => {
                     offers nutrition counseling services specializing in
                     digestive wellness including celiac disease, gluten
                     intolerance, Crohn’s, ulcerative colitis, IBS, and food
-                    sensitivities. As someone who knows the power of food, Price
+                    sensitivities. As someone who knows the power of food, Diana
                     is passionate about gut health, wellness, and ultimately
                     happiness. Her mission is to educate, inspire and motivate
                     people so that they can become the healthiest version of
