@@ -12,6 +12,7 @@ import Grid from "@mui/material/Grid";
 
 import WhoCarousel from "../components/Who-Carousel";
 
+import diana from "../assets/team/diana.jpeg";
 import karen from "../assets/team/karen.jpg";
 import morgan from "../assets/team/morgan.JPG";
 import molly from "../assets/team/molly.jpg";
@@ -103,11 +104,207 @@ const Who = () => {
           alignItems="center"
           mb={6}
         >
+          {/* MOLLY CUBBA START */}
+          <Grid item sm={12}>
+            <Card
+              sx={{
+                maxWidth: 850,
+                maxheight: 300,
+                display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
+              }}
+            >
+              <Box sx={{ display: "flex", flexDirection: "row" }}>
+                <CardContent>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    color="primary"
+                    align="left"
+                  >
+                    Molly Cubba
+                  </Typography>
+                  <Typography
+                    variant="body2"
+                    color="text.secondary"
+                    align="left"
+                  >
+                    Molly graduated in 2021 with a bachelor’s degree in
+                    Nutrition and Dietetics from Chico State. She is currently
+                    pursuing a master’s degree in Clinical Nutrition at
+                    University of the Pacific. Molly is working this summer on a
+                    Needs Assessment for LEMV. This survey will help LEMV
+                    understand what barriers Livermore residents face for
+                    incorporating vegetables into their diet and will be used to
+                    pursue grant funding in the fall.
+                  </Typography>
+                </CardContent>
+                <img
+                  component="img"
+                  height="300"
+                  src={molly}
+                  alt="portrait shot of a woman with long dark hair"
+                ></img>
+              </Box>
+            </Card>
+            <Card
+              sx={{
+                maxWidth: 345,
+                maxheight: 400,
+                display: { xs: "flex", sm: "flex", md: "none", lg: "none" },
+              }}
+            >
+              <Box sx={{ display: "flex", flexDirection: "column" }}>
+                <CardMedia
+                  component="img"
+                  height="400"
+                  src={molly}
+                  alt="portrait shot of a dark haired woman"
+                />
+                <CardContent>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    color="primary"
+                  >
+                    Molly Cubba
+                  </Typography>
+                  <Typography
+                    variant="body2"
+                    color="text.secondary"
+                    align="left"
+                  >
+                    Molly graduated in 2021 with a bachelor’s degree in
+                    Nutrition and Dietetics from Chico State. She is currently
+                    pursuing a master’s degree in Clinical Nutrition at
+                    University of the Pacific. Molly is working this summer on a
+                    Needs Assessment for LEMV. This survey will help LEMV
+                    understand what barriers Livermore residents face for
+                    incorporating vegetables into their diet and will be used to
+                    pursue grant funding in the fall.
+                  </Typography>
+                </CardContent>
+              </Box>
+            </Card>
+          </Grid>
+          {/* MOLLY CUBBA END */}
+
+          {/* DIANA PRINCE START */}
+          <Grid item sm={12}>
+            <Card
+              sx={{
+                maxWidth: 850,
+                maxheight: 300,
+                display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
+              }}
+            >
+              <Box sx={{ display: "flex", flexDirection: "row" }}>
+                <CardContent>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    color="primary"
+                    align="left"
+                  >
+                    Diana Price
+                  </Typography>
+
+                  <Typography
+                    variant="body2"
+                    color="text.secondary"
+                    align="left"
+                  >
+                    Diana Price is a member of LEMV's board. Diana has a B.S. in Nutrition from Cal Poly San Luis
+                    Obispo, a M.S. in Nutrition and Functional Medicine from the
+                    University of Western States, and is a Registered Dietitian
+                    Nutritionist. Price is a business owner in Livermore;{" "}
+                    <Link
+                      href="https://www.honestnutritionusa.com/"
+                      target="_blank"
+                      cursor="pointer"
+                    >
+                      Honest Nutrition USA
+                    </Link>{" "}
+                    offers nutrition counseling services specializing in
+                    digestive wellness including celiac disease, gluten
+                    intolerance, Crohn’s, ulcerative colitis, IBS, and food
+                    sensitivities. As someone who knows the power of food, Price
+                    is passionate about gut health, wellness, and ultimately
+                    happiness. Her mission is to educate, inspire and motivate
+                    people so that they can become the healthiest version of
+                    themselves.
+                  </Typography>
+                </CardContent>
+                <img
+                  component="img"
+                  height="300"
+                  src={diana}
+                  alt="portrait shot of a blonde woman"
+                ></img>
+              </Box>
+            </Card>
+            <Card
+              sx={{
+                maxWidth: 345,
+                maxheight: 400,
+                display: { xs: "flex", sm: "flex", md: "none", lg: "none" },
+              }}
+            >
+              <Box sx={{ display: "flex", flexDirection: "column" }}>
+                <CardMedia
+                  component="img"
+                  height="400"
+                  src={diana}
+                  alt="portrait shot of a blonde woman"
+                />
+                <CardContent>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    color="primary"
+                  >
+                    Diana Price
+                  </Typography>
+
+                  <Typography
+                    variant="body2"
+                    color="text.secondary"
+                    align="left"
+                  >
+                    Diana Price is a member of LEMV's board. Diana has a B.S. in Nutrition from Cal Poly San Luis
+                    Obispo, a M.S. in Nutrition and Functional Medicine from the
+                    University of Western States, and is a Registered Dietitian
+                    Nutritionist. Price is a business owner in Livermore;{" "}
+                    <Link
+                      href="https://www.honestnutritionusa.com/"
+                      target="_blank"
+                      cursor="pointer"
+                    >
+                      Honest Nutrition USA
+                    </Link>{" "}
+                    offers nutrition counseling services specializing in
+                    digestive wellness including celiac disease, gluten
+                    intolerance, Crohn’s, ulcerative colitis, IBS, and food
+                    sensitivities. As someone who knows the power of food, Price
+                    is passionate about gut health, wellness, and ultimately
+                    happiness. Her mission is to educate, inspire and motivate
+                    people so that they can become the healthiest version of
+                    themselves.
+                  </Typography>
+                </CardContent>
+              </Box>
+            </Card>
+          </Grid>
+          {/* DIANA PRICE END */}
+
           {/* KAREN RODDY START */}
           <Grid item sm={12}>
             <Card
               sx={{
-                maxWidth: 800,
+                maxWidth: 850,
                 maxheight: 300,
                 display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
               }}
@@ -129,7 +326,7 @@ const Who = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Karen Roddy has B.S degrees in Marketing, Human Nutrition,
+                    Karen Roddy is a member of LEMV's board. Karen has B.S degrees in Marketing, Human Nutrition,
                     and Dietetics and is currently working on her M.S in
                     Clinical Nutrition at University of the Pacific. After
                     working for Ernst & Young as Director of Marketing, Roddy
@@ -142,12 +339,13 @@ const Who = () => {
                     high and high school students.
                   </Typography>
                 </CardContent>
-                <CardMedia
+                <img
                   component="img"
                   height="300"
                   src={karen}
-                  alt="portrait shot of a blonde woman"
-                />
+                  alt="portrait shot of a woman with short dark hair"
+                  
+                ></img>
               </Box>
             </Card>
             <Card
@@ -179,7 +377,7 @@ const Who = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Karen Roddy has B.S degrees in Marketing, Human Nutrition,
+                    Karen Roddy is a member of LEMV's board. Karen has B.S degrees in Marketing, Human Nutrition,
                     and Dietetics and is currently working on her M.S in
                     Clinical Nutrition at University of the Pacific. After
                     working for Ernst & Young as Director of Marketing, Roddy
@@ -197,11 +395,89 @@ const Who = () => {
           </Grid>
           {/* KAREN RODDY END */}
 
+          {/* HANNAH RODDY START */}
+          <Grid item sm={12}>
+            <Card
+              sx={{
+                maxWidth: 850,
+                maxheight: 300,
+                display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
+              }}
+            >
+              <Box sx={{ display: "flex", flexDirection: "row" }}>
+                <CardContent>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    color="primary"
+                    align="left"
+                  >
+                    Hannah Roddy
+                  </Typography>
+                  <Typography
+                    variant="body2"
+                    color="text.secondary"
+                    align="left"
+                  >
+                    Hannah completed the Fullstack Web Development Boot Camp
+                    through UC Berkeley Extension in 2021 and is the web
+                    developer for LEMV. She also owns and operates a small
+                    business in Livermore: Purple Dog Training.
+                  </Typography>
+                </CardContent>
+                <img
+                  component="img"
+                  height="300"
+                  src={hannah}
+                  alt="portrait shot of a dark haired woman"
+                ></img>
+              </Box>
+            </Card>
+            <Card
+              sx={{
+                maxWidth: 345,
+                maxheight: 400,
+                display: { xs: "flex", sm: "flex", md: "none", lg: "none" },
+              }}
+            >
+              <Box sx={{ display: "flex", flexDirection: "column" }}>
+                <CardMedia
+                  component="img"
+                  height="400"
+                  src={hannah}
+                  alt="portrait shot of a dark haired woman"
+                />
+                <CardContent>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    color="primary"
+                  >
+                    Hannah Roddy
+                  </Typography>
+                  <Typography
+                    variant="body2"
+                    color="text.secondary"
+                    align="left"
+                  >
+                    Hannah completed the Fullstack Web Development Boot Camp
+                    through UC Berkeley Extension in 2021 and is the web
+                    developer for LEMV. She also owns and operates a small
+                    business in Livermore: Purple Dog Training.
+                  </Typography>
+                </CardContent>
+              </Box>
+            </Card>
+          </Grid>
+          {/* HANNAH RODDY END */}
+
           {/* MORGAN RODDY START */}
           <Grid item sm={12}>
             <Card
               sx={{
-                maxWidth: 650,
+                maxWidth: 850,
                 maxheight: 300,
                 display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
               }}
@@ -239,12 +515,12 @@ const Who = () => {
                     </Link>
                   </Typography>
                 </CardContent>
-                <CardMedia
+                <img
                   component="img"
                   height="300"
                   src={morgan}
-                  alt="portrait shot of a blonde woman"
-                />
+                  alt="portrait shot of a woman with long dark hair"
+                ></img>
               </Box>
             </Card>
             <Card
@@ -297,11 +573,11 @@ const Who = () => {
           </Grid>
           {/* MORGAN RODDY END */}
 
-          {/* MOLLY CUBBA START */}
+          {/* RACHEL RODDY START */}
           <Grid item sm={12}>
             <Card
               sx={{
-                maxWidth: 650,
+                maxWidth: 850,
                 maxheight: 300,
                 display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
               }}
@@ -315,29 +591,24 @@ const Who = () => {
                     color="primary"
                     align="left"
                   >
-                    Molly Cubba
+                    Rachel Roddy
                   </Typography>
                   <Typography
                     variant="body2"
                     color="text.secondary"
                     align="left"
                   >
-                    Molly graduated in 2021 with a bachelor’s degree in
-                    Nutrition and Dietetics from Chico State. She is currently
-                    pursuing a master’s degree in Clinical Nutrition at
-                    University of the Pacific. Molly is working this summer on a
-                    Needs Assessment for LEMV. This survey will help LEMV
-                    understand what barriers Livermore residents face for
-                    incorporating vegetables into their diet and will be used to
-                    pursue grant funding in the fall.
+                    Rachel is currently completing her undergraduate degree in
+                    Classics at UC Davis in preparation to attend law school in
+                    2023.
                   </Typography>
                 </CardContent>
-                <CardMedia
+                <img
                   component="img"
                   height="300"
-                  src={molly}
-                  alt="portrait shot of a blonde woman"
-                />
+                  src={rachel}
+                  alt="portrait shot of a dark haired woman"
+                ></img>
               </Box>
             </Card>
             <Card
@@ -351,7 +622,7 @@ const Who = () => {
                 <CardMedia
                   component="img"
                   height="400"
-                  src={molly}
+                  src={rachel}
                   alt="portrait shot of a dark haired woman"
                 />
                 <CardContent>
@@ -361,33 +632,28 @@ const Who = () => {
                     component="div"
                     color="primary"
                   >
-                    Molly Cubba
+                    Rachel Roddy
                   </Typography>
                   <Typography
                     variant="body2"
                     color="text.secondary"
                     align="left"
                   >
-                    Molly graduated in 2021 with a bachelor’s degree in
-                    Nutrition and Dietetics from Chico State. She is currently
-                    pursuing a master’s degree in Clinical Nutrition at
-                    University of the Pacific. Molly is working this summer on a
-                    Needs Assessment for LEMV. This survey will help LEMV
-                    understand what barriers Livermore residents face for
-                    incorporating vegetables into their diet and will be used to
-                    pursue grant funding in the fall.
+                    Rachel is currently completing her undergraduate degree in
+                    Classics at UC Davis in preparation to attend law school in
+                    2023.
                   </Typography>
                 </CardContent>
               </Box>
             </Card>
           </Grid>
-          {/* MOLLY CUBBA END */}
+          {/* RACHEL RODDY END */}
 
           {/* EMILY SABEDRA START */}
           <Grid item sm={12}>
             <Card
               sx={{
-                maxWidth: 650,
+                maxWidth: 850,
                 maxheight: 300,
                 display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
               }}
@@ -417,12 +683,12 @@ const Who = () => {
                     funding in the fall.
                   </Typography>
                 </CardContent>
-                <CardMedia
+                <img
                   component="img"
                   height="300"
                   src={emily}
-                  alt="portrait shot of a blonde woman"
-                />
+                  alt="portrait shot of a woman with short dark hair"
+                ></img>
               </Box>
             </Card>
             <Card
@@ -466,160 +732,6 @@ const Who = () => {
             </Card>
           </Grid>
           {/* EMILY SABEDRA END */}
-
-          {/* HANNAH RODDY START */}
-          <Grid item sm={12}>
-            <Card
-              sx={{
-                maxWidth: 650,
-                maxheight: 300,
-                display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
-              }}
-            >
-              <Box sx={{ display: "flex", flexDirection: "row" }}>
-                <CardContent>
-                  <Typography
-                    gutterBottom
-                    variant="h5"
-                    component="div"
-                    color="primary"
-                    align="left"
-                  >
-                    Hannah Roddy
-                  </Typography>
-                  <Typography
-                    variant="body2"
-                    color="text.secondary"
-                    align="left"
-                  >
-                    Hannah completed the Fullstack Web Development Boot Camp
-                    through UC Berkeley Extension in 2021 and is the web
-                    developer for LEMV. She also owns and operates a small
-                    business in Livermore: Purple Dog Training.
-                  </Typography>
-                </CardContent>
-                <CardMedia
-                  component="img"
-                  height="300"
-                  src={hannah}
-                  alt="portrait shot of a dark haired woman"
-                />
-              </Box>
-            </Card>
-            <Card
-              sx={{
-                maxWidth: 345,
-                maxheight: 400,
-                display: { xs: "flex", sm: "flex", md: "none", lg: "none" },
-              }}
-            >
-              <Box sx={{ display: "flex", flexDirection: "column" }}>
-                <CardMedia
-                  component="img"
-                  height="400"
-                  src={hannah}
-                  alt="portrait shot of a dark haired woman"
-                />
-                <CardContent>
-                  <Typography
-                    gutterBottom
-                    variant="h5"
-                    component="div"
-                    color="primary"
-                  >
-                    Hannah Roddy
-                  </Typography>
-                  <Typography
-                    variant="body2"
-                    color="text.secondary"
-                    align="left"
-                  >
-                    Hannah completed the Fullstack Web Development Boot Camp
-                    through UC Berkeley Extension in 2021 and is the web
-                    developer for LEMV. She also owns and operates a small
-                    business in Livermore: Purple Dog Training.
-                  </Typography>
-                </CardContent>
-              </Box>
-            </Card>
-          </Grid>
-          {/* HANNAH RODDY END */}
-
-          {/* RACHEL RODDY START */}
-          <Grid item sm={12}>
-            <Card
-              sx={{
-                maxWidth: 600,
-                maxheight: 300,
-                display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
-              }}
-            >
-              <Box sx={{ display: "flex", flexDirection: "row" }}>
-                <CardContent>
-                  <Typography
-                    gutterBottom
-                    variant="h5"
-                    component="div"
-                    color="primary"
-                    align="left"
-                  >
-                    Rachel Roddy
-                  </Typography>
-                  <Typography
-                    variant="body2"
-                    color="text.secondary"
-                    align="left"
-                  >
-                    Rachel is currently completing her undergraduate degree in
-                    Classics at UC Davis in preparation to attend law school in
-                    2023.
-                  </Typography>  
-                </CardContent>
-                <CardMedia
-                  component="img"
-                  height="300"
-                  src={rachel}
-                  alt="portrait shot of a dark haired woman"
-                />
-              </Box>
-            </Card>
-            <Card
-              sx={{
-                maxWidth: 345,
-                maxheight: 400,
-                display: { xs: "flex", sm: "flex", md: "none", lg: "none" },
-              }}
-            >
-              <Box sx={{ display: "flex", flexDirection: "column" }}>
-                <CardMedia
-                  component="img"
-                  height="400"
-                  src={rachel}
-                  alt="portrait shot of a dark haired woman"
-                />
-                <CardContent>
-                  <Typography
-                    gutterBottom
-                    variant="h5"
-                    component="div"
-                    color="primary"
-                  >
-                    Rachel Roddy
-                  </Typography>
-                  <Typography
-                    variant="body2"
-                    color="text.secondary"
-                    align="left"
-                  >
-                    Rachel is currently completing her undergraduate degree in
-                    Classics at UC Davis in preparation to attend law school in
-                    2023.
-                  </Typography>
-                </CardContent>
-              </Box>
-            </Card>
-          </Grid>
-          {/* RACHEL RODDY END */}
         </Grid>
 
         <hr />

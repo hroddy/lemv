@@ -96,7 +96,7 @@ const Board = () => {
                     high and high school students.
                   </Typography>
                 </CardContent>
-                <CardMedia
+                <img
                   component="img"
                   height="300"
                   src={karen}
@@ -204,19 +204,18 @@ const Board = () => {
                     proprietor. Wallis has served on the Board of Directors for
                     a variety of corporations and nonprofits and is also
                     passionate about education. His teaching interests include
-                    ethics in accounting and financial statement analysis. To read more about Dale, view his {" "}
+                    ethics in accounting and financial statement analysis. To
+                    read more about Dale, view his{" "}
                     <Link
                       href="https://drive.google.com/file/d/14pufkM4fhWerzifTG-AWTysCbzIwwE_x/view"
                       target="_blank"
                       cursor="pointer"
-                      
                     >
                       career summary
                     </Link>
                   </Typography>
-                  
                 </CardContent>
-                <CardMedia
+                <img
                   component="img"
                   height="300"
                   src={dale}
@@ -338,7 +337,7 @@ const Board = () => {
                     </Link>
                   </Typography>
                 </CardContent>
-                <CardMedia
+                <img
                   component="img"
                   height="300"
                   src={morgan}
@@ -436,18 +435,25 @@ const Board = () => {
                     Diana Price has a B.S. in Nutrition from Cal Poly San Luis
                     Obispo, a M.S. in Nutrition and Functional Medicine from the
                     University of Western States, and is a Registered Dietitian
-                    Nutritionist. Price is a business owner in Livermore; Honest
-                    Nutrition USA offers nutrition counseling services
-                    specializing in digestive wellness including celiac disease,
-                    gluten intolerance, Crohn’s, ulcerative colitis, IBS, and
-                    food sensitivities. As someone who knows the power of food,
-                    Price is passionate about gut health, wellness, and
-                    ultimately happiness. Her mission is to educate, inspire and
-                    motivate people so that they can become the healthiest
-                    version of themselves.
+                    Nutritionist. Price is a business owner in Livermore;{" "}
+                    <Link
+                      href="https://www.honestnutritionusa.com/"
+                      target="_blank"
+                      cursor="pointer"
+                    >
+                      Honest Nutrition USA
+                    </Link>{" "}
+                    offers nutrition counseling services specializing in
+                    digestive wellness including celiac disease, gluten
+                    intolerance, Crohn’s, ulcerative colitis, IBS, and food
+                    sensitivities. As someone who knows the power of food, Price
+                    is passionate about gut health, wellness, and ultimately
+                    happiness. Her mission is to educate, inspire and motivate
+                    people so that they can become the healthiest version of
+                    themselves.
                   </Typography>
                 </CardContent>
-                <CardMedia
+                <img
                   component="img"
                   height="300"
                   src={diana}
@@ -487,15 +493,22 @@ const Board = () => {
                     Diana Price has a B.S. in Nutrition from Cal Poly San Luis
                     Obispo, a M.S. in Nutrition and Functional Medicine from the
                     University of Western States, and is a Registered Dietitian
-                    Nutritionist. Price is a business owner in Livermore; Honest
-                    Nutrition USA offers nutrition counseling services
-                    specializing in digestive wellness including celiac disease,
-                    gluten intolerance, Crohn’s, ulcerative colitis, IBS, and
-                    food sensitivities. As someone who knows the power of food,
-                    Price is passionate about gut health, wellness, and
-                    ultimately happiness. Her mission is to educate, inspire and
-                    motivate people so that they can become the healthiest
-                    version of themselves.
+                    Nutritionist. Price is a business owner in Livermore;{" "}
+                    <Link
+                      href="https://www.honestnutritionusa.com/"
+                      target="_blank"
+                      cursor="pointer"
+                    >
+                      Honest Nutrition USA
+                    </Link>{" "}
+                    offers nutrition counseling services specializing in
+                    digestive wellness including celiac disease, gluten
+                    intolerance, Crohn’s, ulcerative colitis, IBS, and food
+                    sensitivities. As someone who knows the power of food, Price
+                    is passionate about gut health, wellness, and ultimately
+                    happiness. Her mission is to educate, inspire and motivate
+                    people so that they can become the healthiest version of
+                    themselves.
                   </Typography>
                 </CardContent>
               </Box>
@@ -507,7 +520,7 @@ const Board = () => {
           <Grid item sm={12}>
             <Card
               sx={{
-                maxWidth: 650,
+                maxWidth: 900,
                 maxheight: 300,
                 display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
               }}
@@ -531,15 +544,9 @@ const Board = () => {
                     Kathleen is the Alameda County WIC Program Director.
                     Kathleen's full bio will be added in the near future.
                   </Typography>
-                  {/* <Typography variant="body2" color="secondary" align="left">
-                    Kathleen's full bio will be added in the near future.
-                    Kathleen's full bio will be added in the near future.
-                    Kathleen's full bio will be added in the near future.
-                    Kathleen's full bio will be added in the near future.
-                    Kathleen's full bio will be added in the near future.
-                  </Typography> */}
+                 
                 </CardContent>
-                <CardMedia
+                <img
                   component="img"
                   height="300"
                   src={kathleen}
