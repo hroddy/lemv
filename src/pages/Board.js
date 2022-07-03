@@ -194,7 +194,7 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Dale Wallis has B.S. and M.S. degrees in accounting from
+                    Dale Wallis has BS and MS degrees in accounting from
                     Oklahoma State University. Wallis is licensed as a CPA in
                     Oklahoma and California. During his almost 50-year career,
                     Wallis has served in management of two of the “Big-4” CPA
@@ -260,7 +260,7 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Dale Wallis has B.S. and M.S. degrees in accounting from
+                    Dale Wallis has BS and MS degrees in accounting from
                     Oklahoma State University. Wallis is licensed as a CPA in
                     Oklahoma and California. During his almost 50-year career,
                     Wallis has served in management of two of the “Big-4” CPA
