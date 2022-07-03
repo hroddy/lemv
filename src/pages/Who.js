@@ -342,7 +342,7 @@ const Who = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Karen Roddy a cofounder of LEMV and a member of the {" "}
+                    Karen Roddy is a cofounder of LEMV and a member of the {" "}
                     <Link
                       href="lemv.org/board"
                       target="_blank"
