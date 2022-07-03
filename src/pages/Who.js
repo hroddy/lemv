@@ -129,7 +129,7 @@ const Who = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Molly graduated in 2021 with a bachelor’s degree in
+                    Molly Cubba graduated in 2021 with a bachelor’s degree in
                     Nutrition and Dietetics from Chico State. She is currently
                     pursuing a master’s degree in Clinical Nutrition at
                     University of the Pacific. Molly is working this summer on a
@@ -175,7 +175,7 @@ const Who = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Molly graduated in 2021 with a bachelor’s degree in
+                    Molly Cubba graduated in 2021 with a bachelor’s degree in
                     Nutrition and Dietetics from Chico State. She is currently
                     pursuing a master’s degree in Clinical Nutrition at
                     University of the Pacific. Molly is working this summer on a
@@ -208,7 +208,7 @@ const Who = () => {
                     color="primary"
                     align="left"
                   >
-                    Diana Price
+                    Diana Price, RD, MS
                   </Typography>
 
                   <Typography
@@ -216,7 +216,7 @@ const Who = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Diana Price is a member of LEMV's board. Diana has a B.S. in Nutrition from Cal Poly San Luis
+                    Diana Price is a member of LEMV's Board of Directors. Diana has a B.S. in Nutrition from Cal Poly San Luis
                     Obispo, a M.S. in Nutrition and Functional Medicine from the
                     University of Western States, and is a Registered Dietitian
                     Nutritionist. Price is a business owner in Livermore;{" "}
@@ -266,7 +266,7 @@ const Who = () => {
                     component="div"
                     color="primary"
                   >
-                    Diana Price
+                    Diana Price, RD, MS
                   </Typography>
 
                   <Typography
@@ -274,7 +274,7 @@ const Who = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Diana Price is a member of LEMV's board. Diana has a B.S. in Nutrition from Cal Poly San Luis
+                    Diana Price is a member of LEMV's Board of Directors. Diana has a B.S. in Nutrition from Cal Poly San Luis
                     Obispo, a M.S. in Nutrition and Functional Medicine from the
                     University of Western States, and is a Registered Dietitian
                     Nutritionist. Price is a business owner in Livermore;{" "}
@@ -326,7 +326,7 @@ const Who = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Karen Roddy is a member of LEMV's board. Karen has B.S degrees in Marketing, Human Nutrition,
+                    Karen Roddy is a member of LEMV's Board of Directors. Karen has B.S degrees in Marketing, Human Nutrition,
                     and Dietetics and is currently working on her M.S in
                     Clinical Nutrition at University of the Pacific. After
                     working for Ernst & Young as Director of Marketing, Roddy
@@ -377,7 +377,7 @@ const Who = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Karen Roddy is a member of LEMV's board. Karen has B.S degrees in Marketing, Human Nutrition,
+                    Karen Roddy is a cofounder of LEMV and a member of the Board of Directors. Karen has B.S degrees in Marketing, Human Nutrition,
                     and Dietetics and is currently working on her M.S in
                     Clinical Nutrition at University of the Pacific. After
                     working for Ernst & Young as Director of Marketing, Roddy
@@ -491,14 +491,14 @@ const Who = () => {
                     color="primary"
                     align="left"
                   >
-                    Morgan Roddy
+                    Morgan Roddy, MS
                   </Typography>
                   <Typography
                     variant="body2"
                     color="text.secondary"
                     align="left"
                   >
-                    Morgan graduated in 2021 with an undergraduate degree in
+                    Morgan Roddy is a cofounder of LEMV and a member of the Board of Directors. Morgan graduated in 2021 with an undergraduate degree in
                     Cultural and Regional Studies and a master's degree in
                     Social Justice and Community Organizing from Prescott
                     College in Arizona. Previous projects include internships at
@@ -551,7 +551,7 @@ const Who = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Morgan graduated in 2021 with an undergraduate degree in
+                    Morgan Roddy is a cofounder of LEMV and a member of the Board of Directors. Morgan graduated in 2021 with an undergraduate degree in
                     Cultural and Regional Studies and a master's degree in
                     Social Justice and Community Organizing from Prescott
                     College in Arizona. Previous projects include internships at
@@ -598,7 +598,7 @@ const Who = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Rachel is currently completing her undergraduate degree in
+                    Rachel Roddy is currently completing her undergraduate degree in
                     Classics at UC Davis in preparation to attend law school in
                     2023.
                   </Typography>
@@ -639,7 +639,7 @@ const Who = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Rachel is currently completing her undergraduate degree in
+                    Rachel Roddy is currently completing her undergraduate degree in
                     Classics at UC Davis in preparation to attend law school in
                     2023.
                   </Typography>
@@ -674,7 +674,7 @@ const Who = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Emily has an undergraduate degree from UC Davis in Clinical
+                    Emily Sabedra has an undergraduate degree from UC Davis in Clinical
                     Nutrition. She is currently pursuing her Masters in
                     nutrition. Emily is working this summer on a Needs
                     Assessment for LEMV. This survey will help LEMV understand
@@ -719,7 +719,7 @@ const Who = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Emily has an undergraduate degree from UC Davis in Clinical
+                    Emily Sabedra has an undergraduate degree from UC Davis in Clinical
                     Nutrition. She is currently pursuing her Masters in
                     nutrition. Emily is working this summer on a Needs
                     Assessment for LEMV. This survey will help LEMV understand

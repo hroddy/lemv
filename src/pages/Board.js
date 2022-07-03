@@ -177,7 +177,7 @@ const Board = () => {
                     color="primary"
                     align="left"
                   >
-                    Dale Wallis
+                    Dale Wallis, CPA
                   </Typography>
                   <Typography
                     gutterBottom
@@ -244,7 +244,7 @@ const Board = () => {
                     component="div"
                     color="primary"
                   >
-                    Dale Wallis
+                    Dale Wallis, CPA
                   </Typography>
                   <Typography
                     gutterBottom
@@ -296,7 +296,7 @@ const Board = () => {
                     color="primary"
                     align="left"
                   >
-                    Morgan Roddy
+                    Morgan Roddy, MS
                   </Typography>
                   <Typography
                     gutterBottom
@@ -366,7 +366,7 @@ const Board = () => {
                     component="div"
                     color="primary"
                   >
-                    Morgan Roddy
+                    Morgan Roddy, MS
                   </Typography>
                   <Typography
                     gutterBottom
@@ -424,7 +424,7 @@ const Board = () => {
                     color="primary"
                     align="left"
                   >
-                    Diana Price
+                    Diana Price, RD, MS
                   </Typography>
 
                   <Typography
@@ -482,7 +482,7 @@ const Board = () => {
                     component="div"
                     color="primary"
                   >
-                    Diana Price
+                    Diana Price, RD, MS
                   </Typography>
 
                   <Typography
@@ -534,7 +534,7 @@ const Board = () => {
                     color="primary"
                     align="left"
                   >
-                    Kathleen Willkom
+                    Kathleen Willkom, RD, MS
                   </Typography>
                   <Typography
                     variant="body2"
@@ -575,7 +575,7 @@ const Board = () => {
                     component="div"
                     color="primary"
                   >
-                    Kathleen Willkom
+                    Kathleen Willkom, RD, MS
                   </Typography>
 
                   <Typography
