@@ -177,7 +177,7 @@ const Board = () => {
                     color="primary"
                     align="left"
                   >
-                    Dale Wallis, CPA
+                    Dale Wallis, MS, CPA
                   </Typography>
                   <Typography
                     gutterBottom
@@ -244,7 +244,7 @@ const Board = () => {
                     component="div"
                     color="primary"
                   >
-                    Dale Wallis, CPA
+                    Dale Wallis, MS, CPA
                   </Typography>
                   <Typography
                     gutterBottom
@@ -296,7 +296,7 @@ const Board = () => {
                     color="primary"
                     align="left"
                   >
-                    Morgan Roddy, MS
+                    Morgan Roddy, MA
                   </Typography>
                   <Typography
                     gutterBottom
@@ -314,7 +314,7 @@ const Board = () => {
                     align="left"
                   >
                     Morgan Roddy graduated in 2021 with an undergraduate degree
-                    in Cultural and Regional Studies and her MS degree in Social
+                    in Cultural and Regional Studies and her MA degree in Social
                     Justice and Community Organizing from Prescott College in
                     Arizona. Previous projects include internships at the{" "}
                     <Link
@@ -358,7 +358,7 @@ const Board = () => {
                     component="div"
                     color="primary"
                   >
-                    Morgan Roddy, MS
+                    Morgan Roddy, MA
                   </Typography>
                   <Typography
                     gutterBottom
@@ -375,7 +375,7 @@ const Board = () => {
                     align="left"
                   >
                     Morgan Roddy graduated in 2021 with an undergraduate degree
-                    in Cultural and Regional Studies and her MS degree in Social
+                    in Cultural and Regional Studies and her MA degree in Social
                     Justice and Community Organizing from Prescott College in
                     Arizona. Previous projects include internships at the{" "}
                     <Link
