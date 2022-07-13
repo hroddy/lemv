@@ -83,17 +83,17 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Karen Roddy has BS degrees in Marketing, Human
-                    Nutrition, and Dietetics and is currently working on her MS
-                    in Clinical Nutrition at University of the Pacific. After
-                    working for Ernst & Young as Director of Marketing, Roddy
-                    and her husband Steve moved to Livermore, where they have
-                    lived for over 20 years and raised their three daughters.
-                    She was the founder and president of a non-profit 501(c)(3)
-                    in Livermore, Outstanding Academic Opportunities (OAO),
-                    which served 400 homeschooling families from Concord to
-                    Livermore by hiring teachers and creating classes for junior
-                    high and high school students.
+                    Karen Roddy has BS degrees in Marketing, Human Nutrition,
+                    and Dietetics and is currently working on her MS in Clinical
+                    Nutrition at University of the Pacific. After working for
+                    Ernst & Young as Director of Marketing, Roddy and her
+                    husband Steve moved to Livermore, where they have lived for
+                    over 20 years and raised their three daughters. She was the
+                    founder and president of a non-profit 501(c)(3) in
+                    Livermore, Outstanding Academic Opportunities (OAO), which
+                    served 400 homeschooling families from Concord to Livermore
+                    by hiring teachers and creating classes for junior high and
+                    high school students.
                   </Typography>
                 </CardContent>
                 <img
@@ -141,17 +141,17 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Karen Roddy has BS degrees in Marketing, Human
-                    Nutrition, and Dietetics and is currently working on her MS
-                    in Clinical Nutrition at University of the Pacific. After
-                    working for Ernst & Young as Director of Marketing, Roddy
-                    and her husband Steve moved to Livermore, where they have
-                    lived for over 20 years and raised their three daughters.
-                    She was the founder and president of a non-profit 501(c)(3)
-                    in Livermore, Outstanding Academic Opportunities (OAO),
-                    which served 400 homeschooling families from Concord to
-                    Livermore by hiring teachers and creating classes for junior
-                    high and high school students.
+                    Karen Roddy has BS degrees in Marketing, Human Nutrition,
+                    and Dietetics and is currently working on her MS in Clinical
+                    Nutrition at University of the Pacific. After working for
+                    Ernst & Young as Director of Marketing, Roddy and her
+                    husband Steve moved to Livermore, where they have lived for
+                    over 20 years and raised their three daughters. She was the
+                    founder and president of a non-profit 501(c)(3) in
+                    Livermore, Outstanding Academic Opportunities (OAO), which
+                    served 400 homeschooling families from Concord to Livermore
+                    by hiring teachers and creating classes for junior high and
+                    high school students.
                   </Typography>
                 </CardContent>
               </Box>
@@ -313,11 +313,10 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Morgan Roddy graduated in 2021 with an
-                    undergraduate degree in Cultural and Regional Studies and her
-                    MS degree in Social Justice and Community Organizing
-                    from Prescott College in Arizona. Previous projects include
-                    internships at the{" "}
+                    Morgan Roddy graduated in 2021 with an undergraduate degree
+                    in Cultural and Regional Studies and her MS degree in Social
+                    Justice and Community Organizing from Prescott College in
+                    Arizona. Previous projects include internships at the{" "}
                     <Link
                       href="http://www.warehouseworkers.org/"
                       target="_blank"
@@ -375,11 +374,10 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Morgan Roddy graduated in 2021 with an
-                    undergraduate degree in Cultural and Regional Studies and her
-                    MS degree in Social Justice and Community Organizing
-                    from Prescott College in Arizona. Previous projects include
-                    internships at the{" "}
+                    Morgan Roddy graduated in 2021 with an undergraduate degree
+                    in Cultural and Regional Studies and her MS degree in Social
+                    Justice and Community Organizing from Prescott College in
+                    Arizona. Previous projects include internships at the{" "}
                     <Link
                       href="http://www.warehouseworkers.org/"
                       target="_blank"
@@ -423,8 +421,8 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Diana Price has a BS in Nutrition from Cal Poly San Luis Obispo, an
-                    MS in Nutrition and Functional Medicine from the
+                    Diana Price has a BS in Nutrition from Cal Poly San Luis
+                    Obispo, an MS in Nutrition and Functional Medicine from the
                     University of Western States, and is a Registered Dietitian
                     Nutritionist. Diana is a business owner in Livermore;{" "}
                     <Link
@@ -481,8 +479,8 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Diana Price has a BS in Nutrition from Cal Poly San Luis Obispo, an
-                    MS in Nutrition and Functional Medicine from the
+                    Diana Price has a BS in Nutrition from Cal Poly San Luis
+                    Obispo, an MS in Nutrition and Functional Medicine from the
                     University of Western States, and is a Registered Dietitian
                     Nutritionist. Diana is a business owner in Livermore;{" "}
                     <Link
@@ -532,10 +530,17 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Kathleen is the Alameda County WIC Program Director.
-                    Kathleen's full bio will be added in the near future.
+                    Kathleen Willkom-Nicholas has been serving the residents of
+                    Alameda County for over 20 years. Willkom-Nicholas graduated
+                    from the University of the Philippines with her B.S. in
+                    Community Nutrition. Willkom-Nicholas then attended San Jose
+                    State University earning her M.S. in Clinical Nutrition.
+                    After completing her Masters Degree, she entered the Women,
+                    Infant, and Children Nutrition Program, joining Alameda
+                    County WIC in 1996. Since that time, Willkom-Nicholas was
+                    the site manager of the Hayward and Fremont WIC locations
+                    and is now the Program Director.
                   </Typography>
-                 
                 </CardContent>
                 <img
                   component="img"
@@ -574,7 +579,16 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Alameda County WIC Program Director
+                    Kathleen Willkom-Nicholas has been serving the residents of
+                    Alameda County for over 20 years. Willkom-Nicholas graduated
+                    from the University of the Philippines with her B.S. in
+                    Community Nutrition. Willkom-Nicholas then attended San Jose
+                    State University earning her M.S. in Clinical Nutrition.
+                    After completing her Masters Degree, she entered the Women,
+                    Infant, and Children Nutrition Program, joining Alameda
+                    County WIC in 1996. Since that time, Willkom-Nicholas was
+                    the site manager of the Hayward and Fremont WIC locations
+                    and is now the Program Director.
                   </Typography>
                 </CardContent>
               </Box>

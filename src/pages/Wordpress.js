@@ -15,7 +15,7 @@ const Wordpress = () => {
           }}
         >
           <iframe
-            src="https://wptavern.com/blog"
+            src="https://livermoreeatmorevegetables.wordpress.com"
             height="700px"
             width="2000px"
             title="survey"
@@ -30,7 +30,7 @@ const Wordpress = () => {
           }}
         >
           <iframe
-            src="https://wptavern.com/blog"
+            src="https://livermoreeatmorevegetables.wordpress.com"
             height="800px"
             width="800px"
             title="survey-sm"
@@ -45,7 +45,7 @@ const Wordpress = () => {
           }}
         >
           <iframe
-            src="https://wptavern.com/blog"
+            src="https://livermoreeatmorevegetables.wordpress.com"
             height="600px"
             width="600px"
             title="survey-xs"
