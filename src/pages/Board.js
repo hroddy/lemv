@@ -219,7 +219,7 @@ const Board = () => {
                   component="img"
                   height="300"
                   src={dale}
-                  alt="portrait shot of a blonde woman"
+                  alt="portrait shot of a man in a suit"
                 />
               </Box>
             </Card>
@@ -235,7 +235,7 @@ const Board = () => {
                   component="img"
                   height="400"
                   src={dale}
-                  alt="portrait shot of a dark haired woman"
+                  alt="portrait shot of a man in a suit"
                 />
                 <CardContent>
                   <Typography
@@ -462,7 +462,7 @@ const Board = () => {
                   component="img"
                   height="400"
                   src={diana}
-                  alt="portrait shot of a dark haired woman"
+                  alt="portrait shot of a blonde woman"
                 />
                 <CardContent>
                   <Typography
@@ -523,7 +523,7 @@ const Board = () => {
                     color="primary"
                     align="left"
                   >
-                    Kathleen Willkom, RD, MS
+                    Kathleen Willkom-Nicholas, RD, MS
                   </Typography>
                   <Typography
                     variant="body2"
@@ -546,7 +546,7 @@ const Board = () => {
                   component="img"
                   height="300"
                   src={kathleen}
-                  alt="portrait shot of a blonde woman"
+                  alt="portrait shot of a dark haired woman"
                 />
               </Box>
             </Card>
@@ -562,7 +562,7 @@ const Board = () => {
                   component="img"
                   height="400"
                   src={kathleen}
-                  alt="portrait shot of a blonde woman"
+                  alt="portrait shot of a dark haired woman"
                 />
                 <CardContent>
                   <Typography
@@ -571,7 +571,7 @@ const Board = () => {
                     component="div"
                     color="primary"
                   >
-                    Kathleen Willkom, RD, MS
+                    Kathleen Willkom-Nicholas, RD, MS
                   </Typography>
 
                   <Typography
