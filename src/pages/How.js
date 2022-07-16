@@ -4,6 +4,8 @@ import Link from "@mui/material/Link";
 import Typography from "@mui/material/Typography";
 import HowCarousel from "../components/How-Carousel";
 
+import banner from "../assets/illustrations/veggiebanner.png";
+
 const How = () => {
   return (
     <div>
@@ -35,6 +37,40 @@ const How = () => {
           vegetables popular with us are brussel sprouts, zucchini, parsnips,
           kale, cauliflower, cucumbers, and of course garlic and onions! <p />
         </Typography>
+
+        <Container
+          align="center"
+          sx={{
+            display: { xs: "none", sm: "none", md: "none", lg: "block" },
+          }}
+        >
+          <img src={banner} />
+        </Container>
+        <Container
+          align="center"
+          sx={{
+            display: { xs: "none", sm: "none", md: "block", lg: "none" },
+          }}
+        >
+          <img height="125px" src={banner} />
+        </Container>
+        <Container
+          align="center"
+          sx={{
+            display: { xs: "none", sm: "block", md: "none", lg: "none" },
+          }}
+        >
+          <img height="70px" src={banner} />
+        </Container>
+        <Container
+          align="center"
+          sx={{
+            display: { xs: "block", sm: "none", md: "none", lg: "none" },
+          }}
+        >
+          <img height="60px" src={banner} />
+        </Container>
+
         <Typography
           color="primary"
           align="center"
@@ -95,100 +131,120 @@ const How = () => {
         >
           More Recipes!
         </Typography>
-        <Typography
+        {/* <Typography
           color="primary"
           variant="body1"
           mt={5}
-         
           align="left"
           justify="center"
         >
           Here are some great vegetable powered recipes to try! <p />
-          <ul>
-            <li>
-              <Link
-                href="https://www.eatright.org/food/planning-and-prep/recipes/veggie-loaded-sloppy-joes-recipe"
-                target="_blank"
-              >
-                {" "}
-                Veggie-Loaded Sloppy Joes Recipe{" "}
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="https://www.eatright.org/food/planning-and-prep/recipes/slow-cooker-minestrone-soup-recipe"
-                target="_blank"
-              >
-                {" "}
-                Slow-Cooker Minestrone Soup Recipe{" "}
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="https://www.eatright.org/food/planning-and-prep/recipes/pinto-bean-and-roasted-vegetable-tacos-recipe"
-                target="_blank"
-              >
-                {" "}
-                Pinto Bean and Roasted Vegetable Tacos Recipe{" "}
-              </Link>{" "}
-            </li>
-            <li>
-              <Link
-                href="https://www.eatright.org/food/planning-and-prep/recipes/roasted-beet-hummus-recipe"
-                target="_blank"
-              >
-                {" "}
-                Roasted Beet Hummus Recipe{" "}
-              </Link>{" "}
-            </li>
-            <li>
-              <Link
-                href="https://www.eatright.org/food/planning-and-prep/recipes/grilled-eggplant-pesto-pizza-recipe"
-                target="_blank"
-              >
-                {" "}
-                Grilled Eggplant Pesto Pizza Recipe{" "}
-              </Link>{" "}
-            </li>
-            <li>
-              <Link
-                href="https://www.eatright.org/food/planning-and-prep/recipes/tomato-cucumber-and-bell-pepper-gazpacho-recipe"
-                target="_blank"
-              >
-                {" "}
-                Tomato, Cucumber and Bell Pepper Gazpacho Recipe{" "}
-              </Link>{" "}
-            </li>
-            <li>
-              <Link
-                href="https://www.eatright.org/food/planning-and-prep/recipes/no-shell-vegetarian-taco-salad-recipe"
-                target="_blank"
-              >
-                {" "}
-                No-Shell Vegetarian Taco Salad Recipe{" "}
-              </Link>{" "}
-            </li>
-            <li>
-              <Link
-                href="https://www.eatright.org/food/planning-and-prep/recipes/tuscan-bean-salad-with-tomatoes-and-arugula-recipe"
-                target="_blank"
-              >
-                {" "}
-                Tuscan Bean Salad with Tomatoes and Arugula Recipe{" "}
-              </Link>{" "}
-            </li>
-            <li>
-              <Link
-                href="https://www.eatingwell.com/recipes/18256/ingredients/vegetables/"
-                target="_blank"
-              >
-                {" "}
-                Healthy Vegetable Recipes | EatingWell{" "}
-              </Link>{" "}
-            </li>
-          </ul>
-          <hr />
-        </Typography>
+          </Typography> */}
+        <Container align="center">
+          <div
+            style={{
+              maxWidth: "550px",
+              backgroundColor: "#97d600",
+              borderRadius: "25px",
+            }}
+          >
+            <Typography
+              color="secondary"
+              fontSize="30"
+              variant="body1"
+              my={5}
+              p={1}
+              align="left"
+              justify="center"
+            >
+              <ul>
+                <li>
+                  <Link
+                    href="https://www.eatright.org/food/planning-and-prep/recipes/veggie-loaded-sloppy-joes-recipe"
+                    target="_blank"
+                  >
+                    {" "}
+                    Veggie-Loaded Sloppy Joes Recipe{" "}
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="https://www.eatright.org/food/planning-and-prep/recipes/slow-cooker-minestrone-soup-recipe"
+                    target="_blank"
+                  >
+                    {" "}
+                    Slow-Cooker Minestrone Soup Recipe{" "}
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="https://www.eatright.org/food/planning-and-prep/recipes/pinto-bean-and-roasted-vegetable-tacos-recipe"
+                    target="_blank"
+                  >
+                    {" "}
+                    Pinto Bean and Roasted Vegetable Tacos Recipe{" "}
+                  </Link>{" "}
+                </li>
+                <li>
+                  <Link
+                    href="https://www.eatright.org/food/planning-and-prep/recipes/roasted-beet-hummus-recipe"
+                    target="_blank"
+                  >
+                    {" "}
+                    Roasted Beet Hummus Recipe{" "}
+                  </Link>{" "}
+                </li>
+                <li>
+                  <Link
+                    href="https://www.eatright.org/food/planning-and-prep/recipes/grilled-eggplant-pesto-pizza-recipe"
+                    target="_blank"
+                  >
+                    {" "}
+                    Grilled Eggplant Pesto Pizza Recipe{" "}
+                  </Link>{" "}
+                </li>
+                <li>
+                  <Link
+                    href="https://www.eatright.org/food/planning-and-prep/recipes/tomato-cucumber-and-bell-pepper-gazpacho-recipe"
+                    target="_blank"
+                  >
+                    {" "}
+                    Tomato, Cucumber and Bell Pepper Gazpacho Recipe{" "}
+                  </Link>{" "}
+                </li>
+                <li>
+                  <Link
+                    href="https://www.eatright.org/food/planning-and-prep/recipes/no-shell-vegetarian-taco-salad-recipe"
+                    target="_blank"
+                  >
+                    {" "}
+                    No-Shell Vegetarian Taco Salad Recipe{" "}
+                  </Link>{" "}
+                </li>
+                <li>
+                  <Link
+                    href="https://www.eatright.org/food/planning-and-prep/recipes/tuscan-bean-salad-with-tomatoes-and-arugula-recipe"
+                    target="_blank"
+                  >
+                    {" "}
+                    Tuscan Bean Salad with Tomatoes and Arugula Recipe{" "}
+                  </Link>{" "}
+                </li>
+                <li>
+                  <Link
+                    href="https://www.eatingwell.com/recipes/18256/ingredients/vegetables/"
+                    target="_blank"
+                  >
+                    {" "}
+                    Healthy Vegetable Recipes | EatingWell{" "}
+                  </Link>{" "}
+                </li>
+              </ul>
+            </Typography>
+          </div>
+        </Container>
+        <hr />
+
         <Typography
           color="primary"
           variant="body1"

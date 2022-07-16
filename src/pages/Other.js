@@ -34,7 +34,7 @@ const Other = () => {
             style={{
               maxWidth: "750px",
               backgroundColor: "#5D666F",
-              borderRadius: "7%",
+              borderRadius: "25px",
             }}
           >
             <Typography
