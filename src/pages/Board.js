@@ -11,6 +11,7 @@ import Grid from "@mui/material/Grid";
 
 import karen from "../assets/team/karen.jpg";
 import dale from "../assets/team/dale.jpg";
+import nancy from "../assets/team/nancy.jpg";
 import kathleen from "../assets/team/kathleen.png";
 import diana from "../assets/team/diana.jpeg";
 import morgan from "../assets/team/morgan.JPG";
@@ -394,6 +395,82 @@ const Board = () => {
             </Card>
           </Grid>
           {/* MORGAN RODDY END */}
+
+          {/* Nancy Halmer START */}
+          <Grid item sm={12}>
+            <Card
+              sx={{
+                maxWidth: 720,
+                maxheight: 300,
+                display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
+              }}
+            >
+              <Box sx={{ display: "flex", flexDirection: "row" }}>
+                <CardContent>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    color="primary"
+                    align="left"
+                  >
+                    Nancy Halmer, DMSc, MPA, RDN, PA-C
+                  </Typography>
+
+                  <Typography
+                    variant="body2"
+                    color="text.secondary"
+                    align="left"
+                  >
+                    Dr. Hamler's bio is coming ...
+                  </Typography>
+                </CardContent>
+
+                <img
+                  component="img"
+                  height="300"
+                  src={nancy}
+                  alt="portrait shot of a blonde woman"
+                  align="right"
+                />
+              </Box>
+            </Card>
+            <Card
+              sx={{
+                maxWidth: 345,
+                maxheight: 400,
+                display: { xs: "flex", sm: "flex", md: "none", lg: "none" },
+              }}
+            >
+              <Box sx={{ display: "flex", flexDirection: "column" }}>
+                <CardMedia
+                  component="img"
+                  height="400"
+                  src={nancy}
+                  alt="portrait shot of a blonde woman"
+                />
+                <CardContent>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    color="primary"
+                  >
+                    Nancy Halmer, DMSc, MPA, RDN, PA-C
+                  </Typography>
+
+                  <Typography
+                    variant="body2"
+                    color="text.secondary"
+                    align="left"
+                  >
+                    Dr. Hamler's bio is coming ...
+                  </Typography>
+                </CardContent>
+              </Box>
+            </Card>
+          </Grid>
+          {/* Nancy Halmer END */}
 
           {/* DIANA PRINCE START */}
           <Grid item sm={12}>
