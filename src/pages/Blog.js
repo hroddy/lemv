@@ -4,11 +4,16 @@ import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 
-const Survey = () => {
+const Blog = () => {
   return (
     <div>
+        <Container>
+            <Typography align="center" my={10}>
+                Blog posts will be here.
+            </Typography>
+        </Container>
       {/* LG MD DISPLAY */}
-      <Container alignItems="center">
+      {/* <Container alignItems="center">
         <Box
           sx={{
             display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
@@ -21,9 +26,9 @@ const Survey = () => {
             title="survey"
           ></iframe>
         </Box>
-      </Container>
+      </Container> */}
       {/* SM DISPLAY */}
-      <Container alignItems="center">
+      {/* <Container alignItems="center">
         <Box
           sx={{
             display: { xs: "none", sm: "flex", md: "none", lg: "none" },
@@ -36,9 +41,9 @@ const Survey = () => {
             title="survey-sm"
           ></iframe>
         </Box>
-      </Container>
+      </Container> */}
       {/* XS DISPLAY */}
-      <Container alignItems="center">
+      {/* <Container alignItems="center">
         <Box
           sx={{
             display: { xs: "flex", sm: "none", md: "none", lg: "none" },
@@ -51,12 +56,8 @@ const Survey = () => {
             title="survey-xs"
           ></iframe>
         </Box>
-      </Container>
-      {/* <Container>
-      <Typography my={10} align="center">Our study's survey will appear here.</Typography>
       </Container> */}
-    </div> 
-  );
-};
+    </div>
+)}
 
-export default Survey;
+export default Blog;

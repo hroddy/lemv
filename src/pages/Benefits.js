@@ -36,10 +36,76 @@ const Benefits = () => {
           <sup>1-2</sup>
           <p />
           As a culture, we have begun to focus more on self care and few things
-          impact our health as surely as the food we eat.
+          impact our health as surely as the food we eat. While eating well can
+          help maintain a healthy body, it can also impact a variety of
+          illnesses. In fact, a recent study in the American Journal of
+          Lifestyle Medicine has proved that{" "}
+          <Link
+            target="_blank"
+            href="https://www.prnewswire.com/news-releases/american-college-of-lifestyle-medicine-publishes-consensus-statement-with-multiple-society-support-on-use-of-diet-as-a-primary-intervention-to-achieve-diabetes-remission-301551431.html#"
+          >
+            “diet alone can achieve remission… for many adults with type 2
+            diabetes.”
+          </Link>
+          <sup>3</sup>{" "}
+          <Link
+            target="_blank"
+            href="https://www.health.harvard.edu/blog/phytonutrients-paint-your-plate-with-the-colors-of-the-rainbow-2019042516501"
+          >
+            Vegetables also contain phytonutrients
+          </Link>
+          <sup>4</sup>, which not only protect from chronic disease, but may
+          also protect against some forms of cancer. In fact,{" "}
+          <Link
+            target="_blank"
+            href="https://www.cancer.org/healthy/eat-healthy-get-active/acs-guidelines-nutrition-physical-activity-cancer-prevention/guidelines.html"
+          >
+            the American Cancer Society
+          </Link>
+          <sup>5</sup> includes eating vegetables as part of their suggested
+          guidelines.
+          <p />
+          All of this data is great news to the many people with chronic illness
+          who may have been told they can only be treated through invasive or
+          expensive methods. Whether you are seeking to improve your health,
+          prevent disease, or simply take better care of yourself, eating more
+          vegetables is a great place to start.
         </Typography>
         <hr />
-        <Typography variant="body1" mt={6} align="left" fontSize={12}>
+        <Typography variant="body1" my={5} align="left" fontSize={12}>
+          Links from paragraphs:
+        <ul>
+          <li>
+            <Link
+              target="_blank"
+              href="https://www.prnewswire.com/news-releases/american-college-of-lifestyle-medicine-publishes-consensus-statement-with-multiple-society-support-on-use-of-diet-as-a-primary-intervention-to-achieve-diabetes-remission-301551431.html#"
+            >
+              American College of Lifestyle Medicine Publishes Consensus
+              Statement with Multiple Society Support on Use of Diet as a
+              Primary Intervention to Achieve Diabetes Remission.{" "}
+            </Link>
+          </li>
+          <li>
+            <Link
+              target="_blank"
+              href="https://www.health.harvard.edu/blog/phytonutrients-paint-your-plate-with-the-colors-of-the-rainbow-2019042516501"
+            >
+              Phytonutrients: Paint your plate with the colors of the rainbow -
+              Harvard Health{" "}
+            </Link>
+          </li>
+          <li>
+            <Link
+              target="_blank"
+              href="https://www.cancer.org/healthy/eat-healthy-get-active/acs-guidelines-nutrition-physical-activity-cancer-prevention/guidelines.html"
+            >
+              American Cancer Society Guideline for Diet and Physical Activity{" "}
+            </Link>
+          </li>
+        </ul>
+        </Typography>
+        <hr />
+        <Typography variant="body1" mt={5} align="left" fontSize={12}>
           <ol>
             <li>
               Lee SH. Adults Meeting Fruit and Vegetable Intake Recommendations
@@ -68,7 +134,8 @@ const Benefits = () => {
               </Link>{" "}
             </li>
           </ol>{" "}
-        </Typography>
+          </Typography>
+       
         <Typography
           fontSize={12}
           variant="body1"

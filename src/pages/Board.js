@@ -84,7 +84,7 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Karen Roddy has BS degrees in Marketing, Human Nutrition,
+                    Karen Roddy has bachelors' degrees in Marketing, Human Nutrition,
                     and Dietetics and is currently working on her MS in Clinical
                     Nutrition at University of the Pacific. After working for
                     Ernst & Young as Director of Marketing, Roddy and her
@@ -142,7 +142,7 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Karen Roddy has BS degrees in Marketing, Human Nutrition,
+                    Karen Roddy has bachelors' degrees in Marketing, Human Nutrition,
                     and Dietetics and is currently working on her MS in Clinical
                     Nutrition at University of the Pacific. After working for
                     Ernst & Young as Director of Marketing, Roddy and her
@@ -195,7 +195,7 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Dale Wallis has BS and MS degrees in accounting from
+                    Dale Wallis has bachelors' and masters' degrees in accounting from
                     Oklahoma State University. Wallis is licensed as a CPA in
                     Oklahoma and California. During his almost 50-year career,
                     Wallis has served in management of two of the “Big-4” CPA
@@ -261,7 +261,7 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Dale Wallis has BS and MS degrees in accounting from
+                    Dale Wallis has bachelors' and masters' degrees in accounting from
                     Oklahoma State University. Wallis is licensed as a CPA in
                     Oklahoma and California. During his almost 50-year career,
                     Wallis has served in management of two of the “Big-4” CPA
@@ -314,8 +314,8 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Morgan Roddy graduated in 2021 with an undergraduate degree
-                    in Cultural and Regional Studies and her MA degree in Social
+                    Morgan Roddy graduated in 2021 with a bachelor's degree
+                    in Cultural and Regional Studies and a master's degree in Social
                     Justice and Community Organizing from Prescott College in
                     Arizona. Previous projects include internships at the{" "}
                     <Link
@@ -375,8 +375,8 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Morgan Roddy graduated in 2021 with an undergraduate degree
-                    in Cultural and Regional Studies and her MA degree in Social
+                    Morgan Roddy graduated in 2021 with a bachelor's degree
+                    in Cultural and Regional Studies and a master's degree in Social
                     Justice and Community Organizing from Prescott College in
                     Arizona. Previous projects include internships at the{" "}
                     <Link
@@ -498,8 +498,8 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Diana Price has a BS in Nutrition from Cal Poly San Luis
-                    Obispo, an MS in Nutrition and Functional Medicine from the
+                    Diana Price has a bachelor's in Nutrition from Cal Poly San Luis
+                    Obispo, a master's in Nutrition and Functional Medicine from the
                     University of Western States, and is a Registered Dietitian
                     Nutritionist. Diana is a business owner in Livermore;{" "}
                     <Link
@@ -556,8 +556,8 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Diana Price has a BS in Nutrition from Cal Poly San Luis
-                    Obispo, an MS in Nutrition and Functional Medicine from the
+                    Diana Price has a bachelor's in Nutrition from Cal Poly San Luis
+                    Obispo, a master's in Nutrition and Functional Medicine from the
                     University of Western States, and is a Registered Dietitian
                     Nutritionist. Diana is a business owner in Livermore;{" "}
                     <Link
@@ -609,10 +609,10 @@ const Board = () => {
                   >
                     Kathleen Willkom-Nicholas has been serving the residents of
                     Alameda County for over 20 years. Willkom-Nicholas graduated
-                    from the University of the Philippines with her B.S. in
+                    from the University of the Philippines with her bachelor’s in
                     Community Nutrition. Willkom-Nicholas then attended San Jose
-                    State University earning her M.S. in Clinical Nutrition.
-                    After completing her Masters Degree, she entered the Women,
+                    State University earning her master's in Clinical Nutrition.
+                    After completing her master's degree, she entered the Women,
                     Infant, and Children Nutrition Program, joining Alameda
                     County WIC in 1996. Since that time, Willkom-Nicholas was
                     the site manager of the Hayward and Fremont WIC locations
@@ -658,10 +658,10 @@ const Board = () => {
                   >
                     Kathleen Willkom-Nicholas has been serving the residents of
                     Alameda County for over 20 years. Willkom-Nicholas graduated
-                    from the University of the Philippines with her B.S. in
+                    from the University of the Philippines with her bachelor's in
                     Community Nutrition. Willkom-Nicholas then attended San Jose
-                    State University earning her M.S. in Clinical Nutrition.
-                    After completing her Masters Degree, she entered the Women,
+                    State University earning her master's in Clinical Nutrition.
+                    After completing her master's degree, she entered the Women,
                     Infant, and Children Nutrition Program, joining Alameda
                     County WIC in 1996. Since that time, Willkom-Nicholas was
                     the site manager of the Hayward and Fremont WIC locations

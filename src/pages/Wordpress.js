@@ -4,24 +4,24 @@ import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 
-const Survey = () => {
+const Wordpress = () => {
   return (
     <div>
       {/* LG MD DISPLAY */}
-      <Container alignItems="center">
+      {/* <Container alignItems="center"> */}
         <Box
           sx={{
             display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
           }}
         >
           <iframe
-            src="https://dentalpacific.az1.qualtrics.com/jfe/form/SV_ey9TLlpoVF6axyS"
-            height="800px"
-            width="1200px"
+            src="https://livermoreeatmorevegetables.wordpress.com"
+            height="700px"
+            width="2000px"
             title="survey"
           ></iframe>
         </Box>
-      </Container>
+      {/* </Container> */}
       {/* SM DISPLAY */}
       <Container alignItems="center">
         <Box
@@ -30,7 +30,7 @@ const Survey = () => {
           }}
         >
           <iframe
-            src="https://dentalpacific.az1.qualtrics.com/jfe/form/SV_ey9TLlpoVF6axyS"
+            src="https://livermoreeatmorevegetables.wordpress.com"
             height="800px"
             width="800px"
             title="survey-sm"
@@ -38,25 +38,21 @@ const Survey = () => {
         </Box>
       </Container>
       {/* XS DISPLAY */}
-      <Container alignItems="center">
+      {/* <Container alignItems="center"> */}
         <Box
           sx={{
             display: { xs: "flex", sm: "none", md: "none", lg: "none" },
           }}
         >
           <iframe
-            src="https://dentalpacific.az1.qualtrics.com/jfe/form/SV_ey9TLlpoVF6axyS"
+            src="https://livermoreeatmorevegetables.wordpress.com"
             height="600px"
-            width="400px"
+            width="600px"
             title="survey-xs"
           ></iframe>
         </Box>
-      </Container>
-      {/* <Container>
-      <Typography my={10} align="center">Our study's survey will appear here.</Typography>
-      </Container> */}
-    </div> 
-  );
-};
+      {/* </Container> */}
+    </div>
+)}
 
-export default Survey;
+export default Wordpress;

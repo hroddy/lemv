@@ -1,20 +1,22 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-
 import Home from "./pages/Home";
 
-
 import Navigation from "./components/Nav/nav2";
+import Broken from "./pages/Broken";
+import Footer from "./components/Footer/index";
+
+import Blog from "./pages/Blog";
+import Wordpress from "./pages/Wordpress";
 
 import Survey from "./pages/Survey";
 import How from "./pages/How";
 import Benefits from "./pages/Benefits";
 import Who from "./pages/Who";
-import Other from "./pages/Other";
+import More from "./pages/Other";
 import Board from "./pages/Board";
-import Broken from "./pages/Broken";
-import Footer from "./components/Footer/index";
+
 import "./index.css";
 import { ThemeProvider } from "@emotion/react";
 import { theme } from "./utils/theme.js";
@@ -38,8 +40,8 @@ function App() {
               <Benefits />
             </Route>
 
-            <Route exact path="/other">
-              <Other />
+            <Route exact path="/more">
+              <More />
             </Route>
 
             <Route exact path="/how">
@@ -52,6 +54,14 @@ function App() {
 
             <Route exact path="/board">
               <Board />
+            </Route>
+
+            <Route exact path="/blog">
+              <Blog />
+            </Route>
+
+            <Route exact path="/wordpress">
+              <Wordpress />
             </Route>
 
             <Route exact path="/broken">

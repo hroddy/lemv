@@ -224,8 +224,8 @@ const Who = () => {
                     >
                       Board of Directors
                     </Link>.{" "} Diana
-                    has a BS in Nutrition from Cal Poly San Luis Obispo, an
-                    MS in Nutrition and Functional Medicine from the
+                    has a bachelor's in Nutrition from Cal Poly San Luis Obispo, a
+                    master's in Nutrition and Functional Medicine from the
                     University of Western States, and is a Registered Dietitian
                     Nutritionist. Diana is a business owner in Livermore;{" "}
                     <Link
@@ -290,8 +290,8 @@ const Who = () => {
                     >
                       Board of Directors
                     </Link>.{" "} Diana
-                    has a BS in Nutrition from Cal Poly San Luis Obispo, an
-                    MS in Nutrition and Functional Medicine from the
+                    has a bachelor's in Nutrition from Cal Poly San Luis Obispo, a
+                    master's in Nutrition and Functional Medicine from the
                     University of Western States, and is a Registered Dietitian
                     Nutritionist. Diana is a business owner in Livermore;{" "}
                     <Link
@@ -350,7 +350,7 @@ const Who = () => {
                     >
                       Board of Directors
                     </Link>.{" "} Karen
-                    has BS degrees in Marketing, Human Nutrition, and Dietetics
+                    has bachelors' degrees in Marketing, Human Nutrition, and Dietetics
                     and is currently working on her master's in Clinical Nutrition at
                     University of the Pacific. After working for Ernst & Young
                     as Director of Marketing, Roddy and her husband Steve moved
@@ -407,8 +407,8 @@ const Who = () => {
                       cursor="pointer"
                     >
                       Board of Directors
-                    </Link>.{" "}. Karen has BS degrees in Marketing, Human
-                    Nutrition, and Dietetics and is currently working on her MS
+                    </Link>.{" "}. Karen has bachelors' degrees in Marketing, Human
+                    Nutrition, and Dietetics and is currently working on her master's
                     in Clinical Nutrition at University of the Pacific. After
                     working for Ernst & Young as Director of Marketing, Roddy
                     and her husband Steve moved to Livermore, where they have
@@ -521,7 +521,7 @@ const Who = () => {
                     color="primary"
                     align="left"
                   >
-                    Morgan Roddy, MS
+                    Morgan Roddy, MA
                   </Typography>
                   <Typography
                     variant="body2"
@@ -535,9 +535,9 @@ const Who = () => {
                       cursor="pointer"
                     >
                       Board of Directors
-                    </Link>.{" "}Morgan graduated in 2021 with an
-                    undergraduate degree in Cultural and Regional Studies and her
-                    MS degree in Social Justice and Community Organizing
+                    </Link>.{" "}Morgan graduated in 2021 with a
+                    bachelor's degree in Cultural and Regional Studies and a
+                    master's degree in Social Justice and Community Organizing
                     from Prescott College in Arizona. Previous projects include
                     internships at the{" "}
                     <Link
@@ -596,8 +596,8 @@ const Who = () => {
                     >
                       Board of Directors
                     </Link>.{" "}
-                    . Morgan graduated in 2021 with an undergraduate degree in
-                    Cultural and Regional Studies and her MS degree in
+                    . Morgan graduated in 2021 with a bachelor's degree in
+                    Cultural and Regional Studies and a master's degree in
                     Social Justice and Community Organizing from Prescott
                     College in Arizona. Previous projects include internships at
                     the{" "}
@@ -643,7 +643,7 @@ const Who = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Rachel Roddy is currently completing her undergraduate
+                    Rachel Roddy is currently completing her bachelor's
                     degree in Classics at UC Davis in preparation to attend law
                     school in 2023.
                   </Typography>
@@ -684,7 +684,7 @@ const Who = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Rachel Roddy is currently completing her undergraduate
+                    Rachel Roddy is currently completing her bachelor's
                     degree in Classics at UC Davis in preparation to attend law
                     school in 2023.
                   </Typography>
@@ -719,8 +719,8 @@ const Who = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Emily Sabedra has an undergraduate degree from UC Davis in
-                    Clinical Nutrition. She is currently pursuing her Masters in
+                    Emily Sabedra has a bachelor's degree from UC Davis in
+                    Clinical Nutrition. She is currently pursuing her master's in
                     nutrition. Emily is working this summer on a Needs
                     Assessment for LEMV. This survey will help LEMV understand
                     what barriers Livermore residents face for incorporating
@@ -764,8 +764,8 @@ const Who = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Emily Sabedra has an undergraduate degree from UC Davis in
-                    Clinical Nutrition. She is currently pursuing her Masters in
+                    Emily Sabedra has a bachelor's degree from UC Davis in
+                    Clinical Nutrition. She is currently pursuing her master's in
                     nutrition. Emily is working this summer on a Needs
                     Assessment for LEMV. This survey will help LEMV understand
                     what barriers Livermore residents face for incorporating
