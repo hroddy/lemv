@@ -532,10 +532,10 @@ const Board = () => {
                   >
                     Kathleen Willkom-Nicholas has been serving the residents of
                     Alameda County for over 20 years. Willkom-Nicholas graduated
-                    from the University of the Philippines with her B.S. in
+                    from the University of the Philippines with her bachelor’s in
                     Community Nutrition. Willkom-Nicholas then attended San Jose
-                    State University earning her M.S. in Clinical Nutrition.
-                    After completing her Masters Degree, she entered the Women,
+                    State University earning her master's in Clinical Nutrition.
+                    After completing her master's degree, she entered the Women,
                     Infant, and Children Nutrition Program, joining Alameda
                     County WIC in 1996. Since that time, Willkom-Nicholas was
                     the site manager of the Hayward and Fremont WIC locations
@@ -581,10 +581,10 @@ const Board = () => {
                   >
                     Kathleen Willkom-Nicholas has been serving the residents of
                     Alameda County for over 20 years. Willkom-Nicholas graduated
-                    from the University of the Philippines with her B.S. in
+                    from the University of the Philippines with her bachelor's in
                     Community Nutrition. Willkom-Nicholas then attended San Jose
-                    State University earning her M.S. in Clinical Nutrition.
-                    After completing her Masters Degree, she entered the Women,
+                    State University earning her master's in Clinical Nutrition.
+                    After completing her master's degree, she entered the Women,
                     Infant, and Children Nutrition Program, joining Alameda
                     County WIC in 1996. Since that time, Willkom-Nicholas was
                     the site manager of the Hayward and Fremont WIC locations

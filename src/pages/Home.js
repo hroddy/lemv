@@ -1,5 +1,9 @@
 import React from "react";
+
 import Carousel from "../components/Carousel";
+
+import Grid from "@mui/material/Grid";
+import Button from "@mui/material/Button";
 import Link from "@mui/material/Link";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
@@ -57,6 +61,17 @@ const Home = () => {
           LEMV’s mission is to support Livermorians in their efforts to Eat.
           More. Vegetables. LEMV will apply for grant funding in Fall 2022.
         </Typography>
+        
+            <Typography my={5} color="primary" variant="body1" align="center">
+              <Button
+                variant="filled"
+                sx={{ backgroundColor: "#97d600" }}
+                href="/wordpress"
+              >
+                Check out our blog!
+              </Button>
+            </Typography>
+
         <hr />
         <Typography
           color="primary"
