@@ -16,7 +16,7 @@ import Typography from "@mui/material/Typography";
           </Button> */
 }
 
-const Other = () => {
+const More = () => {
   return (
     <div>
       <OtherCarousel />
@@ -144,8 +144,8 @@ const Other = () => {
           align="left"
           justify="center"
         >
-          We hear you. The word vegetables often literally leaves a bad taste in
-          people's mouths, depending on the types of vegetables they have had in
+          We hear you. For some people the word vegetables can leave a bad taste
+          in their mouth, depending on the types of vegetables they have had in
           their lives. One too many under seasoned carrot can make you want to
           swear them off for good. The main thing to remember is this: if when
           you think of vegetables you imagine some gross or boring dish, don't
@@ -197,13 +197,13 @@ const Other = () => {
               <li>
                 What about fruit, fiber, whole grains, and physical activity?
               </li>
-             
+
               <li>What about eating out?</li>
-            
+
               <li>
                 Farmers’ Market vouchers*: increasing ease of access for all
               </li>
-              
+
               <li>
                 Type 2 diabetes, adults* –{" "}
                 <Link
@@ -215,20 +215,20 @@ const Other = () => {
                 </Link>{" "}
                 as a primary remission intervention<sup>1</sup>
               </li>
-            
+
               <li>
                 Where do Livermore’s vegetables come from: local sourcing,
                 healthy growing practices
               </li>
-             
+
               <li>
                 Getting our hands dirty: growing vegetables as a community
               </li>
-             
+
               <li>
                 Health at every size: calorie counting vs nutritional content{" "}
               </li>
-              
+
               <li>
                 Rethinking our eating habits:
                 <Link
@@ -240,14 +240,14 @@ const Other = () => {
                   balanced plate{" "}
                 </Link>{" "}
               </li>
-             
+
               <li>
                 For parents: getting our children involved with food, nutrition,
                 health
               </li>
-              
+
               <li>Pickling vegetables</li>
-             
+
               <li>
                 <Link
                   href="https://www.health.harvard.edu/blog/phytonutrients-paint-your-plate-with-the-colors-of-the-rainbow-2019042516501"
@@ -259,7 +259,7 @@ const Other = () => {
                 </Link>
                 <sup>2</sup> Diversity in our vegetable consumption is crucial.
               </li>
-             
+
               <li>
                 <Link
                   href="https://dhss.delaware.gov/dph/dpc/eatright.html"
@@ -271,7 +271,7 @@ const Other = () => {
                   Services
                 </Link>
               </li>
-             
+
               <li>
                 <Link
                   href="https://www.hsph.harvard.edu/nutritionsource/healthy-eating-plate/"
@@ -283,7 +283,7 @@ const Other = () => {
                   School of Public Health
                 </Link>
               </li>
-              
+
               <li>
                 <Link
                   href="https://www.eatingwell.com/article/7938735/the-best-vegetables-for-weight-loss-according-to-dietitians/"
@@ -295,7 +295,7 @@ const Other = () => {
                   Dietitians
                 </Link>
               </li>
-             
+
               <li>
                 <Link
                   href="https://www.eatingwell.com/category/4239/best-foods-for-weight-loss/"
@@ -306,7 +306,7 @@ const Other = () => {
                   Best Foods for Weight-Loss | EatingWell
                 </Link>
               </li>
-             
+
               <li>
                 <Link
                   href="https://ucfhealth.com/health-tips/three-of-the-healthiest-ways-to-cook-vegetables/"
@@ -317,7 +317,7 @@ const Other = () => {
                   Three of the Healthiest Ways to Cook Vegetables | UCF Health
                 </Link>
               </li>
-             
+
               <li>
                 <Link
                   href="https://www.self.com/story/mediterranean-diet-cultural-foods"
@@ -329,7 +329,7 @@ const Other = () => {
                   We Need to Talk About | SELF
                 </Link>
               </li>
-              
+
               <li>
                 <Link
                   href="https://www.eatright.org/food/planning-and-prep/snack-and-meal-ideas/5-quick-and-healthy-meals-without-using-the-stove"
@@ -340,7 +340,7 @@ const Other = () => {
                   5 Quick and Healthy Meals without Using the Stove
                 </Link>
               </li>
-             
+
               <li>
                 <Link
                   href="https://www.mdanderson.org/publications/focused-on-health/SMART-goals-diet-and-nutrition.h10-1591413.html"
@@ -352,7 +352,6 @@ const Other = () => {
                   Cancer Center
                 </Link>
               </li>
-          
             </ul>
           </Typography>
         </div>
@@ -430,4 +429,4 @@ const Other = () => {
   );
 };
 
-export default Other;
+export default More;

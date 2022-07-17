@@ -14,7 +14,7 @@ import Survey from "./pages/Survey";
 import How from "./pages/How";
 import Benefits from "./pages/Benefits";
 import Who from "./pages/Who";
-import Other from "./pages/Other";
+import More from "./pages/Other";
 import Board from "./pages/Board";
 
 import "./index.css";
@@ -40,8 +40,8 @@ function App() {
               <Benefits />
             </Route>
 
-            <Route exact path="/other">
-              <Other />
+            <Route exact path="/more">
+              <More />
             </Route>
 
             <Route exact path="/how">
