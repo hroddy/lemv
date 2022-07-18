@@ -53,7 +53,7 @@ const More = () => {
           variant="h4"
           fontFamily="Playfair Display"
         >
-          Why Vegetables?
+          Why vegetables?
         </Typography>
         <Typography
           color="primary"
@@ -91,10 +91,10 @@ const More = () => {
           align="left"
           justify="center"
         >
-          Not only does everyone who makes LEMV possible have their own personal
-          connections to this land, we believe in the individual responsibility
-          to support our hometown and our community in the ways we know how. We
-          also recognize that this is the native land of the{" "}
+          While not everyone who makes LEMV possible considers Livermore their
+          hometown, we do believe in the collective responsibility to support
+          our communities in the ways we know how. We also recognize that this
+          is the native land of the{" "}
           <Link href="http://www.muwekma.org/" target="_blank">
             Muwekma Ohlone Tribe
           </Link>
@@ -108,7 +108,7 @@ const More = () => {
           variant="h4"
           fontFamily="Playfair Display"
         >
-          How Do I Grow My Own?
+          How do I grow my own?
         </Typography>
         <Typography
           color="primary"
@@ -135,7 +135,7 @@ const More = () => {
           variant="h4"
           fontFamily="Playfair Display"
         >
-          What if I Hate Vegetables?
+          What if I hate vegetables?
         </Typography>
         <Typography
           color="primary"
@@ -162,7 +162,7 @@ const More = () => {
           variant="h4"
           fontFamily="Playfair Display"
         >
-          What Else is in the Works?
+          What else is in the works?
         </Typography>
         <Typography
           color="primary"
@@ -247,6 +247,8 @@ const More = () => {
               </li>
 
               <li>Pickling vegetables</li>
+
+              <li>Mental health and nutrition</li>
 
               <li>
                 <Link

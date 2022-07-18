@@ -47,22 +47,22 @@ const Benefits = () => {
             “diet alone can achieve remission… for many adults with type 2
             diabetes.”
           </Link>
-          <sup>3</sup>{" "}
+          {" "}
           <Link
             target="_blank"
             href="https://www.health.harvard.edu/blog/phytonutrients-paint-your-plate-with-the-colors-of-the-rainbow-2019042516501"
           >
             Vegetables also contain phytonutrients
           </Link>
-          <sup>4</sup>, which not only protect from chronic disease, but may
+          , which not only protect from chronic disease, but may
           also protect against some forms of cancer. In fact,{" "}
           <Link
             target="_blank"
             href="https://www.cancer.org/healthy/eat-healthy-get-active/acs-guidelines-nutrition-physical-activity-cancer-prevention/guidelines.html"
           >
             the American Cancer Society
-          </Link>
-          <sup>5</sup> includes eating vegetables as part of their suggested
+          </Link>{" "}
+           includes eating vegetables as part of their suggested
           guidelines.
           <p />
           All of this data is great news to the many people with chronic illness
@@ -73,7 +73,7 @@ const Benefits = () => {
         </Typography>
         <hr />
         <Typography variant="body1" my={5} align="left" fontSize={12}>
-          Links from paragraphs:
+          Links from the paragraphs:
         <ul>
           <li>
             <Link

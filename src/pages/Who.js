@@ -407,7 +407,7 @@ const Who = () => {
                       cursor="pointer"
                     >
                       Board of Directors
-                    </Link>.{" "}. Karen has bachelors' degrees in Marketing, Human
+                    </Link>.{" "} Karen has bachelors' degrees in Marketing, Human
                     Nutrition, and Dietetics and is currently working on her master's
                     in Clinical Nutrition at University of the Pacific. After
                     working for Ernst & Young as Director of Marketing, Roddy
@@ -596,7 +596,7 @@ const Who = () => {
                     >
                       Board of Directors
                     </Link>.{" "}
-                    . Morgan graduated in 2021 with a bachelor's degree in
+                    Morgan graduated in 2021 with a bachelor's degree in
                     Cultural and Regional Studies and a master's degree in
                     Social Justice and Community Organizing from Prescott
                     College in Arizona. Previous projects include internships at

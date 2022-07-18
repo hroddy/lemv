@@ -195,7 +195,7 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Dale Wallis has bachelors' and masters' degrees in accounting from
+                    Dale Wallis has bachelor's and master's degrees in accounting from
                     Oklahoma State University. Wallis is licensed as a CPA in
                     Oklahoma and California. During his almost 50-year career,
                     Wallis has served in management of two of the “Big-4” CPA
@@ -396,7 +396,7 @@ const Board = () => {
           </Grid>
           {/* MORGAN RODDY END */}
 
-          {/* Nancy Halmer START */}
+          {/* Nancy Hamler START */}
           <Grid item sm={12}>
             <Card
               sx={{
@@ -414,7 +414,7 @@ const Board = () => {
                     color="primary"
                     align="left"
                   >
-                    Nancy Halmer, DMSc, MPA, RDN, PA-C
+                    Nancy Hamler, DMSc, MPA, RDN, PA-C
                   </Typography>
 
                   <Typography
@@ -456,7 +456,7 @@ const Board = () => {
                     component="div"
                     color="primary"
                   >
-                    Nancy Halmer, DMSc, MPA, RDN, PA-C
+                    Nancy Hamler, DMSc, MPA, RDN, PA-C
                   </Typography>
 
                   <Typography
@@ -470,7 +470,7 @@ const Board = () => {
               </Box>
             </Card>
           </Grid>
-          {/* Nancy Halmer END */}
+          {/* Nancy Hamler END */}
 
           {/* DIANA PRINCE START */}
           <Grid item sm={12}>
