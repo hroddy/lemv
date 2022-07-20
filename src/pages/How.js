@@ -44,7 +44,7 @@ const How = () => {
             display: { xs: "none", sm: "none", md: "none", lg: "block" },
           }}
         >
-          <img src={banner} />
+          <img src={banner} alt="illustrated vegetables"/>
         </Container>
         <Container
           align="center"
@@ -52,7 +52,7 @@ const How = () => {
             display: { xs: "none", sm: "none", md: "block", lg: "none" },
           }}
         >
-          <img height="125px" src={banner} />
+          <img height="125px" alt="illustrated vegetables" src={banner} />
         </Container>
         <Container
           align="center"
@@ -60,7 +60,7 @@ const How = () => {
             display: { xs: "none", sm: "block", md: "none", lg: "none" },
           }}
         >
-          <img height="70px" src={banner} />
+          <img height="70px" alt="illustrated vegetables" src={banner} />
         </Container>
         <Container
           align="center"
@@ -68,7 +68,7 @@ const How = () => {
             display: { xs: "block", sm: "none", md: "none", lg: "none" },
           }}
         >
-          <img height="60px" src={banner} />
+          <img height="60px" alt="illustrated vegetables" src={banner} />
         </Container>
 
         <Typography
@@ -131,15 +131,7 @@ const How = () => {
         >
           More Recipes!
         </Typography>
-        {/* <Typography
-          color="primary"
-          variant="body1"
-          mt={5}
-          align="left"
-          justify="center"
-        >
-          Here are some great vegetable powered recipes to try! <p />
-          </Typography> */}
+        
         <Container align="center">
           <div
             style={{

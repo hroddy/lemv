@@ -2,7 +2,6 @@ import React from "react";
 
 import Carousel from "../components/Carousel";
 
-import Grid from "@mui/material/Grid";
 import Button from "@mui/material/Button";
 import Link from "@mui/material/Link";
 import Typography from "@mui/material/Typography";
