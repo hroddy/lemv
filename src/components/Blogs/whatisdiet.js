@@ -37,7 +37,7 @@ const blog1 = {
     resources relating to our relationships with food.`,
     `In the end, you should enjoy what you eat! If you are looking
     for ways to add more vegetables into your diet, check out our
-    How page: www.lemv.org/how 
+    How page: www.lemv.org/how
        ${(
          <a href="www.lemv.org/how" target="_blank">
            // www.lemv.org/how //{" "}

@@ -22,7 +22,7 @@ const Blog = () => {
       <Container alignItems="space-evenly">
         <Box
           sx={{
-            display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
+            display: { xs: "none", sm: "flex", md: "flex", lg: "flex" },
           }}
         >
           <Grid
