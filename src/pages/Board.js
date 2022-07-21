@@ -84,17 +84,17 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Karen Roddy has bachelors' degrees in Marketing, Human Nutrition,
-                    and Dietetics and is currently working on her MS in Clinical
-                    Nutrition at University of the Pacific. After working for
-                    Ernst & Young as Director of Marketing, Roddy and her
-                    husband Steve moved to Livermore, where they have lived for
-                    over 20 years and raised their three daughters. She was the
-                    founder and president of a non-profit 501(c)(3) in
-                    Livermore, Outstanding Academic Opportunities (OAO), which
-                    served 400 homeschooling families from Concord to Livermore
-                    by hiring teachers and creating classes for junior high and
-                    high school students.
+                    Karen Roddy has bachelors' degrees in Marketing, Human
+                    Nutrition, and Dietetics and is currently working on her MS
+                    in Clinical Nutrition at University of the Pacific. After
+                    working for Ernst & Young as Director of Marketing, Roddy
+                    and her husband Steve moved to Livermore, where they have
+                    lived for over 20 years and raised their three daughters.
+                    She was the founder and president of a non-profit 501(c)(3)
+                    in Livermore, Outstanding Academic Opportunities (OAO),
+                    which served 400 homeschooling families from Concord to
+                    Livermore by hiring teachers and creating classes for junior
+                    high and high school students.
                   </Typography>
                 </CardContent>
                 <img
@@ -142,17 +142,17 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Karen Roddy has bachelors' degrees in Marketing, Human Nutrition,
-                    and Dietetics and is currently working on her MS in Clinical
-                    Nutrition at University of the Pacific. After working for
-                    Ernst & Young as Director of Marketing, Roddy and her
-                    husband Steve moved to Livermore, where they have lived for
-                    over 20 years and raised their three daughters. She was the
-                    founder and president of a non-profit 501(c)(3) in
-                    Livermore, Outstanding Academic Opportunities (OAO), which
-                    served 400 homeschooling families from Concord to Livermore
-                    by hiring teachers and creating classes for junior high and
-                    high school students.
+                    Karen Roddy has bachelors' degrees in Marketing, Human
+                    Nutrition, and Dietetics and is currently working on her MS
+                    in Clinical Nutrition at University of the Pacific. After
+                    working for Ernst & Young as Director of Marketing, Roddy
+                    and her husband Steve moved to Livermore, where they have
+                    lived for over 20 years and raised their three daughters.
+                    She was the founder and president of a non-profit 501(c)(3)
+                    in Livermore, Outstanding Academic Opportunities (OAO),
+                    which served 400 homeschooling families from Concord to
+                    Livermore by hiring teachers and creating classes for junior
+                    high and high school students.
                   </Typography>
                 </CardContent>
               </Box>
@@ -195,18 +195,19 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Dale Wallis has bachelor's and master's degrees in accounting from
-                    Oklahoma State University. Wallis is licensed as a CPA in
-                    Oklahoma and California. During his almost 50-year career,
-                    Wallis has served in management of two of the “Big-4” CPA
-                    firms – KPMG in Tulsa, Oklahoma, and Ernst & Young in San
-                    Diego, California – as well as a partner in a small CPA
-                    firm. In retirement he continues to practice as a sole
-                    proprietor. Wallis has served on the Board of Directors for
-                    a variety of corporations and nonprofits and is also
-                    passionate about education. His teaching interests include
-                    ethics in accounting and financial statement analysis. To
-                    read more about Dale, view his{" "}
+                    Dale Wallis has bachelor's and master's degrees in
+                    accounting from Oklahoma State University. Wallis is
+                    licensed as a CPA in Oklahoma and California. During his
+                    almost 50-year career, Wallis has served in management of
+                    two of the “Big-4” CPA firms – KPMG in Tulsa, Oklahoma, and
+                    Ernst & Young in San Diego, California – as well as a
+                    partner in a small CPA firm. In retirement he continues to
+                    practice as a sole proprietor. Wallis has served on the
+                    Board of Directors for a variety of corporations and
+                    nonprofits and is also passionate about education. His
+                    teaching interests include ethics in accounting and
+                    financial statement analysis. To read more about Dale, view
+                    his{" "}
                     <Link
                       href="https://drive.google.com/file/d/14pufkM4fhWerzifTG-AWTysCbzIwwE_x/view"
                       target="_blank"
@@ -261,17 +262,18 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Dale Wallis has bachelors' and masters' degrees in accounting from
-                    Oklahoma State University. Wallis is licensed as a CPA in
-                    Oklahoma and California. During his almost 50-year career,
-                    Wallis has served in management of two of the “Big-4” CPA
-                    firms – KPMG in Tulsa, Oklahoma, and Ernst & Young in San
-                    Diego, California – as well as a partner in a small CPA
-                    firm. In retirement he continues to practice as a sole
-                    proprietor. Wallis has served on the Board of Directors for
-                    a variety of corporations and nonprofits and is also
-                    passionate about education. His teaching interests include
-                    ethics in accounting and financial statement analysis.
+                    Dale Wallis has bachelors' and masters' degrees in
+                    accounting from Oklahoma State University. Wallis is
+                    licensed as a CPA in Oklahoma and California. During his
+                    almost 50-year career, Wallis has served in management of
+                    two of the “Big-4” CPA firms – KPMG in Tulsa, Oklahoma, and
+                    Ernst & Young in San Diego, California – as well as a
+                    partner in a small CPA firm. In retirement he continues to
+                    practice as a sole proprietor. Wallis has served on the
+                    Board of Directors for a variety of corporations and
+                    nonprofits and is also passionate about education. His
+                    teaching interests include ethics in accounting and
+                    financial statement analysis.
                   </Typography>
                 </CardContent>
               </Box>
@@ -314,10 +316,11 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Morgan Roddy graduated in 2021 with a bachelor's degree
-                    in Cultural and Regional Studies and a master's degree in Social
-                    Justice and Community Organizing from Prescott College in
-                    Arizona. Previous projects include internships at the{" "}
+                    Morgan Roddy graduated in 2021 with a bachelor's degree in
+                    Cultural and Regional Studies and a master's degree in
+                    Social Justice and Community Organizing from Prescott
+                    College in Arizona. Previous projects include internships at
+                    the{" "}
                     <Link
                       href="http://www.warehouseworkers.org/"
                       target="_blank"
@@ -375,10 +378,11 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Morgan Roddy graduated in 2021 with a bachelor's degree
-                    in Cultural and Regional Studies and a master's degree in Social
-                    Justice and Community Organizing from Prescott College in
-                    Arizona. Previous projects include internships at the{" "}
+                    Morgan Roddy graduated in 2021 with a bachelor's degree in
+                    Cultural and Regional Studies and a master's degree in
+                    Social Justice and Community Organizing from Prescott
+                    College in Arizona. Previous projects include internships at
+                    the{" "}
                     <Link
                       href="http://www.warehouseworkers.org/"
                       target="_blank"
@@ -400,7 +404,7 @@ const Board = () => {
           <Grid item sm={12}>
             <Card
               sx={{
-                maxWidth: 720,
+                maxWidth: 900,
                 maxheight: 300,
                 display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
               }}
@@ -422,7 +426,19 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Dr. Hamler's bio is coming ...
+                    Dr. Nancy Hamler is a licensed physician assistant who began
+                    her healthcare career as a registered dietitian. She
+                    graduated from Samuel Merritt’s Master Physician Assistant
+                    program and completed her Doctor of Medical Science (DMSc)
+                    degree through Lynchburg University alongside a Fellowship
+                    in Emergency Medicine. While she started her clinical career
+                    in Family Medicine, she currently practices at a local
+                    community emergency department as well as serving as Asst.
+                    Clinical Professor at University of the Pacific and adjunct
+                    faculty for Rocky Mountain University’s DMSc program.
+                    Additionally, Dr Hamler has taught for the Nutrition &
+                    Dietetics departments at UC Davis and California State
+                    University, Sacramento.
                   </Typography>
                 </CardContent>
 
@@ -464,7 +480,19 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Dr. Hamler's bio is coming ...
+                    Dr. Nancy Hamler is a licensed physician assistant who began
+                    her healthcare career as a registered dietitian. She
+                    graduated from Samuel Merritt’s Master Physician Assistant
+                    program and completed her Doctor of Medical Science (DMSc)
+                    degree through Lynchburg University alongside a Fellowship
+                    in Emergency Medicine. While she started her clinical career
+                    in Family Medicine, she currently practices at a local
+                    community emergency department as well as serving as Asst.
+                    Clinical Professor at University of the Pacific and adjunct
+                    faculty for Rocky Mountain University’s DMSc program.
+                    Additionally, Dr Hamler has taught for the Nutrition &
+                    Dietetics departments at UC Davis and California State
+                    University, Sacramento.
                   </Typography>
                 </CardContent>
               </Box>
@@ -498,10 +526,11 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Diana Price has a bachelor's in Nutrition from Cal Poly San Luis
-                    Obispo, a master's in Nutrition and Functional Medicine from the
-                    University of Western States, and is a Registered Dietitian
-                    Nutritionist. Diana is a business owner in Livermore;{" "}
+                    Diana Price has a bachelor's in Nutrition from Cal Poly San
+                    Luis Obispo, a master's in Nutrition and Functional Medicine
+                    from the University of Western States, and is a Registered
+                    Dietitian Nutritionist. Diana is a business owner in
+                    Livermore;{" "}
                     <Link
                       href="https://www.honestnutritionusa.com/"
                       target="_blank"
@@ -556,10 +585,11 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Diana Price has a bachelor's in Nutrition from Cal Poly San Luis
-                    Obispo, a master's in Nutrition and Functional Medicine from the
-                    University of Western States, and is a Registered Dietitian
-                    Nutritionist. Diana is a business owner in Livermore;{" "}
+                    Diana Price has a bachelor's in Nutrition from Cal Poly San
+                    Luis Obispo, a master's in Nutrition and Functional Medicine
+                    from the University of Western States, and is a Registered
+                    Dietitian Nutritionist. Diana is a business owner in
+                    Livermore;{" "}
                     <Link
                       href="https://www.honestnutritionusa.com/"
                       target="_blank"
@@ -609,14 +639,14 @@ const Board = () => {
                   >
                     Kathleen Willkom-Nicholas has been serving the residents of
                     Alameda County for over 20 years. Willkom-Nicholas graduated
-                    from the University of the Philippines with her bachelor’s in
-                    Community Nutrition. Willkom-Nicholas then attended San Jose
-                    State University earning her master's in Clinical Nutrition.
-                    After completing her master's degree, she entered the Women,
-                    Infant, and Children Nutrition Program, joining Alameda
-                    County WIC in 1996. Since that time, Willkom-Nicholas was
-                    the site manager of the Hayward and Fremont WIC locations
-                    and is now the Program Director.
+                    from the University of the Philippines with her bachelor’s
+                    in Community Nutrition. Willkom-Nicholas then attended San
+                    Jose State University earning her master's in Clinical
+                    Nutrition. After completing her master's degree, she entered
+                    the Women, Infant, and Children Nutrition Program, joining
+                    Alameda County WIC in 1996. Since that time,
+                    Willkom-Nicholas was the site manager of the Hayward and
+                    Fremont WIC locations and is now the Program Director.
                   </Typography>
                 </CardContent>
                 <img
@@ -658,14 +688,14 @@ const Board = () => {
                   >
                     Kathleen Willkom-Nicholas has been serving the residents of
                     Alameda County for over 20 years. Willkom-Nicholas graduated
-                    from the University of the Philippines with her bachelor's in
-                    Community Nutrition. Willkom-Nicholas then attended San Jose
-                    State University earning her master's in Clinical Nutrition.
-                    After completing her master's degree, she entered the Women,
-                    Infant, and Children Nutrition Program, joining Alameda
-                    County WIC in 1996. Since that time, Willkom-Nicholas was
-                    the site manager of the Hayward and Fremont WIC locations
-                    and is now the Program Director.
+                    from the University of the Philippines with her bachelor's
+                    in Community Nutrition. Willkom-Nicholas then attended San
+                    Jose State University earning her master's in Clinical
+                    Nutrition. After completing her master's degree, she entered
+                    the Women, Infant, and Children Nutrition Program, joining
+                    Alameda County WIC in 1996. Since that time,
+                    Willkom-Nicholas was the site manager of the Hayward and
+                    Fremont WIC locations and is now the Program Director.
                   </Typography>
                 </CardContent>
               </Box>
