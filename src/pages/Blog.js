@@ -22,7 +22,7 @@ const Blog = () => {
       <Container alignItems="space-evenly">
         <Box
           sx={{
-            display: { xs: "none", sm: "flex", md: "flex", lg: "flex" },
+            display: { xs: "none", sm: "none", md: "none", lg: "none" },
           }}
         >
           <Grid
@@ -57,16 +57,14 @@ const Blog = () => {
                 placeholder='Try "recipe"'
                 onChange={(e) => updateFilter(e.target.value.toLowerCase())}
               />
-
-              {/* <Typography mt={4} color="primary">Filter</Typography> */}
             </Grid>
 
             {/* blog post column */}
             <Grid item sm={8} ml={45}>
-              <Card sx={{ maxWidth: 800 }}>
-                {filteredBlogs.map((blog) => {
-                  return (
-                    <div >
+              {filteredBlogs.map((blog) => {
+                return (
+                  <Card sx={{ maxWidth: 800 }}>
+                    <div style={{ flex: "flex" }}>
                       <Typography
                         color="primary"
                         align="center"
@@ -88,46 +86,247 @@ const Blog = () => {
                           </div>
                         ))}
                       </Typography>
-                      <hr />
                     </div>
-                  );
-                })}
-              </Card>
+                  </Card>
+                );
+              })}
             </Grid>
           </Grid>
         </Box>
       </Container>
-      {/* SM DISPLAY */}
-      {/* <Container alignItems="center">
+      {/* MD DISPLAY */}
+      <Container alignItems="space-evenly">
         <Box
           sx={{
-            display: { xs: "none", sm: "flex", md: "none", lg: "none" },
+            display: { xs: "none", sm: "none", md: "none", lg: "none" },
           }}
         >
-          <iframe
-            src="https://dentalpacific.az1.qualtrics.com/jfe/form/SV_ey9TLlpoVF6axyS"
-            height="800px"
-            width="800px"
-            title="survey-sm"
-          ></iframe>
+          <Grid
+            direction="row"
+            container
+            spacing={0}
+            justifyContent="space-between"
+            alignItems="space-evenly"
+            mt={6}
+          >
+            {/* title/search/filter column */}
+
+            <Grid item sm={2} position="fixed">
+              <Typography
+                color="primary"
+                align="left"
+                justify="start"
+                variant="h4"
+                fontFamily="Playfair Display"
+                fontSize={30}
+                mb={4}
+              >
+                LEMV Blog
+              </Typography>
+
+              <Typography mb={1} fontSize={15} color="primary">
+                Search posts by tags
+              </Typography>
+              <TextField
+                variant="filled"
+                size="small"
+                hiddenLabel
+                placeholder='Try "recipe"'
+                onChange={(e) => updateFilter(e.target.value.toLowerCase())}
+              />
+            </Grid>
+
+            {/* blog post column */}
+            <Grid item sm={9} ml={30}>
+              {filteredBlogs.map((blog) => {
+                return (
+                  <Card sx={{ maxWidth: 800 }}>
+                    <div style={{ flex: "flex" }}>
+                      <Typography
+                        color="primary"
+                        align="center"
+                        justify="center"
+                        variant="h4"
+                        fontFamily="Playfair Display"
+                        my={3}
+                        px={4}
+                      >
+                        {blog.title}
+                      </Typography>
+
+                      <img src={blog.image} alt={blog.alt} height="150" />
+                      <Typography px={4} my={3}>
+                        {blog.body.map((section) => (
+                          <div>
+                            {section}
+                            <p />
+                          </div>
+                        ))}
+                      </Typography>
+                    </div>
+                  </Card>
+                );
+              })}
+            </Grid>
+          </Grid>
         </Box>
-      </Container> */}
-      {/* XS DISPLAY */}
-      {/* <Container alignItems="center">
+      </Container>
+      {/* SM DISPLAY
+      <Container alignItems="space-evenly">
         <Box
           sx={{
             display: { xs: "flex", sm: "none", md: "none", lg: "none" },
           }}
         >
-          <iframe
-            src="https://dentalpacific.az1.qualtrics.com/jfe/form/SV_ey9TLlpoVF6axyS"
-            height="600px"
-            width="400px"
-            title="survey-xs"
-          ></iframe>
+          <Grid
+            direction="row"
+            container
+            spacing={0}
+            justifyContent="space-between"
+            alignItems="space-evenly"
+            mt={6}
+          >
+            {/* title/search/filter column */}
+
+            {/* <Grid item sm={2} position="fixed">
+              <Typography
+                color="primary"
+                align="left"
+                justify="start"
+                variant="h4"
+                fontFamily="Playfair Display"
+                fontSize={30}
+                mb={2}
+              >
+                LEMV Blog
+              </Typography>
+
+              <Typography mb={1} fontSize={14} color="primary">
+                Search posts by tags
+              </Typography>
+              <TextField
+                variant="filled"
+                size="small"
+                hiddenLabel
+                placeholder='Try "recipe"'
+                onChange={(e) => updateFilter(e.target.value.toLowerCase())}
+              />
+            </Grid> */}
+
+            {/* blog post column */}
+            {/* <Grid item sm={10} ml={25}>
+              {filteredBlogs.map((blog) => {
+                return (
+                  <Card sx={{ maxWidth: 570 }}>
+                    <div style={{ flex: "flex" }}>
+                      <Typography
+                        color="primary"
+                        align="center"
+                        justify="center"
+                        variant="h4"
+                        fontFamily="Playfair Display"
+                        my={3}
+                        px={4}
+                      >
+                        {blog.title}
+                      </Typography>
+
+                      <img src={blog.image} alt={blog.alt} height="120" />
+                      <Typography px={4} my={3}>
+                        {blog.body.map((section) => (
+                          <div>
+                            {section}
+                            <p />
+                          </div>
+                        ))}
+                      </Typography>
+                    </div>
+                  </Card>
+                );
+              })}
+            </Grid>
+          </Grid> 
         </Box>
-      </Container> */}
-    </div>
+      </Container>*/}
+      {/* XS DISPLAY */}
+      {/* <Container alignItems="space-evenly">
+        <Box
+          sx={{
+            display: { xs: "flex", sm: "none", md: "none", lg: "none" },
+          }}
+        >
+          <Grid
+            direction="row"
+            container
+            spacing={0}
+            justifyContent="center"
+            alignItems="center"
+            mt={6}
+          > */}
+            {/* title/search/filter column */}
+
+            {/* <Grid item sm={12}>
+              <Typography
+                color="primary"
+                align="left"
+                justify="start"
+                variant="h4"
+                fontFamily="Playfair Display"
+                fontSize={30}
+                mb={2}
+              >
+                LEMV Blog
+              </Typography>
+
+              <Typography mb={1} fontSize={14} color="primary">
+                Search posts by tags
+              </Typography>
+
+              <TextField
+                variant="filled"
+                size="small"
+                hiddenLabel
+                placeholder='Try "recipe"'
+                onChange={(e) => updateFilter(e.target.value.toLowerCase())}
+              />
+            </Grid> */}
+
+            {/* blog post column */}
+            {/* <Grid item sm={12}>
+              {filteredBlogs.map((blog) => {
+                return (
+                  <Card sx={{ maxWidth: 570 }}>
+                    <div style={{ flex: "flex" }}>
+                      <Typography
+                        color="primary"
+                        align="center"
+                        justify="center"
+                        variant="h4"
+                        fontFamily="Playfair Display"
+                        my={3}
+                        px={4}
+                      >
+                        {blog.title}
+                      </Typography>
+
+                      <img src={blog.image} alt={blog.alt} height="120" />
+                      <Typography px={4} my={3}>
+                        {blog.body.map((section) => (
+                          <div>
+                            {section}
+                            <p />
+                          </div>
+                        ))}
+                      </Typography>
+                    </div>
+                  </Card>
+                );
+              })}
+            </Grid> 
+          </Grid>
+        </Box>
+      </Container>*/}
+    </div> 
   );
 };
 
