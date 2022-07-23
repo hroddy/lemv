@@ -61,7 +61,7 @@ const Home = () => {
           More. Vegetables. LEMV will apply for grant funding in Fall 2022.
         </Typography>
         
-            <Typography my={5} color="primary" variant="body1" align="center">
+            {/* <Typography my={5} color="primary" variant="body1" align="center">
               <Button
                 variant="filled"
                 sx={{ backgroundColor: "#97d600" }}
@@ -69,7 +69,7 @@ const Home = () => {
               >
                 Check out our blog!
               </Button>
-            </Typography>
+            </Typography> */}
 
         <hr />
         <Typography
