@@ -2,7 +2,8 @@ import React, { useState } from "react";
 
 import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
-
+import AppBar from "@mui/material/AppBar";
+import Toolbar from "@mui/material/Toolbar";
 import TextField from "@mui/material/TextField";
 import Card from "@mui/material/Card";
 import Container from "@mui/material/Container";
@@ -22,7 +23,7 @@ const Blog = () => {
       <Container alignItems="space-evenly">
         <Box
           sx={{
-            display: { xs: "none", sm: "none", md: "none", lg: "none" },
+            display: { xs: "none", sm: "none", md: "none", lg: "flex" },
           }}
         >
           <Grid
@@ -98,7 +99,7 @@ const Blog = () => {
       <Container alignItems="space-evenly">
         <Box
           sx={{
-            display: { xs: "none", sm: "none", md: "none", lg: "none" },
+            display: { xs: "none", sm: "none", md: "flex", lg: "none" },
           }}
         >
           <Grid
@@ -188,7 +189,7 @@ const Blog = () => {
           >
             {/* title/search/filter column */}
 
-            {/* <Grid item sm={2} position="fixed">
+      {/* <Grid item sm={2} position="fixed">
               <Typography
                 color="primary"
                 align="left"
@@ -213,8 +214,8 @@ const Blog = () => {
               />
             </Grid> */}
 
-            {/* blog post column */}
-            {/* <Grid item sm={10} ml={25}>
+      {/* blog post column */}
+      {/* <Grid item sm={10} ml={25}>
               {filteredBlogs.map((blog) => {
                 return (
                   <Card sx={{ maxWidth: 570 }}>
@@ -249,53 +250,58 @@ const Blog = () => {
         </Box>
       </Container>*/}
       {/* XS DISPLAY */}
-      {/* <Container alignItems="space-evenly">
+      <Container alignItems="center">
         <Box
           sx={{
             display: { xs: "flex", sm: "none", md: "none", lg: "none" },
           }}
         >
-          <Grid
-            direction="row"
-            container
-            spacing={0}
-            justifyContent="center"
-            alignItems="center"
-            mt={6}
-          > */}
-            {/* title/search/filter column */}
-
-            {/* <Grid item sm={12}>
-              <Typography
-                color="primary"
-                align="left"
-                justify="start"
-                variant="h4"
-                fontFamily="Playfair Display"
-                fontSize={30}
-                mb={2}
+          <Grid>
+          <AppBar position="sticky" color="secondary" elevation={0} sx={{ height: "70px" }}>
+            <Toolbar disableGutters>
+              <Grid
+                direction="row"
+                justifyContent="space-between"
+                alignItems="center"
+                container
+                spacing={2}
               >
-                LEMV Blog
-              </Typography>
+                <Grid item xs={6}>
+                  <Typography
+                    color="primary"
+                    align="left"
+                    justify="start"
+                    variant="h4"
+                    fontFamily="Playfair Display"
+                    fontSize={30}
+                    mb={2}
+                  >
+                    LEMV Blog
+                  </Typography>
+                </Grid>
 
-              <Typography mb={1} fontSize={14} color="primary">
-                Search posts by tags
-              </Typography>
+                <Grid item xs={6}>
+                  <TextField
+                    variant="filled"
+                    size="small"
+                    hiddenLabel
+                    placeholder="Search by tags"
+                    curosr="pointer"
+                    onChange={(e) => updateFilter(e.target.value.toLowerCase())}
+                  />
+                </Grid>
+              </Grid>
+            </Toolbar>
+          </AppBar>
+        
+          {/* title/search/filter column */}
 
-              <TextField
-                variant="filled"
-                size="small"
-                hiddenLabel
-                placeholder='Try "recipe"'
-                onChange={(e) => updateFilter(e.target.value.toLowerCase())}
-              />
-            </Grid> */}
-
-            {/* blog post column */}
-            {/* <Grid item sm={12}>
+          {/* blog post column */}
+         
+            <div style={{marginRight: "auto", marginLeft: "auto"}}>
               {filteredBlogs.map((blog) => {
                 return (
-                  <Card sx={{ maxWidth: 570 }}>
+                  <Card sx={{ maxWidth: 430 }}>
                     <div style={{ flex: "flex" }}>
                       <Typography
                         color="primary"
@@ -322,11 +328,11 @@ const Blog = () => {
                   </Card>
                 );
               })}
-            </Grid> 
-          </Grid>
+            </div>
+            </Grid>
         </Box>
-      </Container>*/}
-    </div> 
+      </Container>
+    </div>
   );
 };
 
