@@ -19,7 +19,7 @@ const Blog = () => {
   );
   return (
     <div>
-      {/* LG MD DISPLAY */}
+      {/* LG DISPLAY */}
       <Container alignItems="space-evenly">
         <Box
           sx={{
@@ -78,7 +78,7 @@ const Blog = () => {
                         {blog.title}
                       </Typography>
 
-                      <img src={blog.image} alt={blog.alt} height="200" />
+                      <img src={blog.image} alt={blog.alt} height="170" />
                       <Typography px={4} my={3}>
                         {blog.body.map((section) => (
                           <div>
@@ -172,53 +172,65 @@ const Blog = () => {
           </Grid>
         </Box>
       </Container>
-      {/* SM DISPLAY
+      {/* SM DISPLAY */}
       <Container alignItems="space-evenly">
         <Box
           sx={{
-            display: { xs: "flex", sm: "none", md: "none", lg: "none" },
+            display: { xs: "none", sm: "flex", md: "none", lg: "none" },
           }}
         >
-          <Grid
-            direction="row"
-            container
-            spacing={0}
-            justifyContent="space-between"
-            alignItems="space-evenly"
-            mt={6}
-          >
-            {/* title/search/filter column */}
+          <Grid container spacing={1}>
+             {/* title/search/filter column start */}
+            <AppBar
+              position="sticky"
+              color="secondary"
+              elevation={0}
+              sx={{ height: "70px" }}
+            >
+              <Toolbar disableGutters>
+                <Grid
+                  direction="row"
+                  justifyContent="center"
+                  alignItems="center"
+                  container
+                  spacing={20}
+                >
+                  <Grid item xs={6}>
+                    <Typography
+                      color="primary"
+                      variant="h4"
+                      fontFamily="Playfair Display"
+                      fontSize={30}
+                      mb={2}
+                    >
+                      LEMV Blog
+                    </Typography>
+                  </Grid>
 
-      {/* <Grid item sm={2} position="fixed">
-              <Typography
-                color="primary"
-                align="left"
-                justify="start"
-                variant="h4"
-                fontFamily="Playfair Display"
-                fontSize={30}
-                mb={2}
-              >
-                LEMV Blog
-              </Typography>
+                  <Grid item xs={6}>
+                    <TextField
+                      variant="filled"
+                      size="small"
+                      hiddenLabel
+                      placeholder="Search by tags"
+                      curosr="pointer"
+                      onChange={(e) =>
+                        updateFilter(e.target.value.toLowerCase())
+                      }
+                    />
+                  </Grid>
+                </Grid>
+              </Toolbar>
+            </AppBar>
 
-              <Typography mb={1} fontSize={14} color="primary">
-                Search posts by tags
-              </Typography>
-              <TextField
-                variant="filled"
-                size="small"
-                hiddenLabel
-                placeholder='Try "recipe"'
-                onChange={(e) => updateFilter(e.target.value.toLowerCase())}
-              />
-            </Grid> */}
+            {/* title/search/filter column end */}
 
-      {/* blog post column */}
-      {/* <Grid item sm={10} ml={25}>
+            {/* blog post column start */}
+
+            <div style={{ flex: "flex" }}>
               {filteredBlogs.map((blog) => {
                 return (
-                  <Card sx={{ maxWidth: 570 }}>
+                  <Card sx={{ maxWidth: 600, flex: "flex" }}>
                     <div style={{ flex: "flex" }}>
                       <Typography
                         color="primary"
@@ -232,7 +244,7 @@ const Blog = () => {
                         {blog.title}
                       </Typography>
 
-                      <img src={blog.image} alt={blog.alt} height="120" />
+                      <img src={blog.image} alt={blog.alt} height="175" />
                       <Typography px={4} my={3}>
                         {blog.body.map((section) => (
                           <div>
@@ -245,10 +257,11 @@ const Blog = () => {
                   </Card>
                 );
               })}
-            </Grid>
-          </Grid> 
+            </div>
+            {/* blog post column end */}
+          </Grid>
         </Box>
-      </Container>*/}
+      </Container>
       {/* XS DISPLAY */}
       <Container alignItems="center">
         <Box
@@ -257,51 +270,58 @@ const Blog = () => {
           }}
         >
           <Grid>
-          <AppBar position="sticky" color="secondary" elevation={0} sx={{ height: "70px" }}>
-            <Toolbar disableGutters>
-              <Grid
-                direction="row"
-                justifyContent="space-between"
-                alignItems="center"
-                container
-                spacing={2}
-              >
-                <Grid item xs={6}>
-                  <Typography
-                    color="primary"
-                    align="left"
-                    justify="start"
-                    variant="h4"
-                    fontFamily="Playfair Display"
-                    fontSize={30}
-                    mb={2}
-                  >
-                    LEMV Blog
-                  </Typography>
-                </Grid>
+            <AppBar
+              position="sticky"
+              color="secondary"
+              elevation={0}
+              sx={{ height: "70px" }}
+            >
+              <Toolbar disableGutters>
+                <Grid
+                  direction="row"
+                  justifyContent="space-between"
+                  alignItems="center"
+                  container
+                  spacing={2}
+                >
+                  <Grid item xs={6}>
+                    <Typography
+                      color="primary"
+                      align="left"
+                      justify="start"
+                      variant="h4"
+                      fontFamily="Playfair Display"
+                      fontSize={30}
+                      mb={2}
+                    >
+                      LEMV Blog
+                    </Typography>
+                  </Grid>
 
-                <Grid item xs={6}>
-                  <TextField
-                    variant="filled"
-                    size="small"
-                    hiddenLabel
-                    placeholder="Search by tags"
-                    curosr="pointer"
-                    onChange={(e) => updateFilter(e.target.value.toLowerCase())}
-                  />
+                  <Grid item xs={6}>
+                    <TextField
+                      variant="filled"
+                      size="small"
+                      hiddenLabel
+                      placeholder="Search by tags"
+                      curosr="pointer"
+                      onChange={(e) =>
+                        updateFilter(e.target.value.toLowerCase())
+                      }
+                    />
+                  </Grid>
                 </Grid>
-              </Grid>
-            </Toolbar>
-          </AppBar>
-        
-          {/* title/search/filter column */}
+              </Toolbar>
+            </AppBar>
 
-          {/* blog post column */}
-         
-            <div style={{marginRight: "auto", marginLeft: "auto"}}>
+            {/* title/search/filter column */}
+
+            {/* blog post column */}
+
+            <div style={{ marginRight: "auto", marginLeft: "auto" }}>
               {filteredBlogs.map((blog) => {
                 return (
-                  <Card sx={{ maxWidth: 430 }}>
+                  <Card sx={{ maxWidth: 430}}>
                     <div style={{ flex: "flex" }}>
                       <Typography
                         color="primary"
@@ -329,7 +349,7 @@ const Blog = () => {
                 );
               })}
             </div>
-            </Grid>
+          </Grid>
         </Box>
       </Container>
     </div>
