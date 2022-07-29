@@ -11,6 +11,8 @@ import Grid from "@mui/material/Grid";
 
 import karen from "../assets/team/karen.jpg";
 import dale from "../assets/team/dale.jpg";
+import kori from "../assets/team/kori.jpg";
+
 import nancy from "../assets/team/nancy.jpg";
 import kathleen from "../assets/team/kathleen.png";
 import diana from "../assets/team/diana.jpeg";
@@ -53,7 +55,7 @@ const Board = () => {
           <Grid item sm={12}>
             <Card
               sx={{
-                maxWidth: 900,
+                maxWidth: 930,
                 maxheight: 300,
                 display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
               }}
@@ -164,7 +166,7 @@ const Board = () => {
           <Grid item sm={12}>
             <Card
               sx={{
-                maxWidth: 900,
+                maxWidth: 930,
                 maxheight: 300,
                 display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
               }}
@@ -285,7 +287,7 @@ const Board = () => {
           <Grid item sm={12}>
             <Card
               sx={{
-                maxWidth: 900,
+                maxWidth: 930,
                 maxheight: 300,
                 display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
               }}
@@ -404,7 +406,111 @@ const Board = () => {
           <Grid item sm={12}>
             <Card
               sx={{
-                maxWidth: 900,
+                maxWidth: 930,
+                maxheight: 300,
+                display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
+              }}
+            >
+              <Box sx={{ display: "flex", flexDirection: "row" }}>
+                <CardContent>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    color="primary"
+                    align="left"
+                  >
+                    Kori Dover, MS
+                  </Typography>
+
+                  <Typography
+                    variant="body2"
+                    color="text.secondary"
+                    align="left"
+                  >
+                   Kori Dover holds a bachelor's in Human Nutrition and
+                    Dietetics from Metropolitan State University of Devner and a
+                    master’s in Dietetics from California State University
+                    Sacramento. Currently, Dover is the California Beef
+                    Council’s Registered Dietitian and resident health
+                    professional, providing evidence-based education, resources,
+                    and communication around health and nutrition. She is also
+                    the voice behind <Link html="https://www.gfreekori.com/" target="_blank">GFree Kori</Link>, where she explores "Gluten-Free
+                    & Guilt-Free Living" as a food lover and mom who also
+                    happens to be a registered dietitian who has celiac. As
+                    Dover says,"There is no one-size-fits-all model in health,
+                    nutrition or with food. We create connections, celebrate and
+                    honor our cultures with food, and eating well should not
+                    leave you unsatisfied and hungry. Most of all, food and
+                    eating should not be based on fear."
+                  </Typography>
+                </CardContent>
+
+                <img
+                  component="img"
+                  height="300"
+                  src={kori}
+                  alt="portrait shot of a blonde woman"
+                  align="right"
+                />
+              </Box>
+            </Card>
+            <Card
+              sx={{
+                maxWidth: 345,
+                maxheight: 400,
+                display: { xs: "flex", sm: "flex", md: "none", lg: "none" },
+              }}
+            >
+              <Box sx={{ display: "flex", flexDirection: "column" }}>
+                <CardMedia
+                  component="img"
+                  height="400"
+                  src={kori}
+                  alt="portrait shot of a blonde woman"
+                />
+                <CardContent>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    color="primary"
+                  >
+                    Kori Dover, MS
+                  </Typography>
+
+                  <Typography
+                    variant="body2"
+                    color="text.secondary"
+                    align="left"
+                  >
+                    Kori Dover holds a bachelor's in Human Nutrition and
+                    Dietetics from Metropolitan State University of Devner and a
+                    master’s in Dietetics from California State University
+                    Sacramento. Currently, Dover is the California Beef
+                    Council’s Registered Dietitian and resident health
+                    professional, providing evidence-based education, resources,
+                    and communication around health and nutrition. She is also
+                    the voice behind <Link html="https://www.gfreekori.com/" target="_blank">GFree Kori</Link>, where she explores "Gluten-Free
+                    & Guilt-Free Living" as a food lover and mom who also
+                    happens to be a registered dietitian who has celiac. As
+                    Dover says,"There is no one-size-fits-all model in health,
+                    nutrition or with food. We create connections, celebrate and
+                    honor our cultures with food, and eating well should not
+                    leave you unsatisfied and hungry. Most of all, food and
+                    eating should not be based on fear."
+                  </Typography>
+                </CardContent>
+              </Box>
+            </Card>
+          </Grid>
+          {/* Nancy Hamler END */}
+
+          {/* Nancy Hamler START */}
+          <Grid item sm={12}>
+            <Card
+              sx={{
+                maxWidth: 930,
                 maxheight: 300,
                 display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
               }}
@@ -500,11 +606,85 @@ const Board = () => {
           </Grid>
           {/* Nancy Hamler END */}
 
+           {/* Angela Piazza START */}
+           <Grid item sm={12}>
+            <Card
+              sx={{
+                maxWidth: 930,
+                maxheight: 300,
+                display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
+              }}
+            >
+              <Box sx={{ display: "flex", flexDirection: "row" }}>
+                <CardContent>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    color="primary"
+                    align="left"
+                  >
+                    Angela Piazza
+                  </Typography>
+
+                  <Typography
+                    variant="body2"
+                    color="text.secondary"
+                    align="left"
+                  >
+                    Angela Piazza's bio will be coming soon...
+                  </Typography>
+                </CardContent>
+                {/* <img
+                  component="img"
+                  height="300"
+                  src={angela}
+                  alt="portrait shot of a blonde woman"
+                /> */}
+              </Box>
+            </Card>
+            <Card
+              sx={{
+                maxWidth: 345,
+                maxheight: 400,
+                display: { xs: "flex", sm: "flex", md: "none", lg: "none" },
+              }}
+            >
+              <Box sx={{ display: "flex", flexDirection: "column" }}>
+                {/* <CardMedia
+                  component="img"
+                  height="400"
+                  src={angela}
+                  alt="portrait shot of a blonde woman"
+                /> */}
+                <CardContent>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    color="primary"
+                  >
+                    Diana Price, RD, MS
+                  </Typography>
+
+                  <Typography
+                    variant="body2"
+                    color="text.secondary"
+                    align="left"
+                  >
+                    Angela Piazza's bio will be coming soon...
+                  </Typography>
+                </CardContent>
+              </Box>
+            </Card>
+          </Grid>
+          {/* Angela Piazza END */}
+
           {/* DIANA PRINCE START */}
           <Grid item sm={12}>
             <Card
               sx={{
-                maxWidth: 900,
+                maxWidth: 930,
                 maxheight: 300,
                 display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
               }}
@@ -616,7 +796,7 @@ const Board = () => {
           <Grid item sm={12}>
             <Card
               sx={{
-                maxWidth: 900,
+                maxWidth: 930,
                 maxheight: 300,
                 display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
               }}
