@@ -420,7 +420,7 @@ const Board = () => {
                     color="primary"
                     align="left"
                   >
-                    Kori Dover, MS
+                    Kori Dover, RD, MS
                   </Typography>
 
                   <Typography
@@ -476,7 +476,7 @@ const Board = () => {
                     component="div"
                     color="primary"
                   >
-                    Kori Dover, MS
+                    Kori Dover, RD, MS
                   </Typography>
 
                   <Typography
