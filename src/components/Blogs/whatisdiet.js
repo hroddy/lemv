@@ -2,6 +2,7 @@ import pic12 from "../../assets/12.png";
 
 const blog1 = {
   title: "What is diet?",
+  id: `what-is-diet`,
   image: pic12,
   alt: `a pair of hands cut a bell pepper on a cutting board`,
   body: [
@@ -35,14 +36,28 @@ const blog1 = {
     of opportunities to practice new skills while eating a meal.”
     This series includes videos, podcasts, books, and other
     resources relating to our relationships with food.`,
-    `In the end, you should enjoy what you eat! If you are looking
-    for ways to add more vegetables into your diet, check out our
-    How page: www.lemv.org/how
-       ${(
-         <a href="www.lemv.org/how" target="_blank">
-           // www.lemv.org/how //{" "}
-         </a>
-       )}`,
+    `
+    This is the first paragraph we're injecting into the
+    page
+  ${<p />}
+
+  
+    This is the second paragraph we're injecting into
+    the page
+    ${<p />}
+
+  
+    This is the third paragraph we're injecting into the
+    page
+    ${<p />}`
+    // `In the end, you should enjoy what you eat! If you are looking
+    // for ways to add more vegetables into your diet, check out our
+    // How page:
+    //    ${() => {return (
+    //      <a href="/how" target="_blank">
+    //        www.lemv.org/how
+    //      </a>
+    //    ).children}}`,
   ],
   tags: ["diet", "mindful eating", `how`, `free`, `ucla`],
 };

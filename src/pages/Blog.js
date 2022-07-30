@@ -6,6 +6,8 @@ import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import TextField from "@mui/material/TextField";
 import Card from "@mui/material/Card";
+import { CardActionArea } from "@mui/material";
+import CardMedia from "@mui/material/CardMedia";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 
@@ -13,7 +15,6 @@ import blogs from "../components/Blogs";
 
 const Blog = () => {
   const [filter, updateFilter] = useState("");
-  console.log(filter);
   const filteredBlogs = blogs.filter((blog) =>
     blog.tags.join("").toLowerCase().includes(filter)
   );
@@ -65,29 +66,37 @@ const Blog = () => {
               {filteredBlogs.map((blog) => {
                 return (
                   <Card sx={{ maxWidth: 800 }}>
-                    <div style={{ flex: "flex" }}>
-                      <Typography
-                        color="primary"
-                        align="center"
-                        justify="center"
-                        variant="h4"
-                        fontFamily="Playfair Display"
-                        my={3}
-                        px={4}
-                      >
-                        {blog.title}
-                      </Typography>
+                    <CardActionArea href={`/post/${blog.id}`}>
+                      <div style={{ flex: "flex" }}>
+                        <Typography
+                          color="primary"
+                          align="center"
+                          justify="center"
+                          variant="h4"
+                          fontFamily="Playfair Display"
+                          my={3}
+                          px={4}
+                        >
+                          {blog.title}
+                        </Typography>
 
-                      <img src={blog.image} alt={blog.alt} height="170" />
-                      <Typography px={4} my={3}>
-                        {blog.body.map((section) => (
-                          <div>
-                            {section}
-                            <p />
-                          </div>
-                        ))}
-                      </Typography>
-                    </div>
+                        <CardMedia
+                          component="img"
+                          src={blog.image}
+                          alt={blog.alt}
+                          height="170"
+                        />
+                        <Typography px={4} my={3}>
+                          {blog.body.map((section) => (
+                            <div>
+                              {section}
+                              <p />
+                            </div>
+                          ))}
+                          
+                        </Typography>
+                      </div>
+                    </CardActionArea>
                   </Card>
                 );
               })}
@@ -155,7 +164,12 @@ const Blog = () => {
                         {blog.title}
                       </Typography>
 
-                      <img src={blog.image} alt={blog.alt} height="150" />
+                      <CardMedia
+                        component="img"
+                        src={blog.image}
+                        alt={blog.alt}
+                        height="150"
+                      />
                       <Typography px={4} my={3}>
                         {blog.body.map((section) => (
                           <div>
@@ -180,7 +194,7 @@ const Blog = () => {
           }}
         >
           <Grid container spacing={1}>
-             {/* title/search/filter column start */}
+            {/* title/search/filter column start */}
             <AppBar
               position="sticky"
               color="secondary"
@@ -244,7 +258,12 @@ const Blog = () => {
                         {blog.title}
                       </Typography>
 
-                      <img src={blog.image} alt={blog.alt} height="175" />
+                      <CardMedia
+                        component="img"
+                        src={blog.image}
+                        alt={blog.alt}
+                        height="175"
+                      />
                       <Typography px={4} my={3}>
                         {blog.body.map((section) => (
                           <div>
@@ -321,7 +340,7 @@ const Blog = () => {
             <div style={{ marginRight: "auto", marginLeft: "auto" }}>
               {filteredBlogs.map((blog) => {
                 return (
-                  <Card sx={{ maxWidth: 430}}>
+                  <Card sx={{ maxWidth: 430 }}>
                     <div style={{ flex: "flex" }}>
                       <Typography
                         color="primary"
@@ -335,7 +354,12 @@ const Blog = () => {
                         {blog.title}
                       </Typography>
 
-                      <img src={blog.image} alt={blog.alt} height="120" />
+                      <CardMedia
+                        component="img"
+                        src={blog.image}
+                        alt={blog.alt}
+                        height="120"
+                      />
                       <Typography px={4} my={3}>
                         {blog.body.map((section) => (
                           <div>
