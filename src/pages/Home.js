@@ -33,7 +33,7 @@ const Home = () => {
           justify="center"
         >
           Food is foundational to a healthy life and can bring families, friends, and communities together. Livermore! Eat. More.
-          Vegetables. (LEMV) is a nonprofit (#5076429) organization with a
+          Vegetables. (LEMV) is a nonprofit organization with a
           simple goal of helping Livermorians increase vegetable consumption.
           Research consistently shows that adequate vegetable consumption
           improves health outcomes and reduces medical expenses by reducing

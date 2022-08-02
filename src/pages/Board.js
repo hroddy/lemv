@@ -31,18 +31,7 @@ const Board = () => {
           fontFamily="Playfair Display"
         >
           The Board
-        </Typography>
-        <Typography
-          color="primary"
-          variant="body1"
-          mt={5}
-          mb={8}
-          align="left"
-          justify="center"
-        >
-          LEMV's board is being assembled. More members will be added to this
-          page.
-        </Typography>
+        </Typography>      
 
         <Grid
           container
@@ -420,7 +409,7 @@ const Board = () => {
                     color="primary"
                     align="left"
                   >
-                    Margaret Austin, PhD
+                    Margaret Austin, MS, PhD
                   </Typography>
 
                   <Typography
@@ -550,7 +539,7 @@ const Board = () => {
                     professional, providing evidence-based education, resources,
                     and communication around health and nutrition. She is also
                     the voice behind{" "}
-                    <Link html="https://www.gfreekori.com/" target="_blank">
+                    <Link href="https://www.gfreekori.com/" target="_blank">
                       GFree Kori
                     </Link>
                     , where she explores "Gluten-Free & Guilt-Free Living" as a
