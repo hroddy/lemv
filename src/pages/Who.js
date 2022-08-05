@@ -12,6 +12,7 @@ import Grid from "@mui/material/Grid";
 
 import WhoCarousel from "../components/Who-Carousel";
 
+import aaron from "../assets/team/aaron.jpg";
 import diana from "../assets/team/diana.jpeg";
 import karen from "../assets/team/karen.jpg";
 import morgan from "../assets/team/morgan.JPG";
@@ -190,6 +191,100 @@ const Who = () => {
           </Grid>
           {/* MOLLY CUBBA END */}
 
+          {/* AARON MANDEL START */}
+          <Grid item sm={12}>
+            <Card
+              sx={{
+                maxWidth: 850,
+                maxheight: 300,
+                display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
+              }}
+            >
+              <Box sx={{ display: "flex", flexDirection: "row" }}>
+                <CardContent>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    color="primary"
+                    align="left"
+                  >
+                    Aaron Mandel
+                  </Typography>
+                  <Typography
+                    variant="body2"
+                    color="text.secondary"
+                    align="left"
+                  >
+                    Aaron Mandel graduated in 2021 with a bachelor's in Computer
+                    Science from the University of California, Santa Cruz. He
+                    has Fullstack knowledge and experience with game development
+                    both for desktop and the web. Aaron is currently working on
+                    an educational game that aims to teach the foundations of
+                    nutrition. In addition to general knowledge about required
+                    macro- and micro-nutrients, the game will provide
+                    information regarding healthy lifestyle choices for
+                    populations such as diabetics (and pre-diabetics) and those
+                    who are interested in learning more about weight management.
+                    With Aaron's help, LEMV will be pursuing grant funding for
+                    the game in the near future.
+                  </Typography>
+                </CardContent>
+                <img
+                  component="img"
+                  height="300"
+                  src={aaron}
+                  alt="portrait shot of a dark haired woman"
+                ></img>
+              </Box>
+            </Card>
+            <Card
+              sx={{
+                maxWidth: 345,
+                maxheight: 400,
+                display: { xs: "flex", sm: "flex", md: "none", lg: "none" },
+              }}
+            >
+              <Box sx={{ display: "flex", flexDirection: "column" }}>
+                <CardMedia
+                  component="img"
+                  height="400"
+                  src={aaron}
+                  alt="portrait shot of a dark haired woman"
+                />
+                <CardContent>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    color="primary"
+                  >
+                    Aaron Mandel
+                  </Typography>
+                  <Typography
+                    variant="body2"
+                    color="text.secondary"
+                    align="left"
+                  >
+                    Aaron Mandel graduated in 2021 with a bachelor's in Computer
+                    Science from the University of California, Santa Cruz. He
+                    has Fullstack knowledge and experience with game development
+                    both for desktop and the web. Aaron is currently working on
+                    an educational game that aims to teach the foundations of
+                    nutrition. In addition to general knowledge about required
+                    macro- and micro-nutrients, the game will provide
+                    information regarding healthy lifestyle choices for
+                    populations such as diabetics (and pre-diabetics) and those
+                    who are interested in learning more about weight management.
+                    With Aaron's help, LEMV will be pursuing grant funding for
+                    the game in the near future.
+                  </Typography>
+                </CardContent>
+              </Box>
+            </Card>
+          </Grid>
+          {/* AARON MANDEL END */}
+
           {/* DIANA PRINCE START */}
           <Grid item sm={12}>
             <Card
@@ -216,18 +311,19 @@ const Who = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Diana Price is a member of LEMV's {" "}
+                    Diana Price is a member of LEMV's{" "}
                     <Link
                       href="lemv.org/board"
                       target="_blank"
                       cursor="pointer"
                     >
                       Board of Directors
-                    </Link>.{" "} Diana
-                    has a bachelor's in Nutrition from Cal Poly San Luis Obispo, a
-                    master's in Nutrition and Functional Medicine from the
-                    University of Western States, and is a Registered Dietitian
-                    Nutritionist. Diana is a business owner in Livermore;{" "}
+                    </Link>
+                    . Diana has a bachelor's in Nutrition from Cal Poly San Luis
+                    Obispo, a master's in Nutrition and Functional Medicine from
+                    the University of Western States, and is a Registered
+                    Dietitian Nutritionist. Diana is a business owner in
+                    Livermore;{" "}
                     <Link
                       href="https://www.honestnutritionusa.com/"
                       target="_blank"
@@ -282,18 +378,19 @@ const Who = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Diana Price is a member of LEMV's {" "}
+                    Diana Price is a member of LEMV's{" "}
                     <Link
                       href="lemv.org/board"
                       target="_blank"
                       cursor="pointer"
                     >
                       Board of Directors
-                    </Link>.{" "} Diana
-                    has a bachelor's in Nutrition from Cal Poly San Luis Obispo, a
-                    master's in Nutrition and Functional Medicine from the
-                    University of Western States, and is a Registered Dietitian
-                    Nutritionist. Diana is a business owner in Livermore;{" "}
+                    </Link>
+                    . Diana has a bachelor's in Nutrition from Cal Poly San Luis
+                    Obispo, a master's in Nutrition and Functional Medicine from
+                    the University of Western States, and is a Registered
+                    Dietitian Nutritionist. Diana is a business owner in
+                    Livermore;{" "}
                     <Link
                       href="https://www.honestnutritionusa.com/"
                       target="_blank"
@@ -342,25 +439,25 @@ const Who = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Karen Roddy is a cofounder of LEMV and a member of the {" "}
+                    Karen Roddy is a cofounder of LEMV and a member of the{" "}
                     <Link
                       href="lemv.org/board"
                       target="_blank"
                       cursor="pointer"
                     >
                       Board of Directors
-                    </Link>.{" "} Karen
-                    has bachelors' degrees in Marketing, Human Nutrition, and Dietetics
-                    and is currently working on her master's in Clinical Nutrition at
-                    University of the Pacific. After working for Ernst & Young
-                    as Director of Marketing, Roddy and her husband Steve moved
-                    to Livermore, where they have lived for over 20 years and
-                    raised their three daughters. She was the founder and
-                    president of a non-profit 501(c)(3) in Livermore,
-                    Outstanding Academic Opportunities (OAO), which served 400
-                    homeschooling families from Concord to Livermore by hiring
-                    teachers and creating classes for junior high and high
-                    school students.
+                    </Link>
+                    . Karen has bachelors' degrees in Marketing, Human
+                    Nutrition, and Dietetics and is currently working on her
+                    master's in Clinical Nutrition at University of the Pacific.
+                    After working for Ernst & Young as Director of Marketing,
+                    Roddy and her husband Steve moved to Livermore, where they
+                    have lived for over 20 years and raised their three
+                    daughters. She was the founder and president of a non-profit
+                    501(c)(3) in Livermore, Outstanding Academic Opportunities
+                    (OAO), which served 400 homeschooling families from Concord
+                    to Livermore by hiring teachers and creating classes for
+                    junior high and high school students.
                   </Typography>
                 </CardContent>
                 <img
@@ -400,24 +497,25 @@ const Who = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Karen Roddy is a cofounder of LEMV and a member of the {" "}
+                    Karen Roddy is a cofounder of LEMV and a member of the{" "}
                     <Link
                       href="lemv.org/board"
                       target="_blank"
                       cursor="pointer"
                     >
                       Board of Directors
-                    </Link>.{" "} Karen has bachelors' degrees in Marketing, Human
-                    Nutrition, and Dietetics and is currently working on her master's
-                    in Clinical Nutrition at University of the Pacific. After
-                    working for Ernst & Young as Director of Marketing, Roddy
-                    and her husband Steve moved to Livermore, where they have
-                    lived for over 20 years and raised their three daughters.
-                    She was the founder and president of a non-profit 501(c)(3)
-                    in Livermore, Outstanding Academic Opportunities (OAO),
-                    which served 400 homeschooling families from Concord to
-                    Livermore by hiring teachers and creating classes for junior
-                    high and high school students.
+                    </Link>
+                    . Karen has bachelors' degrees in Marketing, Human
+                    Nutrition, and Dietetics and is currently working on her
+                    master's in Clinical Nutrition at University of the Pacific.
+                    After working for Ernst & Young as Director of Marketing,
+                    Roddy and her husband Steve moved to Livermore, where they
+                    have lived for over 20 years and raised their three
+                    daughters. She was the founder and president of a non-profit
+                    501(c)(3) in Livermore, Outstanding Academic Opportunities
+                    (OAO), which served 400 homeschooling families from Concord
+                    to Livermore by hiring teachers and creating classes for
+                    junior high and high school students.
                   </Typography>
                 </CardContent>
               </Box>
@@ -452,7 +550,7 @@ const Who = () => {
                   >
                     Hannah completed the Fullstack Web Development Boot Camp
                     through UC Berkeley Extension in 2021 and is the web
-                    developer for LEMV. She also owns and operates a small
+                    developer and graphic designer for LEMV. She also owns and operates a small
                     business in Livermore: Purple Dog Training.
                   </Typography>
                 </CardContent>
@@ -494,7 +592,7 @@ const Who = () => {
                   >
                     Hannah completed the Fullstack Web Development Boot Camp
                     through UC Berkeley Extension in 2021 and is the web
-                    developer for LEMV. She also owns and operates a small
+                    developer and graphic designer for LEMV. She also owns and operates a small
                     business in Livermore: Purple Dog Training.
                   </Typography>
                 </CardContent>
@@ -535,11 +633,12 @@ const Who = () => {
                       cursor="pointer"
                     >
                       Board of Directors
-                    </Link>.{" "}Morgan graduated in 2021 with a
-                    bachelor's degree in Cultural and Regional Studies and a
-                    master's degree in Social Justice and Community Organizing
-                    from Prescott College in Arizona. Previous projects include
-                    internships at the{" "}
+                    </Link>
+                    . Morgan graduated in 2021 with a bachelor's degree in
+                    Cultural and Regional Studies and a master's degree in
+                    Social Justice and Community Organizing from Prescott
+                    College in Arizona. Previous projects include internships at
+                    the{" "}
                     <Link
                       href="http://www.warehouseworkers.org/"
                       target="_blank"
@@ -595,8 +694,8 @@ const Who = () => {
                       cursor="pointer"
                     >
                       Board of Directors
-                    </Link>.{" "}
-                    Morgan graduated in 2021 with a bachelor's degree in
+                    </Link>
+                    . Morgan graduated in 2021 with a bachelor's degree in
                     Cultural and Regional Studies and a master's degree in
                     Social Justice and Community Organizing from Prescott
                     College in Arizona. Previous projects include internships at
@@ -643,9 +742,9 @@ const Who = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Rachel Roddy is currently completing her bachelor's
-                    degree in Classics at UC Davis in preparation to attend law
-                    school in 2023.
+                    Rachel Roddy is currently completing her bachelor's degree
+                    in Classics at UC Davis in preparation to attend law school
+                    in 2023.
                   </Typography>
                 </CardContent>
                 <img
@@ -684,9 +783,9 @@ const Who = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Rachel Roddy is currently completing her bachelor's
-                    degree in Classics at UC Davis in preparation to attend law
-                    school in 2023.
+                    Rachel Roddy is currently completing her bachelor's degree
+                    in Classics at UC Davis in preparation to attend law school
+                    in 2023.
                   </Typography>
                 </CardContent>
               </Box>
@@ -720,8 +819,8 @@ const Who = () => {
                     align="left"
                   >
                     Emily Sabedra has a bachelor's degree from UC Davis in
-                    Clinical Nutrition. She is currently pursuing her master's in
-                    nutrition. Emily is working this summer on a Needs
+                    Clinical Nutrition. She is currently pursuing her master's
+                    in nutrition. Emily is working this summer on a Needs
                     Assessment for LEMV. This survey will help LEMV understand
                     what barriers Livermore residents face for incorporating
                     vegetables into their diet and will be used to pursue grant
@@ -765,8 +864,8 @@ const Who = () => {
                     align="left"
                   >
                     Emily Sabedra has a bachelor's degree from UC Davis in
-                    Clinical Nutrition. She is currently pursuing her master's in
-                    nutrition. Emily is working this summer on a Needs
+                    Clinical Nutrition. She is currently pursuing her master's
+                    in nutrition. Emily is working this summer on a Needs
                     Assessment for LEMV. This survey will help LEMV understand
                     what barriers Livermore residents face for incorporating
                     vegetables into their diet and will be used to pursue grant
