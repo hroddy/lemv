@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
+import LogRocket from "logrocket";
 
 import Home from "./pages/Home";
 
@@ -24,6 +26,10 @@ import { ThemeProvider } from "@emotion/react";
 import { theme } from "./utils/theme.js";
 
 function App() {
+  useEffect(() => {
+    LogRocket.init("y6bgay/lemv");
+  }, []);
+
   return (
     <Router>
       <ThemeProvider theme={theme}>
@@ -65,8 +71,6 @@ function App() {
             <Route exact path="/post/:blogId">
               <BlogPost />
             </Route>
-
-            
 
             <Route exact path="/wordpress">
               <Wordpress />
