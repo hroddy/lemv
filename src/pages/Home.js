@@ -2,7 +2,6 @@ import React from "react";
 
 import Carousel from "../components/Carousel";
 
-import Grid from "@mui/material/Grid";
 import Button from "@mui/material/Button";
 import Link from "@mui/material/Link";
 import Typography from "@mui/material/Typography";
@@ -65,7 +64,7 @@ const Home = () => {
               <Button
                 variant="filled"
                 sx={{ backgroundColor: "#97d600" }}
-                href="/wordpress"
+                href="/blog"
               >
                 Check out our blog!
               </Button>

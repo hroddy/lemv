@@ -1,20 +1,9 @@
 import React from "react";
 import OtherCarousel from "../components/Other-Carousel";
 
-import Button from "@mui/material/Button";
 import Container from "@mui/material/Container";
 import Link from "@mui/material/Link";
 import Typography from "@mui/material/Typography";
-
-{
-  /* <Button
-            variant="filled"
-            href="/survey"
-            sx={{ backgroundColor: "#97d600" }}
-          >
-            Take our survery
-          </Button> */
-}
 
 const More = () => {
   return (

@@ -8,6 +8,8 @@ import Broken from "./pages/Broken";
 import Footer from "./components/Footer/index";
 
 import Blog from "./pages/Blog";
+import BlogPost from "./pages/BlogPost";
+
 import Wordpress from "./pages/Wordpress";
 
 import Survey from "./pages/Survey";
@@ -59,6 +61,12 @@ function App() {
             <Route exact path="/blog">
               <Blog />
             </Route>
+
+            <Route exact path="/post/:blogId">
+              <BlogPost />
+            </Route>
+
+            
 
             <Route exact path="/wordpress">
               <Wordpress />
