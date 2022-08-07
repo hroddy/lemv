@@ -74,7 +74,7 @@ const Blog = () => {
                           justify="center"
                           variant="h4"
                           fontFamily="Playfair Display"
-                          my={1}
+                          mt={3}
                           px={4}
                         >
                           {blog.title}
@@ -156,6 +156,7 @@ const Blog = () => {
               {filteredBlogs.map((blog) => {
                 return (
                   <Card sx={{ maxWidth: 800 }}>
+                     <CardActionArea href={`/post/${blog.id}`}>
                     <div style={{ flex: "flex" }}>
                       <Typography
                         color="primary"
@@ -163,7 +164,7 @@ const Blog = () => {
                         justify="center"
                         variant="h4"
                         fontFamily="Playfair Display"
-                        my={1}
+                        mt={3}
                         px={4}
                       >
                         {blog.title}
@@ -190,6 +191,7 @@ const Blog = () => {
                         ))}
                       </Typography>
                     </div>
+                    </CardActionArea>
                   </Card>
                 );
               })}
@@ -218,7 +220,7 @@ const Blog = () => {
                   justifyContent="center"
                   alignItems="center"
                   container
-                  spacing={20}
+                  spacing={30}
                 >
                   <Grid item xs={6}>
                     <Typography
@@ -255,7 +257,8 @@ const Blog = () => {
             <div style={{ flex: "flex" }}>
               {filteredBlogs.map((blog) => {
                 return (
-                  <Card sx={{ maxWidth: 600, flex: "flex" }}>
+                  <Card sx={{ maxWidth: 800, flex: "flex" }}>
+                     <CardActionArea href={`/post/${blog.id}`}>
                     <div style={{ flex: "flex" }}>
                       <Typography
                         color="primary"
@@ -263,7 +266,7 @@ const Blog = () => {
                         justify="center"
                         variant="h4"
                         fontFamily="Playfair Display"
-                        my={2}
+                        mt={3}
                         px={4}
                       >
                         {blog.title}
@@ -271,6 +274,7 @@ const Blog = () => {
                       <Typography
                         color="primary"
                         align="right"
+                        mt={1}
                         mb={2}
                         mx={3}
                         variant="body2"
@@ -289,6 +293,7 @@ const Blog = () => {
                         ))}
                       </Typography>
                     </div>
+                    </CardActionArea>
                   </Card>
                 );
               })}
@@ -356,7 +361,8 @@ const Blog = () => {
             <div style={{ marginRight: "auto", marginLeft: "auto" }}>
               {filteredBlogs.map((blog) => {
                 return (
-                  <Card sx={{ maxWidth: 430 }}>
+                  <Card sx={{ maxWidth: 600 }}>
+                     <CardActionArea href={`/post/${blog.id}`}>
                     <div style={{ flex: "flex" }}>
                       <Typography
                         color="primary"
@@ -364,7 +370,7 @@ const Blog = () => {
                         justify="center"
                         variant="h4"
                         fontFamily="Playfair Display"
-                        my={2}
+                        my={3}
                         px={4}
                       >
                         {blog.title}
@@ -390,6 +396,7 @@ const Blog = () => {
                         ))}
                       </Typography>
                     </div>
+                    </CardActionArea>
                   </Card>
                 );
               })}
