@@ -6,6 +6,8 @@ const introduction = {
   id: `intro-lemv`,
   image: pic5,
   alt: 'hands hold a rainbow colored array of vegetables',
+  author: `Morgan Roddy`,
+  date: `08/22`,
   body: [
     <p>
       Livermore! Eat. More. Vegetables. (LEMV) was founded in 2022 by local
@@ -18,7 +20,7 @@ const introduction = {
     <p>
       To learn more about the people who make this possible, check out our “Who
       are we?” page on our main website:{' '}
-      <Link href='/who' target='_blank'>
+      <Link href='/who' target='_blank' cursor="pointer">
         www.lemv.org/who
       </Link>
     </p>
