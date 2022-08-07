@@ -27,7 +27,7 @@ import { theme } from "./utils/theme.js";
 
 function App() {
   useEffect(() => {
-    LogRocket.init("y6bgay/lemv");
+    LogRocket.init(process.env.REACT_APP_LOGROCKET_ENVIRONMENT);
   }, []);
 
   return (
