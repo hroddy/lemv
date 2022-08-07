@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import LogRocket from "logrocket";
+import ReactGA from "react-ga";
 
 import Home from "./pages/Home";
 
@@ -28,6 +29,8 @@ import { theme } from "./utils/theme.js";
 function App() {
   useEffect(() => {
     LogRocket.init(process.env.REACT_APP_LOGROCKET_ENVIRONMENT);
+    ReactGA.initialize(process.env.REACT_APP_GOOGLE_TRACKING_ID);
+    ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
 
   return (
