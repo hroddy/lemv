@@ -65,7 +65,7 @@ const Home = () => {
               <Button
                 variant="filled"
                 sx={{ backgroundColor: "#97d600" }}
-                href="/wordpress"
+                href="/blog"
               >
                 Check out our blog!
               </Button>
