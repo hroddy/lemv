@@ -74,7 +74,7 @@ const Blog = () => {
                           justify="center"
                           variant="h4"
                           fontFamily="Playfair Display"
-                          mt={3}
+                          my={3}
                           px={4}
                         >
                           {blog.title}
