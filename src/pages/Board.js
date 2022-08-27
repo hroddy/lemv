@@ -83,17 +83,17 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Karen Roddy has bachelors' degrees in Marketing, Human Nutrition,
-                    and Dietetics and is currently working on her MS in Clinical
-                    Nutrition at University of the Pacific. After working for
-                    Ernst & Young as Director of Marketing, Roddy and her
-                    husband Steve moved to Livermore, where they have lived for
-                    over 20 years and raised their three daughters. She was the
-                    founder and president of a non-profit 501(c)(3) in
-                    Livermore, Outstanding Academic Opportunities (OAO), which
-                    served 400 homeschooling families from Concord to Livermore
-                    by hiring teachers and creating classes for junior high and
-                    high school students.
+                    Karen Roddy has bachelors' degrees in Marketing, Human
+                    Nutrition, and Dietetics and is currently working on her MS
+                    in Clinical Nutrition at University of the Pacific. After
+                    working for Ernst & Young as Director of Marketing, Roddy
+                    and her husband Steve moved to Livermore, where they have
+                    lived for over 20 years and raised their three daughters.
+                    She was the founder and president of a non-profit 501(c)(3)
+                    in Livermore, Outstanding Academic Opportunities (OAO),
+                    which served 400 homeschooling families from Concord to
+                    Livermore by hiring teachers and creating classes for junior
+                    high and high school students.
                   </Typography>
                 </CardContent>
                 <img
@@ -141,17 +141,17 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Karen Roddy has bachelors' degrees in Marketing, Human Nutrition,
-                    and Dietetics and is currently working on her MS in Clinical
-                    Nutrition at University of the Pacific. After working for
-                    Ernst & Young as Director of Marketing, Roddy and her
-                    husband Steve moved to Livermore, where they have lived for
-                    over 20 years and raised their three daughters. She was the
-                    founder and president of a non-profit 501(c)(3) in
-                    Livermore, Outstanding Academic Opportunities (OAO), which
-                    served 400 homeschooling families from Concord to Livermore
-                    by hiring teachers and creating classes for junior high and
-                    high school students.
+                    Karen Roddy has bachelors' degrees in Marketing, Human
+                    Nutrition, and Dietetics and is currently working on her MS
+                    in Clinical Nutrition at University of the Pacific. After
+                    working for Ernst & Young as Director of Marketing, Roddy
+                    and her husband Steve moved to Livermore, where they have
+                    lived for over 20 years and raised their three daughters.
+                    She was the founder and president of a non-profit 501(c)(3)
+                    in Livermore, Outstanding Academic Opportunities (OAO),
+                    which served 400 homeschooling families from Concord to
+                    Livermore by hiring teachers and creating classes for junior
+                    high and high school students.
                   </Typography>
                 </CardContent>
               </Box>
@@ -194,18 +194,19 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Dale Wallis has bachelors' and masters' degrees in accounting from
-                    Oklahoma State University. Wallis is licensed as a CPA in
-                    Oklahoma and California. During his almost 50-year career,
-                    Wallis has served in management of two of the “Big-4” CPA
-                    firms – KPMG in Tulsa, Oklahoma, and Ernst & Young in San
-                    Diego, California – as well as a partner in a small CPA
-                    firm. In retirement he continues to practice as a sole
-                    proprietor. Wallis has served on the Board of Directors for
-                    a variety of corporations and nonprofits and is also
-                    passionate about education. His teaching interests include
-                    ethics in accounting and financial statement analysis. To
-                    read more about Dale, view his{" "}
+                    Dale Wallis has bachelors' and masters' degrees in
+                    accounting from Oklahoma State University. Wallis is
+                    licensed as a CPA in Oklahoma and California. During his
+                    almost 50-year career, Wallis has served in management of
+                    two of the “Big-4” CPA firms – KPMG in Tulsa, Oklahoma, and
+                    Ernst & Young in San Diego, California – as well as a
+                    partner in a small CPA firm. In retirement he continues to
+                    practice as a sole proprietor. Wallis has served on the
+                    Board of Directors for a variety of corporations and
+                    nonprofits and is also passionate about education. His
+                    teaching interests include ethics in accounting and
+                    financial statement analysis. To read more about Dale, view
+                    his{" "}
                     <Link
                       href="https://drive.google.com/file/d/14pufkM4fhWerzifTG-AWTysCbzIwwE_x/view"
                       target="_blank"
@@ -260,17 +261,18 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Dale Wallis has bachelors' and masters' degrees in accounting from
-                    Oklahoma State University. Wallis is licensed as a CPA in
-                    Oklahoma and California. During his almost 50-year career,
-                    Wallis has served in management of two of the “Big-4” CPA
-                    firms – KPMG in Tulsa, Oklahoma, and Ernst & Young in San
-                    Diego, California – as well as a partner in a small CPA
-                    firm. In retirement he continues to practice as a sole
-                    proprietor. Wallis has served on the Board of Directors for
-                    a variety of corporations and nonprofits and is also
-                    passionate about education. His teaching interests include
-                    ethics in accounting and financial statement analysis.
+                    Dale Wallis has bachelors' and masters' degrees in
+                    accounting from Oklahoma State University. Wallis is
+                    licensed as a CPA in Oklahoma and California. During his
+                    almost 50-year career, Wallis has served in management of
+                    two of the “Big-4” CPA firms – KPMG in Tulsa, Oklahoma, and
+                    Ernst & Young in San Diego, California – as well as a
+                    partner in a small CPA firm. In retirement he continues to
+                    practice as a sole proprietor. Wallis has served on the
+                    Board of Directors for a variety of corporations and
+                    nonprofits and is also passionate about education. His
+                    teaching interests include ethics in accounting and
+                    financial statement analysis.
                   </Typography>
                 </CardContent>
               </Box>
@@ -313,10 +315,11 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Morgan Roddy graduated in 2021 with a bachelor's degree
-                    in Cultural and Regional Studies and a master's degree in Social
-                    Justice and Community Organizing from Prescott College in
-                    Arizona. Previous projects include internships at the{" "}
+                    Morgan Roddy graduated in 2021 with a bachelor's degree in
+                    Cultural and Regional Studies and a master's degree in
+                    Social Justice and Community Organizing from Prescott
+                    College in Arizona. Previous projects include internships at
+                    the{" "}
                     <Link
                       href="http://www.warehouseworkers.org/"
                       target="_blank"
@@ -374,10 +377,11 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Morgan Roddy graduated in 2021 with a bachelor's degree
-                    in Cultural and Regional Studies and a master's degree in Social
-                    Justice and Community Organizing from Prescott College in
-                    Arizona. Previous projects include internships at the{" "}
+                    Morgan Roddy graduated in 2021 with a bachelor's degree in
+                    Cultural and Regional Studies and a master's degree in
+                    Social Justice and Community Organizing from Prescott
+                    College in Arizona. Previous projects include internships at
+                    the{" "}
                     <Link
                       href="http://www.warehouseworkers.org/"
                       target="_blank"
@@ -394,6 +398,93 @@ const Board = () => {
             </Card>
           </Grid>
           {/* MORGAN RODDY END */}
+
+          {/* ANGELA PIAZZA START */}
+          <Grid item sm={12}>
+            <Card
+              sx={{
+                maxWidth: 900,
+                maxheight: 300,
+                display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
+              }}
+            >
+              <Box sx={{ display: "flex", flexDirection: "row" }}>
+                <CardContent>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    color="primary"
+                    align="left"
+                  >
+                    Angela Piazza MS, RCFE
+                  </Typography>
+
+                  <Typography
+                    variant="body2"
+                    color="text.secondary"
+                    align="left"
+                  >
+                    Angela Piazza holds a bachelor’s degree in Therapeutic
+                    Recreation Administration from San Jose State University, as
+                    well as a master’s degree in Gerontology from UMass Boston.
+                    Having worked in a variety of clinical and residential care
+                    settings, her most recent professional work has focused on
+                    providing empathic, dignified care for older adults. In
+                    addition to her experience as a recreation therapist and
+                    memory care program director, Ms. Piazza has a wide range of
+                    community care and volunteer experience. Her primary
+                    interests include environmental gerontology, long-term care
+                    decision-making, healthcare ethics, person-centered program
+                    design, and dementia care best practices. Ms. Piazza and her
+                    husband raised their children in Livermore and have always
+                    taken an active role in their community.
+                  </Typography>
+                </CardContent>
+                {/* <img
+                  component="img"
+                  height="300"
+                  src={angela}
+                  alt="portrait shot of a woman"
+                /> */}
+              </Box>
+            </Card>
+            <Card
+              sx={{
+                maxWidth: 345,
+                maxheight: 400,
+                display: { xs: "flex", sm: "flex", md: "none", lg: "none" },
+              }}
+            >
+              <Box sx={{ display: "flex", flexDirection: "column" }}>
+                {/* <CardMedia
+                  component="img"
+                  height="400"
+                  src={angela}
+                  alt="portrait shot of a blonde woman"
+                /> */}
+                <CardContent>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    color="primary"
+                  >
+                    Angela Piazza MS, RCFE
+                  </Typography>
+
+                  <Typography
+                    variant="body2"
+                    color="text.secondary"
+                    align="left"
+                  >
+                    Angela Piazza holds a bachelor’s degree in Therapeutic Recreation Administration from San Jose State University, as well as a master’s degree in Gerontology from UMass Boston.  Having worked in a variety of clinical and residential care settings, her most recent professional work has focused on providing empathic, dignified care for older adults. In addition to her experience as a recreation therapist and memory care program director, Ms. Piazza has a wide range of community care and volunteer experience.  Her primary interests include environmental gerontology, long-term care decision-making, healthcare ethics, person-centered program design, and dementia care best practices.  Ms. Piazza and her husband raised their children in Livermore and have always taken an active role in their community.
+                  </Typography>
+                </CardContent>
+              </Box>
+            </Card>
+          </Grid>
+          {/* ANGELA PIAZZA END */}
 
           {/* DIANA PRINCE START */}
           <Grid item sm={12}>
@@ -421,10 +512,11 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Diana Price has a bachelor's in Nutrition from Cal Poly San Luis
-                    Obispo, a master's in Nutrition and Functional Medicine from the
-                    University of Western States, and is a Registered Dietitian
-                    Nutritionist. Diana is a business owner in Livermore;{" "}
+                    Diana Price has a bachelor's in Nutrition from Cal Poly San
+                    Luis Obispo, a master's in Nutrition and Functional Medicine
+                    from the University of Western States, and is a Registered
+                    Dietitian Nutritionist. Diana is a business owner in
+                    Livermore;{" "}
                     <Link
                       href="https://www.honestnutritionusa.com/"
                       target="_blank"
@@ -479,10 +571,11 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Diana Price has a bachelor's in Nutrition from Cal Poly San Luis
-                    Obispo, a master's in Nutrition and Functional Medicine from the
-                    University of Western States, and is a Registered Dietitian
-                    Nutritionist. Diana is a business owner in Livermore;{" "}
+                    Diana Price has a bachelor's in Nutrition from Cal Poly San
+                    Luis Obispo, a master's in Nutrition and Functional Medicine
+                    from the University of Western States, and is a Registered
+                    Dietitian Nutritionist. Diana is a business owner in
+                    Livermore;{" "}
                     <Link
                       href="https://www.honestnutritionusa.com/"
                       target="_blank"
@@ -532,14 +625,14 @@ const Board = () => {
                   >
                     Kathleen Willkom-Nicholas has been serving the residents of
                     Alameda County for over 20 years. Willkom-Nicholas graduated
-                    from the University of the Philippines with her bachelor’s in
-                    Community Nutrition. Willkom-Nicholas then attended San Jose
-                    State University earning her master's in Clinical Nutrition.
-                    After completing her master's degree, she entered the Women,
-                    Infant, and Children Nutrition Program, joining Alameda
-                    County WIC in 1996. Since that time, Willkom-Nicholas was
-                    the site manager of the Hayward and Fremont WIC locations
-                    and is now the Program Director.
+                    from the University of the Philippines with her bachelor’s
+                    in Community Nutrition. Willkom-Nicholas then attended San
+                    Jose State University earning her master's in Clinical
+                    Nutrition. After completing her master's degree, she entered
+                    the Women, Infant, and Children Nutrition Program, joining
+                    Alameda County WIC in 1996. Since that time,
+                    Willkom-Nicholas was the site manager of the Hayward and
+                    Fremont WIC locations and is now the Program Director.
                   </Typography>
                 </CardContent>
                 <img
@@ -581,14 +674,14 @@ const Board = () => {
                   >
                     Kathleen Willkom-Nicholas has been serving the residents of
                     Alameda County for over 20 years. Willkom-Nicholas graduated
-                    from the University of the Philippines with her bachelor's in
-                    Community Nutrition. Willkom-Nicholas then attended San Jose
-                    State University earning her master's in Clinical Nutrition.
-                    After completing her master's degree, she entered the Women,
-                    Infant, and Children Nutrition Program, joining Alameda
-                    County WIC in 1996. Since that time, Willkom-Nicholas was
-                    the site manager of the Hayward and Fremont WIC locations
-                    and is now the Program Director.
+                    from the University of the Philippines with her bachelor's
+                    in Community Nutrition. Willkom-Nicholas then attended San
+                    Jose State University earning her master's in Clinical
+                    Nutrition. After completing her master's degree, she entered
+                    the Women, Infant, and Children Nutrition Program, joining
+                    Alameda County WIC in 1996. Since that time,
+                    Willkom-Nicholas was the site manager of the Hayward and
+                    Fremont WIC locations and is now the Program Director.
                   </Typography>
                 </CardContent>
               </Box>
