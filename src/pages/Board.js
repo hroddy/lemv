@@ -11,6 +11,9 @@ import Grid from "@mui/material/Grid";
 
 import karen from "../assets/team/karen.jpg";
 import dale from "../assets/team/dale.jpg";
+import kori from "../assets/team/kori.jpg";
+import margaret from "../assets/team/margaret.jpg";
+import nancy from "../assets/team/nancy.jpg";
 import kathleen from "../assets/team/kathleen.png";
 import diana from "../assets/team/diana.jpeg";
 import morgan from "../assets/team/morgan.JPG";
@@ -28,18 +31,7 @@ const Board = () => {
           fontFamily="Playfair Display"
         >
           The Board
-        </Typography>
-        <Typography
-          color="primary"
-          variant="body1"
-          mt={5}
-          mb={8}
-          align="left"
-          justify="center"
-        >
-          LEMV's board is being assembled. More members will be added to this
-          page.
-        </Typography>
+        </Typography>      
 
         <Grid
           container
@@ -52,7 +44,7 @@ const Board = () => {
           <Grid item sm={12}>
             <Card
               sx={{
-                maxWidth: 900,
+                maxWidth: 1100,
                 maxheight: 300,
                 display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
               }}
@@ -163,7 +155,7 @@ const Board = () => {
           <Grid item sm={12}>
             <Card
               sx={{
-                maxWidth: 900,
+                maxWidth: 1100,
                 maxheight: 300,
                 display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
               }}
@@ -194,7 +186,8 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Dale Wallis has bachelors' and masters' degrees in
+
+                    Dale Wallis has bachelor's and master's degrees in
                     accounting from Oklahoma State University. Wallis is
                     licensed as a CPA in Oklahoma and California. During his
                     almost 50-year career, Wallis has served in management of
@@ -284,7 +277,7 @@ const Board = () => {
           <Grid item sm={12}>
             <Card
               sx={{
-                maxWidth: 900,
+                maxWidth: 1100,
                 maxheight: 300,
                 display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
               }}
@@ -399,11 +392,12 @@ const Board = () => {
           </Grid>
           {/* MORGAN RODDY END */}
 
-          {/* ANGELA PIAZZA START */}
+
+          {/* Margaret Austin START */}
           <Grid item sm={12}>
             <Card
               sx={{
-                maxWidth: 900,
+                maxWidth: 1100,
                 maxheight: 300,
                 display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
               }}
@@ -417,7 +411,9 @@ const Board = () => {
                     color="primary"
                     align="left"
                   >
-                    Angela Piazza MS, RCFE
+
+                    Margaret Austin, MS, PhD
+
                   </Typography>
 
                   <Typography
@@ -425,7 +421,334 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Angela Piazza holds a bachelor’s degree in Therapeutic
+
+                    Dr. Margaret Austin has a PhD from CA School of Professional
+                    Psychology (CSPP), now Alliant University, and two master’s
+                    degrees, one from Tennessee State University and the other
+                    from CSPP. She has a varied career that spans 30+ years. Her
+                    clinical work focuses on special needs children,
+                    neurofeedback, and brain health. In addition to her private
+                    practice, Dr. Austin has taught psychology for many years
+                    and continues to do so at Sierra College. Her teaching
+                    interests have centered on Statistics and Behavioral Health
+                    Research. She also serves as an editor for the Journal of
+                    Child and Adolescent Trauma. These experiences in
+                    combination with exploring the latest brain science have led
+                    her to shift focus into more of a functional health
+                    approach. Self-regulation is a key component of health and
+                    efficient brain function and includes an emphasis on sleep,
+                    exercise, and nutrition. To read more about Dr. Austin, view
+                    her{" "}
+                    <Link html="https://drive.google.com/file/d/1s1k4gAg2qSldkUCc4lwfzmr54-I56E6p/view?usp=sharing" target="_blank">
+                      career summary.
+                    </Link>
+                  </Typography>
+                </CardContent>
+
+                <img
+                  component="img"
+                  height="300"
+                  src={margaret}
+                  alt="portrait shot of a blonde woman"
+                  align="right"
+                />
+              </Box>
+            </Card>
+            <Card
+              sx={{
+                maxWidth: 345,
+                maxheight: 400,
+                display: { xs: "flex", sm: "flex", md: "none", lg: "none" },
+              }}
+            >
+              <Box sx={{ display: "flex", flexDirection: "column" }}>
+                <CardMedia
+                  component="img"
+                  height="400"
+                  src={margaret}
+                  alt="portrait shot of a blonde woman"
+                />
+                <CardContent>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    color="primary"
+                  >
+                    Margaret Austin, PhD
+                  </Typography>
+
+                  <Typography
+                    variant="body2"
+                    color="text.secondary"
+                    align="left"
+                  >
+                    Dr. Margaret Austin has a PhD from CA School of Professional
+                    Psychology (CSPP), now Alliant University, and two master’s
+                    degrees, one from Tennessee State University and the other
+                    from CSPP. She has a varied career that spans 30+ years. Her
+                    clinical work focuses on special needs children,
+                    neurofeedback, and brain health. In addition to her private
+                    practice, Dr. Austin has taught psychology for many years
+                    and continues to do so at Sierra College. Her teaching
+                    interests have centered on Statistics and Behavioral Health
+                    Research. She also serves as an editor for the Journal of
+                    Child and Adolescent Trauma. These experiences in
+                    combination with exploring the latest brain science have led
+                    her to shift focus into more of a functional health
+                    approach. Self-regulation is a key component of health and
+                    efficient brain function and includes an emphasis on sleep,
+                    exercise, and nutrition. To read more about Dr. Austin, view
+                    her{" "}
+                    <Link html="https://drive.google.com/file/d/1s1k4gAg2qSldkUCc4lwfzmr54-I56E6p/view?usp=sharing" target="_blank">
+                      career summary.
+                    </Link>
+                  </Typography>
+                </CardContent>
+              </Box>
+            </Card>
+          </Grid>
+          {/* Margaret Austin END */}
+
+          {/* Kori Dover START */}
+          <Grid item sm={12}>
+            <Card
+              sx={{
+                maxWidth: 1100,
+                maxheight: 300,
+                display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
+              }}
+            >
+              <Box sx={{ display: "flex", flexDirection: "row" }}>
+                <CardContent>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    color="primary"
+                    align="left"
+                  >
+                    Kori Dover, RD, MS
+                  </Typography>
+
+                  <Typography
+                    variant="body2"
+                    color="text.secondary"
+                    align="left"
+                  >
+                    Kori Dover holds a bachelor's in Human Nutrition and
+                    Dietetics from Metropolitan State University of Devner and a
+                    master’s in Dietetics from California State University
+                    Sacramento. Currently, Dover is the California Beef
+                    Council’s Registered Dietitian and resident health
+                    professional, providing evidence-based education, resources,
+                    and communication around health and nutrition. She is also
+                    the voice behind{" "}
+                    <Link href="https://www.gfreekori.com/" target="_blank">
+                      GFree Kori
+                    </Link>
+                    , where she explores "Gluten-Free & Guilt-Free Living" as a
+                    food lover and mom who also happens to be a registered
+                    dietitian who has celiac. As Dover says,"There is no
+                    one-size-fits-all model in health, nutrition or with food.
+                    We create connections, celebrate and honor our cultures with
+                    food, and eating well should not leave you unsatisfied and
+                    hungry. Most of all, food and eating should not be based on
+                    fear."
+                  </Typography>
+                </CardContent>
+
+                <img
+                  component="img"
+                  height="300"
+                  src={kori}
+                  alt="portrait shot of a blonde woman"
+                  align="right"
+                />
+              </Box>
+            </Card>
+            <Card
+              sx={{
+                maxWidth: 345,
+                maxheight: 400,
+                display: { xs: "flex", sm: "flex", md: "none", lg: "none" },
+              }}
+            >
+              <Box sx={{ display: "flex", flexDirection: "column" }}>
+                <CardMedia
+                  component="img"
+                  height="400"
+                  src={kori}
+                  alt="portrait shot of a blonde woman"
+                />
+                <CardContent>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    color="primary"
+                  >
+                    Kori Dover, RD, MS
+                  </Typography>
+
+                  <Typography
+                    variant="body2"
+                    color="text.secondary"
+                    align="left"
+                  >
+                    Kori Dover holds a bachelor's in Human Nutrition and
+                    Dietetics from Metropolitan State University of Devner and a
+                    master’s in Dietetics from California State University
+                    Sacramento. Currently, Dover is the California Beef
+                    Council’s Registered Dietitian and resident health
+                    professional, providing evidence-based education, resources,
+                    and communication around health and nutrition. She is also
+                    the voice behind{" "}
+                    <Link html="https://www.gfreekori.com/" target="_blank">
+                      GFree Kori
+                    </Link>
+                    , where she explores "Gluten-Free & Guilt-Free Living" as a
+                    food lover and mom who also happens to be a registered
+                    dietitian who has celiac. As Dover says,"There is no
+                    one-size-fits-all model in health, nutrition or with food.
+                    We create connections, celebrate and honor our cultures with
+                    food, and eating well should not leave you unsatisfied and
+                    hungry. Most of all, food and eating should not be based on
+                    fear."
+                  </Typography>
+                </CardContent>
+              </Box>
+            </Card>
+          </Grid>
+          {/* Kori Dover END */}
+
+          {/* Nancy Hamler START */}
+          <Grid item sm={12}>
+            <Card
+              sx={{
+                maxWidth: 1100,
+                maxheight: 300,
+                display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
+              }}
+            >
+              <Box sx={{ display: "flex", flexDirection: "row" }}>
+                <CardContent>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    color="primary"
+                    align="left"
+                  >
+                    Nancy Hamler, DMSc, MPA, RDN, PA-C
+                  </Typography>
+
+                  <Typography
+                    variant="body2"
+                    color="text.secondary"
+                    align="left"
+                  >
+                    Dr. Nancy Hamler is a licensed physician assistant who began
+                    her healthcare career as a registered dietitian. She
+                    graduated from Samuel Merritt’s Master Physician Assistant
+                    program and completed her Doctor of Medical Science (DMSc)
+                    degree through Lynchburg University alongside a Fellowship
+                    in Emergency Medicine. While she started her clinical career
+                    in Family Medicine, she currently practices at a local
+                    community emergency department as well as serving as Asst.
+                    Clinical Professor at University of the Pacific and adjunct
+                    faculty for Rocky Mountain University’s DMSc program.
+                    Additionally, Dr Hamler has taught for the Nutrition &
+                    Dietetics departments at UC Davis and California State
+                    University, Sacramento.
+                  </Typography>
+                </CardContent>
+
+                <img
+                  component="img"
+                  height="300"
+                  src={nancy}
+                  alt="portrait shot of a blonde woman"
+                  align="right"
+                />
+              </Box>
+            </Card>
+            <Card
+              sx={{
+                maxWidth: 345,
+                maxheight: 400,
+                display: { xs: "flex", sm: "flex", md: "none", lg: "none" },
+              }}
+            >
+              <Box sx={{ display: "flex", flexDirection: "column" }}>
+                <CardMedia
+                  component="img"
+                  height="400"
+                  src={nancy}
+                  alt="portrait shot of a blonde woman"
+                />
+                <CardContent>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    color="primary"
+                  >
+                    Nancy Hamler, DMSc, MPA, RDN, PA-C
+                  </Typography>
+
+                  <Typography
+                    variant="body2"
+                    color="text.secondary"
+                    align="left"
+                  >
+                    Dr. Nancy Hamler is a licensed physician assistant who began
+                    her healthcare career as a registered dietitian. She
+                    graduated from Samuel Merritt’s Master Physician Assistant
+                    program and completed her Doctor of Medical Science (DMSc)
+                    degree through Lynchburg University alongside a Fellowship
+                    in Emergency Medicine. While she started her clinical career
+                    in Family Medicine, she currently practices at a local
+                    community emergency department as well as serving as Asst.
+                    Clinical Professor at University of the Pacific and adjunct
+                    faculty for Rocky Mountain University’s DMSc program.
+                    Additionally, Dr Hamler has taught for the Nutrition &
+                    Dietetics departments at UC Davis and California State
+                    University, Sacramento.
+                  </Typography>
+                </CardContent>
+              </Box>
+            </Card>
+          </Grid>
+          {/* Nancy Hamler END */}
+
+          {/* Angela Piazza START */}
+          <Grid item sm={12}>
+            <Card
+              sx={{
+                maxWidth: 930,
+                maxheight: 300,
+                display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
+              }}
+            >
+              <Box sx={{ display: "flex", flexDirection: "row" }}>
+                <CardContent>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    color="primary"
+                    align="left"
+                  >
+                    Angela Piazza
+                  </Typography>
+
+                  <Typography
+                    variant="body2"
+                    color="text.secondary"
+                    align="left"
+                  >
+                   Angela Piazza holds a bachelor’s degree in Therapeutic
                     Recreation Administration from San Jose State University, as
                     well as a master’s degree in Gerontology from UMass Boston.
                     Having worked in a variety of clinical and residential care
@@ -439,13 +762,16 @@ const Board = () => {
                     design, and dementia care best practices. Ms. Piazza and her
                     husband raised their children in Livermore and have always
                     taken an active role in their community.
+
                   </Typography>
                 </CardContent>
                 {/* <img
                   component="img"
                   height="300"
                   src={angela}
+
                   alt="portrait shot of a woman"
+
                 /> */}
               </Box>
             </Card>
@@ -470,7 +796,9 @@ const Board = () => {
                     component="div"
                     color="primary"
                   >
+
                     Angela Piazza MS, RCFE
+
                   </Typography>
 
                   <Typography
@@ -478,19 +806,23 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
+
                     Angela Piazza holds a bachelor’s degree in Therapeutic Recreation Administration from San Jose State University, as well as a master’s degree in Gerontology from UMass Boston.  Having worked in a variety of clinical and residential care settings, her most recent professional work has focused on providing empathic, dignified care for older adults. In addition to her experience as a recreation therapist and memory care program director, Ms. Piazza has a wide range of community care and volunteer experience.  Her primary interests include environmental gerontology, long-term care decision-making, healthcare ethics, person-centered program design, and dementia care best practices.  Ms. Piazza and her husband raised their children in Livermore and have always taken an active role in their community.
+
                   </Typography>
                 </CardContent>
               </Box>
             </Card>
           </Grid>
+
           {/* ANGELA PIAZZA END */}
+
 
           {/* DIANA PRINCE START */}
           <Grid item sm={12}>
             <Card
               sx={{
-                maxWidth: 900,
+                maxWidth: 1100,
                 maxheight: 300,
                 display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
               }}
@@ -602,7 +934,7 @@ const Board = () => {
           <Grid item sm={12}>
             <Card
               sx={{
-                maxWidth: 900,
+                maxWidth: 1100,
                 maxheight: 300,
                 display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
               }}

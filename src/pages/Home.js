@@ -31,9 +31,8 @@ const Home = () => {
           align="left"
           justify="center"
         >
-          Who doesn’t love food? Food brings families and friends together and
-          is an opportunity for joy in our lives. Livermore! Eat. More.
-          Vegetables. (LEMV) is a non-profit (#5076429) organization with a
+          Food is foundational to a healthy life and can bring families, friends, and communities together. Livermore! Eat. More.
+          Vegetables. (LEMV) is a nonprofit organization with a
           simple goal of helping Livermorians increase vegetable consumption.
           Research consistently shows that adequate vegetable consumption
           improves health outcomes and reduces medical expenses by reducing

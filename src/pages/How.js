@@ -148,6 +148,7 @@ const How = () => {
               p={1}
               align="left"
               justify="center"
+              lineHeight={1.7}
             >
               <ul>
                 <li>
@@ -239,12 +240,14 @@ const How = () => {
 
         <Typography
           color="primary"
+          fontSize={12}
           variant="body1"
-          my={5}
+          mt={5}
+          mb={4}
           align="left"
           justify="center"
         >
-          Links from the Paragraphs:
+          Links from the paragraphs:
           <ul>
             <li>
               <Link
