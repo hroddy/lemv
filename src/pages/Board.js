@@ -186,6 +186,7 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
+
                     Dale Wallis has bachelor's and master's degrees in
                     accounting from Oklahoma State University. Wallis is
                     licensed as a CPA in Oklahoma and California. During his
@@ -391,6 +392,7 @@ const Board = () => {
           </Grid>
           {/* MORGAN RODDY END */}
 
+
           {/* Margaret Austin START */}
           <Grid item sm={12}>
             <Card
@@ -409,7 +411,9 @@ const Board = () => {
                     color="primary"
                     align="left"
                   >
+
                     Margaret Austin, MS, PhD
+
                   </Typography>
 
                   <Typography
@@ -417,6 +421,7 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
+
                     Dr. Margaret Austin has a PhD from CA School of Professional
                     Psychology (CSPP), now Alliant University, and two master’s
                     degrees, one from Tennessee State University and the other
@@ -743,14 +748,30 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Angela Piazza's bio will be coming soon...
+                   Angela Piazza holds a bachelor’s degree in Therapeutic
+                    Recreation Administration from San Jose State University, as
+                    well as a master’s degree in Gerontology from UMass Boston.
+                    Having worked in a variety of clinical and residential care
+                    settings, her most recent professional work has focused on
+                    providing empathic, dignified care for older adults. In
+                    addition to her experience as a recreation therapist and
+                    memory care program director, Ms. Piazza has a wide range of
+                    community care and volunteer experience. Her primary
+                    interests include environmental gerontology, long-term care
+                    decision-making, healthcare ethics, person-centered program
+                    design, and dementia care best practices. Ms. Piazza and her
+                    husband raised their children in Livermore and have always
+                    taken an active role in their community.
+
                   </Typography>
                 </CardContent>
                 {/* <img
                   component="img"
                   height="300"
                   src={angela}
-                  alt="portrait shot of a blonde woman"
+
+                  alt="portrait shot of a woman"
+
                 /> */}
               </Box>
             </Card>
@@ -775,7 +796,9 @@ const Board = () => {
                     component="div"
                     color="primary"
                   >
-                    Angela Piazza
+
+                    Angela Piazza MS, RCFE
+
                   </Typography>
 
                   <Typography
@@ -783,13 +806,17 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Angela Piazza's bio will be coming soon...
+
+                    Angela Piazza holds a bachelor’s degree in Therapeutic Recreation Administration from San Jose State University, as well as a master’s degree in Gerontology from UMass Boston.  Having worked in a variety of clinical and residential care settings, her most recent professional work has focused on providing empathic, dignified care for older adults. In addition to her experience as a recreation therapist and memory care program director, Ms. Piazza has a wide range of community care and volunteer experience.  Her primary interests include environmental gerontology, long-term care decision-making, healthcare ethics, person-centered program design, and dementia care best practices.  Ms. Piazza and her husband raised their children in Livermore and have always taken an active role in their community.
+
                   </Typography>
                 </CardContent>
               </Box>
             </Card>
           </Grid>
-          {/* Angela Piazza END */}
+
+          {/* ANGELA PIAZZA END */}
+
 
           {/* DIANA PRINCE START */}
           <Grid item sm={12}>
