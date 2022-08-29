@@ -740,7 +740,7 @@ const Board = () => {
                     color="primary"
                     align="left"
                   >
-                    Angela Piazza
+                    Angela Piazza, MS, RCFE
                   </Typography>
 
                   <Typography
