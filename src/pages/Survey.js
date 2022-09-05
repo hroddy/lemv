@@ -1,61 +1,35 @@
 import React from "react";
 
-
 import Container from "@mui/material/Container";
-import Box from "@mui/material/Box";
+import Typography from "@mui/material/Typography";
+import Link from "@mui/material/Link";
 
 const Survey = () => {
   return (
     <div>
       {/* LG MD DISPLAY */}
-      <Container alignItems="center">
-        <Box
-          sx={{
-            display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
-          }}
-        >
-          <iframe
-            src="https://dentalpacific.az1.qualtrics.com/jfe/form/SV_ey9TLlpoVF6axyS"
-            height="800px"
-            width="1200px"
-            title="survey"
-          ></iframe>
-        </Box>
+      <Container >
+        <Typography color="primary"
+          align="center"
+          justify="center"
+          mt={5}
+          variant="h4"
+          fontFamily="Playfair Display">
+          Survey has closed
+        </Typography>
+        <Typography my={6} align="left" color="primary">
+          Data collection has ended for the Needs Assessment. Thank you to
+          everyone who participated! We'll do more in the future, so if you're
+          interested in participating in a future survey, email <Link href="mailto:karen@lemv.org" target="_blank">karen@lemv.org</Link>{" "}
+          or <Link href="mailto:morgan@lemv.org" target="_blank">morgan@lemv.org</Link>.
+          <p />
+          We're moving from the data collection stage of the current Needs
+          Assessment to data analysis. If you're interested in the results,
+          check back to the website in November or email us at the above
+          addesses and we'll add you to the contact list.
+        </Typography>
       </Container>
-      {/* SM DISPLAY */}
-      <Container alignItems="center">
-        <Box
-          sx={{
-            display: { xs: "none", sm: "flex", md: "none", lg: "none" },
-          }}
-        >
-          <iframe
-            src="https://dentalpacific.az1.qualtrics.com/jfe/form/SV_ey9TLlpoVF6axyS"
-            height="800px"
-            width="800px"
-            title="survey-sm"
-          ></iframe>
-        </Box>
-      </Container>
-      {/* XS DISPLAY */}
-      <Container alignItems="center">
-        <Box
-          sx={{
-            display: { xs: "flex", sm: "none", md: "none", lg: "none" },
-          }}
-        >
-          <iframe
-            src="https://dentalpacific.az1.qualtrics.com/jfe/form/SV_ey9TLlpoVF6axyS"
-            height="600px"
-            width="400px"
-            title="survey-xs"
-          ></iframe>
-        </Box>
-      </Container>
-      {/* <Container>
-      <Typography my={10} align="center">Our study's survey will appear here.</Typography>
-      </Container> */}
-    </div> 
+    </div>
   );
 };
 
