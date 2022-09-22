@@ -79,7 +79,7 @@ const Who = () => {
                 sx={{ backgroundColor: "#97d600" }}
                 href="/board"
               >
-                LEMV Board Members
+                Click here to view the Board Members
               </Button>
             </Typography>
           </Grid>
