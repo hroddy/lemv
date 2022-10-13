@@ -6,122 +6,13 @@ import HowCarousel from "../components/How-Carousel";
 
 import banner from "../assets/illustrations/veggiebanner.png";
 
-const How = () => {
+const Recipes = () => {
   return (
     <div>
       <HowCarousel />
       <Container align="center">
-        <Typography
-          color="primary"
-          align="center"
-          justify="center"
-          mt={5}
-          variant="h4"
-          fontFamily="Playfair Display"
-        >
-          Which vegetables should I eat?
-        </Typography>
 
-        <Typography
-          color="primary"
-          variant="body1"
-          my={5}
-          align="left"
-          justify="center"
-        >
-          Eating a diverse variety of vegetables is most recommended. Luckily in
-          California, we have almost year round access to many amazing types of
-          vegetables. Frequent guests of the produce sections in town are often
-          joined with more seasonal options as well. Trying a couple different
-          varieties can often be the best way to find your favorites. Some
-          vegetables popular with us are brussel sprouts, zucchini, parsnips,
-          kale, cauliflower, cucumbers, and of course garlic and onions! <p />
-        </Typography>
-
-        <Container
-          align="center"
-          sx={{
-            display: { xs: "none", sm: "none", md: "none", lg: "block" },
-          }}
-        >
-          <img src={banner} alt="illustrated vegetables"/>
-        </Container>
-        <Container
-          align="center"
-          sx={{
-            display: { xs: "none", sm: "none", md: "block", lg: "none" },
-          }}
-        >
-          <img height="125px" alt="illustrated vegetables" src={banner} />
-        </Container>
-        <Container
-          align="center"
-          sx={{
-            display: { xs: "none", sm: "block", md: "none", lg: "none" },
-          }}
-        >
-          <img height="70px" alt="illustrated vegetables" src={banner} />
-        </Container>
-        <Container
-          align="center"
-          sx={{
-            display: { xs: "block", sm: "none", md: "none", lg: "none" },
-          }}
-        >
-          <img height="60px" alt="illustrated vegetables" src={banner} />
-        </Container>
-
-        <Typography
-          color="primary"
-          align="center"
-          justify="center"
-          mt={5}
-          variant="h4"
-          fontFamily="Playfair Display"
-        >
-          How do I cook them?
-        </Typography>
-        <Typography
-          color="primary"
-          variant="body1"
-          my={5}
-          align="left"
-          justify="center"
-        >
-          <Link
-            target="_blank"
-            href="https://ucfhealth.com/health-tips/three-of-the-healthiest-ways-to-cook-vegetables/"
-          >
-            The healthiest ways to cook vegetables
-          </Link>{" "}
-          are methods that preserve most of the nutrients inside the vegetable.
-          Therefore, quick cooking methods such as steaming or stir-frying are
-          considered the healthiest. While these methods can be delicious, they
-          are by no means the only options. Mixing up how you cook vegetables
-          will make them more interesting and sometimes easier to prepare! Some
-          vegetables are amazing roasted in a hot oven, such as{" "}
-          <Link
-            target="_blank"
-            href="https://cookieandkate.com/roasted-sweet-potatoes-recipe/"
-          >
-            sweet potatoes
-          </Link>{" "}
-          or (surprisingly) broccoli. Slow cookers can help break down heartier
-          vegetables into soups or sauces and save time.
-          <p />
-          Adding more vegetables to what you are already cooking is the simplest
-          way to increase your vegetable intake. For example, adding a handful
-          of spinach into a casserole your family loves, making that cheese
-          omelet into a vegetable cheese omelet, adding a few different
-          vegetables to a salad you enjoy making, or working towards a more{" "}
-          <Link
-            target="_blank"
-            href="https://www.merckconnect.com/static/pdf/balanced-plate-resource.pdf"
-          >
-            balanced plate.
-          </Link>{" "}
-        </Typography>
-        <Typography
+      <Typography
           color="primary"
           align="center"
           justify="center"
@@ -129,9 +20,19 @@ const How = () => {
           variant="h4"
           fontFamily="Playfair Display"
         >
-          More Recipes!
+          Recipes
         </Typography>
         
+        <Typography
+          color="primary"
+          variant="body1"
+          my={5}
+          align="left"
+          justify="center"
+        >
+          Check out the links below for some vegetable filled recipes! There are a variety of recipes including vegetarian, vegan, and meat based options.
+        </Typography>
+
         <Container align="center">
           <div
             style={{
@@ -229,6 +130,15 @@ const How = () => {
                     target="_blank"
                   >
                     {" "}
+                    One Pot Lentil Vegetable Soup{" "}
+                  </Link>{" "}
+                </li>
+                <li>
+                  <Link
+                    href="https://www.eatingwell.com/recipe/7917979/one-pot-lentil-vegetable-soup-with-parmesan/"
+                    target="_blank"
+                  >
+                    {" "}
                     Healthy Vegetable Recipes | EatingWell{" "}
                   </Link>{" "}
                 </li>
@@ -236,6 +146,120 @@ const How = () => {
             </Typography>
           </div>
         </Container>
+
+        <Container
+          align="center"
+          sx={{
+            display: { xs: "none", sm: "none", md: "none", lg: "block" },
+          }}
+        >
+          <img src={banner} alt="illustrated vegetables"/>
+        </Container>
+
+        <Typography
+          color="primary"
+          align="center"
+          justify="center"
+          my={5}
+          variant="h4"
+          fontFamily="Playfair Display"
+        >
+          Which vegetables should I eat?
+        </Typography>
+
+        <Typography
+          color="primary"
+          variant="body1"
+          my={5}
+          align="left"
+          justify="center"
+        >
+          Eating a diverse variety of vegetables is most recommended. Luckily in
+          California, we have almost year round access to many amazing types of
+          vegetables. Frequent guests of the produce sections in town are often
+          joined with more seasonal options as well. Trying a couple different
+          varieties can often be the best way to find your favorites. Some
+          vegetables popular with us are brussel sprouts, zucchini, parsnips,
+          kale, cauliflower, cucumbers, and of course garlic and onions! <p />
+        </Typography>
+
+        
+        <Container
+          align="center"
+          sx={{
+            display: { xs: "none", sm: "none", md: "block", lg: "none" },
+          }}
+        >
+          <img height="125px" alt="illustrated vegetables" src={banner} />
+        </Container>
+        <Container
+          align="center"
+          sx={{
+            display: { xs: "none", sm: "block", md: "none", lg: "none" },
+          }}
+        >
+          <img height="70px" alt="illustrated vegetables" src={banner} />
+        </Container>
+        <Container
+          align="center"
+          sx={{
+            display: { xs: "block", sm: "none", md: "none", lg: "none" },
+          }}
+        >
+          <img height="60px" alt="illustrated vegetables" src={banner} />
+        </Container>
+
+        <Typography
+          color="primary"
+          align="center"
+          justify="center"
+          mt={5}
+          variant="h4"
+          fontFamily="Playfair Display"
+        >
+          How do I cook them?
+        </Typography>
+        <Typography
+          color="primary"
+          variant="body1"
+          my={5}
+          align="left"
+          justify="center"
+        >
+          <Link
+            target="_blank"
+            href="https://ucfhealth.com/health-tips/three-of-the-healthiest-ways-to-cook-vegetables/"
+          >
+            The healthiest ways to cook vegetables
+          </Link>{" "}
+          are methods that preserve most of the nutrients inside the vegetable.
+          Therefore, quick cooking methods such as steaming or stir-frying are
+          considered the healthiest. While these methods can be delicious, they
+          are by no means the only options. Mixing up how you cook vegetables
+          will make them more interesting and sometimes easier to prepare! Some
+          vegetables are amazing roasted in a hot oven, such as{" "}
+          <Link
+            target="_blank"
+            href="https://cookieandkate.com/roasted-sweet-potatoes-recipe/"
+          >
+            sweet potatoes
+          </Link>{" "}
+          or (surprisingly) broccoli. Slow cookers can help break down heartier
+          vegetables into soups or sauces and save time.
+          <p />
+          Adding more vegetables to what you are already cooking is the simplest
+          way to increase your vegetable intake. For example, adding a handful
+          of spinach into a casserole your family loves, making that cheese
+          omelet into a vegetable cheese omelet, adding a few different
+          vegetables to a salad you enjoy making, or working towards a more{" "}
+          <Link
+            target="_blank"
+            href="https://www.merckconnect.com/static/pdf/balanced-plate-resource.pdf"
+          >
+            balanced plate.
+          </Link>{" "}
+        </Typography>
+        
         <hr />
 
         <Typography
@@ -304,4 +328,4 @@ const How = () => {
   );
 };
 
-export default How;
+export default Recipes;

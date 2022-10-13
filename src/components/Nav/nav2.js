@@ -10,7 +10,7 @@ import { Link } from "@mui/material";
 import MobileNav from "./MobileNav";
 import logo from "../../assets/lemv-logo-2.png";
 
-const pages = [{id: "How", label: "How To", href: "/how"},{id: "Benefits", label: 'The Benefits', href: "/benefits"}];
+const pages = [{id: "Recipes", label: "Recipes", href: "/recipes"},{id: "Benefits", label: 'The Benefits', href: "/benefits"}];
 const pages1 = [{id: "Who", label: "Who Are We?", href: "/who"}, {id: "More", label: "More", href:"/more"}];
 
 const ResponsiveAppBar = ({ updateCurrentPage }) => {

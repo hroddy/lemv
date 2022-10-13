@@ -31,7 +31,7 @@ const Board = () => {
           fontFamily="Playfair Display"
         >
           The Board
-        </Typography>      
+        </Typography>
 
         <Grid
           container
@@ -186,7 +186,6 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-
                     Dale Wallis has bachelor's and master's degrees in
                     accounting from Oklahoma State University. Wallis is
                     licensed as a CPA in Oklahoma and California. During his
@@ -392,7 +391,6 @@ const Board = () => {
           </Grid>
           {/* MORGAN RODDY END */}
 
-
           {/* Margaret Austin START */}
           <Grid item sm={12}>
             <Card
@@ -411,9 +409,7 @@ const Board = () => {
                     color="primary"
                     align="left"
                   >
-
                     Margaret Austin, MS, PhD
-
                   </Typography>
 
                   <Typography
@@ -421,7 +417,6 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-
                     Dr. Margaret Austin has a PhD from CA School of Professional
                     Psychology (CSPP), now Alliant University, and two master’s
                     degrees, one from Tennessee State University and the other
@@ -439,7 +434,10 @@ const Board = () => {
                     efficient brain function and includes an emphasis on sleep,
                     exercise, and nutrition. To read more about Dr. Austin, view
                     her{" "}
-                    <Link html="https://drive.google.com/file/d/1s1k4gAg2qSldkUCc4lwfzmr54-I56E6p/view?usp=sharing" target="_blank">
+                    <Link
+                      html="https://drive.google.com/file/d/1s1k4gAg2qSldkUCc4lwfzmr54-I56E6p/view?usp=sharing"
+                      target="_blank"
+                    >
                       career summary.
                     </Link>
                   </Typography>
@@ -500,7 +498,10 @@ const Board = () => {
                     efficient brain function and includes an emphasis on sleep,
                     exercise, and nutrition. To read more about Dr. Austin, view
                     her{" "}
-                    <Link html="https://drive.google.com/file/d/1s1k4gAg2qSldkUCc4lwfzmr54-I56E6p/view?usp=sharing" target="_blank">
+                    <Link
+                      html="https://drive.google.com/file/d/1s1k4gAg2qSldkUCc4lwfzmr54-I56E6p/view?usp=sharing"
+                      target="_blank"
+                    >
                       career summary.
                     </Link>
                   </Typography>
@@ -748,7 +749,7 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                   Angela Piazza holds a bachelor’s degree in Therapeutic
+                    Angela Piazza holds a bachelor’s degree in Therapeutic
                     Recreation Administration from San Jose State University, as
                     well as a master’s degree in Gerontology from UMass Boston.
                     Having worked in a variety of clinical and residential care
@@ -762,7 +763,6 @@ const Board = () => {
                     design, and dementia care best practices. Ms. Piazza and her
                     husband raised their children in Livermore and have always
                     taken an active role in their community.
-
                   </Typography>
                 </CardContent>
                 {/* <img
@@ -796,9 +796,7 @@ const Board = () => {
                     component="div"
                     color="primary"
                   >
-
                     Angela Piazza MS, RCFE
-
                   </Typography>
 
                   <Typography
@@ -806,9 +804,20 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-
-                    Angela Piazza holds a bachelor’s degree in Therapeutic Recreation Administration from San Jose State University, as well as a master’s degree in Gerontology from UMass Boston.  Having worked in a variety of clinical and residential care settings, her most recent professional work has focused on providing empathic, dignified care for older adults. In addition to her experience as a recreation therapist and memory care program director, Ms. Piazza has a wide range of community care and volunteer experience.  Her primary interests include environmental gerontology, long-term care decision-making, healthcare ethics, person-centered program design, and dementia care best practices.  Ms. Piazza and her husband raised their children in Livermore and have always taken an active role in their community.
-
+                    Angela Piazza holds a bachelor’s degree in Therapeutic
+                    Recreation Administration from San Jose State University, as
+                    well as a master’s degree in Gerontology from UMass Boston.
+                    Having worked in a variety of clinical and residential care
+                    settings, her most recent professional work has focused on
+                    providing empathic, dignified care for older adults. In
+                    addition to her experience as a recreation therapist and
+                    memory care program director, Ms. Piazza has a wide range of
+                    community care and volunteer experience. Her primary
+                    interests include environmental gerontology, long-term care
+                    decision-making, healthcare ethics, person-centered program
+                    design, and dementia care best practices. Ms. Piazza and her
+                    husband raised their children in Livermore and have always
+                    taken an active role in their community.
                   </Typography>
                 </CardContent>
               </Box>
@@ -816,7 +825,6 @@ const Board = () => {
           </Grid>
 
           {/* ANGELA PIAZZA END */}
-
 
           {/* DIANA PRINCE START */}
           <Grid item sm={12}>
@@ -847,7 +855,7 @@ const Board = () => {
                     Diana Price has a bachelor's in Nutrition from Cal Poly San
                     Luis Obispo, a master's in Nutrition and Functional Medicine
                     from the University of Western States, and is a Registered
-                    Dietitian Nutritionist. Diana is a business owner in
+                    Dietitian Nutritionist. Price is a business owner in
                     Livermore;{" "}
                     <Link
                       href="https://www.honestnutritionusa.com/"
@@ -859,7 +867,7 @@ const Board = () => {
                     offers nutrition counseling services specializing in
                     digestive wellness including celiac disease, gluten
                     intolerance, Crohn’s, ulcerative colitis, IBS, and food
-                    sensitivities. As someone who knows the power of food, Diana
+                    sensitivities. As someone who knows the power of food, Price
                     is passionate about gut health, wellness, and ultimately
                     happiness. Her mission is to educate, inspire and motivate
                     people so that they can become the healthiest version of
@@ -906,7 +914,7 @@ const Board = () => {
                     Diana Price has a bachelor's in Nutrition from Cal Poly San
                     Luis Obispo, a master's in Nutrition and Functional Medicine
                     from the University of Western States, and is a Registered
-                    Dietitian Nutritionist. Diana is a business owner in
+                    Dietitian Nutritionist. Price is a business owner in
                     Livermore;{" "}
                     <Link
                       href="https://www.honestnutritionusa.com/"
@@ -918,7 +926,7 @@ const Board = () => {
                     offers nutrition counseling services specializing in
                     digestive wellness including celiac disease, gluten
                     intolerance, Crohn’s, ulcerative colitis, IBS, and food
-                    sensitivities. As someone who knows the power of food, Diana
+                    sensitivities. As someone who knows the power of food, Price
                     is passionate about gut health, wellness, and ultimately
                     happiness. Her mission is to educate, inspire and motivate
                     people so that they can become the healthiest version of

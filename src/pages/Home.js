@@ -24,6 +24,16 @@ const Home = () => {
           Food is an opportunity for joy in our lives.
         </Typography>
 
+        <Typography my={5} color="primary" variant="body1" align="center">
+          <Button
+            variant="filled"
+            sx={{ backgroundColor: "#97d600" }}
+            href="/blog"
+          >
+            Check out our blog!
+          </Button>
+        </Typography>
+
         <Typography
           color="primary"
           variant="body1"
@@ -31,12 +41,13 @@ const Home = () => {
           align="left"
           justify="center"
         >
-          Food is foundational to a healthy life and can bring families, friends, and communities together. Livermore! Eat. More.
-          Vegetables. (LEMV) is a nonprofit organization with a
-          simple goal of helping Livermorians increase vegetable consumption.
-          Research consistently shows that adequate vegetable consumption
-          improves health outcomes and reduces medical expenses by reducing
-          medications and decreasing disease states.<sup>1-3</sup>
+          Food is foundational to a healthy life and can bring families,
+          friends, and communities together. Livermore! Eat. More. Vegetables.
+          (LEMV) is a nonprofit organization with a simple goal of helping
+          Livermorians increase vegetable consumption. Research consistently
+          shows that adequate vegetable consumption improves health outcomes and
+          reduces medical expenses by reducing medications and decreasing
+          disease states.<sup>1-3</sup>
           <p />
           <span style={{ fontWeight: "500", fontStyle: "italic" }}>
             Healthy eating doesn’t need to be complicated.{" "}
@@ -59,16 +70,6 @@ const Home = () => {
           LEMV’s mission is to support Livermorians in their efforts to Eat.
           More. Vegetables. LEMV will apply for grant funding in Fall 2022.
         </Typography>
-        
-            <Typography my={5} color="primary" variant="body1" align="center">
-              <Button
-                variant="filled"
-                sx={{ backgroundColor: "#97d600" }}
-                href="/blog"
-              >
-                Check out our blog!
-              </Button>
-            </Typography>
 
         <hr />
         <Typography
