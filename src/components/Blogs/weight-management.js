@@ -80,7 +80,7 @@ const introduction = {
       regarding your health goals.
     </p>,
   ],
-  tags: [`inflammation`, `gut`, `health`, `needs assessment`, `livermore`],
+  tags: [`weight`, `loss`, `management`, `diet`, `lifestyle`, `health`, `lose`, `calorie`, `counting`, `fasting`],
 };
 
 export default introduction;
