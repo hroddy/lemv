@@ -16,7 +16,7 @@ import BlogPost from "./pages/BlogPost";
 import Wordpress from "./pages/Wordpress";
 
 import Survey from "./pages/Survey";
-import How from "./pages/How";
+import Recipes from "./pages/Recipes";
 import Benefits from "./pages/Benefits";
 import Who from "./pages/Who";
 import More from "./pages/Other";
@@ -55,8 +55,8 @@ function App() {
               <More />
             </Route>
 
-            <Route exact path="/how">
-              <How />
+            <Route exact path="/recipes">
+              <Recipes />
             </Route>
 
             <Route exact path="/survey">

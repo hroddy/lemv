@@ -451,7 +451,7 @@ const Who = () => {
                     Nutrition, and Dietetics and is currently working on her
                     master's in Clinical Nutrition at University of the Pacific.
                     After working for Ernst & Young as Director of Marketing,
-                    Roddy and her husband Steve moved to Livermore, where they
+                    Karen and her husband Steve moved to Livermore, where they
                     have lived for over 20 years and raised their three
                     daughters. She was the founder and president of a non-profit
                     501(c)(3) in Livermore, Outstanding Academic Opportunities
@@ -509,7 +509,7 @@ const Who = () => {
                     Nutrition, and Dietetics and is currently working on her
                     master's in Clinical Nutrition at University of the Pacific.
                     After working for Ernst & Young as Director of Marketing,
-                    Roddy and her husband Steve moved to Livermore, where they
+                    Karen and her husband Steve moved to Livermore, where they
                     have lived for over 20 years and raised their three
                     daughters. She was the founder and president of a non-profit
                     501(c)(3) in Livermore, Outstanding Academic Opportunities
@@ -550,8 +550,8 @@ const Who = () => {
                   >
                     Hannah completed the Fullstack Web Development Boot Camp
                     through UC Berkeley Extension in 2021 and is the web
-                    developer and graphic designer for LEMV. She also owns and operates a small
-                    business in Livermore: Purple Dog Training.
+                    developer and graphic designer for LEMV. She also owns and
+                    operates a small business in Livermore: Purple Dog Training.
                   </Typography>
                 </CardContent>
                 <img
@@ -592,8 +592,8 @@ const Who = () => {
                   >
                     Hannah completed the Fullstack Web Development Boot Camp
                     through UC Berkeley Extension in 2021 and is the web
-                    developer and graphic designer for LEMV. She also owns and operates a small
-                    business in Livermore: Purple Dog Training.
+                    developer and graphic designer for LEMV. She also owns and
+                    operates a small business in Livermore: Purple Dog Training.
                   </Typography>
                 </CardContent>
               </Box>
