@@ -15,6 +15,7 @@ import kori from "../assets/team/kori.jpg";
 import margaret from "../assets/team/margaret.jpg";
 import nancy from "../assets/team/nancy.jpg";
 import kathleen from "../assets/team/kathleen.png";
+import angela from "../assets/team/angela.png";
 import diana from "../assets/team/diana.jpeg";
 import morgan from "../assets/team/morgan.JPG";
 
@@ -727,7 +728,7 @@ const Board = () => {
           <Grid item sm={12}>
             <Card
               sx={{
-                maxWidth: 930,
+                maxWidth: 1100,
                 maxheight: 300,
                 display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
               }}
@@ -765,14 +766,14 @@ const Board = () => {
                     taken an active role in their community.
                   </Typography>
                 </CardContent>
-                {/* <img
+                <img
                   component="img"
                   height="300"
                   src={angela}
 
                   alt="portrait shot of a woman"
 
-                /> */}
+                />
               </Box>
             </Card>
             <Card
@@ -783,12 +784,12 @@ const Board = () => {
               }}
             >
               <Box sx={{ display: "flex", flexDirection: "column" }}>
-                {/* <CardMedia
+                <CardMedia
                   component="img"
                   height="400"
                   src={angela}
                   alt="portrait shot of a blonde woman"
-                /> */}
+                />
                 <CardContent>
                   <Typography
                     gutterBottom
