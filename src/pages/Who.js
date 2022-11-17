@@ -742,9 +742,9 @@ const Who = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Rachel Roddy is currently completing her bachelor's degree
-                    in Classics at UC Davis in preparation to attend law school
-                    in 2023.
+                    Rachel Roddy graduated with a bachelor's degree in Classical
+                    Civilizations in 2022 from UC Davis and will be attending
+                    law school in 2023.
                   </Typography>
                 </CardContent>
                 <img
@@ -783,9 +783,9 @@ const Who = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Rachel Roddy is currently completing her bachelor's degree
-                    in Classics at UC Davis in preparation to attend law school
-                    in 2023.
+                    Rachel Roddy graduated with a bachelor's degree in Classical
+                    Civilizations in 2022 from UC Davis and will be attending
+                    law school in 2023.
                   </Typography>
                 </CardContent>
               </Box>
