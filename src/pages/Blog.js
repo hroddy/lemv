@@ -56,7 +56,7 @@ const Blog = () => {
                 variant="filled"
                 size="small"
                 hiddenLabel
-                placeholder='Try "mission"'
+                placeholder='Try "recipe"'
                 onChange={(e) => updateFilter(e.target.value.toLowerCase())}
               />
             </Grid>
@@ -146,7 +146,7 @@ const Blog = () => {
                 variant="filled"
                 size="small"
                 hiddenLabel
-                placeholder='Try "mission"'
+                placeholder='Try "recipe"'
                 onChange={(e) => updateFilter(e.target.value.toLowerCase())}
               />
             </Grid>
