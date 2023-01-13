@@ -59,7 +59,7 @@ const Board = () => {
                     color="primary"
                     align="left"
                   >
-                    Karen Roddy
+                    Karen Roddy, MCSN
                   </Typography>
                   <Typography
                     gutterBottom
@@ -76,17 +76,17 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Karen Roddy has bachelors' degrees in Marketing, Human
-                    Nutrition, and Dietetics and is currently working on her MS
-                    in Clinical Nutrition at University of the Pacific. After
-                    working for Ernst & Young as Director of Marketing, Roddy
-                    and her husband Steve moved to Livermore, where they have
-                    lived for over 20 years and raised their three daughters.
-                    She was the founder and president of a non-profit 501(c)(3)
-                    in Livermore, Outstanding Academic Opportunities (OAO),
-                    which served 400 homeschooling families from Concord to
-                    Livermore by hiring teachers and creating classes for junior
-                    high and high school students.
+                    Roddy has a master's in Clinical Nutrition at University of
+                    the Pacific as well as bachelors' degrees in Marketing,
+                    Human Nutrition, and Dietetics. After working for Ernst &
+                    Young as Director of Marketing, Roddy and her husband Steve
+                    moved to Livermore, where they have lived for over 20 years
+                    and raised their three daughters. She was the founder and
+                    president of a non-profit 501(c)(3) in Livermore,
+                    Outstanding Academic Opportunities (OAO), which served 400
+                    homeschooling families from Concord to Livermore by hiring
+                    teachers and creating classes for junior high and high
+                    school students.
                   </Typography>
                 </CardContent>
                 <img
@@ -118,7 +118,7 @@ const Board = () => {
                     component="div"
                     color="primary"
                   >
-                    Karen Roddy
+                    Karen Roddy, MCSN
                   </Typography>
                   <Typography
                     gutterBottom
@@ -134,17 +134,17 @@ const Board = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Karen Roddy has bachelors' degrees in Marketing, Human
-                    Nutrition, and Dietetics and is currently working on her MS
-                    in Clinical Nutrition at University of the Pacific. After
-                    working for Ernst & Young as Director of Marketing, Roddy
-                    and her husband Steve moved to Livermore, where they have
-                    lived for over 20 years and raised their three daughters.
-                    She was the founder and president of a non-profit 501(c)(3)
-                    in Livermore, Outstanding Academic Opportunities (OAO),
-                    which served 400 homeschooling families from Concord to
-                    Livermore by hiring teachers and creating classes for junior
-                    high and high school students.
+                    Roddy has a master's in Clinical Nutrition at University of
+                    the Pacific as well as bachelors' degrees in Marketing,
+                    Human Nutrition, and Dietetics. After working for Ernst &
+                    Young as Director of Marketing, Roddy and her husband Steve
+                    moved to Livermore, where they have lived for over 20 years
+                    and raised their three daughters. She was the founder and
+                    president of a non-profit 501(c)(3) in Livermore,
+                    Outstanding Academic Opportunities (OAO), which served 400
+                    homeschooling families from Concord to Livermore by hiring
+                    teachers and creating classes for junior high and high
+                    school students.
                   </Typography>
                 </CardContent>
               </Box>
@@ -770,9 +770,7 @@ const Board = () => {
                   component="img"
                   height="300"
                   src={angela}
-
                   alt="portrait shot of a woman"
-
                 />
               </Box>
             </Card>
