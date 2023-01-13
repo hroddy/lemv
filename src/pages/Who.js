@@ -123,21 +123,21 @@ const Who = () => {
                     color="primary"
                     align="left"
                   >
-                    Molly Cubba
+                    Molly Cubba, MSCN
                   </Typography>
                   <Typography
                     variant="body2"
                     color="text.secondary"
                     align="left"
                   >
-                    Molly Cubba graduated in 2021 with a bachelor’s degree in
-                    Nutrition and Dietetics from Chico State. She is currently
-                    pursuing a master’s degree in Clinical Nutrition at
-                    University of the Pacific. Molly is working this summer on a
-                    Needs Assessment for LEMV. This survey will help LEMV
+                    Molly Cubba graduated in 2022 with a master’s degree in
+                    Clinical Nutrition at University of the Pacific. She also
+                    holds a bachelor’s degree in Nutrition and Dietetics from
+                    Chico State. Molly created a Needs Assessment for LEMV. This
+                    survey included one on one interviews and helped LEMV
                     understand what barriers Livermore residents face for
-                    incorporating vegetables into their diet and will be used to
-                    pursue grant funding in the fall.
+                    incorporating vegetables into their diet. Data from the
+                    survey is being incorporated into intervention strategies.
                   </Typography>
                 </CardContent>
                 <img
@@ -169,21 +169,21 @@ const Who = () => {
                     component="div"
                     color="primary"
                   >
-                    Molly Cubba
+                    Molly Cubba, MSCN
                   </Typography>
                   <Typography
                     variant="body2"
                     color="text.secondary"
                     align="left"
                   >
-                    Molly Cubba graduated in 2021 with a bachelor’s degree in
-                    Nutrition and Dietetics from Chico State. She is currently
-                    pursuing a master’s degree in Clinical Nutrition at
-                    University of the Pacific. Molly is working this summer on a
-                    Needs Assessment for LEMV. This survey will help LEMV
+                    Molly Cubba graduated in 2022 with a master’s degree in
+                    Clinical Nutrition at University of the Pacific. She also
+                    holds a bachelor’s degree in Nutrition and Dietetics from
+                    Chico State. Molly created a Needs Assessment for LEMV. This
+                    survey included one on one interviews and helped LEMV
                     understand what barriers Livermore residents face for
-                    incorporating vegetables into their diet and will be used to
-                    pursue grant funding in the fall.
+                    incorporating vegetables into their diet. Data from the
+                    survey is being incorporated into intervention strategies.
                   </Typography>
                 </CardContent>
               </Box>
@@ -431,7 +431,7 @@ const Who = () => {
                     color="primary"
                     align="left"
                   >
-                    Karen Roddy
+                    Karen Roddy, MSCN
                   </Typography>
 
                   <Typography
@@ -447,17 +447,17 @@ const Who = () => {
                     >
                       Board of Directors
                     </Link>
-                    . Karen has bachelors' degrees in Marketing, Human
-                    Nutrition, and Dietetics and is currently working on her
-                    master's in Clinical Nutrition at University of the Pacific.
-                    After working for Ernst & Young as Director of Marketing,
-                    Karen and her husband Steve moved to Livermore, where they
-                    have lived for over 20 years and raised their three
-                    daughters. She was the founder and president of a non-profit
-                    501(c)(3) in Livermore, Outstanding Academic Opportunities
-                    (OAO), which served 400 homeschooling families from Concord
-                    to Livermore by hiring teachers and creating classes for
-                    junior high and high school students.
+                    . Karen has a master's in Clinical Nutrition at University
+                    of the Pacific as well as bachelors' degrees in Marketing,
+                    Human Nutrition, and Dietetics. After working for Ernst &
+                    Young as Director of Marketing, Karen and her husband Steve
+                    moved to Livermore, where they have lived for over 20 years
+                    and raised their three daughters. She was the founder and
+                    president of a non-profit 501(c)(3) in Livermore,
+                    Outstanding Academic Opportunities (OAO), which served 400
+                    homeschooling families from Concord to Livermore by hiring
+                    teachers and creating classes for junior high and high
+                    school students.
                   </Typography>
                 </CardContent>
                 <img
@@ -489,7 +489,7 @@ const Who = () => {
                     component="div"
                     color="primary"
                   >
-                    Karen Roddy
+                    Karen Roddy, MSCN
                   </Typography>
 
                   <Typography
@@ -505,17 +505,17 @@ const Who = () => {
                     >
                       Board of Directors
                     </Link>
-                    . Karen has bachelors' degrees in Marketing, Human
-                    Nutrition, and Dietetics and is currently working on her
-                    master's in Clinical Nutrition at University of the Pacific.
-                    After working for Ernst & Young as Director of Marketing,
-                    Karen and her husband Steve moved to Livermore, where they
-                    have lived for over 20 years and raised their three
-                    daughters. She was the founder and president of a non-profit
-                    501(c)(3) in Livermore, Outstanding Academic Opportunities
-                    (OAO), which served 400 homeschooling families from Concord
-                    to Livermore by hiring teachers and creating classes for
-                    junior high and high school students.
+                    . Karen has a master's in Clinical Nutrition at University
+                    of the Pacific as well as bachelors' degrees in Marketing,
+                    Human Nutrition, and Dietetics. After working for Ernst &
+                    Young as Director of Marketing, Karen and her husband Steve
+                    moved to Livermore, where they have lived for over 20 years
+                    and raised their three daughters. She was the founder and
+                    president of a non-profit 501(c)(3) in Livermore,
+                    Outstanding Academic Opportunities (OAO), which served 400
+                    homeschooling families from Concord to Livermore by hiring
+                    teachers and creating classes for junior high and high
+                    school students.
                   </Typography>
                 </CardContent>
               </Box>
@@ -792,8 +792,6 @@ const Who = () => {
             </Card>
           </Grid>
           {/* RACHEL RODDY END */}
-
-          
         </Grid>
 
         <hr />
