@@ -12,12 +12,9 @@ import Grid from "@mui/material/Grid";
 
 import WhoCarousel from "../components/Who-Carousel";
 
-import aaron from "../assets/team/aaron.jpg";
 import diana from "../assets/team/diana.jpeg";
 import karen from "../assets/team/karen.jpg";
 import morgan from "../assets/team/morgan.JPG";
-import molly from "../assets/team/molly.jpg";
-import emily from "../assets/team/emily.jpg";
 import hannah from "../assets/team/hannah.JPG";
 import rachel from "../assets/team/rachel.JPG";
 
@@ -105,185 +102,9 @@ const Who = () => {
           alignItems="center"
           mb={6}
         >
-          {/* MOLLY CUBBA START */}
-          <Grid item sm={12}>
-            <Card
-              sx={{
-                maxWidth: 850,
-                maxheight: 300,
-                display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
-              }}
-            >
-              <Box sx={{ display: "flex", flexDirection: "row" }}>
-                <CardContent>
-                  <Typography
-                    gutterBottom
-                    variant="h5"
-                    component="div"
-                    color="primary"
-                    align="left"
-                  >
-                    Molly Cubba, MSCN
-                  </Typography>
-                  <Typography
-                    variant="body2"
-                    color="text.secondary"
-                    align="left"
-                  >
-                    Molly Cubba graduated in 2022 with a master’s degree in
-                    Clinical Nutrition at University of the Pacific. She also
-                    holds a bachelor’s degree in Nutrition and Dietetics from
-                    Chico State. Molly created a Needs Assessment for LEMV. This
-                    survey included one on one interviews and helped LEMV
-                    understand what barriers Livermore residents face for
-                    incorporating vegetables into their diet. Data from the
-                    survey is being incorporated into intervention strategies.
-                  </Typography>
-                </CardContent>
-                <img
-                  component="img"
-                  height="300"
-                  src={molly}
-                  alt="portrait shot of a woman with long dark hair"
-                ></img>
-              </Box>
-            </Card>
-            <Card
-              sx={{
-                maxWidth: 345,
-                maxheight: 400,
-                display: { xs: "flex", sm: "flex", md: "none", lg: "none" },
-              }}
-            >
-              <Box sx={{ display: "flex", flexDirection: "column" }}>
-                <CardMedia
-                  component="img"
-                  height="400"
-                  src={molly}
-                  alt="portrait shot of a dark haired woman"
-                />
-                <CardContent>
-                  <Typography
-                    gutterBottom
-                    variant="h5"
-                    component="div"
-                    color="primary"
-                  >
-                    Molly Cubba, MSCN
-                  </Typography>
-                  <Typography
-                    variant="body2"
-                    color="text.secondary"
-                    align="left"
-                  >
-                    Molly Cubba graduated in 2022 with a master’s degree in
-                    Clinical Nutrition at University of the Pacific. She also
-                    holds a bachelor’s degree in Nutrition and Dietetics from
-                    Chico State. Molly created a Needs Assessment for LEMV. This
-                    survey included one on one interviews and helped LEMV
-                    understand what barriers Livermore residents face for
-                    incorporating vegetables into their diet. Data from the
-                    survey is being incorporated into intervention strategies.
-                  </Typography>
-                </CardContent>
-              </Box>
-            </Card>
-          </Grid>
-          {/* MOLLY CUBBA END */}
+          
 
-          {/* AARON MANDEL START */}
-          <Grid item sm={12}>
-            <Card
-              sx={{
-                maxWidth: 850,
-                maxheight: 300,
-                display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
-              }}
-            >
-              <Box sx={{ display: "flex", flexDirection: "row" }}>
-                <CardContent>
-                  <Typography
-                    gutterBottom
-                    variant="h5"
-                    component="div"
-                    color="primary"
-                    align="left"
-                  >
-                    Aaron Mandel
-                  </Typography>
-                  <Typography
-                    variant="body2"
-                    color="text.secondary"
-                    align="left"
-                  >
-                    Aaron Mandel graduated in 2021 with a bachelor's in Computer
-                    Science from the University of California, Santa Cruz. He
-                    has Fullstack knowledge and experience with game development
-                    both for desktop and the web. Aaron is currently working on
-                    an educational game that aims to teach the foundations of
-                    nutrition. In addition to general knowledge about required
-                    macro- and micro-nutrients, the game will provide
-                    information regarding healthy lifestyle choices for
-                    populations such as diabetics (and pre-diabetics) and those
-                    who are interested in learning more about weight management.
-                    With Aaron's help, LEMV will be pursuing grant funding for
-                    the game in the near future.
-                  </Typography>
-                </CardContent>
-                <img
-                  component="img"
-                  height="300"
-                  src={aaron}
-                  alt="portrait shot of a dark haired woman"
-                ></img>
-              </Box>
-            </Card>
-            <Card
-              sx={{
-                maxWidth: 345,
-                maxheight: 400,
-                display: { xs: "flex", sm: "flex", md: "none", lg: "none" },
-              }}
-            >
-              <Box sx={{ display: "flex", flexDirection: "column" }}>
-                <CardMedia
-                  component="img"
-                  height="400"
-                  src={aaron}
-                  alt="portrait shot of a dark haired woman"
-                />
-                <CardContent>
-                  <Typography
-                    gutterBottom
-                    variant="h5"
-                    component="div"
-                    color="primary"
-                  >
-                    Aaron Mandel
-                  </Typography>
-                  <Typography
-                    variant="body2"
-                    color="text.secondary"
-                    align="left"
-                  >
-                    Aaron Mandel graduated in 2021 with a bachelor's in Computer
-                    Science from the University of California, Santa Cruz. He
-                    has Fullstack knowledge and experience with game development
-                    both for desktop and the web. Aaron is currently working on
-                    an educational game that aims to teach the foundations of
-                    nutrition. In addition to general knowledge about required
-                    macro- and micro-nutrients, the game will provide
-                    information regarding healthy lifestyle choices for
-                    populations such as diabetics (and pre-diabetics) and those
-                    who are interested in learning more about weight management.
-                    With Aaron's help, LEMV will be pursuing grant funding for
-                    the game in the near future.
-                  </Typography>
-                </CardContent>
-              </Box>
-            </Card>
-          </Grid>
-          {/* AARON MANDEL END */}
+        
 
           {/* DIANA PRINCE START */}
           <Grid item sm={12}>
@@ -431,7 +252,7 @@ const Who = () => {
                     color="primary"
                     align="left"
                   >
-                    Karen Roddy, MSCN
+                    Karen Roddy, MS
                   </Typography>
 
                   <Typography
@@ -489,7 +310,7 @@ const Who = () => {
                     component="div"
                     color="primary"
                   >
-                    Karen Roddy, MSCN
+                    Karen Roddy, Ms
                   </Typography>
 
                   <Typography

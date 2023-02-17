@@ -18,6 +18,74 @@ const More = () => {
           variant="h4"
           fontFamily="Playfair Display"
         >
+          Heart Month Links
+        </Typography>
+        <Typography
+          color="primary"
+          variant="body1"
+          my={5}
+          align="left"
+          justify="center"
+        >
+          Many different organizations are working to raise awareness for the
+          dangers of cardiovascular or heart disease and what can be done to
+          take care of your heart health. Diet has a huge impact on your heart
+          and leading a heart healthy lifestyle can start with making small
+          changes to your eating habits. Here are some more links to great
+          resources and information about National Heart Month!
+          <ul>
+            <li>
+              <Link
+                href="https://www.heart.org/en/healthy-living/company-collaboration/heart-check-certification"
+                target="_blank"
+              >
+                {" "}
+                Heart-Check Certification | American Heart Association{" "}
+              </Link>
+              <Typography>
+                The American Heart Association (AHA) certifies products and
+                recipes as heart healthy through their Heart Check Certification
+                Process.
+              </Typography>
+            </li>
+            <p />
+            <li>
+              <Link
+                href="https://nationaltoday.com/national-heart-healthy-month/"
+                target="_blank"
+              >
+                {" "}
+                NATIONAL HEART HEALTHY MONTH -February 2023{" "}
+              </Link>
+              <Typography>
+                National Today offers some history and facts about Heart Health
+                Month.
+              </Typography>
+            </li>
+            <p />
+            <li>
+              <Link
+                href="https://www.nhlbi.nih.gov/education/american-heart-month"
+                target="_blank"
+              >
+                {" "}
+                American Heart Month | NHLBI, NIH{" "}
+              </Link>
+              <Typography>
+                The National Heart, Lung, and Blood Institute has research, fact
+                sheets, and more.
+              </Typography>
+            </li>
+          </ul>
+        </Typography>
+        <Typography
+          color="primary"
+          align="center"
+          justify="center"
+          my={5}
+          variant="h4"
+          fontFamily="Playfair Display"
+        >
           Questions:
         </Typography>
         <Typography

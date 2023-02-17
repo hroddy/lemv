@@ -11,8 +11,7 @@ const Recipes = () => {
     <div>
       <HowCarousel />
       <Container align="center">
-
-      <Typography
+        <Typography
           color="primary"
           align="center"
           justify="center"
@@ -22,7 +21,7 @@ const Recipes = () => {
         >
           Recipes
         </Typography>
-        
+
         <Typography
           color="primary"
           variant="body1"
@@ -30,13 +29,13 @@ const Recipes = () => {
           align="left"
           justify="center"
         >
-          Check out the links below for some vegetable filled recipes! There are a variety of recipes including vegetarian, vegan, and meat based options.
+          February is National Heart Month! Here are some heart health recipes.
         </Typography>
 
         <Container align="center">
           <div
             style={{
-              maxWidth: "550px",
+              maxWidth: "650px",
               backgroundColor: "#97d600",
               borderRadius: "25px",
             }}
@@ -58,89 +57,43 @@ const Recipes = () => {
                     target="_blank"
                   >
                     {" "}
-                    Veggie-Loaded Sloppy Joes Recipe{" "}
+                    Vegetables | American Heart Association Recipes{" "}
                   </Link>
+                  <Typography>
+                    A variety of vegetable-focused recipes by the American Heart
+                    Association. The collection includes other categories such
+                    as heart health snacks, main dishes, and slow cooker
+                    options.
+                  </Typography>
                 </li>
+                <p />
                 <li>
                   <Link
-                    href="https://www.eatright.org/food/planning-and-prep/recipes/slow-cooker-minestrone-soup-recipe"
+                    href="https://www.eatingwell.com/recipes/18008/health-condition/heart-healthy/"
                     target="_blank"
                   >
                     {" "}
-                    Slow-Cooker Minestrone Soup Recipe{" "}
+                    Heart-Healthy Recipes | EatingWell{" "}
                   </Link>
+                  <Typography>
+                    A collection of heart healthy recipes created by experts and
+                    dietitian-approved.{" "}
+                  </Typography>
                 </li>
+                <p />
                 <li>
                   <Link
-                    href="https://www.eatright.org/food/planning-and-prep/recipes/pinto-bean-and-roasted-vegetable-tacos-recipe"
+                    href="https://www.mayoclinic.org/healthy-lifestyle/recipes/heart-healthy-recipes/rcs-20077163"
                     target="_blank"
                   >
                     {" "}
-                    Pinto Bean and Roasted Vegetable Tacos Recipe{" "}
+                    Heart-healthy recipes - Mayo Clinic{" "}
                   </Link>{" "}
-                </li>
-                <li>
-                  <Link
-                    href="https://www.eatright.org/food/planning-and-prep/recipes/roasted-beet-hummus-recipe"
-                    target="_blank"
-                  >
-                    {" "}
-                    Roasted Beet Hummus Recipe{" "}
-                  </Link>{" "}
-                </li>
-                <li>
-                  <Link
-                    href="https://www.eatright.org/food/planning-and-prep/recipes/grilled-eggplant-pesto-pizza-recipe"
-                    target="_blank"
-                  >
-                    {" "}
-                    Grilled Eggplant Pesto Pizza Recipe{" "}
-                  </Link>{" "}
-                </li>
-                <li>
-                  <Link
-                    href="https://www.eatright.org/food/planning-and-prep/recipes/tomato-cucumber-and-bell-pepper-gazpacho-recipe"
-                    target="_blank"
-                  >
-                    {" "}
-                    Tomato, Cucumber and Bell Pepper Gazpacho Recipe{" "}
-                  </Link>{" "}
-                </li>
-                <li>
-                  <Link
-                    href="https://www.eatright.org/food/planning-and-prep/recipes/no-shell-vegetarian-taco-salad-recipe"
-                    target="_blank"
-                  >
-                    {" "}
-                    No-Shell Vegetarian Taco Salad Recipe{" "}
-                  </Link>{" "}
-                </li>
-                <li>
-                  <Link
-                    href="https://www.eatright.org/food/planning-and-prep/recipes/tuscan-bean-salad-with-tomatoes-and-arugula-recipe"
-                    target="_blank"
-                  >
-                    {" "}
-                    Tuscan Bean Salad with Tomatoes and Arugula Recipe{" "}
-                  </Link>{" "}
-                </li>
-                <li>
-                  <Link
-                    href="https://www.eatingwell.com/recipes/18256/ingredients/vegetables/"
-                    target="_blank"
-                  >
-                    {" "}
-                    One Pot Lentil Vegetable Soup{" "}
-                  </Link>{" "}
-                </li>
-                <li>
-                  <Link
-                    href="https://www.eatingwell.com/recipe/7917979/one-pot-lentil-vegetable-soup-with-parmesan/"
-                    target="_blank"
-                  >
-                    {" "}
-                    Healthy Vegetable Recipes | EatingWell{" "}
-                  </Link>{" "}
+                  <Typography>
+                    These recipes, created by the Mayo Clinic’s staff, include
+                    detailed nutritional information such as total calories and
+                    fat content as well as suggestions for eating plans.
+                  </Typography>
                 </li>
               </ul>
             </Typography>
@@ -153,7 +106,7 @@ const Recipes = () => {
             display: { xs: "none", sm: "none", md: "none", lg: "block" },
           }}
         >
-          <img src={banner} alt="illustrated vegetables"/>
+          <img src={banner} alt="illustrated vegetables" />
         </Container>
 
         <Typography
@@ -183,7 +136,6 @@ const Recipes = () => {
           kale, cauliflower, cucumbers, and of course garlic and onions! <p />
         </Typography>
 
-        
         <Container
           align="center"
           sx={{
@@ -259,7 +211,7 @@ const Recipes = () => {
             balanced plate.
           </Link>{" "}
         </Typography>
-        
+
         <hr />
 
         <Typography
