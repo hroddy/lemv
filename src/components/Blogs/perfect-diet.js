@@ -6,9 +6,13 @@ const growing = {
   id: `the-perfect-diet`,
   image: perfect,
   alt: "toasts with hard boiled eggs and avocado rests on a plate",
-  author: `Diana Price`,
+  author: `Diana Price, Dietitian Nutritionist`,
   date: `2/23`,
   body: [
+    <p>
+This blog post was originally published here: <Link href="www.honestnutritionusa.com/post/the-perfect-diet-does-it-exist" target="_blank">(www.honestnutritionusa.com/post/the-perfect-diet-does-it-exist)</Link>
+    </p>,
+
     <p>
       You probably already know that nutrition plays a multidimensional role in
       most chronic diseases, so you might wonder if there is a Perfect Diet?
