@@ -12,12 +12,9 @@ import Grid from "@mui/material/Grid";
 
 import WhoCarousel from "../components/Who-Carousel";
 
-import aaron from "../assets/team/aaron.jpg";
 import diana from "../assets/team/diana.jpeg";
 import karen from "../assets/team/karen.jpg";
 import morgan from "../assets/team/morgan.JPG";
-import molly from "../assets/team/molly.jpg";
-import emily from "../assets/team/emily.jpg";
 import hannah from "../assets/team/hannah.JPG";
 import rachel from "../assets/team/rachel.JPG";
 
