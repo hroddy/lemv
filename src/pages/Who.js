@@ -43,9 +43,7 @@ const Who = () => {
           Livermore! Eat. More. Vegetables. (LEMV) was founded in 2022 by local
           Livermore residents looking to give back to our community and
           positively impact the health and wellbeing of everyone living in our
-          city. We are currently planning a Needs Assessment to gather community
-          feedback about Livermorians’ specific needs and current barriers to
-          vegetable consumption.
+          city.
         </Typography>
 
         <Grid
