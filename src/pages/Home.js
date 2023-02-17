@@ -91,7 +91,7 @@ const Home = () => {
           wide variety – of vegetables is key to good health.
           <p />
           LEMV’s mission is to support Livermorians in their efforts to Eat.
-          More. Vegetables. LEMV will apply for grant funding in Fall 2022.
+          More. Vegetables.
         </Typography>
 
         <hr />
