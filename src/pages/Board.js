@@ -59,7 +59,7 @@ const Board = () => {
                     color="primary"
                     align="left"
                   >
-                    Karen Roddy, MCSN
+                    Karen Roddy, MS
                   </Typography>
                   <Typography
                     gutterBottom
@@ -118,7 +118,7 @@ const Board = () => {
                     component="div"
                     color="primary"
                   >
-                    Karen Roddy, MCSN
+                    Karen Roddy, MS
                   </Typography>
                   <Typography
                     gutterBottom
