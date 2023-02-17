@@ -41,6 +41,29 @@ const Home = () => {
           align="left"
           justify="center"
         >
+          February is National Heart Month! Coronary heart disease affects
+          nearly 16 million Americans and can lead to death from heart attack or
+          stroke. This month we would like to focus on raising awareness for the
+          dangers of cardiovascular or heart disease and what can be done to
+          take care of your heart health.
+          <p />
+          Heart disease is the leading cause of death in Americans. Changes in
+          daily habits can be one of the best ways to prevent heart disease.
+          Poor diet can also cause heart disease. Simple changes in your regular
+          eating habits can help keep your heart strong. When cooking at home,
+          think about appropriate serving sizes for meats.Tasty and filling
+          vegetable sides can be added. When eating out, try choosing vegetables
+          instead of french fries as your side.
+          <p />
+          For more resources and information about National Heart Month, check
+          out our{" "}
+          <Link href="http://www.lemv.org/more" target="_blank">
+            More
+          </Link>{" "}
+          page.
+          <p />
+          <hr />
+          <p />
           Food is foundational to a healthy life and can bring families,
           friends, and communities together. Livermore! Eat. More. Vegetables.
           (LEMV) is a nonprofit organization with a simple goal of helping

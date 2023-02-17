@@ -11,8 +11,7 @@ const Recipes = () => {
     <div>
       <HowCarousel />
       <Container align="center">
-
-      <Typography
+        <Typography
           color="primary"
           align="center"
           justify="center"
@@ -22,7 +21,7 @@ const Recipes = () => {
         >
           Recipes
         </Typography>
-        
+
         <Typography
           color="primary"
           variant="body1"
@@ -60,9 +59,14 @@ const Recipes = () => {
                     {" "}
                     Vegetables | American Heart Association Recipes{" "}
                   </Link>
-                  <Typography>A variety of vegetable-focused recipes by the American Heart Association. The collection includes other categories such as heart health snacks, main dishes, and slow cooker options.</Typography>
+                  <Typography>
+                    A variety of vegetable-focused recipes by the American Heart
+                    Association. The collection includes other categories such
+                    as heart health snacks, main dishes, and slow cooker
+                    options.
+                  </Typography>
                 </li>
-                <p/>
+                <p />
                 <li>
                   <Link
                     href="https://www.eatingwell.com/recipes/18008/health-condition/heart-healthy/"
@@ -71,9 +75,12 @@ const Recipes = () => {
                     {" "}
                     Heart-Healthy Recipes | EatingWell{" "}
                   </Link>
-                  <Typography>A collection of heart healthy recipes created by experts and dietitian-approved. </Typography>
+                  <Typography>
+                    A collection of heart healthy recipes created by experts and
+                    dietitian-approved.{" "}
+                  </Typography>
                 </li>
-                <p/>
+                <p />
                 <li>
                   <Link
                     href="https://www.mayoclinic.org/healthy-lifestyle/recipes/heart-healthy-recipes/rcs-20077163"
@@ -82,9 +89,12 @@ const Recipes = () => {
                     {" "}
                     Heart-healthy recipes - Mayo Clinic{" "}
                   </Link>{" "}
-                  <Typography>These recipes, created by the Mayo Clinic’s staff, include detailed nutritional information such as total calories and fat content as well as suggestions for eating plans.</Typography>
+                  <Typography>
+                    These recipes, created by the Mayo Clinic’s staff, include
+                    detailed nutritional information such as total calories and
+                    fat content as well as suggestions for eating plans.
+                  </Typography>
                 </li>
-                
               </ul>
             </Typography>
           </div>
@@ -96,7 +106,7 @@ const Recipes = () => {
             display: { xs: "none", sm: "none", md: "none", lg: "block" },
           }}
         >
-          <img src={banner} alt="illustrated vegetables"/>
+          <img src={banner} alt="illustrated vegetables" />
         </Container>
 
         <Typography
@@ -126,7 +136,6 @@ const Recipes = () => {
           kale, cauliflower, cucumbers, and of course garlic and onions! <p />
         </Typography>
 
-        
         <Container
           align="center"
           sx={{
@@ -202,7 +211,7 @@ const Recipes = () => {
             balanced plate.
           </Link>{" "}
         </Typography>
-        
+
         <hr />
 
         <Typography
