@@ -29,7 +29,7 @@ const Recipes = () => {
           align="left"
           justify="center"
         >
-          February is National Heart Month! Here are some heart health recipes.
+          February is National Heart Month! Here are some heart healthy recipes.
         </Typography>
 
         <Container align="center">
@@ -62,7 +62,7 @@ const Recipes = () => {
                   <Typography>
                     A variety of vegetable-focused recipes by the American Heart
                     Association. The collection includes other categories such
-                    as heart health snacks, main dishes, and slow cooker
+                    as heart healthy snacks, main dishes, and slow cooker
                     options.
                   </Typography>
                 </li>
@@ -87,7 +87,7 @@ const Recipes = () => {
                     target="_blank"
                   >
                     {" "}
-                    Heart-healthy recipes - Mayo Clinic{" "}
+                    Heart-Healthy recipes - Mayo Clinic{" "}
                   </Link>{" "}
                   <Typography>
                     These recipes, created by the Mayo Clinic’s staff, include
