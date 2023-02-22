@@ -122,7 +122,7 @@ const Who = () => {
                     color="primary"
                     align="left"
                   >
-                    Diana Price, RD, MS
+                    Diana Price, MS, RD
                   </Typography>
 
                   <Typography
@@ -189,7 +189,7 @@ const Who = () => {
                     component="div"
                     color="primary"
                   >
-                    Diana Price, RD, MS
+                    Diana Price, MS, RD
                   </Typography>
 
                   <Typography
@@ -250,7 +250,7 @@ const Who = () => {
                     color="primary"
                     align="left"
                   >
-                    Karen Roddy, MS
+                    Karen Roddy, MS, RD
                   </Typography>
 
                   <Typography
@@ -308,7 +308,7 @@ const Who = () => {
                     component="div"
                     color="primary"
                   >
-                    Karen Roddy, Ms
+                    Karen Roddy, MS, RD
                   </Typography>
 
                   <Typography
