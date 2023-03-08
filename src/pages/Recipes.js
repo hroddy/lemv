@@ -53,7 +53,7 @@ const Recipes = () => {
               <ul>
                 <li>
                   <Link
-                    href="https://www.eatright.org/food/planning-and-prep/recipes/veggie-loaded-sloppy-joes-recipe"
+                    href="https://recipes.heart.org/en/collections/ingredients/vegetables"
                     target="_blank"
                   >
                     {" "}
