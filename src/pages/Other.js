@@ -10,7 +10,7 @@ const More = () => {
     <div>
       <OtherCarousel />
       <Container align="center">
-        <Typography
+        {/*<Typography
           color="primary"
           align="center"
           justify="center"
@@ -20,7 +20,7 @@ const More = () => {
         >
           Heart Month Links
         </Typography>
-        <Typography
+         <Typography
           color="primary"
           variant="body1"
           my={5}
@@ -77,7 +77,7 @@ const More = () => {
               </Typography>
             </li>
           </ul>
-        </Typography>
+        </Typography> */}
         <Typography
           color="primary"
           align="center"
