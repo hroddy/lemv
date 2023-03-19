@@ -34,13 +34,13 @@ const Home = () => {
           </Button>
         </Typography>
 
-        <Typography
+         <Typography
           color="primary"
           variant="body1"
           my={4}
           align="left"
           justify="center"
-        >
+        >{/*
           February is National Heart Month! Coronary heart disease affects
           nearly 16 million Americans and can lead to death from heart attack or
           stroke. This month we would like to focus on raising awareness for the
@@ -63,7 +63,7 @@ const Home = () => {
           page.
           <p />
           <hr />
-          <p />
+          <p /> */}
           Food is foundational to a healthy life and can bring families,
           friends, and communities together. Livermore! Eat. More. Vegetables.
           (LEMV) is a nonprofit organization with a simple goal of helping

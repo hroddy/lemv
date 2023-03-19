@@ -29,7 +29,7 @@ const Recipes = () => {
           align="left"
           justify="center"
         >
-          February is National Heart Month! Here are some heart healthy recipes.
+          Diet has a huge impact on your heart and leading a heart healthy lifestyle can start with making small changes to your eating habits.Here are some heart health recipes. 
         </Typography>
 
         <Container align="center">
@@ -93,6 +93,19 @@ const Recipes = () => {
                     These recipes, created by the Mayo Clinic’s staff, include
                     detailed nutritional information such as total calories and
                     fat content as well as suggestions for eating plans.
+                  </Typography>
+                </li>
+                <p />
+                <li>
+                  <Link
+                    href="https://www.heart.org/en/healthy-living/company-collaboration/heart-check-certification"
+                    target="_blank"
+                  >
+                    {" "}
+                    Heart-Check Certification | American Heart Association{" "}
+                  </Link>{" "}
+                  <Typography>
+                  The American Heart Association (AHA) certifies products and recipes as heart healthy through their Heart Check Certification Process.
                   </Typography>
                 </li>
               </ul>
