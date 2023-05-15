@@ -86,7 +86,7 @@ const Board = () => {
                     Outstanding Academic Opportunities (OAO), which served 400
                     homeschooling families from Concord to Livermore by hiring
                     teachers and creating classes for junior high and high
-                    school students.
+                    school students. Karen is currently working as a Clinical Dietitian at San Joaquin General Hospital.
                   </Typography>
                 </CardContent>
                 <img
@@ -144,7 +144,7 @@ const Board = () => {
                     Outstanding Academic Opportunities (OAO), which served 400
                     homeschooling families from Concord to Livermore by hiring
                     teachers and creating classes for junior high and high
-                    school students.
+                    school students. Karen is currently working as a Clinical Dietitian at San Joaquin General Hospital.
                   </Typography>
                 </CardContent>
               </Box>
