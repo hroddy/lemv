@@ -100,9 +100,117 @@ const Who = () => {
           alignItems="center"
           mb={6}
         >
-          
+          {/* KAREN RODDY START */}
+          <Grid item sm={12}>
+            <Card
+              sx={{
+                maxWidth: 850,
+                maxheight: 300,
+                display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
+              }}
+            >
+              <Box sx={{ display: "flex", flexDirection: "row" }}>
+                <CardContent>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    color="primary"
+                    align="left"
+                  >
+                    Karen Roddy, MS, RD
+                  </Typography>
 
-        
+                  <Typography
+                    variant="body2"
+                    color="text.secondary"
+                    align="left"
+                  >
+                    Karen Roddy is a cofounder of LEMV and a member of the{" "}
+                    <Link
+                      href="lemv.org/board"
+                      target="_blank"
+                      cursor="pointer"
+                    >
+                      Board of Directors
+                    </Link>
+                    . Karen has a master's in Clinical Nutrition at University
+                    of the Pacific as well as bachelors' degrees in Marketing,
+                    Human Nutrition, and Dietetics. After working for Ernst &
+                    Young as Director of Marketing, Karen and her husband Steve
+                    moved to Livermore, where they have lived for over 20 years
+                    and raised their three daughters. She was the founder and
+                    president of a non-profit 501(c)(3) in Livermore,
+                    Outstanding Academic Opportunities (OAO), which served 400
+                    homeschooling families from Concord to Livermore by hiring
+                    teachers and creating classes for junior high and high
+                    school students. Karen is currently working as a Clinical
+                    Dietitian at San Joaquin General Hospital.
+                  </Typography>
+                </CardContent>
+                <img
+                  component="img"
+                  height="300"
+                  src={karen}
+                  alt="portrait shot of a woman with short dark hair"
+                ></img>
+              </Box>
+            </Card>
+            <Card
+              sx={{
+                maxWidth: 345,
+                maxheight: 400,
+                display: { xs: "flex", sm: "flex", md: "none", lg: "none" },
+              }}
+            >
+              <Box sx={{ display: "flex", flexDirection: "column" }}>
+                <CardMedia
+                  component="img"
+                  height="400"
+                  src={karen}
+                  alt="portrait shot of a blonde woman"
+                />
+                <CardContent>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    color="primary"
+                  >
+                    Karen Roddy, MS, RD
+                  </Typography>
+
+                  <Typography
+                    variant="body2"
+                    color="text.secondary"
+                    align="left"
+                  >
+                    Karen Roddy is a cofounder of LEMV and a member of the{" "}
+                    <Link
+                      href="lemv.org/board"
+                      target="_blank"
+                      cursor="pointer"
+                    >
+                      Board of Directors
+                    </Link>
+                    . Karen has a master's in Clinical Nutrition at University
+                    of the Pacific as well as bachelors' degrees in Marketing,
+                    Human Nutrition, and Dietetics. After working for Ernst &
+                    Young as Director of Marketing, Karen and her husband Steve
+                    moved to Livermore, where they have lived for over 20 years
+                    and raised their three daughters. She was the founder and
+                    president of a non-profit 501(c)(3) in Livermore,
+                    Outstanding Academic Opportunities (OAO), which served 400
+                    homeschooling families from Concord to Livermore by hiring
+                    teachers and creating classes for junior high and high
+                    school students. Karen is currently working as a Clinical
+                    Dietitian at San Joaquin General Hospital.
+                  </Typography>
+                </CardContent>
+              </Box>
+            </Card>
+          </Grid>
+          {/* KAREN RODDY END */}
 
           {/* DIANA PRINCE START */}
           <Grid item sm={12}>
@@ -231,116 +339,6 @@ const Who = () => {
             </Card>
           </Grid>
           {/* DIANA PRICE END */}
-
-          {/* KAREN RODDY START */}
-          <Grid item sm={12}>
-            <Card
-              sx={{
-                maxWidth: 850,
-                maxheight: 300,
-                display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
-              }}
-            >
-              <Box sx={{ display: "flex", flexDirection: "row" }}>
-                <CardContent>
-                  <Typography
-                    gutterBottom
-                    variant="h5"
-                    component="div"
-                    color="primary"
-                    align="left"
-                  >
-                    Karen Roddy, MS, RD
-                  </Typography>
-
-                  <Typography
-                    variant="body2"
-                    color="text.secondary"
-                    align="left"
-                  >
-                    Karen Roddy is a cofounder of LEMV and a member of the{" "}
-                    <Link
-                      href="lemv.org/board"
-                      target="_blank"
-                      cursor="pointer"
-                    >
-                      Board of Directors
-                    </Link>
-                    . Karen has a master's in Clinical Nutrition at University
-                    of the Pacific as well as bachelors' degrees in Marketing,
-                    Human Nutrition, and Dietetics. After working for Ernst &
-                    Young as Director of Marketing, Karen and her husband Steve
-                    moved to Livermore, where they have lived for over 20 years
-                    and raised their three daughters. She was the founder and
-                    president of a non-profit 501(c)(3) in Livermore,
-                    Outstanding Academic Opportunities (OAO), which served 400
-                    homeschooling families from Concord to Livermore by hiring
-                    teachers and creating classes for junior high and high
-                    school students.
-                  </Typography>
-                </CardContent>
-                <img
-                  component="img"
-                  height="300"
-                  src={karen}
-                  alt="portrait shot of a woman with short dark hair"
-                ></img>
-              </Box>
-            </Card>
-            <Card
-              sx={{
-                maxWidth: 345,
-                maxheight: 400,
-                display: { xs: "flex", sm: "flex", md: "none", lg: "none" },
-              }}
-            >
-              <Box sx={{ display: "flex", flexDirection: "column" }}>
-                <CardMedia
-                  component="img"
-                  height="400"
-                  src={karen}
-                  alt="portrait shot of a blonde woman"
-                />
-                <CardContent>
-                  <Typography
-                    gutterBottom
-                    variant="h5"
-                    component="div"
-                    color="primary"
-                  >
-                    Karen Roddy, MS, RD
-                  </Typography>
-
-                  <Typography
-                    variant="body2"
-                    color="text.secondary"
-                    align="left"
-                  >
-                    Karen Roddy is a cofounder of LEMV and a member of the{" "}
-                    <Link
-                      href="lemv.org/board"
-                      target="_blank"
-                      cursor="pointer"
-                    >
-                      Board of Directors
-                    </Link>
-                    . Karen has a master's in Clinical Nutrition at University
-                    of the Pacific as well as bachelors' degrees in Marketing,
-                    Human Nutrition, and Dietetics. After working for Ernst &
-                    Young as Director of Marketing, Karen and her husband Steve
-                    moved to Livermore, where they have lived for over 20 years
-                    and raised their three daughters. She was the founder and
-                    president of a non-profit 501(c)(3) in Livermore,
-                    Outstanding Academic Opportunities (OAO), which served 400
-                    homeschooling families from Concord to Livermore by hiring
-                    teachers and creating classes for junior high and high
-                    school students.
-                  </Typography>
-                </CardContent>
-              </Box>
-            </Card>
-          </Grid>
-          {/* KAREN RODDY END */}
 
           {/* HANNAH RODDY START */}
           <Grid item sm={12}>
@@ -554,7 +552,7 @@ const Who = () => {
                     color="primary"
                     align="left"
                   >
-                    Rachel Roddy
+                    Rachel Roddy, BS
                   </Typography>
                   <Typography
                     variant="body2"
@@ -563,7 +561,9 @@ const Who = () => {
                   >
                     Rachel Roddy graduated with a bachelor's degree in Classical
                     Civilizations in 2022 from UC Davis and will be attending
-                    law school in 2023.
+                    Columbia Law School in 2023. Rachel assists with community
+                    outreach and event organizing, including preparation for
+                    presentations and logistics.
                   </Typography>
                 </CardContent>
                 <img
@@ -595,7 +595,7 @@ const Who = () => {
                     component="div"
                     color="primary"
                   >
-                    Rachel Roddy
+                    Rachel Roddy, BS
                   </Typography>
                   <Typography
                     variant="body2"
@@ -604,7 +604,9 @@ const Who = () => {
                   >
                     Rachel Roddy graduated with a bachelor's degree in Classical
                     Civilizations in 2022 from UC Davis and will be attending
-                    law school in 2023.
+                    Columbia Law School in 2023. Rachel assists with community
+                    outreach and event organizing, including preparation for
+                    presentations and logistics.
                   </Typography>
                 </CardContent>
               </Box>
