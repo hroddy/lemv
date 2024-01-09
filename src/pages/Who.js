@@ -54,7 +54,7 @@ const Who = () => {
           justifyItems="center"
           my={2}
         >
-          <Grid item sm={6}>
+          <Grid item sm={12}>
             <Typography
               color="primary"
               variant="body1"
@@ -67,17 +67,7 @@ const Who = () => {
               </Link>
             </Typography>
           </Grid>
-          <Grid item sm={6}>
-            <Typography color="primary" variant="body1">
-              <Button
-                variant="filled"
-                sx={{ backgroundColor: "#97d600" }}
-                href="/board"
-              >
-                Click here to view the Board Members
-              </Button>
-            </Typography>
-          </Grid>
+          
         </Grid>
 
         <Typography
@@ -126,15 +116,7 @@ const Who = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Karen Roddy is a cofounder of LEMV and a member of the{" "}
-                    <Link
-                      href="lemv.org/board"
-                      target="_blank"
-                      cursor="pointer"
-                    >
-                      Board of Directors
-                    </Link>
-                    . Karen has a master's in Clinical Nutrition at University
+                    Karen Roddy is a cofounder of LEMV. Karen has a master's in Clinical Nutrition at University
                     of the Pacific as well as bachelors' degrees in Marketing,
                     Human Nutrition, and Dietetics. After working for Ernst &
                     Young as Director of Marketing, Karen and her husband Steve
@@ -185,15 +167,7 @@ const Who = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Karen Roddy is a cofounder of LEMV and a member of the{" "}
-                    <Link
-                      href="lemv.org/board"
-                      target="_blank"
-                      cursor="pointer"
-                    >
-                      Board of Directors
-                    </Link>
-                    . Karen has a master's in Clinical Nutrition at University
+                    Karen Roddy is a cofounder of LEMV. Karen has a master's in Clinical Nutrition at University
                     of the Pacific as well as bachelors' degrees in Marketing,
                     Human Nutrition, and Dietetics. After working for Ernst &
                     Young as Director of Marketing, Karen and her husband Steve
@@ -238,15 +212,7 @@ const Who = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Diana Price is a member of LEMV's{" "}
-                    <Link
-                      href="lemv.org/board"
-                      target="_blank"
-                      cursor="pointer"
-                    >
-                      Board of Directors
-                    </Link>
-                    . Diana has a bachelor's in Nutrition from Cal Poly San Luis
+                    Diana Price has a bachelor's in Nutrition from Cal Poly San Luis
                     Obispo, a master's in Nutrition and Functional Medicine from
                     the University of Western States, and is a Registered
                     Dietitian Nutritionist. Diana is a business owner in
@@ -305,15 +271,7 @@ const Who = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Diana Price is a member of LEMV's{" "}
-                    <Link
-                      href="lemv.org/board"
-                      target="_blank"
-                      cursor="pointer"
-                    >
-                      Board of Directors
-                    </Link>
-                    . Diana has a bachelor's in Nutrition from Cal Poly San Luis
+                    Diana Price has a bachelor's in Nutrition from Cal Poly San Luis
                     Obispo, a master's in Nutrition and Functional Medicine from
                     the University of Western States, and is a Registered
                     Dietitian Nutritionist. Diana is a business owner in
@@ -443,15 +401,7 @@ const Who = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Morgan Roddy is a cofounder of LEMV and a member of the{" "}
-                    <Link
-                      href="lemv.org/board"
-                      target="_blank"
-                      cursor="pointer"
-                    >
-                      Board of Directors
-                    </Link>
-                    . Morgan graduated in 2021 with a bachelor's degree in
+                    Morgan Roddy is a cofounder of LEMV. Morgan graduated in 2021 with a bachelor's degree in
                     Cultural and Regional Studies and a master's degree in
                     Social Justice and Community Organizing from Prescott
                     College in Arizona. Previous projects include internships at
@@ -504,15 +454,7 @@ const Who = () => {
                     color="text.secondary"
                     align="left"
                   >
-                    Morgan Roddy is a cofounder of LEMV and a member of the{" "}
-                    <Link
-                      href="lemv.org/board"
-                      target="_blank"
-                      cursor="pointer"
-                    >
-                      Board of Directors
-                    </Link>
-                    . Morgan graduated in 2021 with a bachelor's degree in
+                    Morgan Roddy is a cofounder of LEMV. Morgan graduated in 2021 with a bachelor's degree in
                     Cultural and Regional Studies and a master's degree in
                     Social Justice and Community Organizing from Prescott
                     College in Arizona. Previous projects include internships at
@@ -560,8 +502,8 @@ const Who = () => {
                     align="left"
                   >
                     Rachel Roddy graduated with a bachelor's degree in Classical
-                    Civilizations in 2022 from UC Davis and will be attending
-                    Columbia Law School in 2023. Rachel assists with community
+                    Civilizations in 2022 from UC Davis and is attending
+                    Columbia Law School. Rachel assists with community
                     outreach and event organizing, including preparation for
                     presentations and logistics.
                   </Typography>
@@ -603,8 +545,8 @@ const Who = () => {
                     align="left"
                   >
                     Rachel Roddy graduated with a bachelor's degree in Classical
-                    Civilizations in 2022 from UC Davis and will be attending
-                    Columbia Law School in 2023. Rachel assists with community
+                    Civilizations in 2022 from UC Davis and is attending
+                    Columbia Law School. Rachel assists with community
                     outreach and event organizing, including preparation for
                     presentations and logistics.
                   </Typography>
