@@ -415,18 +415,7 @@ const More = () => {
           </Typography>
         </div>
 
-        <Typography
-          color="primary"
-          fontSize={12}
-          fontStyle="italic"
-          variant="body1"
-          mt={3}
-          mb={3}
-          align="left"
-          justify="center"
-        >
-          *LEMV will apply for grant funding{" "}
-        </Typography>
+        
         <hr />
         <Typography
           color="primary"
